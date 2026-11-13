@@ -1,0 +1,11 @@
+# Allowed categories. Add new ones here first; the build script rejects unknown ones.
+categories:
+  meta: Skills about skills, agents and workflows
+  documents: PDF, Word, Excel, slides and other documents
+  development: Coding, review, testing, architecture
+  devops: Infrastructure, deployment, monitoring
+  data: Analysis, charts, databases
+  writing: Content, docs, communication
+  design: UI, branding, visual work
+  productivity: Automation, planning, personal workflows
+  other: Anything that does not fit

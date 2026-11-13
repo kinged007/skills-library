@@ -1,0 +1,64 @@
+{
+  "categories": {
+    "meta": "Skills about skills, agents and workflows",
+    "documents": "PDF, Word, Excel, slides and other documents",
+    "development": "Coding, review, testing, architecture",
+    "devops": "Infrastructure, deployment, monitoring",
+    "data": "Analysis, charts, databases",
+    "writing": "Content, docs, communication",
+    "design": "UI, branding, visual work",
+    "productivity": "Automation, planning, personal workflows",
+    "other": "Anything that does not fit"
+  },
+  "skills": [
+    {
+      "id": "anthropic-pdf",
+      "type": "external",
+      "source": "anthropics/skills",
+      "path": "skills/pdf",
+      "ref": "main",
+      "skill": "pdf",
+      "title": "PDF (Anthropic)",
+      "summary": "Read, extract, merge, split and fill PDF files.",
+      "category": "documents",
+      "tags": [
+        "pdf",
+        "documents",
+        "anthropic"
+      ],
+      "rating": {
+        "score": 5,
+        "quality": 5,
+        "usefulness": 5,
+        "maturity": 5,
+        "reviewed": "2026-11-13"
+      },
+      "notes": "Reference to upstream; always installs the latest upstream version.",
+      "install": "npx skills add anthropics/skills --skill pdf",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/pdf"
+    },
+    {
+      "id": "skill-review",
+      "type": "local",
+      "path": "skills/skill-review",
+      "title": "Skill Review",
+      "summary": "Audit a SKILL.md for naming, description quality and overlap.",
+      "category": "meta",
+      "tags": [
+        "skills",
+        "review",
+        "quality"
+      ],
+      "rating": {
+        "score": 4,
+        "quality": 4,
+        "usefulness": 4,
+        "maturity": 3,
+        "reviewed": "2026-11-13"
+      },
+      "notes": "",
+      "install": "npx skills add kinged007/skills-library --skill skill-review",
+      "url": "https://github.com/kinged007/skills-library/tree/main/skills/skill-review"
+    }
+  ]
+}

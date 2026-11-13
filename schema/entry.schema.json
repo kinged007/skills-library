@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Catalog entry",
+  "type": "object",
+  "required": ["id", "type", "title", "summary", "category", "tags", "rating"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"},
+    "type": {"enum": ["local", "external"]},
+    "path": {"type": "string"},
+    "source": {"type": "string", "description": "GitHub owner/repo (external)"},
+    "ref": {"type": "string"},
+    "skill": {"type": "string"},
+    "title": {"type": "string"},
+    "summary": {"type": "string"},
+    "category": {"type": "string"},
+    "tags": {"type": "array", "items": {"type": "string"}},
+    "rating": {
+      "type": "object",
+      "required": ["score"],
+      "properties": {
+        "score": {"type": "integer", "minimum": 1, "maximum": 5},
+        "quality": {"type": "integer", "minimum": 1, "maximum": 5},
+        "usefulness": {"type": "integer", "minimum": 1, "maximum": 5},
+        "maturity": {"type": "integer", "minimum": 1, "maximum": 5},
+        "reviewed": {"type": ["string", "null"]}
+      }
+    },
+    "notes": {"type": "string"}
+  }
+}

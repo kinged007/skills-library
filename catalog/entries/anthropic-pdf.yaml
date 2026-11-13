@@ -1,0 +1,17 @@
+id: anthropic-pdf
+type: external         # external = reference only, nothing is copied here
+source: anthropics/skills       # GitHub owner/repo
+path: skills/pdf                # folder inside that repo
+ref: main                       # branch/tag tracked (informational)
+skill: pdf                      # name passed to `npx skills add --skill`
+title: PDF (Anthropic)
+summary: Read, extract, merge, split and fill PDF files.
+category: documents
+tags: [pdf, documents, anthropic]
+rating:
+  score: 5
+  quality: 5
+  usefulness: 5
+  maturity: 5
+  reviewed: "2026-11-13"
+notes: Reference to upstream; always installs the latest upstream version.
