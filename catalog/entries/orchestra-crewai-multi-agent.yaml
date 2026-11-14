@@ -1,0 +1,14 @@
+id: orchestra-crewai-multi-agent
+type: external
+source: Orchestra-Research/AI-Research-SKILLs
+path: 14-agents/crewai
+ref: main
+skill: crewai-multi-agent
+title: "Crewai Multi Agent (Orchestra Research)"
+summary: "Multi-agent orchestration framework for autonomous AI collaboration"
+category: ai-ml
+tags: [orchestra-research, agents, crewai, multi-agent, orchestration, collaboration, role-based]
+rating:
+  score: 3
+  reviewed: null
+notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."

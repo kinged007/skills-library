@@ -1,0 +1,14 @@
+id: orchestra-torchforge-rl-training
+type: external
+source: Orchestra-Research/AI-Research-SKILLs
+path: 06-post-training/torchforge
+ref: main
+skill: torchforge-rl-training
+title: "Torchforge Rl Training (Orchestra Research)"
+summary: "Provides guidance for PyTorch-native agentic RL using torchforge, Meta's library separating infra from algorithms"
+category: ai-ml
+tags: [orchestra-research, post-training, reinforcement-learning, pytorch, grpo, sft, monarch]
+rating:
+  score: 3
+  reviewed: null
+notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."

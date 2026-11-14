@@ -1,0 +1,14 @@
+id: orchestra-evaluating-code-models
+type: external
+source: Orchestra-Research/AI-Research-SKILLs
+path: 11-evaluation/bigcode-evaluation-harness
+ref: main
+skill: evaluating-code-models
+title: "Evaluating Code Models (Orchestra Research)"
+summary: "Evaluates code generation models across HumanEval, MBPP, MultiPL-E, and 15+ benchmarks with pass@k metrics"
+category: ai-ml
+tags: [orchestra-research, evaluation, code-generation, humaneval, mbpp, multipl-e, pass-k]
+rating:
+  score: 3
+  reviewed: null
+notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."

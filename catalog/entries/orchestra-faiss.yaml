@@ -1,0 +1,14 @@
+id: orchestra-faiss
+type: external
+source: Orchestra-Research/AI-Research-SKILLs
+path: 15-rag/faiss
+ref: main
+skill: faiss
+title: "Faiss (Orchestra Research)"
+summary: "Facebook's library for efficient similarity search and clustering of dense vectors"
+category: ai-ml
+tags: [orchestra-research, rag, faiss, similarity-search, vector-search, facebook-ai, gpu-acceleration]
+rating:
+  score: 3
+  reviewed: null
+notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."

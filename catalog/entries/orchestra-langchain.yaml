@@ -1,0 +1,14 @@
+id: orchestra-langchain
+type: external
+source: Orchestra-Research/AI-Research-SKILLs
+path: 14-agents/langchain
+ref: main
+skill: langchain
+title: "Langchain (Orchestra Research)"
+summary: "Framework for building LLM-powered applications with agents, chains, and RAG. Supports multiple providers (OpenAI, Anthropic, Google), 500+ integrations, ReAct agents, tool..."
+category: ai-ml
+tags: [orchestra-research, agents, langchain, rag, tool-calling, react, memory-management]
+rating:
+  score: 3
+  reviewed: null
+notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."

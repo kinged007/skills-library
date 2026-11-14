@@ -1,0 +1,14 @@
+id: orchestra-unsloth
+type: external
+source: Orchestra-Research/AI-Research-SKILLs
+path: 03-fine-tuning/unsloth
+ref: main
+skill: unsloth
+title: "Unsloth (Orchestra Research)"
+summary: "Expert guidance for fast fine-tuning with Unsloth - 2-5x faster training, 50-80% less memory, LoRA/QLoRA optimization"
+category: ai-ml
+tags: [orchestra-research, fine-tuning, unsloth, fast-training, lora, qlora, memory-efficient]
+rating:
+  score: 3
+  reviewed: null
+notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."

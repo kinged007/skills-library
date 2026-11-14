@@ -1,0 +1,14 @@
+id: orchestra-rwkv-architecture
+type: external
+source: Orchestra-Research/AI-Research-SKILLs
+path: 01-model-architecture/rwkv
+ref: main
+skill: rwkv-architecture
+title: "Rwkv Architecture (Orchestra Research)"
+summary: "RNN+Transformer hybrid with O(n) inference"
+category: ai-ml
+tags: [orchestra-research, model-architecture, rwkv, rnn, transformer-hybrid, linear-complexity, infinite-context]
+rating:
+  score: 3
+  reviewed: null
+notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."

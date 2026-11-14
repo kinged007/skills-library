@@ -1,0 +1,14 @@
+id: orchestra-awq-quantization
+type: external
+source: Orchestra-Research/AI-Research-SKILLs
+path: 10-optimization/awq
+ref: main
+skill: awq-quantization
+title: "Awq Quantization (Orchestra Research)"
+summary: "Activation-aware weight quantization for 4-bit LLM compression with 3x speedup and minimal accuracy loss"
+category: ai-ml
+tags: [orchestra-research, optimization, awq, quantization, 4-bit, activation-aware, memory-optimization]
+rating:
+  score: 3
+  reviewed: null
+notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."

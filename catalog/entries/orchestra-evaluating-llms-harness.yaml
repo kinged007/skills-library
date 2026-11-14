@@ -1,0 +1,14 @@
+id: orchestra-evaluating-llms-harness
+type: external
+source: Orchestra-Research/AI-Research-SKILLs
+path: 11-evaluation/lm-evaluation-harness
+ref: main
+skill: evaluating-llms-harness
+title: "Evaluating Llms Harness (Orchestra Research)"
+summary: "Evaluates LLMs across 60+ academic benchmarks (MMLU, HumanEval, GSM8K, TruthfulQA, HellaSwag)"
+category: ai-ml
+tags: [orchestra-research, evaluation, lm-evaluation-harness, benchmarking, mmlu, humaneval, gsm8k]
+rating:
+  score: 3
+  reviewed: null
+notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."

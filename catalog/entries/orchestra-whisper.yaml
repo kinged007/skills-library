@@ -1,0 +1,14 @@
+id: orchestra-whisper
+type: external
+source: Orchestra-Research/AI-Research-SKILLs
+path: 18-multimodal/whisper
+ref: main
+skill: whisper
+title: "Whisper (Orchestra Research)"
+summary: "OpenAI's general-purpose speech recognition model"
+category: ai-ml
+tags: [orchestra-research, multimodal, whisper, speech-recognition, asr, multilingual, openai]
+rating:
+  score: 3
+  reviewed: null
+notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."

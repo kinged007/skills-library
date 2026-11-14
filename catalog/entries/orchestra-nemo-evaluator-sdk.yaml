@@ -1,0 +1,14 @@
+id: orchestra-nemo-evaluator-sdk
+type: external
+source: Orchestra-Research/AI-Research-SKILLs
+path: 11-evaluation/nemo-evaluator
+ref: main
+skill: nemo-evaluator-sdk
+title: "Nemo Evaluator Sdk (Orchestra Research)"
+summary: "Evaluates LLMs across 100+ benchmarks from 18+ harnesses (MMLU, HumanEval, GSM8K, safety, VLM) with multi-backend execution"
+category: ai-ml
+tags: [orchestra-research, evaluation, nemo, nvidia, benchmarking, mmlu, humaneval]
+rating:
+  score: 3
+  reviewed: null
+notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."

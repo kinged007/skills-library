@@ -1,0 +1,14 @@
+id: orchestra-prompt-guard
+type: external
+source: Orchestra-Research/AI-Research-SKILLs
+path: 07-safety-alignment/prompt-guard
+ref: main
+skill: prompt-guard
+title: "Prompt Guard (Orchestra Research)"
+summary: "Meta's 86M prompt injection and jailbreak detector"
+category: ai-ml
+tags: [orchestra-research, safety-alignment, prompt-injection, jailbreak-detection, meta, input-validation, security]
+rating:
+  score: 3
+  reviewed: null
+notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."

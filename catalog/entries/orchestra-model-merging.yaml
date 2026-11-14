@@ -1,0 +1,14 @@
+id: orchestra-model-merging
+type: external
+source: Orchestra-Research/AI-Research-SKILLs
+path: 19-emerging-techniques/model-merging
+ref: main
+skill: model-merging
+title: "Model Merging (Orchestra Research)"
+summary: "Merge multiple fine-tuned models using mergekit to combine capabilities without retraining"
+category: ai-ml
+tags: [orchestra-research, emerging-techniques, model-merging, mergekit, slerp, ties, dare]
+rating:
+  score: 3
+  reviewed: null
+notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."

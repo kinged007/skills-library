@@ -1,0 +1,14 @@
+id: orchestra-ml-paper-writing
+type: external
+source: Orchestra-Research/AI-Research-SKILLs
+path: 20-ml-paper-writing/ml-paper-writing
+ref: main
+skill: ml-paper-writing
+title: "Ml Paper Writing (Orchestra Research)"
+summary: "Write publication-ready ML/AI papers for NeurIPS, ICML, ICLR, ACL, AAAI, COLM. Use when drafting papers from research repos, structuring arguments, verifying citations, or..."
+category: writing
+tags: [orchestra-research, ml-paper-writing, academic-writing, neurips, icml, iclr, acl]
+rating:
+  score: 3
+  reviewed: null
+notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."

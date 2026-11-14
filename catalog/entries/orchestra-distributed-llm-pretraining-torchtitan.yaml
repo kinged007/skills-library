@@ -1,0 +1,14 @@
+id: orchestra-distributed-llm-pretraining-torchtitan
+type: external
+source: Orchestra-Research/AI-Research-SKILLs
+path: 01-model-architecture/torchtitan
+ref: main
+skill: distributed-llm-pretraining-torchtitan
+title: "Distributed Llm Pretraining Torchtitan (Orchestra Research)"
+summary: "Provides PyTorch-native distributed LLM pretraining using torchtitan with 4D parallelism (FSDP2, TP, PP, CP)"
+category: ai-ml
+tags: [orchestra-research, model-architecture, distributed-training, torchtitan, fsdp2, tensor-parallel, pipeline-parallel]
+rating:
+  score: 3
+  reviewed: null
+notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."

@@ -1,0 +1,14 @@
+id: orchestra-segment-anything-model
+type: external
+source: Orchestra-Research/AI-Research-SKILLs
+path: 18-multimodal/segment-anything
+ref: main
+skill: segment-anything-model
+title: "Segment Anything Model (Orchestra Research)"
+summary: "Foundation model for image segmentation with zero-shot transfer"
+category: ai-ml
+tags: [orchestra-research, multimodal, image-segmentation, computer-vision, sam, zero-shot]
+rating:
+  score: 3
+  reviewed: null
+notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."

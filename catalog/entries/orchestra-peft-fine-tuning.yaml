@@ -1,0 +1,14 @@
+id: orchestra-peft-fine-tuning
+type: external
+source: Orchestra-Research/AI-Research-SKILLs
+path: 03-fine-tuning/peft
+ref: main
+skill: peft-fine-tuning
+title: "Peft Fine Tuning (Orchestra Research)"
+summary: "Parameter-efficient fine-tuning for LLMs using LoRA, QLoRA, and 25+ methods"
+category: ai-ml
+tags: [orchestra-research, fine-tuning, peft, lora, qlora, parameter-efficient, adapters]
+rating:
+  score: 3
+  reviewed: null
+notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."

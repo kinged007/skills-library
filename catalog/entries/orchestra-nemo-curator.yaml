@@ -1,0 +1,14 @@
+id: orchestra-nemo-curator
+type: external
+source: Orchestra-Research/AI-Research-SKILLs
+path: 05-data-processing/nemo-curator
+ref: main
+skill: nemo-curator
+title: "Nemo Curator (Orchestra Research)"
+summary: "GPU-accelerated data curation for LLM training"
+category: ai-ml
+tags: [orchestra-research, data-processing, nemo-curator, data-curation, gpu-acceleration, deduplication, quality-filtering]
+rating:
+  score: 3
+  reviewed: null
+notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."

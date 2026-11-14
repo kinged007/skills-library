@@ -1,0 +1,14 @@
+id: orchestra-systems-paper-writing
+type: external
+source: Orchestra-Research/AI-Research-SKILLs
+path: 20-ml-paper-writing/systems-paper-writing
+ref: main
+skill: systems-paper-writing
+title: "Systems Paper Writing (Orchestra Research)"
+summary: "Comprehensive guide for writing systems papers targeting OSDI, SOSP, ASPLOS, NSDI, and EuroSys"
+category: writing
+tags: [orchestra-research, ml-paper-writing, systems-paper-writing, osdi, sosp, asplos, nsdi]
+rating:
+  score: 3
+  reviewed: null
+notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."

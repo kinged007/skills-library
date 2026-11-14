@@ -1,0 +1,14 @@
+id: orchestra-ara-compiler
+type: external
+source: Orchestra-Research/AI-Research-SKILLs
+path: 22-agent-native-research-artifact/compiler
+ref: main
+skill: ara-compiler
+title: "Ara Compiler (Orchestra Research)"
+summary: "Compiles any research input \u2014 PDF papers, GitHub repositories, experiment logs, code directories, or raw notes \u2014 into a complete Agent-Native Research Artifact (ARA) with..."
+category: ai-ml
+tags: [orchestra-research, agent-native-research-artifact, ara, research-artifacts, knowledge-extraction, paper-ingestion, exploration-graph]
+rating:
+  score: 3
+  reviewed: null
+notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."

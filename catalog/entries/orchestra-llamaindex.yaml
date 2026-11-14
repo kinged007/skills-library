@@ -1,0 +1,14 @@
+id: orchestra-llamaindex
+type: external
+source: Orchestra-Research/AI-Research-SKILLs
+path: 14-agents/llamaindex
+ref: main
+skill: llamaindex
+title: "Llamaindex (Orchestra Research)"
+summary: "Data framework for building LLM applications with RAG. Specializes in document ingestion (300+ connectors), indexing, and querying"
+category: ai-ml
+tags: [orchestra-research, agents, llamaindex, rag, document-ingestion, vector-indices, query-engines]
+rating:
+  score: 3
+  reviewed: null
+notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."

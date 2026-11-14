@@ -1,0 +1,14 @@
+id: orchestra-llama-cpp
+type: external
+source: Orchestra-Research/AI-Research-SKILLs
+path: 12-inference-serving/llama-cpp
+ref: main
+skill: llama-cpp
+title: "Llama Cpp (Orchestra Research)"
+summary: "Runs LLM inference on CPU, Apple Silicon, and consumer GPUs without NVIDIA hardware"
+category: ai-ml
+tags: [orchestra-research, inference-serving, llama-cpp, cpu-inference, apple-silicon, edge-deployment, gguf]
+rating:
+  score: 3
+  reviewed: null
+notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."

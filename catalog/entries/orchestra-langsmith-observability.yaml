@@ -1,0 +1,14 @@
+id: orchestra-langsmith-observability
+type: external
+source: Orchestra-Research/AI-Research-SKILLs
+path: 17-observability/langsmith
+ref: main
+skill: langsmith-observability
+title: "Langsmith Observability (Orchestra Research)"
+summary: "LLM observability platform for tracing, evaluation, and monitoring"
+category: ai-ml
+tags: [orchestra-research, observability, langsmith, tracing, evaluation, monitoring, debugging]
+rating:
+  score: 3
+  reviewed: null
+notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."

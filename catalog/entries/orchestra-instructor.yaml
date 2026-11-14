@@ -1,0 +1,14 @@
+id: orchestra-instructor
+type: external
+source: Orchestra-Research/AI-Research-SKILLs
+path: 16-prompt-engineering/instructor
+ref: main
+skill: instructor
+title: "Instructor (Orchestra Research)"
+summary: "Extract structured data from LLM responses with Pydantic validation, retry failed extractions automatically, parse complex JSON with type safety, and stream partial results..."
+category: ai-ml
+tags: [orchestra-research, prompt-engineering, instructor, structured-output, pydantic, data-extraction, json-parsing]
+rating:
+  score: 3
+  reviewed: null
+notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."

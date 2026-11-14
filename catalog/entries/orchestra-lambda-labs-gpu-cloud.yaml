@@ -1,0 +1,14 @@
+id: orchestra-lambda-labs-gpu-cloud
+type: external
+source: Orchestra-Research/AI-Research-SKILLs
+path: 09-infrastructure/lambda-labs
+ref: main
+skill: lambda-labs-gpu-cloud
+title: "Lambda Labs Gpu Cloud (Orchestra Research)"
+summary: "Reserved and on-demand GPU cloud instances for ML training and inference"
+category: devops
+tags: [orchestra-research, infrastructure, gpu-cloud, training, inference, lambda-labs]
+rating:
+  score: 3
+  reviewed: null
+notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."

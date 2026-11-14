@@ -1,0 +1,14 @@
+id: orchestra-outlines
+type: external
+source: Orchestra-Research/AI-Research-SKILLs
+path: 16-prompt-engineering/outlines
+ref: main
+skill: outlines
+title: "Outlines (Orchestra Research)"
+summary: "Guarantee valid JSON/XML/code structure during generation, use Pydantic models for type-safe outputs, support local models (Transformers, vLLM), and maximize inference speed..."
+category: ai-ml
+tags: [orchestra-research, prompt-engineering, outlines, structured-generation, json-schema, pydantic, local-models]
+rating:
+  score: 3
+  reviewed: null
+notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."

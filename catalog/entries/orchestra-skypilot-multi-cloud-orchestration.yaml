@@ -1,0 +1,14 @@
+id: orchestra-skypilot-multi-cloud-orchestration
+type: external
+source: Orchestra-Research/AI-Research-SKILLs
+path: 09-infrastructure/skypilot
+ref: main
+skill: skypilot-multi-cloud-orchestration
+title: "Skypilot Multi Cloud Orchestration (Orchestra Research)"
+summary: "Multi-cloud orchestration for ML workloads with automatic cost optimization"
+category: devops
+tags: [orchestra-research, infrastructure, multi-cloud, orchestration, gpu, cost-optimization, skypilot]
+rating:
+  score: 3
+  reviewed: null
+notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."

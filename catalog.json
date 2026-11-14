@@ -8,6 +8,7 @@
     "writing": "Content, docs, communication",
     "design": "UI, branding, visual work",
     "productivity": "Automation, planning, personal workflows",
+    "ai-ml": "ML and AI research and engineering (training, inference, evals, agents, RAG)",
     "other": "Anything that does not fit"
   },
   "skills": [
@@ -36,6 +37,2642 @@
       "notes": "Reference to upstream; always installs the latest upstream version.",
       "install": "npx skills add anthropics/skills --skill pdf",
       "url": "https://github.com/anthropics/skills/tree/main/skills/pdf"
+    },
+    {
+      "id": "orchestra-academic-plotting",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "20-ml-paper-writing/academic-plotting",
+      "ref": "main",
+      "skill": "academic-plotting",
+      "title": "Academic Plotting (Orchestra Research)",
+      "summary": "Generates publication-quality figures for ML papers from research context",
+      "category": "writing",
+      "tags": [
+        "orchestra-research",
+        "ml-paper-writing",
+        "academic-writing",
+        "visualization",
+        "matplotlib",
+        "seaborn",
+        "plotting"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill academic-plotting",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/20-ml-paper-writing/academic-plotting"
+    },
+    {
+      "id": "orchestra-ara-compiler",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "22-agent-native-research-artifact/compiler",
+      "ref": "main",
+      "skill": "ara-compiler",
+      "title": "Ara Compiler (Orchestra Research)",
+      "summary": "Compiles any research input \u2014 PDF papers, GitHub repositories, experiment logs, code directories, or raw notes \u2014 into a complete Agent-Native Research Artifact (ARA) with...",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "agent-native-research-artifact",
+        "ara",
+        "research-artifacts",
+        "knowledge-extraction",
+        "paper-ingestion",
+        "exploration-graph"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill ara-compiler",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/22-agent-native-research-artifact/compiler"
+    },
+    {
+      "id": "orchestra-ara-research-manager",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "22-agent-native-research-artifact/research-manager",
+      "ref": "main",
+      "skill": "ara-research-manager",
+      "title": "Ara Research Manager (Orchestra Research)",
+      "summary": "Records research provenance as a post-task epilogue, scanning conversation history at the end of a coding or research session to extract decisions, experiments, dead ends,...",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "agent-native-research-artifact",
+        "ara",
+        "research-recording",
+        "provenance",
+        "session-logging",
+        "knowledge-management"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill ara-research-manager",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/22-agent-native-research-artifact/research-manager"
+    },
+    {
+      "id": "orchestra-ara-rigor-reviewer",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "22-agent-native-research-artifact/rigor-reviewer",
+      "ref": "main",
+      "skill": "ara-rigor-reviewer",
+      "title": "Ara Rigor Reviewer (Orchestra Research)",
+      "summary": "Performs ARA Seal Level 2 semantic epistemic review on Agent-Native Research Artifacts, scoring six dimensions (evidence relevance, falsifiability, scope calibration, argument...",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "agent-native-research-artifact",
+        "ara",
+        "epistemic-review",
+        "research-rigor",
+        "peer-review",
+        "scoring"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill ara-rigor-reviewer",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/22-agent-native-research-artifact/rigor-reviewer"
+    },
+    {
+      "id": "orchestra-audiocraft-audio-generation",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "18-multimodal/audiocraft",
+      "ref": "main",
+      "skill": "audiocraft-audio-generation",
+      "title": "Audiocraft Audio Generation (Orchestra Research)",
+      "summary": "PyTorch library for audio generation including text-to-music (MusicGen) and text-to-sound (AudioGen)",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "multimodal",
+        "audio-generation",
+        "text-to-music",
+        "text-to-audio",
+        "musicgen"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill audiocraft-audio-generation",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/18-multimodal/audiocraft"
+    },
+    {
+      "id": "orchestra-autogpt-agents",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "14-agents/autogpt",
+      "ref": "main",
+      "skill": "autogpt-agents",
+      "title": "Autogpt Agents (Orchestra Research)",
+      "summary": "Autonomous AI agent platform for building and deploying continuous agents",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "agents",
+        "autogpt",
+        "autonomous-agents",
+        "workflow-automation",
+        "visual-builder",
+        "ai-platform"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill autogpt-agents",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/14-agents/autogpt"
+    },
+    {
+      "id": "orchestra-autoresearch",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "0-autoresearch-skill",
+      "ref": "main",
+      "skill": "autoresearch",
+      "title": "Autoresearch (Orchestra Research)",
+      "summary": "Orchestrates end-to-end autonomous AI research projects using a two-loop architecture",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "autoresearch-skill",
+        "autonomous-research",
+        "two-loop-architecture",
+        "experiment-orchestration",
+        "research-synthesis",
+        "project-management"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill autoresearch",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/0-autoresearch-skill"
+    },
+    {
+      "id": "orchestra-awq-quantization",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "10-optimization/awq",
+      "ref": "main",
+      "skill": "awq-quantization",
+      "title": "Awq Quantization (Orchestra Research)",
+      "summary": "Activation-aware weight quantization for 4-bit LLM compression with 3x speedup and minimal accuracy loss",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "optimization",
+        "awq",
+        "quantization",
+        "4-bit",
+        "activation-aware",
+        "memory-optimization"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill awq-quantization",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/10-optimization/awq"
+    },
+    {
+      "id": "orchestra-axolotl",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "03-fine-tuning/axolotl",
+      "ref": "main",
+      "skill": "axolotl",
+      "title": "Axolotl (Orchestra Research)",
+      "summary": "Expert guidance for fine-tuning LLMs with Axolotl - YAML configs, 100+ models, LoRA/QLoRA, DPO/KTO/ORPO/GRPO, multimodal support",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "fine-tuning",
+        "axolotl",
+        "llm",
+        "lora",
+        "qlora",
+        "dpo"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill axolotl",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/03-fine-tuning/axolotl"
+    },
+    {
+      "id": "orchestra-blip-2-vision-language",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "18-multimodal/blip-2",
+      "ref": "main",
+      "skill": "blip-2-vision-language",
+      "title": "Blip 2 Vision Language (Orchestra Research)",
+      "summary": "Vision-language pre-training framework bridging frozen image encoders and LLMs",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "multimodal",
+        "vision-language",
+        "image-captioning",
+        "vqa",
+        "zero-shot"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill blip-2-vision-language",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/18-multimodal/blip-2"
+    },
+    {
+      "id": "orchestra-brainstorming-research-ideas",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "21-research-ideation/brainstorming-research-ideas",
+      "ref": "main",
+      "skill": "brainstorming-research-ideas",
+      "title": "Brainstorming Research Ideas (Orchestra Research)",
+      "summary": "Guides researchers through structured ideation frameworks to discover high-impact research directions",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "research-ideation",
+        "brainstorming",
+        "problem-discovery",
+        "creative-thinking",
+        "research-strategy"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill brainstorming-research-ideas",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/21-research-ideation/brainstorming-research-ideas"
+    },
+    {
+      "id": "orchestra-chroma",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "15-rag/chroma",
+      "ref": "main",
+      "skill": "chroma",
+      "title": "Chroma (Orchestra Research)",
+      "summary": "Open-source embedding database for AI applications",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "rag",
+        "chroma",
+        "vector-database",
+        "embeddings",
+        "semantic-search",
+        "open-source"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill chroma",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/15-rag/chroma"
+    },
+    {
+      "id": "orchestra-clip",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "18-multimodal/clip",
+      "ref": "main",
+      "skill": "clip",
+      "title": "Clip (Orchestra Research)",
+      "summary": "OpenAI's model connecting vision and language",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "multimodal",
+        "clip",
+        "vision-language",
+        "zero-shot",
+        "image-classification",
+        "openai"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill clip",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/18-multimodal/clip"
+    },
+    {
+      "id": "orchestra-constitutional-ai",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "07-safety-alignment/constitutional-ai",
+      "ref": "main",
+      "skill": "constitutional-ai",
+      "title": "Constitutional Ai (Orchestra Research)",
+      "summary": "Anthropic's method for training harmless AI through self-improvement",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "safety-alignment",
+        "constitutional-ai",
+        "rlaif",
+        "self-critique",
+        "harmlessness",
+        "anthropic"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill constitutional-ai",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/07-safety-alignment/constitutional-ai"
+    },
+    {
+      "id": "orchestra-creative-thinking-for-research",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "21-research-ideation/creative-thinking-for-research",
+      "ref": "main",
+      "skill": "creative-thinking-for-research",
+      "title": "Creative Thinking For Research (Orchestra Research)",
+      "summary": "Applies cognitive science frameworks for creative thinking to CS and AI research ideation",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "research-ideation",
+        "creative-thinking",
+        "analogical-reasoning",
+        "problem-reformulation",
+        "cognitive-science"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill creative-thinking-for-research",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/21-research-ideation/creative-thinking-for-research"
+    },
+    {
+      "id": "orchestra-crewai-multi-agent",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "14-agents/crewai",
+      "ref": "main",
+      "skill": "crewai-multi-agent",
+      "title": "Crewai Multi Agent (Orchestra Research)",
+      "summary": "Multi-agent orchestration framework for autonomous AI collaboration",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "agents",
+        "crewai",
+        "multi-agent",
+        "orchestration",
+        "collaboration",
+        "role-based"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill crewai-multi-agent",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/14-agents/crewai"
+    },
+    {
+      "id": "orchestra-deepspeed",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "08-distributed-training/deepspeed",
+      "ref": "main",
+      "skill": "deepspeed",
+      "title": "Deepspeed (Orchestra Research)",
+      "summary": "Expert guidance for distributed training with DeepSpeed - ZeRO optimization stages, pipeline parallelism, FP16/BF16/FP8, 1-bit Adam, sparse attention",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "distributed-training",
+        "deepspeed",
+        "zero",
+        "pipeline-parallelism",
+        "mixed-precision",
+        "optimization"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill deepspeed",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/08-distributed-training/deepspeed"
+    },
+    {
+      "id": "orchestra-distributed-llm-pretraining-torchtitan",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "01-model-architecture/torchtitan",
+      "ref": "main",
+      "skill": "distributed-llm-pretraining-torchtitan",
+      "title": "Distributed Llm Pretraining Torchtitan (Orchestra Research)",
+      "summary": "Provides PyTorch-native distributed LLM pretraining using torchtitan with 4D parallelism (FSDP2, TP, PP, CP)",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "model-architecture",
+        "distributed-training",
+        "torchtitan",
+        "fsdp2",
+        "tensor-parallel",
+        "pipeline-parallel"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill distributed-llm-pretraining-torchtitan",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/01-model-architecture/torchtitan"
+    },
+    {
+      "id": "orchestra-dspy",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "16-prompt-engineering/dspy",
+      "ref": "main",
+      "skill": "dspy",
+      "title": "Dspy (Orchestra Research)",
+      "summary": "Build complex AI systems with declarative programming, optimize prompts automatically, create modular RAG systems and agents with DSPy - Stanford NLP's framework for systematic...",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "prompt-engineering",
+        "dspy",
+        "declarative-programming",
+        "rag",
+        "agents",
+        "prompt-optimization"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill dspy",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/16-prompt-engineering/dspy"
+    },
+    {
+      "id": "orchestra-evaluating-code-models",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "11-evaluation/bigcode-evaluation-harness",
+      "ref": "main",
+      "skill": "evaluating-code-models",
+      "title": "Evaluating Code Models (Orchestra Research)",
+      "summary": "Evaluates code generation models across HumanEval, MBPP, MultiPL-E, and 15+ benchmarks with pass@k metrics",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "evaluation",
+        "code-generation",
+        "humaneval",
+        "mbpp",
+        "multipl-e",
+        "pass-k"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill evaluating-code-models",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/11-evaluation/bigcode-evaluation-harness"
+    },
+    {
+      "id": "orchestra-evaluating-cosmos-policy",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "18-multimodal/cosmos-policy",
+      "ref": "main",
+      "skill": "evaluating-cosmos-policy",
+      "title": "Evaluating Cosmos Policy (Orchestra Research)",
+      "summary": "Evaluates NVIDIA Cosmos Policy on LIBERO and RoboCasa simulation environments",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "multimodal",
+        "cosmos-policy",
+        "vla",
+        "robotics",
+        "libero",
+        "robocasa"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill evaluating-cosmos-policy",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/18-multimodal/cosmos-policy"
+    },
+    {
+      "id": "orchestra-evaluating-llms-harness",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "11-evaluation/lm-evaluation-harness",
+      "ref": "main",
+      "skill": "evaluating-llms-harness",
+      "title": "Evaluating Llms Harness (Orchestra Research)",
+      "summary": "Evaluates LLMs across 60+ academic benchmarks (MMLU, HumanEval, GSM8K, TruthfulQA, HellaSwag)",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "evaluation",
+        "lm-evaluation-harness",
+        "benchmarking",
+        "mmlu",
+        "humaneval",
+        "gsm8k"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill evaluating-llms-harness",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/11-evaluation/lm-evaluation-harness"
+    },
+    {
+      "id": "orchestra-evolving-ai-agents",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "14-agents/a-evolve",
+      "ref": "main",
+      "skill": "evolving-ai-agents",
+      "title": "Evolving Ai Agents (Orchestra Research)",
+      "summary": "Provides guidance for automatically evolving and optimizing AI agents across any domain using LLM-driven evolution algorithms",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "agents",
+        "agent-evolution",
+        "self-improving-agents",
+        "prompt-optimization",
+        "llm",
+        "benchmark-evaluation"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill evolving-ai-agents",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/14-agents/a-evolve"
+    },
+    {
+      "id": "orchestra-experiment-tracking-swanlab",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "13-mlops/swanlab",
+      "ref": "main",
+      "skill": "experiment-tracking-swanlab",
+      "title": "Experiment Tracking Swanlab (Orchestra Research)",
+      "summary": "Provides guidance for experiment tracking with SwanLab",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "mlops",
+        "swanlab",
+        "experiment-tracking",
+        "open-source",
+        "visualization",
+        "pytorch"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill experiment-tracking-swanlab",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/13-mlops/swanlab"
+    },
+    {
+      "id": "orchestra-faiss",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "15-rag/faiss",
+      "ref": "main",
+      "skill": "faiss",
+      "title": "Faiss (Orchestra Research)",
+      "summary": "Facebook's library for efficient similarity search and clustering of dense vectors",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "rag",
+        "faiss",
+        "similarity-search",
+        "vector-search",
+        "facebook-ai",
+        "gpu-acceleration"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill faiss",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/15-rag/faiss"
+    },
+    {
+      "id": "orchestra-fine-tuning-openvla-oft",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "18-multimodal/openvla-oft",
+      "ref": "main",
+      "skill": "fine-tuning-openvla-oft",
+      "title": "Fine Tuning Openvla Oft (Orchestra Research)",
+      "summary": "Fine-tunes and evaluates OpenVLA-OFT and OpenVLA-OFT+ policies for robot action generation with continuous action heads, LoRA adaptation, and FiLM conditioning on LIBERO...",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "multimodal",
+        "openvla",
+        "openvla-oft",
+        "vla",
+        "robotics",
+        "fine-tuning"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill fine-tuning-openvla-oft",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/18-multimodal/openvla-oft"
+    },
+    {
+      "id": "orchestra-fine-tuning-serving-openpi",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "18-multimodal/openpi",
+      "ref": "main",
+      "skill": "fine-tuning-serving-openpi",
+      "title": "Fine Tuning Serving Openpi (Orchestra Research)",
+      "summary": "Fine-tune and serve Physical Intelligence OpenPI models (pi0, pi0-fast, pi0.5) using JAX or PyTorch backends for robot policy inference across ALOHA, DROID, and LIBERO environments",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "multimodal",
+        "openpi",
+        "physical-intelligence",
+        "vla",
+        "robotics",
+        "jax"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill fine-tuning-serving-openpi",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/18-multimodal/openpi"
+    },
+    {
+      "id": "orchestra-fine-tuning-with-trl",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "06-post-training/trl-fine-tuning",
+      "ref": "main",
+      "skill": "fine-tuning-with-trl",
+      "title": "Fine Tuning With Trl (Orchestra Research)",
+      "summary": "Fine-tune LLMs using reinforcement learning with TRL - SFT for instruction tuning, DPO for preference alignment, PPO/GRPO for reward optimization, and reward model training",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "post-training",
+        "trl",
+        "reinforcement-learning",
+        "fine-tuning",
+        "sft",
+        "dpo"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill fine-tuning-with-trl",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/06-post-training/trl-fine-tuning"
+    },
+    {
+      "id": "orchestra-gguf-quantization",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "10-optimization/gguf",
+      "ref": "main",
+      "skill": "gguf-quantization",
+      "title": "Gguf Quantization (Orchestra Research)",
+      "summary": "GGUF format and llama.cpp quantization for efficient CPU/GPU inference",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "optimization",
+        "gguf",
+        "quantization",
+        "llama-cpp",
+        "cpu-inference",
+        "apple-silicon"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill gguf-quantization",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/10-optimization/gguf"
+    },
+    {
+      "id": "orchestra-gptq",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "10-optimization/gptq",
+      "ref": "main",
+      "skill": "gptq",
+      "title": "Gptq (Orchestra Research)",
+      "summary": "Post-training 4-bit quantization for LLMs with minimal accuracy loss",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "optimization",
+        "gptq",
+        "quantization",
+        "4-bit",
+        "post-training",
+        "memory-optimization"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill gptq",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/10-optimization/gptq"
+    },
+    {
+      "id": "orchestra-grpo-rl-training",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "06-post-training/grpo-rl-training",
+      "ref": "main",
+      "skill": "grpo-rl-training",
+      "title": "Grpo Rl Training (Orchestra Research)",
+      "summary": "Expert guidance for GRPO/RL fine-tuning with TRL for reasoning and task-specific model training",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "post-training",
+        "reinforcement-learning",
+        "grpo",
+        "trl",
+        "rlhf",
+        "reward-modeling"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill grpo-rl-training",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/06-post-training/grpo-rl-training"
+    },
+    {
+      "id": "orchestra-guidance",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "16-prompt-engineering/guidance",
+      "ref": "main",
+      "skill": "guidance",
+      "title": "Guidance (Orchestra Research)",
+      "summary": "Control LLM output with regex and grammars, guarantee valid JSON/XML/code generation, enforce structured formats, and build multi-step workflows with Guidance - Microsoft...",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "prompt-engineering",
+        "guidance",
+        "constrained-generation",
+        "structured-output",
+        "json-validation",
+        "grammar"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill guidance",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/16-prompt-engineering/guidance"
+    },
+    {
+      "id": "orchestra-hqq-quantization",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "10-optimization/hqq",
+      "ref": "main",
+      "skill": "hqq-quantization",
+      "title": "Hqq Quantization (Orchestra Research)",
+      "summary": "Half-Quadratic Quantization for LLMs without calibration data",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "optimization",
+        "quantization",
+        "hqq",
+        "memory-efficiency",
+        "inference",
+        "model-compression"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill hqq-quantization",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/10-optimization/hqq"
+    },
+    {
+      "id": "orchestra-huggingface-accelerate",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "08-distributed-training/accelerate",
+      "ref": "main",
+      "skill": "huggingface-accelerate",
+      "title": "Huggingface Accelerate (Orchestra Research)",
+      "summary": "Simplest distributed training API. 4 lines to add distributed support to any PyTorch script",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "distributed-training",
+        "huggingface",
+        "accelerate",
+        "deepspeed",
+        "fsdp",
+        "mixed-precision"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill huggingface-accelerate",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/08-distributed-training/accelerate"
+    },
+    {
+      "id": "orchestra-huggingface-tokenizers",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "02-tokenization/huggingface-tokenizers",
+      "ref": "main",
+      "skill": "huggingface-tokenizers",
+      "title": "Huggingface Tokenizers (Orchestra Research)",
+      "summary": "Fast tokenizers optimized for research and production",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "tokenization",
+        "huggingface",
+        "bpe",
+        "wordpiece",
+        "unigram",
+        "fast-tokenization"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill huggingface-tokenizers",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/02-tokenization/huggingface-tokenizers"
+    },
+    {
+      "id": "orchestra-implementing-llms-litgpt",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "01-model-architecture/litgpt",
+      "ref": "main",
+      "skill": "implementing-llms-litgpt",
+      "title": "Implementing Llms Litgpt (Orchestra Research)",
+      "summary": "Implements and trains LLMs using Lightning AI's LitGPT with 20+ pretrained architectures (Llama, Gemma, Phi, Qwen, Mistral)",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "model-architecture",
+        "litgpt",
+        "lightning-ai",
+        "llm-implementation",
+        "lora",
+        "qlora"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill implementing-llms-litgpt",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/01-model-architecture/litgpt"
+    },
+    {
+      "id": "orchestra-instructor",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "16-prompt-engineering/instructor",
+      "ref": "main",
+      "skill": "instructor",
+      "title": "Instructor (Orchestra Research)",
+      "summary": "Extract structured data from LLM responses with Pydantic validation, retry failed extractions automatically, parse complex JSON with type safety, and stream partial results...",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "prompt-engineering",
+        "instructor",
+        "structured-output",
+        "pydantic",
+        "data-extraction",
+        "json-parsing"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill instructor",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/16-prompt-engineering/instructor"
+    },
+    {
+      "id": "orchestra-knowledge-distillation",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "19-emerging-techniques/knowledge-distillation",
+      "ref": "main",
+      "skill": "knowledge-distillation",
+      "title": "Knowledge Distillation (Orchestra Research)",
+      "summary": "Compress large language models using knowledge distillation from teacher to student models",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "emerging-techniques",
+        "knowledge-distillation",
+        "model-compression",
+        "teacher-student",
+        "minillm",
+        "reverse-kld"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill knowledge-distillation",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/19-emerging-techniques/knowledge-distillation"
+    },
+    {
+      "id": "orchestra-lambda-labs-gpu-cloud",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "09-infrastructure/lambda-labs",
+      "ref": "main",
+      "skill": "lambda-labs-gpu-cloud",
+      "title": "Lambda Labs Gpu Cloud (Orchestra Research)",
+      "summary": "Reserved and on-demand GPU cloud instances for ML training and inference",
+      "category": "devops",
+      "tags": [
+        "orchestra-research",
+        "infrastructure",
+        "gpu-cloud",
+        "training",
+        "inference",
+        "lambda-labs"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill lambda-labs-gpu-cloud",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/09-infrastructure/lambda-labs"
+    },
+    {
+      "id": "orchestra-langchain",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "14-agents/langchain",
+      "ref": "main",
+      "skill": "langchain",
+      "title": "Langchain (Orchestra Research)",
+      "summary": "Framework for building LLM-powered applications with agents, chains, and RAG. Supports multiple providers (OpenAI, Anthropic, Google), 500+ integrations, ReAct agents, tool...",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "agents",
+        "langchain",
+        "rag",
+        "tool-calling",
+        "react",
+        "memory-management"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill langchain",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/14-agents/langchain"
+    },
+    {
+      "id": "orchestra-langsmith-observability",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "17-observability/langsmith",
+      "ref": "main",
+      "skill": "langsmith-observability",
+      "title": "Langsmith Observability (Orchestra Research)",
+      "summary": "LLM observability platform for tracing, evaluation, and monitoring",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "observability",
+        "langsmith",
+        "tracing",
+        "evaluation",
+        "monitoring",
+        "debugging"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill langsmith-observability",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/17-observability/langsmith"
+    },
+    {
+      "id": "orchestra-llama-cpp",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "12-inference-serving/llama-cpp",
+      "ref": "main",
+      "skill": "llama-cpp",
+      "title": "Llama Cpp (Orchestra Research)",
+      "summary": "Runs LLM inference on CPU, Apple Silicon, and consumer GPUs without NVIDIA hardware",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "inference-serving",
+        "llama-cpp",
+        "cpu-inference",
+        "apple-silicon",
+        "edge-deployment",
+        "gguf"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill llama-cpp",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/12-inference-serving/llama-cpp"
+    },
+    {
+      "id": "orchestra-llama-factory",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "03-fine-tuning/llama-factory",
+      "ref": "main",
+      "skill": "llama-factory",
+      "title": "Llama Factory (Orchestra Research)",
+      "summary": "Expert guidance for fine-tuning LLMs with LLaMA-Factory - WebUI no-code, 100+ models, 2/3/4/5/6/8-bit QLoRA, multimodal support",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "fine-tuning",
+        "llama-factory",
+        "llm",
+        "webui",
+        "no-code",
+        "qlora"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill llama-factory",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/03-fine-tuning/llama-factory"
+    },
+    {
+      "id": "orchestra-llamaguard",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "07-safety-alignment/llamaguard",
+      "ref": "main",
+      "skill": "llamaguard",
+      "title": "Llamaguard (Orchestra Research)",
+      "summary": "Meta's 7-8B specialized moderation model for LLM input/output filtering",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "safety-alignment",
+        "llamaguard",
+        "content-moderation",
+        "meta",
+        "guardrails",
+        "safety-classification"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill llamaguard",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/07-safety-alignment/llamaguard"
+    },
+    {
+      "id": "orchestra-llamaindex",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "14-agents/llamaindex",
+      "ref": "main",
+      "skill": "llamaindex",
+      "title": "Llamaindex (Orchestra Research)",
+      "summary": "Data framework for building LLM applications with RAG. Specializes in document ingestion (300+ connectors), indexing, and querying",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "agents",
+        "llamaindex",
+        "rag",
+        "document-ingestion",
+        "vector-indices",
+        "query-engines"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill llamaindex",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/14-agents/llamaindex"
+    },
+    {
+      "id": "orchestra-llava",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "18-multimodal/llava",
+      "ref": "main",
+      "skill": "llava",
+      "title": "Llava (Orchestra Research)",
+      "summary": "Large Language and Vision Assistant",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "multimodal",
+        "llava",
+        "vision-language",
+        "visual-question-answering",
+        "image-chat",
+        "clip"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill llava",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/18-multimodal/llava"
+    },
+    {
+      "id": "orchestra-long-context",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "19-emerging-techniques/long-context",
+      "ref": "main",
+      "skill": "long-context",
+      "title": "Long Context (Orchestra Research)",
+      "summary": "Extend context windows of transformer models using RoPE, YaRN, ALiBi, and position interpolation techniques",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "emerging-techniques",
+        "long-context",
+        "rope",
+        "yarn",
+        "alibi",
+        "position-interpolation"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill long-context",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/19-emerging-techniques/long-context"
+    },
+    {
+      "id": "orchestra-mamba-architecture",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "01-model-architecture/mamba",
+      "ref": "main",
+      "skill": "mamba-architecture",
+      "title": "Mamba Architecture (Orchestra Research)",
+      "summary": "State-space model with O(n) complexity vs Transformers' O(n\u00b2)",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "model-architecture",
+        "mamba",
+        "state-space-models",
+        "ssm",
+        "linear-complexity",
+        "long-context"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill mamba-architecture",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/01-model-architecture/mamba"
+    },
+    {
+      "id": "orchestra-miles-rl-training",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "06-post-training/miles",
+      "ref": "main",
+      "skill": "miles-rl-training",
+      "title": "Miles Rl Training (Orchestra Research)",
+      "summary": "Provides guidance for enterprise-grade RL training using miles, a production-ready fork of slime",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "post-training",
+        "reinforcement-learning",
+        "moe",
+        "fp8",
+        "int4",
+        "enterprise"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill miles-rl-training",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/06-post-training/miles"
+    },
+    {
+      "id": "orchestra-ml-paper-writing",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "20-ml-paper-writing/ml-paper-writing",
+      "ref": "main",
+      "skill": "ml-paper-writing",
+      "title": "Ml Paper Writing (Orchestra Research)",
+      "summary": "Write publication-ready ML/AI papers for NeurIPS, ICML, ICLR, ACL, AAAI, COLM. Use when drafting papers from research repos, structuring arguments, verifying citations, or...",
+      "category": "writing",
+      "tags": [
+        "orchestra-research",
+        "ml-paper-writing",
+        "academic-writing",
+        "neurips",
+        "icml",
+        "iclr",
+        "acl"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill ml-paper-writing",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/20-ml-paper-writing/ml-paper-writing"
+    },
+    {
+      "id": "orchestra-ml-training-recipes",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "10-optimization/ml-training-recipes",
+      "ref": "main",
+      "skill": "ml-training-recipes",
+      "title": "Ml Training Recipes (Orchestra Research)",
+      "summary": "Battle-tested PyTorch training recipes for all domains \u2014 LLMs, vision, diffusion, medical imaging, protein/drug discovery, spatial omics, genomics",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "optimization",
+        "pytorch",
+        "training",
+        "llm",
+        "vision",
+        "diffusion"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill ml-training-recipes",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/10-optimization/ml-training-recipes"
+    },
+    {
+      "id": "orchestra-mlflow",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "13-mlops/mlflow",
+      "ref": "main",
+      "skill": "mlflow",
+      "title": "Mlflow (Orchestra Research)",
+      "summary": "Track ML experiments, manage model registry with versioning, deploy models to production, and reproduce experiments with MLflow - framework-agnostic ML lifecycle platform",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "mlops",
+        "mlflow",
+        "experiment-tracking",
+        "model-registry",
+        "ml-lifecycle",
+        "deployment"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill mlflow",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/13-mlops/mlflow"
+    },
+    {
+      "id": "orchestra-modal-serverless-gpu",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "09-infrastructure/modal",
+      "ref": "main",
+      "skill": "modal-serverless-gpu",
+      "title": "Modal Serverless Gpu (Orchestra Research)",
+      "summary": "Serverless GPU cloud platform for running ML workloads",
+      "category": "devops",
+      "tags": [
+        "orchestra-research",
+        "infrastructure",
+        "serverless",
+        "gpu",
+        "cloud",
+        "deployment",
+        "modal"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill modal-serverless-gpu",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/09-infrastructure/modal"
+    },
+    {
+      "id": "orchestra-model-merging",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "19-emerging-techniques/model-merging",
+      "ref": "main",
+      "skill": "model-merging",
+      "title": "Model Merging (Orchestra Research)",
+      "summary": "Merge multiple fine-tuned models using mergekit to combine capabilities without retraining",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "emerging-techniques",
+        "model-merging",
+        "mergekit",
+        "slerp",
+        "ties",
+        "dare"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill model-merging",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/19-emerging-techniques/model-merging"
+    },
+    {
+      "id": "orchestra-model-pruning",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "19-emerging-techniques/model-pruning",
+      "ref": "main",
+      "skill": "model-pruning",
+      "title": "Model Pruning (Orchestra Research)",
+      "summary": "Reduce LLM size and accelerate inference using pruning techniques like Wanda and SparseGPT. Use when compressing models without retraining, achieving 50% sparsity with minimal...",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "emerging-techniques",
+        "model-pruning",
+        "wanda",
+        "sparsegpt",
+        "sparsity",
+        "model-compression"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill model-pruning",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/19-emerging-techniques/model-pruning"
+    },
+    {
+      "id": "orchestra-moe-training",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "19-emerging-techniques/moe-training",
+      "ref": "main",
+      "skill": "moe-training",
+      "title": "Moe Training (Orchestra Research)",
+      "summary": "Train Mixture of Experts (MoE) models using DeepSpeed or HuggingFace",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "emerging-techniques",
+        "moe",
+        "mixture-of-experts",
+        "sparse-models",
+        "deepspeed",
+        "expert-parallelism"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill moe-training",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/19-emerging-techniques/moe-training"
+    },
+    {
+      "id": "orchestra-nanogpt",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "01-model-architecture/nanogpt",
+      "ref": "main",
+      "skill": "nanogpt",
+      "title": "Nanogpt (Orchestra Research)",
+      "summary": "Educational GPT implementation in ~300 lines",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "model-architecture",
+        "nanogpt",
+        "gpt-2",
+        "educational",
+        "andrej-karpathy",
+        "transformer"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill nanogpt",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/01-model-architecture/nanogpt"
+    },
+    {
+      "id": "orchestra-nemo-curator",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "05-data-processing/nemo-curator",
+      "ref": "main",
+      "skill": "nemo-curator",
+      "title": "Nemo Curator (Orchestra Research)",
+      "summary": "GPU-accelerated data curation for LLM training",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "data-processing",
+        "nemo-curator",
+        "data-curation",
+        "gpu-acceleration",
+        "deduplication",
+        "quality-filtering"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill nemo-curator",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/05-data-processing/nemo-curator"
+    },
+    {
+      "id": "orchestra-nemo-evaluator-sdk",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "11-evaluation/nemo-evaluator",
+      "ref": "main",
+      "skill": "nemo-evaluator-sdk",
+      "title": "Nemo Evaluator Sdk (Orchestra Research)",
+      "summary": "Evaluates LLMs across 100+ benchmarks from 18+ harnesses (MMLU, HumanEval, GSM8K, safety, VLM) with multi-backend execution",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "evaluation",
+        "nemo",
+        "nvidia",
+        "benchmarking",
+        "mmlu",
+        "humaneval"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill nemo-evaluator-sdk",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/11-evaluation/nemo-evaluator"
+    },
+    {
+      "id": "orchestra-nemo-guardrails",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "07-safety-alignment/nemo-guardrails",
+      "ref": "main",
+      "skill": "nemo-guardrails",
+      "title": "Nemo Guardrails (Orchestra Research)",
+      "summary": "NVIDIA's runtime safety framework for LLM applications",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "safety-alignment",
+        "nemo-guardrails",
+        "nvidia",
+        "jailbreak-detection",
+        "guardrails",
+        "colang"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill nemo-guardrails",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/07-safety-alignment/nemo-guardrails"
+    },
+    {
+      "id": "orchestra-nnsight-remote-interpretability",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "04-mechanistic-interpretability/nnsight",
+      "ref": "main",
+      "skill": "nnsight-remote-interpretability",
+      "title": "Nnsight Remote Interpretability (Orchestra Research)",
+      "summary": "Provides guidance for interpreting and manipulating neural network internals using nnsight with optional NDIF remote execution",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "mechanistic-interpretability",
+        "nnsight",
+        "ndif",
+        "remote-execution",
+        "model-internals"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill nnsight-remote-interpretability",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/04-mechanistic-interpretability/nnsight"
+    },
+    {
+      "id": "orchestra-openrlhf-training",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "06-post-training/openrlhf",
+      "ref": "main",
+      "skill": "openrlhf-training",
+      "title": "Openrlhf Training (Orchestra Research)",
+      "summary": "High-performance RLHF framework with Ray+vLLM acceleration",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "post-training",
+        "openrlhf",
+        "rlhf",
+        "ppo",
+        "grpo",
+        "rloo"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill openrlhf-training",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/06-post-training/openrlhf"
+    },
+    {
+      "id": "orchestra-optimizing-attention-flash",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "10-optimization/flash-attention",
+      "ref": "main",
+      "skill": "optimizing-attention-flash",
+      "title": "Optimizing Attention Flash (Orchestra Research)",
+      "summary": "Optimizes transformer attention with Flash Attention for 2-4x speedup and 10-20x memory reduction",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "optimization",
+        "flash-attention",
+        "attention-optimization",
+        "memory-efficiency",
+        "speed-optimization",
+        "long-context"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill optimizing-attention-flash",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/10-optimization/flash-attention"
+    },
+    {
+      "id": "orchestra-outlines",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "16-prompt-engineering/outlines",
+      "ref": "main",
+      "skill": "outlines",
+      "title": "Outlines (Orchestra Research)",
+      "summary": "Guarantee valid JSON/XML/code structure during generation, use Pydantic models for type-safe outputs, support local models (Transformers, vLLM), and maximize inference speed...",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "prompt-engineering",
+        "outlines",
+        "structured-generation",
+        "json-schema",
+        "pydantic",
+        "local-models"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill outlines",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/16-prompt-engineering/outlines"
+    },
+    {
+      "id": "orchestra-peft-fine-tuning",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "03-fine-tuning/peft",
+      "ref": "main",
+      "skill": "peft-fine-tuning",
+      "title": "Peft Fine Tuning (Orchestra Research)",
+      "summary": "Parameter-efficient fine-tuning for LLMs using LoRA, QLoRA, and 25+ methods",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "fine-tuning",
+        "peft",
+        "lora",
+        "qlora",
+        "parameter-efficient",
+        "adapters"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill peft-fine-tuning",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/03-fine-tuning/peft"
+    },
+    {
+      "id": "orchestra-phoenix-observability",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "17-observability/phoenix",
+      "ref": "main",
+      "skill": "phoenix-observability",
+      "title": "Phoenix Observability (Orchestra Research)",
+      "summary": "Open-source AI observability platform for LLM tracing, evaluation, and monitoring",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "observability",
+        "phoenix",
+        "arize",
+        "tracing",
+        "evaluation",
+        "monitoring"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill phoenix-observability",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/17-observability/phoenix"
+    },
+    {
+      "id": "orchestra-pinecone",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "15-rag/pinecone",
+      "ref": "main",
+      "skill": "pinecone",
+      "title": "Pinecone (Orchestra Research)",
+      "summary": "Managed vector database for production AI applications",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "rag",
+        "pinecone",
+        "vector-database",
+        "managed-service",
+        "serverless",
+        "hybrid-search"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill pinecone",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/15-rag/pinecone"
+    },
+    {
+      "id": "orchestra-presenting-conference-talks",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "20-ml-paper-writing/presenting-conference-talks",
+      "ref": "main",
+      "skill": "presenting-conference-talks",
+      "title": "Presenting Conference Talks (Orchestra Research)",
+      "summary": "Generates conference presentation slides (Beamer LaTeX PDF and editable PPTX) from a compiled paper with speaker notes and talk script",
+      "category": "writing",
+      "tags": [
+        "orchestra-research",
+        "ml-paper-writing",
+        "presenting-conference-talks",
+        "beamer",
+        "pptx",
+        "slides",
+        "speaker-notes"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill presenting-conference-talks",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/20-ml-paper-writing/presenting-conference-talks"
+    },
+    {
+      "id": "orchestra-prompt-guard",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "07-safety-alignment/prompt-guard",
+      "ref": "main",
+      "skill": "prompt-guard",
+      "title": "Prompt Guard (Orchestra Research)",
+      "summary": "Meta's 86M prompt injection and jailbreak detector",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "safety-alignment",
+        "prompt-injection",
+        "jailbreak-detection",
+        "meta",
+        "input-validation",
+        "security"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill prompt-guard",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/07-safety-alignment/prompt-guard"
+    },
+    {
+      "id": "orchestra-pytorch-fsdp2",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "08-distributed-training/pytorch-fsdp2",
+      "ref": "main",
+      "skill": "pytorch-fsdp2",
+      "title": "Pytorch Fsdp2 (Orchestra Research)",
+      "summary": "Adds PyTorch FSDP2 (fully_shard) to training scripts with correct init, sharding, mixed precision/offload config, and distributed checkpointing",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "distributed-training",
+        "pytorch",
+        "fsdp2",
+        "fully-sharded-data-parallel",
+        "dtensor",
+        "device-mesh"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill pytorch-fsdp2",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/08-distributed-training/pytorch-fsdp2"
+    },
+    {
+      "id": "orchestra-pytorch-lightning",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "08-distributed-training/pytorch-lightning",
+      "ref": "main",
+      "skill": "pytorch-lightning",
+      "title": "Pytorch Lightning (Orchestra Research)",
+      "summary": "High-level PyTorch framework with Trainer class, automatic distributed training (DDP/FSDP/DeepSpeed), callbacks system, and minimal boilerplate",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "distributed-training",
+        "pytorch-lightning",
+        "training-framework",
+        "ddp",
+        "fsdp",
+        "deepspeed"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill pytorch-lightning",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/08-distributed-training/pytorch-lightning"
+    },
+    {
+      "id": "orchestra-pyvene-interventions",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "04-mechanistic-interpretability/pyvene",
+      "ref": "main",
+      "skill": "pyvene-interventions",
+      "title": "Pyvene Interventions (Orchestra Research)",
+      "summary": "Provides guidance for performing causal interventions on PyTorch models using pyvene's declarative intervention framework",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "mechanistic-interpretability",
+        "causal-intervention",
+        "pyvene",
+        "activation-patching",
+        "causal-tracing",
+        "interpretability"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill pyvene-interventions",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/04-mechanistic-interpretability/pyvene"
+    },
+    {
+      "id": "orchestra-qdrant-vector-search",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "15-rag/qdrant",
+      "ref": "main",
+      "skill": "qdrant-vector-search",
+      "title": "Qdrant Vector Search (Orchestra Research)",
+      "summary": "High-performance vector similarity search engine for RAG and semantic search",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "rag",
+        "vector-search",
+        "qdrant",
+        "semantic-search",
+        "embeddings",
+        "similarity-search"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill qdrant-vector-search",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/15-rag/qdrant"
+    },
+    {
+      "id": "orchestra-quantizing-models-bitsandbytes",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "10-optimization/bitsandbytes",
+      "ref": "main",
+      "skill": "quantizing-models-bitsandbytes",
+      "title": "Quantizing Models Bitsandbytes (Orchestra Research)",
+      "summary": "Quantizes LLMs to 8-bit or 4-bit for 50-75% memory reduction with minimal accuracy loss",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "optimization",
+        "bitsandbytes",
+        "quantization",
+        "8-bit",
+        "4-bit",
+        "memory-optimization"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill quantizing-models-bitsandbytes",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/10-optimization/bitsandbytes"
+    },
+    {
+      "id": "orchestra-ray-data",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "05-data-processing/ray-data",
+      "ref": "main",
+      "skill": "ray-data",
+      "title": "Ray Data (Orchestra Research)",
+      "summary": "Scalable data processing for ML workloads",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "data-processing",
+        "ray-data",
+        "distributed-computing",
+        "ml-pipelines",
+        "batch-inference",
+        "etl"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill ray-data",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/05-data-processing/ray-data"
+    },
+    {
+      "id": "orchestra-ray-train",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "08-distributed-training/ray-train",
+      "ref": "main",
+      "skill": "ray-train",
+      "title": "Ray Train (Orchestra Research)",
+      "summary": "Distributed training orchestration across clusters",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "distributed-training",
+        "ray-train",
+        "orchestration",
+        "ray",
+        "hyperparameter-tuning",
+        "fault-tolerance"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill ray-train",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/08-distributed-training/ray-train"
+    },
+    {
+      "id": "orchestra-rwkv-architecture",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "01-model-architecture/rwkv",
+      "ref": "main",
+      "skill": "rwkv-architecture",
+      "title": "Rwkv Architecture (Orchestra Research)",
+      "summary": "RNN+Transformer hybrid with O(n) inference",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "model-architecture",
+        "rwkv",
+        "rnn",
+        "transformer-hybrid",
+        "linear-complexity",
+        "infinite-context"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill rwkv-architecture",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/01-model-architecture/rwkv"
+    },
+    {
+      "id": "orchestra-segment-anything-model",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "18-multimodal/segment-anything",
+      "ref": "main",
+      "skill": "segment-anything-model",
+      "title": "Segment Anything Model (Orchestra Research)",
+      "summary": "Foundation model for image segmentation with zero-shot transfer",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "multimodal",
+        "image-segmentation",
+        "computer-vision",
+        "sam",
+        "zero-shot"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill segment-anything-model",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/18-multimodal/segment-anything"
+    },
+    {
+      "id": "orchestra-sentence-transformers",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "15-rag/sentence-transformers",
+      "ref": "main",
+      "skill": "sentence-transformers",
+      "title": "Sentence Transformers (Orchestra Research)",
+      "summary": "Framework for state-of-the-art sentence, text, and image embeddings",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "rag",
+        "sentence-transformers",
+        "embeddings",
+        "semantic-similarity",
+        "multilingual",
+        "multimodal"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill sentence-transformers",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/15-rag/sentence-transformers"
+    },
+    {
+      "id": "orchestra-sentencepiece",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "02-tokenization/sentencepiece",
+      "ref": "main",
+      "skill": "sentencepiece",
+      "title": "Sentencepiece (Orchestra Research)",
+      "summary": "Language-independent tokenizer treating text as raw Unicode",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "tokenization",
+        "sentencepiece",
+        "language-independent",
+        "bpe",
+        "unigram",
+        "multilingual"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill sentencepiece",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/02-tokenization/sentencepiece"
+    },
+    {
+      "id": "orchestra-serving-llms-vllm",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "12-inference-serving/vllm",
+      "ref": "main",
+      "skill": "serving-llms-vllm",
+      "title": "Serving Llms Vllm (Orchestra Research)",
+      "summary": "Serves LLMs with high throughput using vLLM's PagedAttention and continuous batching",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "inference-serving",
+        "vllm",
+        "pagedattention",
+        "continuous-batching",
+        "high-throughput",
+        "production"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill serving-llms-vllm",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/12-inference-serving/vllm"
+    },
+    {
+      "id": "orchestra-sglang",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "12-inference-serving/sglang",
+      "ref": "main",
+      "skill": "sglang",
+      "title": "Sglang (Orchestra Research)",
+      "summary": "Fast structured generation and serving for LLMs with RadixAttention prefix caching",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "inference-serving",
+        "sglang",
+        "structured-generation",
+        "radixattention",
+        "prefix-caching",
+        "constrained-decoding"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill sglang",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/12-inference-serving/sglang"
+    },
+    {
+      "id": "orchestra-simpo-training",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "06-post-training/simpo",
+      "ref": "main",
+      "skill": "simpo-training",
+      "title": "Simpo Training (Orchestra Research)",
+      "summary": "Simple Preference Optimization for LLM alignment",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "post-training",
+        "simpo",
+        "preference-optimization",
+        "alignment",
+        "dpo-alternative",
+        "reference-free"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill simpo-training",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/06-post-training/simpo"
+    },
+    {
+      "id": "orchestra-skypilot-multi-cloud-orchestration",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "09-infrastructure/skypilot",
+      "ref": "main",
+      "skill": "skypilot-multi-cloud-orchestration",
+      "title": "Skypilot Multi Cloud Orchestration (Orchestra Research)",
+      "summary": "Multi-cloud orchestration for ML workloads with automatic cost optimization",
+      "category": "devops",
+      "tags": [
+        "orchestra-research",
+        "infrastructure",
+        "multi-cloud",
+        "orchestration",
+        "gpu",
+        "cost-optimization",
+        "skypilot"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill skypilot-multi-cloud-orchestration",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/09-infrastructure/skypilot"
+    },
+    {
+      "id": "orchestra-slime-rl-training",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "06-post-training/slime",
+      "ref": "main",
+      "skill": "slime-rl-training",
+      "title": "Slime Rl Training (Orchestra Research)",
+      "summary": "Provides guidance for LLM post-training with RL using slime, a Megatron+SGLang framework",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "post-training",
+        "reinforcement-learning",
+        "megatron-lm",
+        "sglang",
+        "grpo",
+        "glm"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill slime-rl-training",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/06-post-training/slime"
+    },
+    {
+      "id": "orchestra-sparse-autoencoder-training",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "04-mechanistic-interpretability/saelens",
+      "ref": "main",
+      "skill": "sparse-autoencoder-training",
+      "title": "Sparse Autoencoder Training (Orchestra Research)",
+      "summary": "Provides guidance for training and analyzing Sparse Autoencoders (SAEs) using SAELens to decompose neural network activations into interpretable features",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "mechanistic-interpretability",
+        "sparse-autoencoders",
+        "sae",
+        "feature-discovery",
+        "superposition"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill sparse-autoencoder-training",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/04-mechanistic-interpretability/saelens"
+    },
+    {
+      "id": "orchestra-speculative-decoding",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "19-emerging-techniques/speculative-decoding",
+      "ref": "main",
+      "skill": "speculative-decoding",
+      "title": "Speculative Decoding (Orchestra Research)",
+      "summary": "Accelerate LLM inference using speculative decoding, Medusa multiple heads, and lookahead decoding techniques",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "emerging-techniques",
+        "speculative-decoding",
+        "medusa",
+        "lookahead-decoding",
+        "fast-inference",
+        "draft-models"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill speculative-decoding",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/19-emerging-techniques/speculative-decoding"
+    },
+    {
+      "id": "orchestra-stable-diffusion-image-generation",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "18-multimodal/stable-diffusion",
+      "ref": "main",
+      "skill": "stable-diffusion-image-generation",
+      "title": "Stable Diffusion Image Generation (Orchestra Research)",
+      "summary": "State-of-the-art text-to-image generation with Stable Diffusion models via HuggingFace Diffusers",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "multimodal",
+        "image-generation",
+        "stable-diffusion",
+        "diffusers",
+        "text-to-image",
+        "computer-vision"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill stable-diffusion-image-generation",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/18-multimodal/stable-diffusion"
+    },
+    {
+      "id": "orchestra-systems-paper-writing",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "20-ml-paper-writing/systems-paper-writing",
+      "ref": "main",
+      "skill": "systems-paper-writing",
+      "title": "Systems Paper Writing (Orchestra Research)",
+      "summary": "Comprehensive guide for writing systems papers targeting OSDI, SOSP, ASPLOS, NSDI, and EuroSys",
+      "category": "writing",
+      "tags": [
+        "orchestra-research",
+        "ml-paper-writing",
+        "systems-paper-writing",
+        "osdi",
+        "sosp",
+        "asplos",
+        "nsdi"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill systems-paper-writing",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/20-ml-paper-writing/systems-paper-writing"
+    },
+    {
+      "id": "orchestra-tensorboard",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "13-mlops/tensorboard",
+      "ref": "main",
+      "skill": "tensorboard",
+      "title": "Tensorboard (Orchestra Research)",
+      "summary": "Visualize training metrics, debug models with histograms, compare experiments, visualize model graphs, and profile performance with TensorBoard - Google's ML visualization toolkit",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "mlops",
+        "tensorboard",
+        "visualization",
+        "training-metrics",
+        "model-debugging",
+        "pytorch"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill tensorboard",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/13-mlops/tensorboard"
+    },
+    {
+      "id": "orchestra-tensorrt-llm",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "12-inference-serving/tensorrt-llm",
+      "ref": "main",
+      "skill": "tensorrt-llm",
+      "title": "Tensorrt Llm (Orchestra Research)",
+      "summary": "Optimizes LLM inference with NVIDIA TensorRT for maximum throughput and lowest latency",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "inference-serving",
+        "tensorrt-llm",
+        "nvidia",
+        "inference-optimization",
+        "high-throughput",
+        "low-latency"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill tensorrt-llm",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/12-inference-serving/tensorrt-llm"
+    },
+    {
+      "id": "orchestra-torchforge-rl-training",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "06-post-training/torchforge",
+      "ref": "main",
+      "skill": "torchforge-rl-training",
+      "title": "Torchforge Rl Training (Orchestra Research)",
+      "summary": "Provides guidance for PyTorch-native agentic RL using torchforge, Meta's library separating infra from algorithms",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "post-training",
+        "reinforcement-learning",
+        "pytorch",
+        "grpo",
+        "sft",
+        "monarch"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill torchforge-rl-training",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/06-post-training/torchforge"
+    },
+    {
+      "id": "orchestra-training-llms-megatron",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "08-distributed-training/megatron-core",
+      "ref": "main",
+      "skill": "training-llms-megatron",
+      "title": "Training Llms Megatron (Orchestra Research)",
+      "summary": "Trains large language models (2B-462B parameters) using NVIDIA Megatron-Core with advanced parallelism strategies",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "distributed-training",
+        "megatron-core",
+        "large-scale-training",
+        "nvidia",
+        "tensor-parallelism",
+        "pipeline-parallelism"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill training-llms-megatron",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/08-distributed-training/megatron-core"
+    },
+    {
+      "id": "orchestra-transformer-lens-interpretability",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "04-mechanistic-interpretability/transformer-lens",
+      "ref": "main",
+      "skill": "transformer-lens-interpretability",
+      "title": "Transformer Lens Interpretability (Orchestra Research)",
+      "summary": "Provides guidance for mechanistic interpretability research using TransformerLens to inspect and manipulate transformer internals via HookPoints and activation caching",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "mechanistic-interpretability",
+        "transformerlens",
+        "activation-patching",
+        "circuit-analysis"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill transformer-lens-interpretability",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/04-mechanistic-interpretability/transformer-lens"
+    },
+    {
+      "id": "orchestra-unsloth",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "03-fine-tuning/unsloth",
+      "ref": "main",
+      "skill": "unsloth",
+      "title": "Unsloth (Orchestra Research)",
+      "summary": "Expert guidance for fast fine-tuning with Unsloth - 2-5x faster training, 50-80% less memory, LoRA/QLoRA optimization",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "fine-tuning",
+        "unsloth",
+        "fast-training",
+        "lora",
+        "qlora",
+        "memory-efficient"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill unsloth",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/03-fine-tuning/unsloth"
+    },
+    {
+      "id": "orchestra-verl-rl-training",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "06-post-training/verl",
+      "ref": "main",
+      "skill": "verl-rl-training",
+      "title": "Verl Rl Training (Orchestra Research)",
+      "summary": "Provides guidance for training LLMs with reinforcement learning using verl (Volcano Engine RL)",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "post-training",
+        "reinforcement-learning",
+        "rlhf",
+        "grpo",
+        "ppo",
+        "distributed-training"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill verl-rl-training",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/06-post-training/verl"
+    },
+    {
+      "id": "orchestra-weights-and-biases",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "13-mlops/weights-and-biases",
+      "ref": "main",
+      "skill": "weights-and-biases",
+      "title": "Weights And Biases (Orchestra Research)",
+      "summary": "Track ML experiments with automatic logging, visualize training in real-time, optimize hyperparameters with sweeps, and manage model registry with W&B - collaborative MLOps...",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "mlops",
+        "weights-and-biases",
+        "wandb",
+        "experiment-tracking",
+        "hyperparameter-tuning",
+        "model-registry"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill weights-and-biases",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/13-mlops/weights-and-biases"
+    },
+    {
+      "id": "orchestra-whisper",
+      "type": "external",
+      "source": "Orchestra-Research/AI-Research-SKILLs",
+      "path": "18-multimodal/whisper",
+      "ref": "main",
+      "skill": "whisper",
+      "title": "Whisper (Orchestra Research)",
+      "summary": "OpenAI's general-purpose speech recognition model",
+      "category": "ai-ml",
+      "tags": [
+        "orchestra-research",
+        "multimodal",
+        "whisper",
+        "speech-recognition",
+        "asr",
+        "multilingual",
+        "openai"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add Orchestra-Research/AI-Research-SKILLs --skill whisper",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/18-multimodal/whisper"
     },
     {
       "id": "pr-screenshots",

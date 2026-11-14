@@ -1,0 +1,14 @@
+id: orchestra-tensorboard
+type: external
+source: Orchestra-Research/AI-Research-SKILLs
+path: 13-mlops/tensorboard
+ref: main
+skill: tensorboard
+title: "Tensorboard (Orchestra Research)"
+summary: "Visualize training metrics, debug models with histograms, compare experiments, visualize model graphs, and profile performance with TensorBoard - Google's ML visualization toolkit"
+category: ai-ml
+tags: [orchestra-research, mlops, tensorboard, visualization, training-metrics, model-debugging, pytorch]
+rating:
+  score: 3
+  reviewed: null
+notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."

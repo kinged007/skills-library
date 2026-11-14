@@ -1,0 +1,14 @@
+id: orchestra-simpo-training
+type: external
+source: Orchestra-Research/AI-Research-SKILLs
+path: 06-post-training/simpo
+ref: main
+skill: simpo-training
+title: "Simpo Training (Orchestra Research)"
+summary: "Simple Preference Optimization for LLM alignment"
+category: ai-ml
+tags: [orchestra-research, post-training, simpo, preference-optimization, alignment, dpo-alternative, reference-free]
+rating:
+  score: 3
+  reviewed: null
+notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."

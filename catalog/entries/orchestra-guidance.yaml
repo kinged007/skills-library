@@ -1,0 +1,14 @@
+id: orchestra-guidance
+type: external
+source: Orchestra-Research/AI-Research-SKILLs
+path: 16-prompt-engineering/guidance
+ref: main
+skill: guidance
+title: "Guidance (Orchestra Research)"
+summary: "Control LLM output with regex and grammars, guarantee valid JSON/XML/code generation, enforce structured formats, and build multi-step workflows with Guidance - Microsoft..."
+category: ai-ml
+tags: [orchestra-research, prompt-engineering, guidance, constrained-generation, structured-output, json-validation, grammar]
+rating:
+  score: 3
+  reviewed: null
+notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."

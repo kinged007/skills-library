@@ -1,0 +1,14 @@
+id: orchestra-creative-thinking-for-research
+type: external
+source: Orchestra-Research/AI-Research-SKILLs
+path: 21-research-ideation/creative-thinking-for-research
+ref: main
+skill: creative-thinking-for-research
+title: "Creative Thinking For Research (Orchestra Research)"
+summary: "Applies cognitive science frameworks for creative thinking to CS and AI research ideation"
+category: ai-ml
+tags: [orchestra-research, research-ideation, creative-thinking, analogical-reasoning, problem-reformulation, cognitive-science]
+rating:
+  score: 3
+  reviewed: null
+notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."

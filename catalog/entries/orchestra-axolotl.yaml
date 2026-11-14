@@ -1,0 +1,14 @@
+id: orchestra-axolotl
+type: external
+source: Orchestra-Research/AI-Research-SKILLs
+path: 03-fine-tuning/axolotl
+ref: main
+skill: axolotl
+title: "Axolotl (Orchestra Research)"
+summary: "Expert guidance for fine-tuning LLMs with Axolotl - YAML configs, 100+ models, LoRA/QLoRA, DPO/KTO/ORPO/GRPO, multimodal support"
+category: ai-ml
+tags: [orchestra-research, fine-tuning, axolotl, llm, lora, qlora, dpo]
+rating:
+  score: 3
+  reviewed: null
+notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."

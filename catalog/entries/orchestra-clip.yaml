@@ -1,0 +1,14 @@
+id: orchestra-clip
+type: external
+source: Orchestra-Research/AI-Research-SKILLs
+path: 18-multimodal/clip
+ref: main
+skill: clip
+title: "Clip (Orchestra Research)"
+summary: "OpenAI's model connecting vision and language"
+category: ai-ml
+tags: [orchestra-research, multimodal, clip, vision-language, zero-shot, image-classification, openai]
+rating:
+  score: 3
+  reviewed: null
+notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."

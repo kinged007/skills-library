@@ -1,0 +1,14 @@
+id: orchestra-mlflow
+type: external
+source: Orchestra-Research/AI-Research-SKILLs
+path: 13-mlops/mlflow
+ref: main
+skill: mlflow
+title: "Mlflow (Orchestra Research)"
+summary: "Track ML experiments, manage model registry with versioning, deploy models to production, and reproduce experiments with MLflow - framework-agnostic ML lifecycle platform"
+category: ai-ml
+tags: [orchestra-research, mlops, mlflow, experiment-tracking, model-registry, ml-lifecycle, deployment]
+rating:
+  score: 3
+  reviewed: null
+notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
