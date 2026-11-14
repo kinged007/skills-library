@@ -1,0 +1,18 @@
+id: pr-watch
+type: local
+path: skills/pr-watch
+title: PR Watch
+summary: "Take an open pull request to green: wait for CI, triage failures and answer review-bot comments, with a registry for CodeRabbit, Qodo, Greptile, Copilot, Kodus and Vercel."
+category: development
+tags: [github, pull-requests, ci, code-review, bash]
+derived_from:
+  source: elie222/rakazo
+  path: .agents/skills/pr-watch
+  license: Apache-2.0
+rating:
+  score: 4
+  quality: 4
+  usefulness: 5
+  maturity: 4
+  reviewed: "2026-11-14"
+notes: "Generalized from the Rakazo original: bot logic moved to bots.json, Qodo-only parser removed. Digest smoke-tested against a mock gh; the vitest suite was edited but not run."

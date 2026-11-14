@@ -25,6 +25,13 @@
         "reviewed": {"type": ["string", "null"]}
       }
     },
+    "template": {"type": "boolean", "description": "true = must be filled in / adapted per project before use"},
+    "derived_from": {
+      "type": "object",
+      "description": "local skills adapted from someone else's work: credit and licence",
+      "required": ["source", "path", "license"],
+      "properties": {"source": {"type": "string"}, "path": {"type": "string"}, "license": {"type": "string"}}
+    },
     "notes": {"type": "string"}
   }
 }

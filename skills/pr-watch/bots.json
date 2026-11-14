@@ -1,0 +1,51 @@
+{
+  "_comment": "Registry read by pr-digest. login: regex on the account's login. noise: regexes on the comment body; a Bot comment matching both is status chrome and never blocks green. Anchor body patterns with \\A (not ^, which matches at every line start). Actionable bot comments (real findings) must NOT be listed. Override this file with PR_DIGEST_BOTS=/path/to/bots.json.",
+  "bots": [
+    {
+      "name": "vercel",
+      "login": "\\Avercel\\[bot\\]\\z",
+      "noise": ["\\A\\[vc\\]: "]
+    },
+    {
+      "name": "coderabbit",
+      "login": "\\Acoderabbitai\\[bot\\]\\z",
+      "noise": [
+        "\\A(<!-- coderabbit-ai-generated:v1 -->\\s*)?<!-- This is an auto-generated comment: (summarize|rate limited) by coderabbit\\.ai -->"
+      ]
+    },
+    {
+      "name": "greptile",
+      "login": "\\Agreptile-apps\\[bot\\]\\z",
+      "noise": ["\\A<h3>Greptile Summary</h3>", "\\A<!-- greptile_summary -->"]
+    },
+    {
+      "name": "qodo",
+      "login": "\\Aqodo-",
+      "noise": [
+        "\\A\\s*<h3>PR Summary by Qodo</h3>",
+        "\\A\\s*<h3>Qodo is busy working</h3>",
+        "\\A\\s*<!-- qodo:",
+        "\\A\\s*\\[Code review\\]\\([^)]*\\) by qodo was updated up to the latest commit "
+      ]
+    },
+    {
+      "name": "copilot",
+      "login": "\\A(copilot-pull-request-reviewer|copilot-swe-agent|Copilot)(\\[bot\\])?\\z",
+      "noise": []
+    },
+    {
+      "name": "kodus",
+      "login": "\\Akodus",
+      "noise": []
+    },
+    {
+      "name": "github-actions",
+      "login": "\\Agithub-actions\\[bot\\]\\z",
+      "noise": ["\\A<!-- pr-watch:noise -->"]
+    }
+  ],
+  "addressed": ["Confirmed as addressed", "Addressed in commit"],
+  "ignore_fork_statuses": [
+    { "context": "Vercel", "description": "Authorization required to deploy." }
+  ]
+}

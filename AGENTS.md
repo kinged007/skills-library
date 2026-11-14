@@ -58,6 +58,8 @@ For a repo with many skills, add one entry per skill. Don't vendor the repo.
 - `title`, `summary`: one line each. The summary says what the skill does.
 - `category`: exactly one, from `catalog/taxonomy.yaml`. To add a category, edit the taxonomy first and say so in the commit message. Prefer an existing category over `other`.
 - `tags`: lowercase, kebab-case, free-form. Reuse tags already present in `catalog/entries/` before inventing new ones.
+- `template`: optional boolean. `true` means the skill must be filled in per project (it has a Project config block) before use. The website filters on this field, so do not also add a `template` tag.
+- `derived_from`: optional `{source, path, license}` on a `local` skill adapted from someone else's work. Only for skills whose licence allows modification; keep the original licence and credit in the skill's footer and in `NOTICE`. Prefer an `external` reference when you do not need to change the skill.
 - `rating`: integers 1-5.
   - `score` is the overall verdict: 5 essential, 4 very good, 3 useful, 2 niche or rough, 1 avoid.
   - `quality`, `usefulness`, `maturity` are the sub-scores.

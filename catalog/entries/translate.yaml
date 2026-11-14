@@ -1,0 +1,19 @@
+id: translate
+type: local
+path: skills/translate
+title: Translate Catalogs
+summary: "Fill untranslated strings in gettext/Lingui .po catalogs with a gap finder, placeholder checks and a translation PR flow."
+category: development
+tags: [i18n, translation, lingui, gettext, typescript]
+template: true
+derived_from:
+  source: elie222/rakazo
+  path: .agents/skills/translate
+  license: Apache-2.0
+rating:
+  score: 3
+  quality: 4
+  usefulness: 4
+  maturity: 3
+  reviewed: "2026-11-14"
+notes: "Template: fill in the Project config table. catalog-gaps.ts reads CATALOG_LOCALES_DIR, CATALOG_FILE and CATALOG_SOURCE_LOCALE. Needs Node 22.6+. Tests not run."

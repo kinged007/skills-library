@@ -43,3 +43,10 @@ CI fails if `catalog.json` is stale.
 ## Rating scale
 
 5 essential, 4 very good, 3 useful, 2 niche/rough, 1 avoid. Set `reviewed` when you rate.
+
+## Templates and adapted skills
+
+Entries with `template: true` (for example `release`, `translate`) contain a **Project config**
+table at the top. Copy the skill into your project and fill it in before use.
+Entries with `derived_from` were adapted from another author's skill under its licence;
+see `NOTICE`.

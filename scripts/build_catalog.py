@@ -20,6 +20,11 @@ for f in sorted((root / "catalog/entries").glob("*.yaml")):
     s = (e.get("rating") or {}).get("score")
     if not isinstance(s, int) or not 1 <= s <= 5:
         errs.append(f"{n}: rating.score must be an integer 1-5")
+    if "template" in e and not isinstance(e["template"], bool):
+        errs.append(f"{n}: template must be true or false")
+    df = e.get("derived_from")
+    if df is not None and not all(k in df for k in ("source", "path", "license")):
+        errs.append(f"{n}: derived_from needs source, path and license")
     if e.get("type") == "local":
         if not (root / e.get("path", "x") / "SKILL.md").exists():
             errs.append(f"{n}: SKILL.md not found at path")

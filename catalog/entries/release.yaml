@@ -1,0 +1,19 @@
+id: release
+type: local
+path: skills/release
+title: Release
+summary: "Draft the changelog from merged PRs since the last tag, bump the version, open the release PR and tag it."
+category: development
+tags: [release, changelog, git, github, semver]
+template: true
+derived_from:
+  source: elie222/rakazo
+  path: .agents/skills/release
+  license: Apache-2.0
+rating:
+  score: 3
+  quality: 4
+  usefulness: 4
+  maturity: 3
+  reviewed: "2026-11-14"
+notes: "Template: fill in the Project config table. Flow adapted from Rakazo."

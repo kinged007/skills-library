@@ -1,0 +1,18 @@
+id: ux-declutter
+type: local
+path: skills/ux-declutter
+title: UX Declutter
+summary: "Review a screen for visual noise and redesign it to be calm: fewer elements, one accent, progressive disclosure."
+category: design
+tags: [ux, ui, review, web, mobile]
+derived_from:
+  source: elie222/rakazo
+  path: .agents/skills/ux-declutter
+  license: Apache-2.0
+rating:
+  score: 4
+  quality: 4
+  usefulness: 4
+  maturity: 4
+  reviewed: "2026-11-14"
+notes: "Taken as is from the Rakazo original apart from a softened screenshot example."
