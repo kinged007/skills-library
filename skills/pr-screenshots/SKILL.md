@@ -35,6 +35,3 @@ A warning on stderr means the newest gallery is for an older commit than the PR
 head; wait for CI or say so. Leave out frames that show private data.
 
 Needs `gh`, `jq`, `curl`.
-
-Adapted from `pr-watch/pr-screenshots` in <https://github.com/elie222/rakazo>
-(Apache-2.0); the marker and bot account are now configurable.

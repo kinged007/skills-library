@@ -238,6 +238,3 @@ works: its comments are treated as findings you must answer.
 Exit codes: `0` green · `10` failures · `11` open comments · `12` pending ·
 `20` out of sync · `1` error. Needs `gh`, `jq`, and `perl`. Environment: `PR_DIGEST_BOTS` (registry path),
 `PR_DIGEST_POLL`, `PR_DIGEST_BODY_CHARS`, `PR_DIGEST_SEEN_DIR`, `PR_DIGEST_LOG_LINES`.
-
-Adapted from the `pr-watch` skill in <https://github.com/elie222/rakazo> (Apache-2.0).
-Generalized: repo-specific markers and the Qodo-only parser were replaced by `bots.json`.

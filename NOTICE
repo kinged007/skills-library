@@ -1,11 +1,10 @@
 This repository includes skills adapted from other projects.
 
-pr-watch, pr-screenshots, release, translate and ux-declutter are adapted from the
+pr-watch, pr-screenshots, release and ux-declutter are adapted from the
 skills in https://github.com/elie222/rakazo (.agents/skills), licensed under the
 Apache License, Version 2.0 (https://www.apache.org/licenses/LICENSE-2.0).
 A copy is in licenses/Apache-2.0.txt.
 
 Changes made: repo-specific paths, markers, commands and vendor-specific review-bot
 handling were generalized into configuration (bots.json, Project config tables,
-environment variables); wording was edited accordingly. Each adapted skill's footer
-repeats this credit.
+environment variables); wording was edited accordingly.
