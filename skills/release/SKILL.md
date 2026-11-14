@@ -73,3 +73,8 @@ git fetch origin main && git tag vX.Y.Z "$sha" && git push origin vX.Y.Z
 
 The tag runs whatever your release workflow does. If it refuses a tag without a
 matching changelog section, that is why the section must be merged first.
+
+---
+
+Adapted from the `release` skill in <https://github.com/elie222/rakazo> (Apache-2.0).
+Changes: project-specific names replaced by a Project config block.

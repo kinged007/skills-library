@@ -125,7 +125,7 @@
         "maturity": 3,
         "reviewed": "2026-11-14"
       },
-      "notes": "Template: fill in the Project config table.",
+      "notes": "Template: fill in the Project config table. Flow adapted from Rakazo.",
       "install": "npx skills add kinged007/skills-library --skill release",
       "url": "https://github.com/kinged007/skills-library/tree/main/skills/release"
     },

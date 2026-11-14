@@ -7,4 +7,5 @@ A copy is in licenses/Apache-2.0.txt.
 
 Changes made: repo-specific paths, markers, commands and vendor-specific review-bot
 handling were generalized into configuration (bots.json, Project config tables,
-environment variables); wording was edited accordingly.
+environment variables); wording was edited accordingly. Each adapted skill's footer
+repeats this credit.

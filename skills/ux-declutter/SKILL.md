@@ -73,3 +73,7 @@ screen is for.
 - More than one filled or colored button is visible.
 - A history or log list is expanded inline on a detail screen.
 - Copy explains what a control does when its label already says it.
+
+---
+
+Adapted from the `ux-declutter` skill in <https://github.com/elie222/rakazo> (Apache-2.0).

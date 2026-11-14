@@ -46,7 +46,7 @@ CI fails if `catalog.json` is stale.
 
 ## Templates and adapted skills
 
-Entries with `template: true` (for example `release`) contain a **Project config**
+Entries with `template: true` (for example `release`, `pr-screenshots`) contain a **Project config**
 table at the top. Copy the skill into your project and fill it in before use.
 Entries with `derived_from` were adapted from another author's skill under its licence;
 see `NOTICE`.
