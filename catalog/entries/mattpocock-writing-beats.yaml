@@ -1,0 +1,16 @@
+id: mattpocock-writing-beats
+type: external
+source: mattpocock/skills
+path: skills/in-progress/writing-beats
+ref: main
+skill: writing-beats
+title: Writing Beats (Matt Pocock)
+summary: Writing, exploit; assemble raw material into a journey of beats, grounding each term before a beat leans on it
+category: writing
+tags:
+- mattpocock
+- skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

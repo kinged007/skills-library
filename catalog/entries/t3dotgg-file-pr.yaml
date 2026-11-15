@@ -1,0 +1,16 @@
+id: t3dotgg-file-pr
+type: external
+source: t3dotgg/tstack
+path: skills/file-pr
+ref: main
+skill: file-pr
+title: File Pr (tstack)
+summary: File a concise pull request
+category: writing
+tags:
+- t3dotgg
+- tstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

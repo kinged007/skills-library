@@ -1,0 +1,16 @@
+id: backnotprop-poteto-help
+type: external
+source: backnotprop/pstack
+path: skills/poteto-help
+ref: main
+skill: poteto-help
+title: Poteto Help (pstack)
+summary: Guides users through pstack setup, /poteto-mode, and picking the skill, playbook, or principle for a task
+category: meta
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

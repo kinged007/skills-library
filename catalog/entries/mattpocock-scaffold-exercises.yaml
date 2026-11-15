@@ -1,0 +1,16 @@
+id: mattpocock-scaffold-exercises
+type: external
+source: mattpocock/skills
+path: skills/misc/scaffold-exercises
+ref: main
+skill: scaffold-exercises
+title: Scaffold Exercises (Matt Pocock)
+summary: Create exercise directory structures with sections, problems, solutions, and explainers that pass linting
+category: devops
+tags:
+- mattpocock
+- skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

@@ -1,0 +1,16 @@
+id: kunchenguid-14-day-stale-pr-close
+type: external
+source: kunchenguid/grok-ship
+path: skills/14-day-stale-pr-close
+ref: main
+skill: 14-day-stale-pr-close
+title: 14 Day Stale Pr Close (kunchenguid)
+summary: Use to close contributor PRs that have been waiting on the author for stale-days with no author push, comment, or review
+category: development
+tags:
+- kunchenguid
+- grok-ship
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

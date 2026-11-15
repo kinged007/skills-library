@@ -1,0 +1,16 @@
+id: backnotprop-swarm
+type: external
+source: backnotprop/pstack
+path: skills/swarm
+ref: main
+skill: swarm
+title: Swarm (pstack)
+summary: Fan out N parallel workers, drain them, and return one report
+category: development
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

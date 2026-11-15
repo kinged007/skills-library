@@ -1,0 +1,16 @@
+id: addyosmani-interview-me
+type: external
+source: addyosmani/agent-skills
+path: skills/interview-me
+ref: main
+skill: interview-me
+title: Interview Me (Addy Osmani)
+summary: Extracts what the user actually wants instead of what they think they should want
+category: meta
+tags:
+- addyosmani
+- agent-skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

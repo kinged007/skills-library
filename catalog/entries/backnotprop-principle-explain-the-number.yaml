@@ -1,0 +1,16 @@
+id: backnotprop-principle-explain-the-number
+type: external
+source: backnotprop/pstack
+path: skills/principle-explain-the-number
+ref: main
+skill: principle-explain-the-number
+title: Principle Explain The Number (pstack)
+summary: 'Apply before you measure, and before you trust, report, or act on a number you measured: a speedup, a regression, a throughput, a latency, or an eval result'
+category: devops
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

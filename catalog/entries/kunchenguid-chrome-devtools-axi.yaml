@@ -1,0 +1,16 @@
+id: kunchenguid-chrome-devtools-axi
+type: external
+source: kunchenguid/chrome-devtools-axi
+path: skills/chrome-devtools-axi
+ref: main
+skill: chrome-devtools-axi
+title: Chrome Devtools Axi (kunchenguid)
+summary: Control a Chrome browser session through the chrome-devtools-axi CLI - navigate, snapshot, click, fill forms, run JavaScript, inspect console and network, take screenshots,...
+category: meta
+tags:
+- kunchenguid
+- chrome-devtools-axi
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

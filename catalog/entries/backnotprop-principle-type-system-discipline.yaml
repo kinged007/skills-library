@@ -1,0 +1,16 @@
+id: backnotprop-principle-type-system-discipline
+type: external
+source: backnotprop/pstack
+path: skills/principle-type-system-discipline
+ref: main
+skill: principle-type-system-discipline
+title: Principle Type System Discipline (pstack)
+summary: Apply when designing types, reviewing a function signature, or writing code in any statically-typed language
+category: devops
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

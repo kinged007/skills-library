@@ -1,0 +1,16 @@
+id: addyosmani-code-review-and-quality
+type: external
+source: addyosmani/agent-skills
+path: skills/code-review-and-quality
+ref: main
+skill: code-review-and-quality
+title: Code Review And Quality (Addy Osmani)
+summary: Conducts multi-axis code review
+category: development
+tags:
+- addyosmani
+- agent-skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

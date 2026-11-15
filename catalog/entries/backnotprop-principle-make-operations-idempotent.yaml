@@ -1,0 +1,16 @@
+id: backnotprop-principle-make-operations-idempotent
+type: external
+source: backnotprop/pstack
+path: skills/principle-make-operations-idempotent
+ref: main
+skill: principle-make-operations-idempotent
+title: Principle Make Operations Idempotent (pstack)
+summary: Apply when designing commands, lifecycle steps, or processing loops that run amid crashes, restarts, and retries
+category: devops
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

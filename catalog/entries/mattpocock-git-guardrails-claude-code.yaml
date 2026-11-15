@@ -1,0 +1,16 @@
+id: mattpocock-git-guardrails-claude-code
+type: external
+source: mattpocock/skills
+path: skills/misc/git-guardrails-claude-code
+ref: main
+skill: git-guardrails-claude-code
+title: Git Guardrails Claude Code (Matt Pocock)
+summary: Set up Claude Code hooks to block dangerous git commands (push, reset --hard, clean, branch -D, etc.) before they execute
+category: devops
+tags:
+- mattpocock
+- skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

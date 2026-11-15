@@ -1,0 +1,16 @@
+id: kunchenguid-release-ci
+type: external
+source: kunchenguid/quota-axi
+path: skills/release-ci
+ref: main
+skill: release-ci
+title: Release Ci (kunchenguid)
+summary: Release automation, CI workflows, release-please configuration, contribution gate, and lockfile formatting in quota-axi
+category: devops
+tags:
+- kunchenguid
+- quota-axi
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

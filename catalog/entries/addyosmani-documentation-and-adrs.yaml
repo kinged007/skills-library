@@ -1,0 +1,16 @@
+id: addyosmani-documentation-and-adrs
+type: external
+source: addyosmani/agent-skills
+path: skills/documentation-and-adrs
+ref: main
+skill: documentation-and-adrs
+title: Documentation And Adrs (Addy Osmani)
+summary: Records decisions and documentation
+category: writing
+tags:
+- addyosmani
+- agent-skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

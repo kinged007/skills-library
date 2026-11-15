@@ -1,0 +1,16 @@
+id: addyosmani-planning-and-task-breakdown
+type: external
+source: addyosmani/agent-skills
+path: skills/planning-and-task-breakdown
+ref: main
+skill: planning-and-task-breakdown
+title: Planning And Task Breakdown (Addy Osmani)
+summary: Breaks work into ordered tasks
+category: development
+tags:
+- addyosmani
+- agent-skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

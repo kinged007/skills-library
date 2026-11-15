@@ -1,0 +1,16 @@
+id: t3dotgg-full-stop
+type: external
+source: t3dotgg/tstack
+path: skills/full-stop
+ref: main
+skill: full-stop
+title: Full Stop (tstack)
+summary: Trigger this if the user says 'full stop', even as a closing "Full stop." that reads like emphasis
+category: meta
+tags:
+- t3dotgg
+- tstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

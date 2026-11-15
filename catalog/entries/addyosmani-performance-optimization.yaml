@@ -1,0 +1,16 @@
+id: addyosmani-performance-optimization
+type: external
+source: addyosmani/agent-skills
+path: skills/performance-optimization
+ref: main
+skill: performance-optimization
+title: Performance Optimization (Addy Osmani)
+summary: Optimizes application performance across frontend, backend, queries, and databases
+category: development
+tags:
+- addyosmani
+- agent-skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

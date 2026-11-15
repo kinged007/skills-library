@@ -1,0 +1,16 @@
+id: backnotprop-reflect
+type: external
+source: backnotprop/pstack
+path: skills/reflect
+ref: main
+skill: reflect
+title: Reflect (pstack)
+summary: Spawn three parallel review subagents over the active transcript, surface learnings, and route each to a concrete edit on an existing skill
+category: meta
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

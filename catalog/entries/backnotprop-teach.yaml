@@ -1,0 +1,16 @@
+id: backnotprop-teach
+type: external
+source: backnotprop/pstack
+path: skills/teach
+ref: main
+skill: teach
+title: Teach (pstack)
+summary: Explain a body of work plainly so a person actually understands it
+category: development
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

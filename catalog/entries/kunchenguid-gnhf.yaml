@@ -1,0 +1,16 @@
+id: kunchenguid-gnhf
+type: external
+source: kunchenguid/gnhf
+path: skills/gnhf
+ref: main
+skill: gnhf
+title: Gnhf (kunchenguid)
+summary: Use when the user asks to run GNHF, says they are going to sleep or leaving and wants an agent-managed coding run, asks to supervise, steer, or review an active GNHF run, or...
+category: development
+tags:
+- kunchenguid
+- gnhf
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

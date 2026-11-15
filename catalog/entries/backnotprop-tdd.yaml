@@ -1,0 +1,16 @@
+id: backnotprop-tdd
+type: external
+source: backnotprop/pstack
+path: skills/tdd
+ref: main
+skill: tdd
+title: Tdd (pstack)
+summary: Use only when the user explicitly asks for TDD, a failing test, or a regression test, OR when the bug has an obvious cheap local test target
+category: development
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

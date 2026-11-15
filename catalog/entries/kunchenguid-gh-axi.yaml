@@ -1,0 +1,16 @@
+id: kunchenguid-gh-axi
+type: external
+source: kunchenguid/gh-axi
+path: skills/gh-axi
+ref: main
+skill: gh-axi
+title: Gh Axi (kunchenguid)
+summary: Operate GitHub through the gh-axi CLI - issues, pull requests, discussions, stacked PRs, workflow runs, workflows, releases, repositories, labels, gists, Projects (v2), Actions...
+category: meta
+tags:
+- kunchenguid
+- gh-axi
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

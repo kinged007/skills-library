@@ -1,0 +1,16 @@
+id: kunchenguid-lavish
+type: external
+source: kunchenguid/lavish-axi
+path: skills/lavish
+ref: main
+skill: lavish
+title: Lavish (kunchenguid)
+summary: Turn complex or visual agent responses into rich, reviewable HTML artifacts (HTML files) the user can annotate and send feedback on, using the lavish-axi CLI. Use when about to...
+category: design
+tags:
+- kunchenguid
+- lavish-axi
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

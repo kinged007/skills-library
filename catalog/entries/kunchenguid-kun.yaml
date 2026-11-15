@@ -1,0 +1,16 @@
+id: kunchenguid-kun
+type: external
+source: kunchenguid/kun
+path: skills/kun
+ref: main
+skill: kun
+title: Kun (kunchenguid)
+summary: kun
+category: meta
+tags:
+- kunchenguid
+- kun
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (none); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

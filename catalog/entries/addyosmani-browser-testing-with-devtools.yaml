@@ -1,0 +1,16 @@
+id: addyosmani-browser-testing-with-devtools
+type: external
+source: addyosmani/agent-skills
+path: skills/browser-testing-with-devtools
+ref: main
+skill: browser-testing-with-devtools
+title: Browser Testing With Devtools (Addy Osmani)
+summary: Tests in real browsers via Chrome DevTools MCP. Use when building or debugging anything that runs in a browser
+category: meta
+tags:
+- addyosmani
+- agent-skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

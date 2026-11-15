@@ -1,0 +1,16 @@
+id: mattpocock-wizard
+type: external
+source: mattpocock/skills
+path: skills/engineering/wizard
+ref: main
+skill: wizard
+title: Wizard (Matt Pocock)
+summary: Generate an interactive bash wizard that walks a human through steps only they can perform
+category: meta
+tags:
+- mattpocock
+- skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

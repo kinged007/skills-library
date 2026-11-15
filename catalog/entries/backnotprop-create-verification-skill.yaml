@@ -1,0 +1,16 @@
+id: backnotprop-create-verification-skill
+type: external
+source: backnotprop/pstack
+path: skills/create-verification-skill
+ref: main
+skill: create-verification-skill
+title: Create Verification Skill (pstack)
+summary: Generate a project-local verification skill that drives your app the way a user does — any language, framework, or platform
+category: meta
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

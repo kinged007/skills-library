@@ -1,0 +1,16 @@
+id: backnotprop-principle-build-the-lever
+type: external
+source: backnotprop/pstack
+path: skills/principle-build-the-lever
+ref: main
+skill: principle-build-the-lever
+title: Principle Build The Lever (pstack)
+summary: 'Apply to any non-trivial work, not just bulk work: edits, migrations, analyses, checks'
+category: devops
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

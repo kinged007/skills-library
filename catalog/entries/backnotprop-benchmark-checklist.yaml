@@ -1,0 +1,16 @@
+id: backnotprop-benchmark-checklist
+type: external
+source: backnotprop/pstack
+path: skills/benchmark-checklist
+ref: main
+skill: benchmark-checklist
+title: Benchmark Checklist (pstack)
+summary: Vet a perf measurement (limiter, tuning, limits, errors, repeatability, relevance, and whether the work happened) before you report or act on it
+category: development
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

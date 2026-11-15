@@ -1,0 +1,16 @@
+id: backnotprop-make-bot-ui
+type: external
+source: backnotprop/pstack
+path: skills/make-bot-ui
+ref: main
+skill: make-bot-ui
+title: Make Bot Ui (pstack)
+summary: Use when building a custom UI (page, dashboard, buttons) that should wake a Grok Bot over a webhook, when the user must provide a webhook sender key, or when exposing that UI...
+category: design
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

@@ -1,0 +1,16 @@
+id: kunchenguid-cache-architecture
+type: external
+source: kunchenguid/quota-axi
+path: skills/cache-architecture
+ref: main
+skill: cache-architecture
+title: Cache Architecture (kunchenguid)
+summary: Cache storage locations, permissions, context scoping, isolation rules, and lifecycle management in quota-axi
+category: meta
+tags:
+- kunchenguid
+- quota-axi
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

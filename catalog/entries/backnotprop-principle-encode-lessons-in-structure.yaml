@@ -1,0 +1,16 @@
+id: backnotprop-principle-encode-lessons-in-structure
+type: external
+source: backnotprop/pstack
+path: skills/principle-encode-lessons-in-structure
+ref: main
+skill: principle-encode-lessons-in-structure
+title: Principle Encode Lessons In Structure (pstack)
+summary: Apply when you catch yourself writing the same instruction a second time, or notice a recurring correction
+category: devops
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

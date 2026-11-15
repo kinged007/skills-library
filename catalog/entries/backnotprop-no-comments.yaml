@@ -1,0 +1,16 @@
+id: backnotprop-no-comments
+type: external
+source: backnotprop/pstack
+path: skills/no-comments
+ref: main
+skill: no-comments
+title: No Comments (pstack)
+summary: Spawn Comment Sicko, fix accepted findings, and offer encodings for claimed constraints
+category: writing
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

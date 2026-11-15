@@ -1,0 +1,16 @@
+id: kunchenguid-provider-adapters
+type: external
+source: kunchenguid/quota-axi
+path: skills/provider-adapters
+ref: main
+skill: provider-adapters
+title: Provider Adapters (kunchenguid)
+summary: Provider-specific auth sources, quota windows, endpoint shapes, error recovery, and quirks for the quota-axi providers with dedicated sections below; Muse is covered in the...
+category: devops
+tags:
+- kunchenguid
+- quota-axi
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

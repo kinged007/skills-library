@@ -1,0 +1,16 @@
+id: kunchenguid-stow
+type: external
+source: kunchenguid/firstmate
+path: skills/stow
+ref: main
+skill: stow
+title: Stow (kunchenguid)
+summary: Sweep the current conversation for durable knowledge - user preferences, project facts, operational gotchas, standing decisions, and unfinished next steps - and file each...
+category: devops
+tags:
+- kunchenguid
+- firstmate
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

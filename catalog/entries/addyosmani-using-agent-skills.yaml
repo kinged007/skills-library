@@ -1,0 +1,16 @@
+id: addyosmani-using-agent-skills
+type: external
+source: addyosmani/agent-skills
+path: skills/using-agent-skills
+ref: main
+skill: using-agent-skills
+title: Using Agent Skills (Addy Osmani)
+summary: Discovers and invokes agent skills
+category: meta
+tags:
+- addyosmani
+- agent-skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

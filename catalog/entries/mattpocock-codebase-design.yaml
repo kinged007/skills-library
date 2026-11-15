@@ -1,0 +1,16 @@
+id: mattpocock-codebase-design
+type: external
+source: mattpocock/skills
+path: skills/engineering/codebase-design
+ref: main
+skill: codebase-design
+title: Codebase Design (Matt Pocock)
+summary: Shared vocabulary for designing deep modules
+category: design
+tags:
+- mattpocock
+- skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

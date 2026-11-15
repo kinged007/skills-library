@@ -1,0 +1,16 @@
+id: backnotprop-maintain-verification-skill
+type: external
+source: backnotprop/pstack
+path: skills/maintain-verification-skill
+ref: main
+skill: maintain-verification-skill
+title: Maintain Verification Skill (pstack)
+summary: 'Periodic pass that keeps a project''s verification skill and feature map honest: parallel source readers per feature, one live session driving every feature, at most one PR of...'
+category: meta
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

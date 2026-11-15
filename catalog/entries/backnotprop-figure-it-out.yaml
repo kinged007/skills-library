@@ -1,0 +1,16 @@
+id: backnotprop-figure-it-out
+type: external
+source: backnotprop/pstack
+path: skills/figure-it-out
+ref: main
+skill: figure-it-out
+title: Figure It Out (pstack)
+summary: 'Design an auditable playbook when no narrower one fits: a large migration, an ambitious multi-part change, or work a human reviews after stepping away'
+category: development
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

@@ -1,0 +1,16 @@
+id: mattpocock-triage
+type: external
+source: mattpocock/skills
+path: skills/engineering/triage
+ref: main
+skill: triage
+title: Triage (Matt Pocock)
+summary: Move issues and external PRs through a state machine of triage roles, categorise, verify, grill if needed, and write agent-ready briefs
+category: development
+tags:
+- mattpocock
+- skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

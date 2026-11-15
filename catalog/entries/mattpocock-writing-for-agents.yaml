@@ -1,0 +1,16 @@
+id: mattpocock-writing-for-agents
+type: external
+source: mattpocock/skills
+path: skills/productivity/writing-for-agents
+ref: main
+skill: writing-for-agents
+title: Writing For Agents (Matt Pocock)
+summary: Writing documents for agents
+category: meta
+tags:
+- mattpocock
+- skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

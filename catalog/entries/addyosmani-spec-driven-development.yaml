@@ -1,0 +1,16 @@
+id: addyosmani-spec-driven-development
+type: external
+source: addyosmani/agent-skills
+path: skills/spec-driven-development
+ref: main
+skill: spec-driven-development
+title: Spec Driven Development (Addy Osmani)
+summary: Creates specs before coding
+category: development
+tags:
+- addyosmani
+- agent-skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

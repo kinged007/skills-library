@@ -1,0 +1,16 @@
+id: mattpocock-grilling
+type: external
+source: mattpocock/skills
+path: skills/productivity/grilling
+ref: main
+skill: grilling
+title: Grilling (Matt Pocock)
+summary: Grill the user relentlessly about a plan, decision, or idea
+category: meta
+tags:
+- mattpocock
+- skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

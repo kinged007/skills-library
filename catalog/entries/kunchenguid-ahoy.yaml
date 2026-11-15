@@ -1,0 +1,16 @@
+id: kunchenguid-ahoy
+type: external
+source: kunchenguid/grok-ship
+path: skills/ahoy
+ref: main
+skill: ahoy
+title: Ahoy (kunchenguid)
+summary: Use when the captain explicitly says ahoy or /ahoy, or asks for a session recap of what happened since they last spoke, plus any visibly unanswered decisions
+category: meta
+tags:
+- kunchenguid
+- grok-ship
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

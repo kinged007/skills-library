@@ -1,0 +1,16 @@
+id: mattpocock-migrate-to-shoehorn
+type: external
+source: mattpocock/skills
+path: skills/misc/migrate-to-shoehorn
+ref: main
+skill: migrate-to-shoehorn
+title: Migrate To Shoehorn (Matt Pocock)
+summary: Migrate test files from `as` type assertions to @total-typescript/shoehorn
+category: development
+tags:
+- mattpocock
+- skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

@@ -1,0 +1,16 @@
+id: backnotprop-principle-fix-root-causes
+type: external
+source: backnotprop/pstack
+path: skills/principle-fix-root-causes
+ref: main
+skill: principle-fix-root-causes
+title: Principle Fix Root Causes (pstack)
+summary: Apply when debugging
+category: devops
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

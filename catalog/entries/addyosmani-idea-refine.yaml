@@ -1,0 +1,16 @@
+id: addyosmani-idea-refine
+type: external
+source: addyosmani/agent-skills
+path: skills/idea-refine
+ref: main
+skill: idea-refine
+title: Idea Refine (Addy Osmani)
+summary: Refines raw ideas into sharp, actionable concepts through structured divergent and convergent thinking
+category: meta
+tags:
+- addyosmani
+- agent-skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

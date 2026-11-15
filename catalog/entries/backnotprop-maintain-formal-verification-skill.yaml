@@ -1,0 +1,16 @@
+id: backnotprop-maintain-formal-verification-skill
+type: external
+source: backnotprop/pstack
+path: skills/maintain-formal-verification-skill
+ref: main
+skill: maintain-formal-verification-skill
+title: Maintain Formal Verification Skill (pstack)
+summary: 'Bring a project''s formal verification back in line with the code after the code changes: find the commits that touched verified code, update the model, harness, or properties...'
+category: meta
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

@@ -1,0 +1,16 @@
+id: backnotprop-principle-laziness-protocol
+type: external
+source: backnotprop/pstack
+path: skills/principle-laziness-protocol
+ref: main
+skill: principle-laziness-protocol
+title: Principle Laziness Protocol (pstack)
+summary: Apply when refactoring, evaluating diff size, or tempted to add abstractions, layers, or signal threading
+category: devops
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

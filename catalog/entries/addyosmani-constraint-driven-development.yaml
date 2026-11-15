@@ -1,0 +1,16 @@
+id: addyosmani-constraint-driven-development
+type: external
+source: addyosmani/agent-skills
+path: skills/constraint-driven-development
+ref: main
+skill: constraint-driven-development
+title: Constraint Driven Development (Addy Osmani)
+summary: Establishes a project's quality bar as a written contract and stops agents quietly lowering it
+category: development
+tags:
+- addyosmani
+- agent-skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

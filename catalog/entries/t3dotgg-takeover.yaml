@@ -1,0 +1,16 @@
+id: t3dotgg-takeover
+type: external
+source: t3dotgg/tstack
+path: skills/takeover
+ref: main
+skill: takeover
+title: Takeover (tstack)
+summary: Take over existing work
+category: meta
+tags:
+- t3dotgg
+- tstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

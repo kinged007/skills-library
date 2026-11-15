@@ -1,0 +1,16 @@
+id: mattpocock-diagnosing-bugs
+type: external
+source: mattpocock/skills
+path: skills/engineering/diagnosing-bugs
+ref: main
+skill: diagnosing-bugs
+title: Diagnosing Bugs (Matt Pocock)
+summary: Diagnosis loop for hard bugs and performance regressions
+category: development
+tags:
+- mattpocock
+- skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

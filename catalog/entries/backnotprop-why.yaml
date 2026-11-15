@@ -1,0 +1,16 @@
+id: backnotprop-why
+type: external
+source: backnotprop/pstack
+path: skills/why
+ref: main
+skill: why
+title: Why (pstack)
+summary: Use for 'why does X work this way', 'why we picked Y', design rationale, regressions, postmortems, or data-backed thresholds
+category: development
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

@@ -1,0 +1,16 @@
+id: backnotprop-statechart
+type: external
+source: backnotprop/pstack
+path: skills/statechart
+ref: main
+skill: statechart
+title: Statechart (pstack)
+summary: Check a TLA+ model of a system that moves between states, such as a product flow, a protocol, or a service, and draw it as a Mermaid statechart
+category: development
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

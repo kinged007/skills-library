@@ -1,0 +1,16 @@
+id: backnotprop-principle-prove-it-works
+type: external
+source: backnotprop/pstack
+path: skills/principle-prove-it-works
+ref: main
+skill: principle-prove-it-works
+title: Principle Prove It Works (pstack)
+summary: Apply after completing a task, before declaring done
+category: devops
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

@@ -13,6 +13,556 @@
   },
   "skills": [
     {
+      "id": "addyosmani-api-and-interface-design",
+      "type": "external",
+      "source": "addyosmani/agent-skills",
+      "path": "skills/api-and-interface-design",
+      "ref": "main",
+      "skill": "api-and-interface-design",
+      "title": "Api And Interface Design (Addy Osmani)",
+      "summary": "Guides stable API and interface design",
+      "category": "design",
+      "tags": [
+        "addyosmani",
+        "agent-skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add addyosmani/agent-skills --skill api-and-interface-design",
+      "url": "https://github.com/addyosmani/agent-skills/tree/main/skills/api-and-interface-design"
+    },
+    {
+      "id": "addyosmani-browser-testing-with-devtools",
+      "type": "external",
+      "source": "addyosmani/agent-skills",
+      "path": "skills/browser-testing-with-devtools",
+      "ref": "main",
+      "skill": "browser-testing-with-devtools",
+      "title": "Browser Testing With Devtools (Addy Osmani)",
+      "summary": "Tests in real browsers via Chrome DevTools MCP. Use when building or debugging anything that runs in a browser",
+      "category": "meta",
+      "tags": [
+        "addyosmani",
+        "agent-skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add addyosmani/agent-skills --skill browser-testing-with-devtools",
+      "url": "https://github.com/addyosmani/agent-skills/tree/main/skills/browser-testing-with-devtools"
+    },
+    {
+      "id": "addyosmani-ci-cd-and-automation",
+      "type": "external",
+      "source": "addyosmani/agent-skills",
+      "path": "skills/ci-cd-and-automation",
+      "ref": "main",
+      "skill": "ci-cd-and-automation",
+      "title": "Ci Cd And Automation (Addy Osmani)",
+      "summary": "Automates CI/CD pipeline setup",
+      "category": "devops",
+      "tags": [
+        "addyosmani",
+        "agent-skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add addyosmani/agent-skills --skill ci-cd-and-automation",
+      "url": "https://github.com/addyosmani/agent-skills/tree/main/skills/ci-cd-and-automation"
+    },
+    {
+      "id": "addyosmani-code-review-and-quality",
+      "type": "external",
+      "source": "addyosmani/agent-skills",
+      "path": "skills/code-review-and-quality",
+      "ref": "main",
+      "skill": "code-review-and-quality",
+      "title": "Code Review And Quality (Addy Osmani)",
+      "summary": "Conducts multi-axis code review",
+      "category": "development",
+      "tags": [
+        "addyosmani",
+        "agent-skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add addyosmani/agent-skills --skill code-review-and-quality",
+      "url": "https://github.com/addyosmani/agent-skills/tree/main/skills/code-review-and-quality"
+    },
+    {
+      "id": "addyosmani-code-simplification",
+      "type": "external",
+      "source": "addyosmani/agent-skills",
+      "path": "skills/code-simplification",
+      "ref": "main",
+      "skill": "code-simplification",
+      "title": "Code Simplification (Addy Osmani)",
+      "summary": "Simplifies code for clarity",
+      "category": "development",
+      "tags": [
+        "addyosmani",
+        "agent-skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add addyosmani/agent-skills --skill code-simplification",
+      "url": "https://github.com/addyosmani/agent-skills/tree/main/skills/code-simplification"
+    },
+    {
+      "id": "addyosmani-constraint-driven-development",
+      "type": "external",
+      "source": "addyosmani/agent-skills",
+      "path": "skills/constraint-driven-development",
+      "ref": "main",
+      "skill": "constraint-driven-development",
+      "title": "Constraint Driven Development (Addy Osmani)",
+      "summary": "Establishes a project's quality bar as a written contract and stops agents quietly lowering it",
+      "category": "development",
+      "tags": [
+        "addyosmani",
+        "agent-skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add addyosmani/agent-skills --skill constraint-driven-development",
+      "url": "https://github.com/addyosmani/agent-skills/tree/main/skills/constraint-driven-development"
+    },
+    {
+      "id": "addyosmani-context-engineering",
+      "type": "external",
+      "source": "addyosmani/agent-skills",
+      "path": "skills/context-engineering",
+      "ref": "main",
+      "skill": "context-engineering",
+      "title": "Context Engineering (Addy Osmani)",
+      "summary": "Optimizes agent context setup",
+      "category": "development",
+      "tags": [
+        "addyosmani",
+        "agent-skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add addyosmani/agent-skills --skill context-engineering",
+      "url": "https://github.com/addyosmani/agent-skills/tree/main/skills/context-engineering"
+    },
+    {
+      "id": "addyosmani-debugging-and-error-recovery",
+      "type": "external",
+      "source": "addyosmani/agent-skills",
+      "path": "skills/debugging-and-error-recovery",
+      "ref": "main",
+      "skill": "debugging-and-error-recovery",
+      "title": "Debugging And Error Recovery (Addy Osmani)",
+      "summary": "Guides systematic root-cause debugging",
+      "category": "development",
+      "tags": [
+        "addyosmani",
+        "agent-skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add addyosmani/agent-skills --skill debugging-and-error-recovery",
+      "url": "https://github.com/addyosmani/agent-skills/tree/main/skills/debugging-and-error-recovery"
+    },
+    {
+      "id": "addyosmani-deprecation-and-migration",
+      "type": "external",
+      "source": "addyosmani/agent-skills",
+      "path": "skills/deprecation-and-migration",
+      "ref": "main",
+      "skill": "deprecation-and-migration",
+      "title": "Deprecation And Migration (Addy Osmani)",
+      "summary": "Manages deprecation and migration",
+      "category": "development",
+      "tags": [
+        "addyosmani",
+        "agent-skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add addyosmani/agent-skills --skill deprecation-and-migration",
+      "url": "https://github.com/addyosmani/agent-skills/tree/main/skills/deprecation-and-migration"
+    },
+    {
+      "id": "addyosmani-documentation-and-adrs",
+      "type": "external",
+      "source": "addyosmani/agent-skills",
+      "path": "skills/documentation-and-adrs",
+      "ref": "main",
+      "skill": "documentation-and-adrs",
+      "title": "Documentation And Adrs (Addy Osmani)",
+      "summary": "Records decisions and documentation",
+      "category": "writing",
+      "tags": [
+        "addyosmani",
+        "agent-skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add addyosmani/agent-skills --skill documentation-and-adrs",
+      "url": "https://github.com/addyosmani/agent-skills/tree/main/skills/documentation-and-adrs"
+    },
+    {
+      "id": "addyosmani-doubt-driven-development",
+      "type": "external",
+      "source": "addyosmani/agent-skills",
+      "path": "skills/doubt-driven-development",
+      "ref": "main",
+      "skill": "doubt-driven-development",
+      "title": "Doubt Driven Development (Addy Osmani)",
+      "summary": "Subjects every non-trivial decision to a fresh-context adversarial review before it stands",
+      "category": "meta",
+      "tags": [
+        "addyosmani",
+        "agent-skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add addyosmani/agent-skills --skill doubt-driven-development",
+      "url": "https://github.com/addyosmani/agent-skills/tree/main/skills/doubt-driven-development"
+    },
+    {
+      "id": "addyosmani-frontend-ui-engineering",
+      "type": "external",
+      "source": "addyosmani/agent-skills",
+      "path": "skills/frontend-ui-engineering",
+      "ref": "main",
+      "skill": "frontend-ui-engineering",
+      "title": "Frontend Ui Engineering (Addy Osmani)",
+      "summary": "Builds production-quality, accessible, responsive user-facing UIs",
+      "category": "design",
+      "tags": [
+        "addyosmani",
+        "agent-skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add addyosmani/agent-skills --skill frontend-ui-engineering",
+      "url": "https://github.com/addyosmani/agent-skills/tree/main/skills/frontend-ui-engineering"
+    },
+    {
+      "id": "addyosmani-git-workflow-and-versioning",
+      "type": "external",
+      "source": "addyosmani/agent-skills",
+      "path": "skills/git-workflow-and-versioning",
+      "ref": "main",
+      "skill": "git-workflow-and-versioning",
+      "title": "Git Workflow And Versioning (Addy Osmani)",
+      "summary": "Structures git workflow practices",
+      "category": "devops",
+      "tags": [
+        "addyosmani",
+        "agent-skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add addyosmani/agent-skills --skill git-workflow-and-versioning",
+      "url": "https://github.com/addyosmani/agent-skills/tree/main/skills/git-workflow-and-versioning"
+    },
+    {
+      "id": "addyosmani-idea-refine",
+      "type": "external",
+      "source": "addyosmani/agent-skills",
+      "path": "skills/idea-refine",
+      "ref": "main",
+      "skill": "idea-refine",
+      "title": "Idea Refine (Addy Osmani)",
+      "summary": "Refines raw ideas into sharp, actionable concepts through structured divergent and convergent thinking",
+      "category": "meta",
+      "tags": [
+        "addyosmani",
+        "agent-skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add addyosmani/agent-skills --skill idea-refine",
+      "url": "https://github.com/addyosmani/agent-skills/tree/main/skills/idea-refine"
+    },
+    {
+      "id": "addyosmani-incremental-implementation",
+      "type": "external",
+      "source": "addyosmani/agent-skills",
+      "path": "skills/incremental-implementation",
+      "ref": "main",
+      "skill": "incremental-implementation",
+      "title": "Incremental Implementation (Addy Osmani)",
+      "summary": "Delivers changes incrementally in thin, verifiable slices",
+      "category": "development",
+      "tags": [
+        "addyosmani",
+        "agent-skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add addyosmani/agent-skills --skill incremental-implementation",
+      "url": "https://github.com/addyosmani/agent-skills/tree/main/skills/incremental-implementation"
+    },
+    {
+      "id": "addyosmani-interview-me",
+      "type": "external",
+      "source": "addyosmani/agent-skills",
+      "path": "skills/interview-me",
+      "ref": "main",
+      "skill": "interview-me",
+      "title": "Interview Me (Addy Osmani)",
+      "summary": "Extracts what the user actually wants instead of what they think they should want",
+      "category": "meta",
+      "tags": [
+        "addyosmani",
+        "agent-skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add addyosmani/agent-skills --skill interview-me",
+      "url": "https://github.com/addyosmani/agent-skills/tree/main/skills/interview-me"
+    },
+    {
+      "id": "addyosmani-observability-and-instrumentation",
+      "type": "external",
+      "source": "addyosmani/agent-skills",
+      "path": "skills/observability-and-instrumentation",
+      "ref": "main",
+      "skill": "observability-and-instrumentation",
+      "title": "Observability And Instrumentation (Addy Osmani)",
+      "summary": "Instruments code so production behavior is visible and diagnosable",
+      "category": "devops",
+      "tags": [
+        "addyosmani",
+        "agent-skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add addyosmani/agent-skills --skill observability-and-instrumentation",
+      "url": "https://github.com/addyosmani/agent-skills/tree/main/skills/observability-and-instrumentation"
+    },
+    {
+      "id": "addyosmani-performance-optimization",
+      "type": "external",
+      "source": "addyosmani/agent-skills",
+      "path": "skills/performance-optimization",
+      "ref": "main",
+      "skill": "performance-optimization",
+      "title": "Performance Optimization (Addy Osmani)",
+      "summary": "Optimizes application performance across frontend, backend, queries, and databases",
+      "category": "development",
+      "tags": [
+        "addyosmani",
+        "agent-skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add addyosmani/agent-skills --skill performance-optimization",
+      "url": "https://github.com/addyosmani/agent-skills/tree/main/skills/performance-optimization"
+    },
+    {
+      "id": "addyosmani-planning-and-task-breakdown",
+      "type": "external",
+      "source": "addyosmani/agent-skills",
+      "path": "skills/planning-and-task-breakdown",
+      "ref": "main",
+      "skill": "planning-and-task-breakdown",
+      "title": "Planning And Task Breakdown (Addy Osmani)",
+      "summary": "Breaks work into ordered tasks",
+      "category": "development",
+      "tags": [
+        "addyosmani",
+        "agent-skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add addyosmani/agent-skills --skill planning-and-task-breakdown",
+      "url": "https://github.com/addyosmani/agent-skills/tree/main/skills/planning-and-task-breakdown"
+    },
+    {
+      "id": "addyosmani-security-and-hardening",
+      "type": "external",
+      "source": "addyosmani/agent-skills",
+      "path": "skills/security-and-hardening",
+      "ref": "main",
+      "skill": "security-and-hardening",
+      "title": "Security And Hardening (Addy Osmani)",
+      "summary": "Hardens code against vulnerabilities",
+      "category": "development",
+      "tags": [
+        "addyosmani",
+        "agent-skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add addyosmani/agent-skills --skill security-and-hardening",
+      "url": "https://github.com/addyosmani/agent-skills/tree/main/skills/security-and-hardening"
+    },
+    {
+      "id": "addyosmani-shipping-and-launch",
+      "type": "external",
+      "source": "addyosmani/agent-skills",
+      "path": "skills/shipping-and-launch",
+      "ref": "main",
+      "skill": "shipping-and-launch",
+      "title": "Shipping And Launch (Addy Osmani)",
+      "summary": "Prepares production launches",
+      "category": "devops",
+      "tags": [
+        "addyosmani",
+        "agent-skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add addyosmani/agent-skills --skill shipping-and-launch",
+      "url": "https://github.com/addyosmani/agent-skills/tree/main/skills/shipping-and-launch"
+    },
+    {
+      "id": "addyosmani-source-driven-development",
+      "type": "external",
+      "source": "addyosmani/agent-skills",
+      "path": "skills/source-driven-development",
+      "ref": "main",
+      "skill": "source-driven-development",
+      "title": "Source Driven Development (Addy Osmani)",
+      "summary": "Grounds every implementation decision in official documentation",
+      "category": "development",
+      "tags": [
+        "addyosmani",
+        "agent-skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add addyosmani/agent-skills --skill source-driven-development",
+      "url": "https://github.com/addyosmani/agent-skills/tree/main/skills/source-driven-development"
+    },
+    {
+      "id": "addyosmani-spec-driven-development",
+      "type": "external",
+      "source": "addyosmani/agent-skills",
+      "path": "skills/spec-driven-development",
+      "ref": "main",
+      "skill": "spec-driven-development",
+      "title": "Spec Driven Development (Addy Osmani)",
+      "summary": "Creates specs before coding",
+      "category": "development",
+      "tags": [
+        "addyosmani",
+        "agent-skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add addyosmani/agent-skills --skill spec-driven-development",
+      "url": "https://github.com/addyosmani/agent-skills/tree/main/skills/spec-driven-development"
+    },
+    {
+      "id": "addyosmani-test-driven-development",
+      "type": "external",
+      "source": "addyosmani/agent-skills",
+      "path": "skills/test-driven-development",
+      "ref": "main",
+      "skill": "test-driven-development",
+      "title": "Test Driven Development (Addy Osmani)",
+      "summary": "Drives development with tests using the red-green-refactor loop",
+      "category": "development",
+      "tags": [
+        "addyosmani",
+        "agent-skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add addyosmani/agent-skills --skill test-driven-development",
+      "url": "https://github.com/addyosmani/agent-skills/tree/main/skills/test-driven-development"
+    },
+    {
+      "id": "addyosmani-using-agent-skills",
+      "type": "external",
+      "source": "addyosmani/agent-skills",
+      "path": "skills/using-agent-skills",
+      "ref": "main",
+      "skill": "using-agent-skills",
+      "title": "Using Agent Skills (Addy Osmani)",
+      "summary": "Discovers and invokes agent skills",
+      "category": "meta",
+      "tags": [
+        "addyosmani",
+        "agent-skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add addyosmani/agent-skills --skill using-agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills/tree/main/skills/using-agent-skills"
+    },
+    {
       "id": "anthropic-pdf",
       "type": "external",
       "source": "anthropics/skills",
@@ -37,6 +587,2514 @@
       "notes": "Reference to upstream; always installs the latest upstream version.",
       "install": "npx skills add anthropics/skills --skill pdf",
       "url": "https://github.com/anthropics/skills/tree/main/skills/pdf"
+    },
+    {
+      "id": "backnotprop-architect",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/architect",
+      "ref": "main",
+      "skill": "architect",
+      "title": "Architect (pstack)",
+      "summary": "Sketch types, signatures, and module structure before code, then stay in the loop while implementation fills in",
+      "category": "meta",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill architect",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/architect"
+    },
+    {
+      "id": "backnotprop-arena",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/arena",
+      "ref": "main",
+      "skill": "arena",
+      "title": "Arena (pstack)",
+      "summary": "Spawn N parallel candidates at the same task, pick a base, graft the strongest parts of the losers into it",
+      "category": "meta",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill arena",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/arena"
+    },
+    {
+      "id": "backnotprop-automate-me",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/automate-me",
+      "ref": "main",
+      "skill": "automate-me",
+      "title": "Automate Me (pstack)",
+      "summary": "Use for \"automate me\", \"create/update/refresh my -mode skill\", \"turn/capture my preferences or working style into a skill\", or wanting agents to follow how the user works",
+      "category": "meta",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill automate-me",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/automate-me"
+    },
+    {
+      "id": "backnotprop-benchmark-checklist",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/benchmark-checklist",
+      "ref": "main",
+      "skill": "benchmark-checklist",
+      "title": "Benchmark Checklist (pstack)",
+      "summary": "Vet a perf measurement (limiter, tuning, limits, errors, repeatability, relevance, and whether the work happened) before you report or act on it",
+      "category": "development",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill benchmark-checklist",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/benchmark-checklist"
+    },
+    {
+      "id": "backnotprop-blast-radius",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/blast-radius",
+      "ref": "main",
+      "skill": "blast-radius",
+      "title": "Blast Radius (pstack)",
+      "summary": "Find what a change could break somewhere else before it ships, beyond the diff, and prove the one fact it's safe because of by running real code instead of writing it up",
+      "category": "development",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill blast-radius",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/blast-radius"
+    },
+    {
+      "id": "backnotprop-bro",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/bro",
+      "ref": "main",
+      "skill": "bro",
+      "title": "Bro (pstack)",
+      "summary": "Restate the last message in plain human language, with no jargon",
+      "category": "meta",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill bro",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/bro"
+    },
+    {
+      "id": "backnotprop-correct",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/correct",
+      "ref": "main",
+      "skill": "correct",
+      "title": "Correct (pstack)",
+      "summary": "Find the mistakes agents keep repeating in this repo and make each one impossible",
+      "category": "development",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill correct",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/correct"
+    },
+    {
+      "id": "backnotprop-create-formal-verification-skill",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/create-formal-verification-skill",
+      "ref": "main",
+      "skill": "create-formal-verification-skill",
+      "title": "Create Formal Verification Skill (pstack)",
+      "summary": "Generate a project-local skill that formally verifies the code where a bug costs the most and tests reach the least, in any language, with whichever verification tool fits",
+      "category": "meta",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill create-formal-verification-skill",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/create-formal-verification-skill"
+    },
+    {
+      "id": "backnotprop-create-verification-skill",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/create-verification-skill",
+      "ref": "main",
+      "skill": "create-verification-skill",
+      "title": "Create Verification Skill (pstack)",
+      "summary": "Generate a project-local verification skill that drives your app the way a user does \u2014 any language, framework, or platform",
+      "category": "meta",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill create-verification-skill",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/create-verification-skill"
+    },
+    {
+      "id": "backnotprop-figure-it-out",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/figure-it-out",
+      "ref": "main",
+      "skill": "figure-it-out",
+      "title": "Figure It Out (pstack)",
+      "summary": "Design an auditable playbook when no narrower one fits: a large migration, an ambitious multi-part change, or work a human reviews after stepping away",
+      "category": "development",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill figure-it-out",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/figure-it-out"
+    },
+    {
+      "id": "backnotprop-how",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/how",
+      "ref": "main",
+      "skill": "how",
+      "title": "How (pstack)",
+      "summary": "Use for \"how does X work\", code walkthroughs before changing something, and placement / ownership / layering questions (\"where should this live\", \"which package owns this\", \"is...",
+      "category": "development",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill how",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/how"
+    },
+    {
+      "id": "backnotprop-in-your-own-words",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/in-your-own-words",
+      "ref": "main",
+      "skill": "in-your-own-words",
+      "title": "In Your Own Words (pstack)",
+      "summary": "Restate in your own words what you think the user's goals are and what problem they're trying to solve",
+      "category": "development",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill in-your-own-words",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/in-your-own-words"
+    },
+    {
+      "id": "backnotprop-interrogate",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/interrogate",
+      "ref": "main",
+      "skill": "interrogate",
+      "title": "Interrogate (pstack)",
+      "summary": "Use for \"interrogate\", \"adversarial review\", \"multi-model review\", \"challenge this\", \"stress test this code\", \"find blind spots\", or \"tear this apart\"",
+      "category": "meta",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill interrogate",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/interrogate"
+    },
+    {
+      "id": "backnotprop-ketchup-video",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/ketchup-video",
+      "ref": "main",
+      "skill": "ketchup-video",
+      "title": "Ketchup Video (pstack)",
+      "summary": "Catch the user up like /ketchup, with a short subtitled video of slides for what happened and the waiting calls as text under it",
+      "category": "development",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill ketchup-video",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/ketchup-video"
+    },
+    {
+      "id": "backnotprop-ketchup",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/ketchup",
+      "ref": "main",
+      "skill": "ketchup",
+      "title": "Ketchup (pstack)",
+      "summary": "Catch the user up on what changed in this chat since their last message, in plain words and small visuals",
+      "category": "development",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill ketchup",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/ketchup"
+    },
+    {
+      "id": "backnotprop-maintain-formal-verification-skill",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/maintain-formal-verification-skill",
+      "ref": "main",
+      "skill": "maintain-formal-verification-skill",
+      "title": "Maintain Formal Verification Skill (pstack)",
+      "summary": "Bring a project's formal verification back in line with the code after the code changes: find the commits that touched verified code, update the model, harness, or properties...",
+      "category": "meta",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill maintain-formal-verification-skill",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/maintain-formal-verification-skill"
+    },
+    {
+      "id": "backnotprop-maintain-verification-skill",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/maintain-verification-skill",
+      "ref": "main",
+      "skill": "maintain-verification-skill",
+      "title": "Maintain Verification Skill (pstack)",
+      "summary": "Periodic pass that keeps a project's verification skill and feature map honest: parallel source readers per feature, one live session driving every feature, at most one PR of...",
+      "category": "meta",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill maintain-verification-skill",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/maintain-verification-skill"
+    },
+    {
+      "id": "backnotprop-make-bot-ui",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/make-bot-ui",
+      "ref": "main",
+      "skill": "make-bot-ui",
+      "title": "Make Bot Ui (pstack)",
+      "summary": "Use when building a custom UI (page, dashboard, buttons) that should wake a Grok Bot over a webhook, when the user must provide a webhook sender key, or when exposing that UI...",
+      "category": "design",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill make-bot-ui",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/make-bot-ui"
+    },
+    {
+      "id": "backnotprop-no-comments",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/no-comments",
+      "ref": "main",
+      "skill": "no-comments",
+      "title": "No Comments (pstack)",
+      "summary": "Spawn Comment Sicko, fix accepted findings, and offer encodings for claimed constraints",
+      "category": "writing",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill no-comments",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/no-comments"
+    },
+    {
+      "id": "backnotprop-poteto-help",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/poteto-help",
+      "ref": "main",
+      "skill": "poteto-help",
+      "title": "Poteto Help (pstack)",
+      "summary": "Guides users through pstack setup, /poteto-mode, and picking the skill, playbook, or principle for a task",
+      "category": "meta",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill poteto-help",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/poteto-help"
+    },
+    {
+      "id": "backnotprop-poteto-mode",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/poteto-mode",
+      "ref": "main",
+      "skill": "poteto-mode",
+      "title": "Poteto Mode (pstack)",
+      "summary": "poteto's agent style for concise, detailed responses, deliberate subagents, unslopped prose, simple code, and verified work",
+      "category": "meta",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill poteto-mode",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/poteto-mode"
+    },
+    {
+      "id": "backnotprop-principle-attack-the-premise",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/principle-attack-the-premise",
+      "ref": "main",
+      "skill": "principle-attack-the-premise",
+      "title": "Principle Attack The Premise (pstack)",
+      "summary": "Apply when two or more fixes that share one premise have failed the same gate",
+      "category": "devops",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill principle-attack-the-premise",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/principle-attack-the-premise"
+    },
+    {
+      "id": "backnotprop-principle-boundary-discipline",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/principle-boundary-discipline",
+      "ref": "main",
+      "skill": "principle-boundary-discipline",
+      "title": "Principle Boundary Discipline (pstack)",
+      "summary": "Apply when wiring validation, error handling, or framework adapters",
+      "category": "devops",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill principle-boundary-discipline",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/principle-boundary-discipline"
+    },
+    {
+      "id": "backnotprop-principle-build-the-lever",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/principle-build-the-lever",
+      "ref": "main",
+      "skill": "principle-build-the-lever",
+      "title": "Principle Build The Lever (pstack)",
+      "summary": "Apply to any non-trivial work, not just bulk work: edits, migrations, analyses, checks",
+      "category": "devops",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill principle-build-the-lever",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/principle-build-the-lever"
+    },
+    {
+      "id": "backnotprop-principle-encode-lessons-in-structure",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/principle-encode-lessons-in-structure",
+      "ref": "main",
+      "skill": "principle-encode-lessons-in-structure",
+      "title": "Principle Encode Lessons In Structure (pstack)",
+      "summary": "Apply when you catch yourself writing the same instruction a second time, or notice a recurring correction",
+      "category": "devops",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill principle-encode-lessons-in-structure",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/principle-encode-lessons-in-structure"
+    },
+    {
+      "id": "backnotprop-principle-exhaust-the-design-space",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/principle-exhaust-the-design-space",
+      "ref": "main",
+      "skill": "principle-exhaust-the-design-space",
+      "title": "Principle Exhaust The Design Space (pstack)",
+      "summary": "Apply when facing a novel UI interaction or architectural decision with no precedent in the codebase",
+      "category": "devops",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill principle-exhaust-the-design-space",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/principle-exhaust-the-design-space"
+    },
+    {
+      "id": "backnotprop-principle-experience-first",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/principle-experience-first",
+      "ref": "main",
+      "skill": "principle-experience-first",
+      "title": "Principle Experience First (pstack)",
+      "summary": "Apply when product, UX, or feature-scope tradeoffs come up",
+      "category": "devops",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill principle-experience-first",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/principle-experience-first"
+    },
+    {
+      "id": "backnotprop-principle-explain-the-number",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/principle-explain-the-number",
+      "ref": "main",
+      "skill": "principle-explain-the-number",
+      "title": "Principle Explain The Number (pstack)",
+      "summary": "Apply before you measure, and before you trust, report, or act on a number you measured: a speedup, a regression, a throughput, a latency, or an eval result",
+      "category": "devops",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill principle-explain-the-number",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/principle-explain-the-number"
+    },
+    {
+      "id": "backnotprop-principle-fix-root-causes",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/principle-fix-root-causes",
+      "ref": "main",
+      "skill": "principle-fix-root-causes",
+      "title": "Principle Fix Root Causes (pstack)",
+      "summary": "Apply when debugging",
+      "category": "devops",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill principle-fix-root-causes",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/principle-fix-root-causes"
+    },
+    {
+      "id": "backnotprop-principle-foundational-thinking",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/principle-foundational-thinking",
+      "ref": "main",
+      "skill": "principle-foundational-thinking",
+      "title": "Principle Foundational Thinking (pstack)",
+      "summary": "Apply before writing logic: choosing core types and data structures, sequencing scaffold-vs-feature work, asking what concurrent actors share",
+      "category": "devops",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill principle-foundational-thinking",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/principle-foundational-thinking"
+    },
+    {
+      "id": "backnotprop-principle-guard-the-context-window",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/principle-guard-the-context-window",
+      "ref": "main",
+      "skill": "principle-guard-the-context-window",
+      "title": "Principle Guard The Context Window (pstack)",
+      "summary": "Apply when context is filling up: large outputs, long files, repeated reads, fan-out planning",
+      "category": "devops",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill principle-guard-the-context-window",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/principle-guard-the-context-window"
+    },
+    {
+      "id": "backnotprop-principle-laziness-protocol",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/principle-laziness-protocol",
+      "ref": "main",
+      "skill": "principle-laziness-protocol",
+      "title": "Principle Laziness Protocol (pstack)",
+      "summary": "Apply when refactoring, evaluating diff size, or tempted to add abstractions, layers, or signal threading",
+      "category": "devops",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill principle-laziness-protocol",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/principle-laziness-protocol"
+    },
+    {
+      "id": "backnotprop-principle-make-operations-idempotent",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/principle-make-operations-idempotent",
+      "ref": "main",
+      "skill": "principle-make-operations-idempotent",
+      "title": "Principle Make Operations Idempotent (pstack)",
+      "summary": "Apply when designing commands, lifecycle steps, or processing loops that run amid crashes, restarts, and retries",
+      "category": "devops",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill principle-make-operations-idempotent",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/principle-make-operations-idempotent"
+    },
+    {
+      "id": "backnotprop-principle-migrate-callers-then-delete-legacy-apis",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/principle-migrate-callers-then-delete-legacy-apis",
+      "ref": "main",
+      "skill": "principle-migrate-callers-then-delete-legacy-apis",
+      "title": "Principle Migrate Callers Then Delete Legacy Apis (pstack)",
+      "summary": "Apply when introducing a new internal API while old callers still exist",
+      "category": "devops",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill principle-migrate-callers-then-delete-legacy-apis",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/principle-migrate-callers-then-delete-legacy-apis"
+    },
+    {
+      "id": "backnotprop-principle-minimize-reader-load",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/principle-minimize-reader-load",
+      "ref": "main",
+      "skill": "principle-minimize-reader-load",
+      "title": "Principle Minimize Reader Load (pstack)",
+      "summary": "Apply when reviewing or shaping code that's hard to trace",
+      "category": "devops",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill principle-minimize-reader-load",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/principle-minimize-reader-load"
+    },
+    {
+      "id": "backnotprop-principle-model-the-domain",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/principle-model-the-domain",
+      "ref": "main",
+      "skill": "principle-model-the-domain",
+      "title": "Principle Model The Domain (pstack)",
+      "summary": "Apply when writing stateful logic, or when code branches a lot or repeats a shape assumption across files",
+      "category": "devops",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill principle-model-the-domain",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/principle-model-the-domain"
+    },
+    {
+      "id": "backnotprop-principle-never-block-on-the-human",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/principle-never-block-on-the-human",
+      "ref": "main",
+      "skill": "principle-never-block-on-the-human",
+      "title": "Principle Never Block On The Human (pstack)",
+      "summary": "Apply when tempted to ask 'should I do X?' on reversible work",
+      "category": "devops",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill principle-never-block-on-the-human",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/principle-never-block-on-the-human"
+    },
+    {
+      "id": "backnotprop-principle-outcome-oriented-execution",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/principle-outcome-oriented-execution",
+      "ref": "main",
+      "skill": "principle-outcome-oriented-execution",
+      "title": "Principle Outcome Oriented Execution (pstack)",
+      "summary": "Apply during planned rewrites and migrations with explicit phase boundaries",
+      "category": "devops",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill principle-outcome-oriented-execution",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/principle-outcome-oriented-execution"
+    },
+    {
+      "id": "backnotprop-principle-prove-it-works",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/principle-prove-it-works",
+      "ref": "main",
+      "skill": "principle-prove-it-works",
+      "title": "Principle Prove It Works (pstack)",
+      "summary": "Apply after completing a task, before declaring done",
+      "category": "devops",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill principle-prove-it-works",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/principle-prove-it-works"
+    },
+    {
+      "id": "backnotprop-principle-redesign-from-first-principles",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/principle-redesign-from-first-principles",
+      "ref": "main",
+      "skill": "principle-redesign-from-first-principles",
+      "title": "Principle Redesign From First Principles (pstack)",
+      "summary": "Apply when integrating a new requirement into an existing design",
+      "category": "devops",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill principle-redesign-from-first-principles",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/principle-redesign-from-first-principles"
+    },
+    {
+      "id": "backnotprop-principle-separate-before-serializing-shared-state",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/principle-separate-before-serializing-shared-state",
+      "ref": "main",
+      "skill": "principle-separate-before-serializing-shared-state",
+      "title": "Principle Separate Before Serializing Shared State (pstack)",
+      "summary": "Apply when concurrent actors might write to the same file, branch, key, or state object",
+      "category": "devops",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill principle-separate-before-serializing-shared-state",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/principle-separate-before-serializing-shared-state"
+    },
+    {
+      "id": "backnotprop-principle-sequence-verifiable-units",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/principle-sequence-verifiable-units",
+      "ref": "main",
+      "skill": "principle-sequence-verifiable-units",
+      "title": "Principle Sequence Verifiable Units (pstack)",
+      "summary": "Apply to multi-step work (sweeps, migrations, runs of similar edits) and to how you stack commits and PRs",
+      "category": "devops",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill principle-sequence-verifiable-units",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/principle-sequence-verifiable-units"
+    },
+    {
+      "id": "backnotprop-principle-subtract-before-you-add",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/principle-subtract-before-you-add",
+      "ref": "main",
+      "skill": "principle-subtract-before-you-add",
+      "title": "Principle Subtract Before You Add (pstack)",
+      "summary": "Apply when sequencing an addition, refactor, or rewrite",
+      "category": "devops",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill principle-subtract-before-you-add",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/principle-subtract-before-you-add"
+    },
+    {
+      "id": "backnotprop-principle-test-behavior-not-implementation",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/principle-test-behavior-not-implementation",
+      "ref": "main",
+      "skill": "principle-test-behavior-not-implementation",
+      "title": "Principle Test Behavior Not Implementation (pstack)",
+      "summary": "Apply when you write, change, or keep a test",
+      "category": "devops",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill principle-test-behavior-not-implementation",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/principle-test-behavior-not-implementation"
+    },
+    {
+      "id": "backnotprop-principle-type-system-discipline",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/principle-type-system-discipline",
+      "ref": "main",
+      "skill": "principle-type-system-discipline",
+      "title": "Principle Type System Discipline (pstack)",
+      "summary": "Apply when designing types, reviewing a function signature, or writing code in any statically-typed language",
+      "category": "devops",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill principle-type-system-discipline",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/principle-type-system-discipline"
+    },
+    {
+      "id": "backnotprop-recall",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/recall",
+      "ref": "main",
+      "skill": "recall",
+      "title": "Recall (pstack)",
+      "summary": "Reconstruct your recent working context from your own chat history, live state, and the shared record (user reports, prior fixes, incidents), then hand back a tight...",
+      "category": "development",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill recall",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/recall"
+    },
+    {
+      "id": "backnotprop-reflect",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/reflect",
+      "ref": "main",
+      "skill": "reflect",
+      "title": "Reflect (pstack)",
+      "summary": "Spawn three parallel review subagents over the active transcript, surface learnings, and route each to a concrete edit on an existing skill",
+      "category": "meta",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill reflect",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/reflect"
+    },
+    {
+      "id": "backnotprop-setup-pstack",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/setup-pstack",
+      "ref": "main",
+      "skill": "setup-pstack",
+      "title": "Setup Pstack (pstack)",
+      "summary": "Configure which models pstack uses per role and at what reasoning budget",
+      "category": "development",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill setup-pstack",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/setup-pstack"
+    },
+    {
+      "id": "backnotprop-sharpen",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/sharpen",
+      "ref": "main",
+      "skill": "sharpen",
+      "title": "Sharpen (pstack)",
+      "summary": "Make a task deeper, not bigger, then rewrite the prompt",
+      "category": "development",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill sharpen",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/sharpen"
+    },
+    {
+      "id": "backnotprop-show-me-your-work",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/show-me-your-work",
+      "ref": "main",
+      "skill": "show-me-your-work",
+      "title": "Show Me Your Work (pstack)",
+      "summary": "Keep a reviewable decision trail for long-running or unattended work: a TSV log with one row per decision (what, why, evidence, result)",
+      "category": "development",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill show-me-your-work",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/show-me-your-work"
+    },
+    {
+      "id": "backnotprop-statechart",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/statechart",
+      "ref": "main",
+      "skill": "statechart",
+      "title": "Statechart (pstack)",
+      "summary": "Check a TLA+ model of a system that moves between states, such as a product flow, a protocol, or a service, and draw it as a Mermaid statechart",
+      "category": "development",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill statechart",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/statechart"
+    },
+    {
+      "id": "backnotprop-swarm",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/swarm",
+      "ref": "main",
+      "skill": "swarm",
+      "title": "Swarm (pstack)",
+      "summary": "Fan out N parallel workers, drain them, and return one report",
+      "category": "development",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill swarm",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/swarm"
+    },
+    {
+      "id": "backnotprop-tdd",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/tdd",
+      "ref": "main",
+      "skill": "tdd",
+      "title": "Tdd (pstack)",
+      "summary": "Use only when the user explicitly asks for TDD, a failing test, or a regression test, OR when the bug has an obvious cheap local test target",
+      "category": "development",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill tdd",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/tdd"
+    },
+    {
+      "id": "backnotprop-teach",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/teach",
+      "ref": "main",
+      "skill": "teach",
+      "title": "Teach (pstack)",
+      "summary": "Explain a body of work plainly so a person actually understands it",
+      "category": "development",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill teach",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/teach"
+    },
+    {
+      "id": "backnotprop-technical-writing",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/technical-writing",
+      "ref": "main",
+      "skill": "technical-writing",
+      "title": "Technical Writing (pstack)",
+      "summary": "Layered technical-writing standard: Di\u00e1taxis structure, Google developer style sentences, STE instruction rules, Global English syntax",
+      "category": "writing",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill technical-writing",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/technical-writing"
+    },
+    {
+      "id": "backnotprop-typescript-best-practices",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/typescript-best-practices",
+      "ref": "main",
+      "skill": "typescript-best-practices",
+      "title": "Typescript Best Practices (pstack)",
+      "summary": "TypeScript best practices",
+      "category": "development",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill typescript-best-practices",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/typescript-best-practices"
+    },
+    {
+      "id": "backnotprop-unslop",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/unslop",
+      "ref": "main",
+      "skill": "unslop",
+      "title": "Unslop (pstack)",
+      "summary": "Cut AI tells from any writing",
+      "category": "development",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill unslop",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/unslop"
+    },
+    {
+      "id": "backnotprop-why",
+      "type": "external",
+      "source": "backnotprop/pstack",
+      "path": "skills/why",
+      "ref": "main",
+      "skill": "why",
+      "title": "Why (pstack)",
+      "summary": "Use for 'why does X work this way', 'why we picked Y', design rationale, regressions, postmortems, or data-backed thresholds",
+      "category": "development",
+      "tags": [
+        "backnotprop",
+        "pstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add backnotprop/pstack --skill why",
+      "url": "https://github.com/backnotprop/pstack/tree/main/skills/why"
+    },
+    {
+      "id": "kunchenguid-14-day-stale-pr-close",
+      "type": "external",
+      "source": "kunchenguid/grok-ship",
+      "path": "skills/14-day-stale-pr-close",
+      "ref": "main",
+      "skill": "14-day-stale-pr-close",
+      "title": "14 Day Stale Pr Close (kunchenguid)",
+      "summary": "Use to close contributor PRs that have been waiting on the author for stale-days with no author push, comment, or review",
+      "category": "development",
+      "tags": [
+        "kunchenguid",
+        "grok-ship"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add kunchenguid/grok-ship --skill 14-day-stale-pr-close",
+      "url": "https://github.com/kunchenguid/grok-ship/tree/main/skills/14-day-stale-pr-close"
+    },
+    {
+      "id": "kunchenguid-ahoy",
+      "type": "external",
+      "source": "kunchenguid/grok-ship",
+      "path": "skills/ahoy",
+      "ref": "main",
+      "skill": "ahoy",
+      "title": "Ahoy (kunchenguid)",
+      "summary": "Use when the captain explicitly says ahoy or /ahoy, or asks for a session recap of what happened since they last spoke, plus any visibly unanswered decisions",
+      "category": "meta",
+      "tags": [
+        "kunchenguid",
+        "grok-ship"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add kunchenguid/grok-ship --skill ahoy",
+      "url": "https://github.com/kunchenguid/grok-ship/tree/main/skills/ahoy"
+    },
+    {
+      "id": "kunchenguid-axi",
+      "type": "external",
+      "source": "kunchenguid/axi",
+      "path": ".agents/skills/axi",
+      "ref": "main",
+      "skill": "axi",
+      "title": "Axi (kunchenguid)",
+      "summary": "Agent eXperience Interface (AXI) \u2014 ergonomic standards for building CLI tools that agents use via shell execution",
+      "category": "meta",
+      "tags": [
+        "kunchenguid",
+        "axi"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add kunchenguid/axi --skill axi",
+      "url": "https://github.com/kunchenguid/axi/tree/main/.agents/skills/axi"
+    },
+    {
+      "id": "kunchenguid-cache-architecture",
+      "type": "external",
+      "source": "kunchenguid/quota-axi",
+      "path": "skills/cache-architecture",
+      "ref": "main",
+      "skill": "cache-architecture",
+      "title": "Cache Architecture (kunchenguid)",
+      "summary": "Cache storage locations, permissions, context scoping, isolation rules, and lifecycle management in quota-axi",
+      "category": "meta",
+      "tags": [
+        "kunchenguid",
+        "quota-axi"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add kunchenguid/quota-axi --skill cache-architecture",
+      "url": "https://github.com/kunchenguid/quota-axi/tree/main/skills/cache-architecture"
+    },
+    {
+      "id": "kunchenguid-chrome-devtools-axi",
+      "type": "external",
+      "source": "kunchenguid/chrome-devtools-axi",
+      "path": "skills/chrome-devtools-axi",
+      "ref": "main",
+      "skill": "chrome-devtools-axi",
+      "title": "Chrome Devtools Axi (kunchenguid)",
+      "summary": "Control a Chrome browser session through the chrome-devtools-axi CLI - navigate, snapshot, click, fill forms, run JavaScript, inspect console and network, take screenshots,...",
+      "category": "meta",
+      "tags": [
+        "kunchenguid",
+        "chrome-devtools-axi"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add kunchenguid/chrome-devtools-axi --skill chrome-devtools-axi",
+      "url": "https://github.com/kunchenguid/chrome-devtools-axi/tree/main/skills/chrome-devtools-axi"
+    },
+    {
+      "id": "kunchenguid-compact-adviser",
+      "type": "external",
+      "source": "kunchenguid/compact-adviser",
+      "path": "packages/codex-plugin/skills/compact-adviser",
+      "ref": "main",
+      "skill": "compact-adviser",
+      "title": "Compact Adviser (kunchenguid)",
+      "summary": "Read or change compact-adviser settings for Codex - the mode (hint or off), the minimum context before a checkpoint is judged, the context budget, TypeSafe request logging, and...",
+      "category": "meta",
+      "tags": [
+        "kunchenguid",
+        "compact-adviser"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add kunchenguid/compact-adviser --skill compact-adviser",
+      "url": "https://github.com/kunchenguid/compact-adviser/tree/main/packages/codex-plugin/skills/compact-adviser"
+    },
+    {
+      "id": "kunchenguid-gh-axi",
+      "type": "external",
+      "source": "kunchenguid/gh-axi",
+      "path": "skills/gh-axi",
+      "ref": "main",
+      "skill": "gh-axi",
+      "title": "Gh Axi (kunchenguid)",
+      "summary": "Operate GitHub through the gh-axi CLI - issues, pull requests, discussions, stacked PRs, workflow runs, workflows, releases, repositories, labels, gists, Projects (v2), Actions...",
+      "category": "meta",
+      "tags": [
+        "kunchenguid",
+        "gh-axi"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add kunchenguid/gh-axi --skill gh-axi",
+      "url": "https://github.com/kunchenguid/gh-axi/tree/main/skills/gh-axi"
+    },
+    {
+      "id": "kunchenguid-gnhf",
+      "type": "external",
+      "source": "kunchenguid/gnhf",
+      "path": "skills/gnhf",
+      "ref": "main",
+      "skill": "gnhf",
+      "title": "Gnhf (kunchenguid)",
+      "summary": "Use when the user asks to run GNHF, says they are going to sleep or leaving and wants an agent-managed coding run, asks to supervise, steer, or review an active GNHF run, or...",
+      "category": "development",
+      "tags": [
+        "kunchenguid",
+        "gnhf"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add kunchenguid/gnhf --skill gnhf",
+      "url": "https://github.com/kunchenguid/gnhf/tree/main/skills/gnhf"
+    },
+    {
+      "id": "kunchenguid-kun",
+      "type": "external",
+      "source": "kunchenguid/kun",
+      "path": "skills/kun",
+      "ref": "main",
+      "skill": "kun",
+      "title": "Kun (kunchenguid)",
+      "summary": "kun",
+      "category": "meta",
+      "tags": [
+        "kunchenguid",
+        "kun"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (none); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add kunchenguid/kun --skill kun",
+      "url": "https://github.com/kunchenguid/kun/tree/main/skills/kun"
+    },
+    {
+      "id": "kunchenguid-lavish",
+      "type": "external",
+      "source": "kunchenguid/lavish-axi",
+      "path": "skills/lavish",
+      "ref": "main",
+      "skill": "lavish",
+      "title": "Lavish (kunchenguid)",
+      "summary": "Turn complex or visual agent responses into rich, reviewable HTML artifacts (HTML files) the user can annotate and send feedback on, using the lavish-axi CLI. Use when about to...",
+      "category": "design",
+      "tags": [
+        "kunchenguid",
+        "lavish-axi"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add kunchenguid/lavish-axi --skill lavish",
+      "url": "https://github.com/kunchenguid/lavish-axi/tree/main/skills/lavish"
+    },
+    {
+      "id": "kunchenguid-no-mistakes",
+      "type": "external",
+      "source": "kunchenguid/no-mistakes",
+      "path": "skills/no-mistakes",
+      "ref": "main",
+      "skill": "no-mistakes",
+      "title": "No Mistakes (kunchenguid)",
+      "summary": "Validate your code changes through the no-mistakes pipeline - automated code review, tests, lint, docs, push, PR, and CI - before they reach the configured push target",
+      "category": "development",
+      "tags": [
+        "kunchenguid",
+        "no-mistakes"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add kunchenguid/no-mistakes --skill no-mistakes",
+      "url": "https://github.com/kunchenguid/no-mistakes/tree/main/skills/no-mistakes"
+    },
+    {
+      "id": "kunchenguid-provider-adapters",
+      "type": "external",
+      "source": "kunchenguid/quota-axi",
+      "path": "skills/provider-adapters",
+      "ref": "main",
+      "skill": "provider-adapters",
+      "title": "Provider Adapters (kunchenguid)",
+      "summary": "Provider-specific auth sources, quota windows, endpoint shapes, error recovery, and quirks for the quota-axi providers with dedicated sections below; Muse is covered in the...",
+      "category": "devops",
+      "tags": [
+        "kunchenguid",
+        "quota-axi"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add kunchenguid/quota-axi --skill provider-adapters",
+      "url": "https://github.com/kunchenguid/quota-axi/tree/main/skills/provider-adapters"
+    },
+    {
+      "id": "kunchenguid-provider-onboarding",
+      "type": "external",
+      "source": "kunchenguid/quota-axi",
+      "path": "skills/provider-onboarding",
+      "ref": "main",
+      "skill": "provider-onboarding",
+      "title": "Provider Onboarding (kunchenguid)",
+      "summary": "Rules, checklist, credential selection machinery, multi-source handover, delegated refresh contract, and test discipline for onboarding new quota providers or modifying...",
+      "category": "devops",
+      "tags": [
+        "kunchenguid",
+        "quota-axi"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add kunchenguid/quota-axi --skill provider-onboarding",
+      "url": "https://github.com/kunchenguid/quota-axi/tree/main/skills/provider-onboarding"
+    },
+    {
+      "id": "kunchenguid-quota-axi",
+      "type": "external",
+      "source": "kunchenguid/quota-axi",
+      "path": "skills/quota-axi",
+      "ref": "main",
+      "skill": "quota-axi",
+      "title": "Quota Axi (kunchenguid)",
+      "summary": "Report local Claude, Codex, Cursor, GitHub Copilot, Grok, Kimi, Z.AI, Alibaba, OpenCode Go, Antigravity, Command Code, MiniMax, MiMo, DeepSeek, OpenRouter, ElevenLabs, Devin,...",
+      "category": "meta",
+      "tags": [
+        "kunchenguid",
+        "quota-axi"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add kunchenguid/quota-axi --skill quota-axi",
+      "url": "https://github.com/kunchenguid/quota-axi/tree/main/skills/quota-axi"
+    },
+    {
+      "id": "kunchenguid-quota-interpretation",
+      "type": "external",
+      "source": "kunchenguid/quota-axi",
+      "path": "skills/quota-interpretation",
+      "ref": "main",
+      "skill": "quota-interpretation",
+      "title": "Quota Interpretation (kunchenguid)",
+      "summary": "Rules and algorithms for quota interpretation, pace calculation, runway derivation, selection signals, and output tier rendering (TOON, JSON, TUI) in quota-axi",
+      "category": "devops",
+      "tags": [
+        "kunchenguid",
+        "quota-axi"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add kunchenguid/quota-axi --skill quota-interpretation",
+      "url": "https://github.com/kunchenguid/quota-axi/tree/main/skills/quota-interpretation"
+    },
+    {
+      "id": "kunchenguid-release-ci",
+      "type": "external",
+      "source": "kunchenguid/quota-axi",
+      "path": "skills/release-ci",
+      "ref": "main",
+      "skill": "release-ci",
+      "title": "Release Ci (kunchenguid)",
+      "summary": "Release automation, CI workflows, release-please configuration, contribution gate, and lockfile formatting in quota-axi",
+      "category": "devops",
+      "tags": [
+        "kunchenguid",
+        "quota-axi"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add kunchenguid/quota-axi --skill release-ci",
+      "url": "https://github.com/kunchenguid/quota-axi/tree/main/skills/release-ci"
+    },
+    {
+      "id": "kunchenguid-stow",
+      "type": "external",
+      "source": "kunchenguid/firstmate",
+      "path": "skills/stow",
+      "ref": "main",
+      "skill": "stow",
+      "title": "Stow (kunchenguid)",
+      "summary": "Sweep the current conversation for durable knowledge - user preferences, project facts, operational gotchas, standing decisions, and unfinished next steps - and file each...",
+      "category": "devops",
+      "tags": [
+        "kunchenguid",
+        "firstmate"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add kunchenguid/firstmate --skill stow",
+      "url": "https://github.com/kunchenguid/firstmate/tree/main/skills/stow"
+    },
+    {
+      "id": "kunchenguid-tasks-axi",
+      "type": "external",
+      "source": "kunchenguid/tasks-axi",
+      "path": "skills/tasks-axi",
+      "ref": "main",
+      "skill": "tasks-axi",
+      "title": "Tasks Axi (kunchenguid)",
+      "summary": "Manage a task backlog through the tasks-axi CLI - add, list, show, start, and complete tasks; track blocked-by dependencies, structured holds, and a ready queue; prune and...",
+      "category": "meta",
+      "tags": [
+        "kunchenguid",
+        "tasks-axi"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add kunchenguid/tasks-axi --skill tasks-axi",
+      "url": "https://github.com/kunchenguid/tasks-axi/tree/main/skills/tasks-axi"
+    },
+    {
+      "id": "kunchenguid-vision-md-triage-verdict",
+      "type": "external",
+      "source": "kunchenguid/grok-ship",
+      "path": "skills/vision-md-triage-verdict",
+      "ref": "main",
+      "skill": "vision-md-triage-verdict",
+      "title": "Vision Md Triage Verdict (kunchenguid)",
+      "summary": "Use before any final triage decision when the repo has a VISION.md",
+      "category": "design",
+      "tags": [
+        "kunchenguid",
+        "grok-ship"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add kunchenguid/grok-ship --skill vision-md-triage-verdict",
+      "url": "https://github.com/kunchenguid/grok-ship/tree/main/skills/vision-md-triage-verdict"
+    },
+    {
+      "id": "kunchenguid-vision",
+      "type": "external",
+      "source": "kunchenguid/vision",
+      "path": "skills/vision",
+      "ref": "main",
+      "skill": "vision",
+      "title": "Vision (kunchenguid)",
+      "summary": "Draft and stress-test a VISION.md for a repository, then iterate with the author on an interactive review board until approved",
+      "category": "design",
+      "tags": [
+        "kunchenguid",
+        "vision"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add kunchenguid/vision --skill vision",
+      "url": "https://github.com/kunchenguid/vision/tree/main/skills/vision"
+    },
+    {
+      "id": "kunchenguid-whathappened",
+      "type": "external",
+      "source": "kunchenguid/whathappened",
+      "path": "skills/whathappened",
+      "ref": "main",
+      "skill": "whathappened",
+      "title": "Whathappened (kunchenguid)",
+      "summary": "Brief what just happened on a topic and map public opinion from X (Twitter) only",
+      "category": "meta",
+      "tags": [
+        "kunchenguid",
+        "whathappened"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add kunchenguid/whathappened --skill whathappened",
+      "url": "https://github.com/kunchenguid/whathappened/tree/main/skills/whathappened"
+    },
+    {
+      "id": "mattpocock-ask-matt",
+      "type": "external",
+      "source": "mattpocock/skills",
+      "path": "skills/engineering/ask-matt",
+      "ref": "main",
+      "skill": "ask-matt",
+      "title": "Ask Matt (Matt Pocock)",
+      "summary": "Ask which skill or flow fits your situation",
+      "category": "meta",
+      "tags": [
+        "mattpocock",
+        "skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add mattpocock/skills --skill ask-matt",
+      "url": "https://github.com/mattpocock/skills/tree/main/skills/engineering/ask-matt"
+    },
+    {
+      "id": "mattpocock-chief-of-staff",
+      "type": "external",
+      "source": "mattpocock/skills",
+      "path": "skills/in-progress/chief-of-staff",
+      "ref": "main",
+      "skill": "chief-of-staff",
+      "title": "Chief Of Staff (Matt Pocock)",
+      "summary": "Pursue a long-running goal in a single session by co-ordinating subagents",
+      "category": "development",
+      "tags": [
+        "mattpocock",
+        "skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add mattpocock/skills --skill chief-of-staff",
+      "url": "https://github.com/mattpocock/skills/tree/main/skills/in-progress/chief-of-staff"
+    },
+    {
+      "id": "mattpocock-claude-handoff",
+      "type": "external",
+      "source": "mattpocock/skills",
+      "path": "skills/in-progress/claude-handoff",
+      "ref": "main",
+      "skill": "claude-handoff",
+      "title": "Claude Handoff (Matt Pocock)",
+      "summary": "Hand the current conversation off to a fresh background agent that picks up the work immediately",
+      "category": "meta",
+      "tags": [
+        "mattpocock",
+        "skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add mattpocock/skills --skill claude-handoff",
+      "url": "https://github.com/mattpocock/skills/tree/main/skills/in-progress/claude-handoff"
+    },
+    {
+      "id": "mattpocock-code-review",
+      "type": "external",
+      "source": "mattpocock/skills",
+      "path": "skills/engineering/code-review",
+      "ref": "main",
+      "skill": "code-review",
+      "title": "Code Review (Matt Pocock)",
+      "summary": "Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes: Standards (does the code follow this repo's documented coding standards?) and Spec...",
+      "category": "development",
+      "tags": [
+        "mattpocock",
+        "skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add mattpocock/skills --skill code-review",
+      "url": "https://github.com/mattpocock/skills/tree/main/skills/engineering/code-review"
+    },
+    {
+      "id": "mattpocock-codebase-design",
+      "type": "external",
+      "source": "mattpocock/skills",
+      "path": "skills/engineering/codebase-design",
+      "ref": "main",
+      "skill": "codebase-design",
+      "title": "Codebase Design (Matt Pocock)",
+      "summary": "Shared vocabulary for designing deep modules",
+      "category": "design",
+      "tags": [
+        "mattpocock",
+        "skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add mattpocock/skills --skill codebase-design",
+      "url": "https://github.com/mattpocock/skills/tree/main/skills/engineering/codebase-design"
+    },
+    {
+      "id": "mattpocock-diagnosing-bugs",
+      "type": "external",
+      "source": "mattpocock/skills",
+      "path": "skills/engineering/diagnosing-bugs",
+      "ref": "main",
+      "skill": "diagnosing-bugs",
+      "title": "Diagnosing Bugs (Matt Pocock)",
+      "summary": "Diagnosis loop for hard bugs and performance regressions",
+      "category": "development",
+      "tags": [
+        "mattpocock",
+        "skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add mattpocock/skills --skill diagnosing-bugs",
+      "url": "https://github.com/mattpocock/skills/tree/main/skills/engineering/diagnosing-bugs"
+    },
+    {
+      "id": "mattpocock-domain-modeling",
+      "type": "external",
+      "source": "mattpocock/skills",
+      "path": "skills/engineering/domain-modeling",
+      "ref": "main",
+      "skill": "domain-modeling",
+      "title": "Domain Modeling (Matt Pocock)",
+      "summary": "Build and sharpen a project's domain model",
+      "category": "development",
+      "tags": [
+        "mattpocock",
+        "skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add mattpocock/skills --skill domain-modeling",
+      "url": "https://github.com/mattpocock/skills/tree/main/skills/engineering/domain-modeling"
+    },
+    {
+      "id": "mattpocock-git-guardrails-claude-code",
+      "type": "external",
+      "source": "mattpocock/skills",
+      "path": "skills/misc/git-guardrails-claude-code",
+      "ref": "main",
+      "skill": "git-guardrails-claude-code",
+      "title": "Git Guardrails Claude Code (Matt Pocock)",
+      "summary": "Set up Claude Code hooks to block dangerous git commands (push, reset --hard, clean, branch -D, etc.) before they execute",
+      "category": "devops",
+      "tags": [
+        "mattpocock",
+        "skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add mattpocock/skills --skill git-guardrails-claude-code",
+      "url": "https://github.com/mattpocock/skills/tree/main/skills/misc/git-guardrails-claude-code"
+    },
+    {
+      "id": "mattpocock-grill-me",
+      "type": "external",
+      "source": "mattpocock/skills",
+      "path": "skills/productivity/grill-me",
+      "ref": "main",
+      "skill": "grill-me",
+      "title": "Grill Me (Matt Pocock)",
+      "summary": "A relentless interview to sharpen a plan or design",
+      "category": "meta",
+      "tags": [
+        "mattpocock",
+        "skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add mattpocock/skills --skill grill-me",
+      "url": "https://github.com/mattpocock/skills/tree/main/skills/productivity/grill-me"
+    },
+    {
+      "id": "mattpocock-grill-with-docs",
+      "type": "external",
+      "source": "mattpocock/skills",
+      "path": "skills/engineering/grill-with-docs",
+      "ref": "main",
+      "skill": "grill-with-docs",
+      "title": "Grill With Docs (Matt Pocock)",
+      "summary": "A relentless interview to sharpen a plan or design, which also creates docs (ADR's and glossary) as we go",
+      "category": "meta",
+      "tags": [
+        "mattpocock",
+        "skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add mattpocock/skills --skill grill-with-docs",
+      "url": "https://github.com/mattpocock/skills/tree/main/skills/engineering/grill-with-docs"
+    },
+    {
+      "id": "mattpocock-grilling",
+      "type": "external",
+      "source": "mattpocock/skills",
+      "path": "skills/productivity/grilling",
+      "ref": "main",
+      "skill": "grilling",
+      "title": "Grilling (Matt Pocock)",
+      "summary": "Grill the user relentlessly about a plan, decision, or idea",
+      "category": "meta",
+      "tags": [
+        "mattpocock",
+        "skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add mattpocock/skills --skill grilling",
+      "url": "https://github.com/mattpocock/skills/tree/main/skills/productivity/grilling"
+    },
+    {
+      "id": "mattpocock-handoff",
+      "type": "external",
+      "source": "mattpocock/skills",
+      "path": "skills/productivity/handoff",
+      "ref": "main",
+      "skill": "handoff",
+      "title": "Handoff (Matt Pocock)",
+      "summary": "Compact the current conversation into a handoff document for another agent to pick up",
+      "category": "meta",
+      "tags": [
+        "mattpocock",
+        "skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add mattpocock/skills --skill handoff",
+      "url": "https://github.com/mattpocock/skills/tree/main/skills/productivity/handoff"
+    },
+    {
+      "id": "mattpocock-implement-spec",
+      "type": "external",
+      "source": "mattpocock/skills",
+      "path": "skills/engineering/implement-spec",
+      "ref": "main",
+      "skill": "implement-spec",
+      "title": "Implement Spec (Matt Pocock)",
+      "summary": "Implement the result of /to-spec and /to-tickets in code",
+      "category": "development",
+      "tags": [
+        "mattpocock",
+        "skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add mattpocock/skills --skill implement-spec",
+      "url": "https://github.com/mattpocock/skills/tree/main/skills/engineering/implement-spec"
+    },
+    {
+      "id": "mattpocock-implement",
+      "type": "external",
+      "source": "mattpocock/skills",
+      "path": "skills/engineering/implement",
+      "ref": "main",
+      "skill": "implement",
+      "title": "Implement (Matt Pocock)",
+      "summary": "Implement a piece of work based on a spec or set of tickets",
+      "category": "development",
+      "tags": [
+        "mattpocock",
+        "skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add mattpocock/skills --skill implement",
+      "url": "https://github.com/mattpocock/skills/tree/main/skills/engineering/implement"
+    },
+    {
+      "id": "mattpocock-improve-codebase-architecture",
+      "type": "external",
+      "source": "mattpocock/skills",
+      "path": "skills/engineering/improve-codebase-architecture",
+      "ref": "main",
+      "skill": "improve-codebase-architecture",
+      "title": "Improve Codebase Architecture (Matt Pocock)",
+      "summary": "Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick",
+      "category": "meta",
+      "tags": [
+        "mattpocock",
+        "skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add mattpocock/skills --skill improve-codebase-architecture",
+      "url": "https://github.com/mattpocock/skills/tree/main/skills/engineering/improve-codebase-architecture"
+    },
+    {
+      "id": "mattpocock-loop-me",
+      "type": "external",
+      "source": "mattpocock/skills",
+      "path": "skills/in-progress/loop-me",
+      "ref": "main",
+      "skill": "loop-me",
+      "title": "Loop Me (Matt Pocock)",
+      "summary": "Grill me about specs for the workflows I want to build, within this workspace",
+      "category": "meta",
+      "tags": [
+        "mattpocock",
+        "skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add mattpocock/skills --skill loop-me",
+      "url": "https://github.com/mattpocock/skills/tree/main/skills/in-progress/loop-me"
+    },
+    {
+      "id": "mattpocock-migrate-to-shoehorn",
+      "type": "external",
+      "source": "mattpocock/skills",
+      "path": "skills/misc/migrate-to-shoehorn",
+      "ref": "main",
+      "skill": "migrate-to-shoehorn",
+      "title": "Migrate To Shoehorn (Matt Pocock)",
+      "summary": "Migrate test files from `as` type assertions to @total-typescript/shoehorn",
+      "category": "development",
+      "tags": [
+        "mattpocock",
+        "skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add mattpocock/skills --skill migrate-to-shoehorn",
+      "url": "https://github.com/mattpocock/skills/tree/main/skills/misc/migrate-to-shoehorn"
+    },
+    {
+      "id": "mattpocock-pr",
+      "type": "external",
+      "source": "mattpocock/skills",
+      "path": "skills/engineering/pr",
+      "ref": "main",
+      "skill": "pr",
+      "title": "Pr (Matt Pocock)",
+      "summary": "Use when writing a PR body",
+      "category": "writing",
+      "tags": [
+        "mattpocock",
+        "skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add mattpocock/skills --skill pr",
+      "url": "https://github.com/mattpocock/skills/tree/main/skills/engineering/pr"
+    },
+    {
+      "id": "mattpocock-research",
+      "type": "external",
+      "source": "mattpocock/skills",
+      "path": "skills/engineering/research",
+      "ref": "main",
+      "skill": "research",
+      "title": "Research (Matt Pocock)",
+      "summary": "Investigate a question against high-trust primary sources and capture the findings as a Markdown file in the repo",
+      "category": "writing",
+      "tags": [
+        "mattpocock",
+        "skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add mattpocock/skills --skill research",
+      "url": "https://github.com/mattpocock/skills/tree/main/skills/engineering/research"
+    },
+    {
+      "id": "mattpocock-retro",
+      "type": "external",
+      "source": "mattpocock/skills",
+      "path": "skills/engineering/retro",
+      "ref": "main",
+      "skill": "retro",
+      "title": "Retro (Matt Pocock)",
+      "summary": "Conduct a retrospective on a coding session",
+      "category": "meta",
+      "tags": [
+        "mattpocock",
+        "skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add mattpocock/skills --skill retro",
+      "url": "https://github.com/mattpocock/skills/tree/main/skills/engineering/retro"
+    },
+    {
+      "id": "mattpocock-scaffold-exercises",
+      "type": "external",
+      "source": "mattpocock/skills",
+      "path": "skills/misc/scaffold-exercises",
+      "ref": "main",
+      "skill": "scaffold-exercises",
+      "title": "Scaffold Exercises (Matt Pocock)",
+      "summary": "Create exercise directory structures with sections, problems, solutions, and explainers that pass linting",
+      "category": "devops",
+      "tags": [
+        "mattpocock",
+        "skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add mattpocock/skills --skill scaffold-exercises",
+      "url": "https://github.com/mattpocock/skills/tree/main/skills/misc/scaffold-exercises"
+    },
+    {
+      "id": "mattpocock-setup-matt-pocock-skills",
+      "type": "external",
+      "source": "mattpocock/skills",
+      "path": "skills/engineering/setup-matt-pocock-skills",
+      "ref": "main",
+      "skill": "setup-matt-pocock-skills",
+      "title": "Setup Matt Pocock Skills (Matt Pocock)",
+      "summary": "Configure this repo for the engineering skills: set up its issue tracker, triage label vocabulary, and domain doc layout",
+      "category": "meta",
+      "tags": [
+        "mattpocock",
+        "skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add mattpocock/skills --skill setup-matt-pocock-skills",
+      "url": "https://github.com/mattpocock/skills/tree/main/skills/engineering/setup-matt-pocock-skills"
+    },
+    {
+      "id": "mattpocock-setup-pre-commit",
+      "type": "external",
+      "source": "mattpocock/skills",
+      "path": "skills/misc/setup-pre-commit",
+      "ref": "main",
+      "skill": "setup-pre-commit",
+      "title": "Setup Pre Commit (Matt Pocock)",
+      "summary": "Set up Husky pre-commit hooks with lint-staged (Prettier), type checking, and tests in the current repo",
+      "category": "development",
+      "tags": [
+        "mattpocock",
+        "skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add mattpocock/skills --skill setup-pre-commit",
+      "url": "https://github.com/mattpocock/skills/tree/main/skills/misc/setup-pre-commit"
+    },
+    {
+      "id": "mattpocock-setup-ts-deep-modules",
+      "type": "external",
+      "source": "mattpocock/skills",
+      "path": "skills/in-progress/setup-ts-deep-modules",
+      "ref": "main",
+      "skill": "setup-ts-deep-modules",
+      "title": "Setup Ts Deep Modules (Matt Pocock)",
+      "summary": "Wire dependency-cruiser into a TypeScript repo so each package is a deep module, with implementation hidden in subfolders and reachable only through its entry-point files",
+      "category": "development",
+      "tags": [
+        "mattpocock",
+        "skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add mattpocock/skills --skill setup-ts-deep-modules",
+      "url": "https://github.com/mattpocock/skills/tree/main/skills/in-progress/setup-ts-deep-modules"
+    },
+    {
+      "id": "mattpocock-to-questionnaire",
+      "type": "external",
+      "source": "mattpocock/skills",
+      "path": "skills/productivity/to-questionnaire",
+      "ref": "main",
+      "skill": "to-questionnaire",
+      "title": "To Questionnaire (Matt Pocock)",
+      "summary": "Turn a decision you can't fully answer into a questionnaire for someone else to fill in",
+      "category": "development",
+      "tags": [
+        "mattpocock",
+        "skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add mattpocock/skills --skill to-questionnaire",
+      "url": "https://github.com/mattpocock/skills/tree/main/skills/productivity/to-questionnaire"
+    },
+    {
+      "id": "mattpocock-to-spec",
+      "type": "external",
+      "source": "mattpocock/skills",
+      "path": "skills/engineering/to-spec",
+      "ref": "main",
+      "skill": "to-spec",
+      "title": "To Spec (Matt Pocock)",
+      "summary": "Turn the current conversation into a spec and publish it to the project issue tracker: no interview, just synthesis of what you've already discussed",
+      "category": "development",
+      "tags": [
+        "mattpocock",
+        "skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add mattpocock/skills --skill to-spec",
+      "url": "https://github.com/mattpocock/skills/tree/main/skills/engineering/to-spec"
+    },
+    {
+      "id": "mattpocock-to-tickets",
+      "type": "external",
+      "source": "mattpocock/skills",
+      "path": "skills/engineering/to-tickets",
+      "ref": "main",
+      "skill": "to-tickets",
+      "title": "To Tickets (Matt Pocock)",
+      "summary": "Break a plan, spec, or the current conversation into a set of tracer-bullet tickets, each declaring its blocking edges, published to the configured tracker (edges as text in...",
+      "category": "development",
+      "tags": [
+        "mattpocock",
+        "skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add mattpocock/skills --skill to-tickets",
+      "url": "https://github.com/mattpocock/skills/tree/main/skills/engineering/to-tickets"
+    },
+    {
+      "id": "mattpocock-triage",
+      "type": "external",
+      "source": "mattpocock/skills",
+      "path": "skills/engineering/triage",
+      "ref": "main",
+      "skill": "triage",
+      "title": "Triage (Matt Pocock)",
+      "summary": "Move issues and external PRs through a state machine of triage roles, categorise, verify, grill if needed, and write agent-ready briefs",
+      "category": "development",
+      "tags": [
+        "mattpocock",
+        "skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add mattpocock/skills --skill triage",
+      "url": "https://github.com/mattpocock/skills/tree/main/skills/engineering/triage"
+    },
+    {
+      "id": "mattpocock-wait-what",
+      "type": "external",
+      "source": "mattpocock/skills",
+      "path": "skills/productivity/wait-what",
+      "ref": "main",
+      "skill": "wait-what",
+      "title": "Wait What (Matt Pocock)",
+      "summary": "Stop",
+      "category": "meta",
+      "tags": [
+        "mattpocock",
+        "skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add mattpocock/skills --skill wait-what",
+      "url": "https://github.com/mattpocock/skills/tree/main/skills/productivity/wait-what"
+    },
+    {
+      "id": "mattpocock-wayfinder",
+      "type": "external",
+      "source": "mattpocock/skills",
+      "path": "skills/engineering/wayfinder",
+      "ref": "main",
+      "skill": "wayfinder",
+      "title": "Wayfinder (Matt Pocock)",
+      "summary": "Plan a huge chunk of work (more than one agent session can hold) as a shared map of decision tickets on your issue tracker, and resolve them one at a time until the way to the...",
+      "category": "meta",
+      "tags": [
+        "mattpocock",
+        "skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add mattpocock/skills --skill wayfinder",
+      "url": "https://github.com/mattpocock/skills/tree/main/skills/engineering/wayfinder"
+    },
+    {
+      "id": "mattpocock-wizard",
+      "type": "external",
+      "source": "mattpocock/skills",
+      "path": "skills/engineering/wizard",
+      "ref": "main",
+      "skill": "wizard",
+      "title": "Wizard (Matt Pocock)",
+      "summary": "Generate an interactive bash wizard that walks a human through steps only they can perform",
+      "category": "meta",
+      "tags": [
+        "mattpocock",
+        "skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add mattpocock/skills --skill wizard",
+      "url": "https://github.com/mattpocock/skills/tree/main/skills/engineering/wizard"
+    },
+    {
+      "id": "mattpocock-writing-beats",
+      "type": "external",
+      "source": "mattpocock/skills",
+      "path": "skills/in-progress/writing-beats",
+      "ref": "main",
+      "skill": "writing-beats",
+      "title": "Writing Beats (Matt Pocock)",
+      "summary": "Writing, exploit; assemble raw material into a journey of beats, grounding each term before a beat leans on it",
+      "category": "writing",
+      "tags": [
+        "mattpocock",
+        "skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add mattpocock/skills --skill writing-beats",
+      "url": "https://github.com/mattpocock/skills/tree/main/skills/in-progress/writing-beats"
+    },
+    {
+      "id": "mattpocock-writing-for-agents",
+      "type": "external",
+      "source": "mattpocock/skills",
+      "path": "skills/productivity/writing-for-agents",
+      "ref": "main",
+      "skill": "writing-for-agents",
+      "title": "Writing For Agents (Matt Pocock)",
+      "summary": "Writing documents for agents",
+      "category": "meta",
+      "tags": [
+        "mattpocock",
+        "skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add mattpocock/skills --skill writing-for-agents",
+      "url": "https://github.com/mattpocock/skills/tree/main/skills/productivity/writing-for-agents"
+    },
+    {
+      "id": "mattpocock-writing-fragments",
+      "type": "external",
+      "source": "mattpocock/skills",
+      "path": "skills/in-progress/writing-fragments",
+      "ref": "main",
+      "skill": "writing-fragments",
+      "title": "Writing Fragments (Matt Pocock)",
+      "summary": "Writing, explore: mine raw fragments, no structure yet",
+      "category": "writing",
+      "tags": [
+        "mattpocock",
+        "skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add mattpocock/skills --skill writing-fragments",
+      "url": "https://github.com/mattpocock/skills/tree/main/skills/in-progress/writing-fragments"
+    },
+    {
+      "id": "mattpocock-writing-shape",
+      "type": "external",
+      "source": "mattpocock/skills",
+      "path": "skills/in-progress/writing-shape",
+      "ref": "main",
+      "skill": "writing-shape",
+      "title": "Writing Shape (Matt Pocock)",
+      "summary": "Writing, exploit: shape raw material into an article, paragraph by paragraph",
+      "category": "writing",
+      "tags": [
+        "mattpocock",
+        "skills"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add mattpocock/skills --skill writing-shape",
+      "url": "https://github.com/mattpocock/skills/tree/main/skills/in-progress/writing-shape"
     },
     {
       "id": "orchestra-academic-plotting",
@@ -2788,6 +5846,204 @@
       "notes": "",
       "install": "npx skills add kinged007/skills-library --skill skill-review",
       "url": "https://github.com/kinged007/skills-library/tree/main/skills/skill-review"
+    },
+    {
+      "id": "t3dotgg-babysit-pr",
+      "type": "external",
+      "source": "t3dotgg/tstack",
+      "path": "skills/babysit-pr",
+      "ref": "main",
+      "skill": "babysit-pr",
+      "title": "Babysit Pr (tstack)",
+      "summary": "Monitor a pull request through review and CI. Use when the user asks to monitor, watch, or babysit a PR",
+      "category": "writing",
+      "tags": [
+        "t3dotgg",
+        "tstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add t3dotgg/tstack --skill babysit-pr",
+      "url": "https://github.com/t3dotgg/tstack/tree/main/skills/babysit-pr"
+    },
+    {
+      "id": "t3dotgg-council",
+      "type": "external",
+      "source": "t3dotgg/tstack",
+      "path": "skills/council",
+      "ref": "main",
+      "skill": "council",
+      "title": "Council (tstack)",
+      "summary": "Trigger this if the user says 'council'",
+      "category": "meta",
+      "tags": [
+        "t3dotgg",
+        "tstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add t3dotgg/tstack --skill council",
+      "url": "https://github.com/t3dotgg/tstack/tree/main/skills/council"
+    },
+    {
+      "id": "t3dotgg-file-pr",
+      "type": "external",
+      "source": "t3dotgg/tstack",
+      "path": "skills/file-pr",
+      "ref": "main",
+      "skill": "file-pr",
+      "title": "File Pr (tstack)",
+      "summary": "File a concise pull request",
+      "category": "writing",
+      "tags": [
+        "t3dotgg",
+        "tstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add t3dotgg/tstack --skill file-pr",
+      "url": "https://github.com/t3dotgg/tstack/tree/main/skills/file-pr"
+    },
+    {
+      "id": "t3dotgg-full-send",
+      "type": "external",
+      "source": "t3dotgg/tstack",
+      "path": "skills/full-send",
+      "ref": "main",
+      "skill": "full-send",
+      "title": "Full Send (tstack)",
+      "summary": "Trigger this if the user says 'full send'",
+      "category": "meta",
+      "tags": [
+        "t3dotgg",
+        "tstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add t3dotgg/tstack --skill full-send",
+      "url": "https://github.com/t3dotgg/tstack/tree/main/skills/full-send"
+    },
+    {
+      "id": "t3dotgg-full-stop",
+      "type": "external",
+      "source": "t3dotgg/tstack",
+      "path": "skills/full-stop",
+      "ref": "main",
+      "skill": "full-stop",
+      "title": "Full Stop (tstack)",
+      "summary": "Trigger this if the user says 'full stop', even as a closing \"Full stop.\" that reads like emphasis",
+      "category": "meta",
+      "tags": [
+        "t3dotgg",
+        "tstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add t3dotgg/tstack --skill full-stop",
+      "url": "https://github.com/t3dotgg/tstack/tree/main/skills/full-stop"
+    },
+    {
+      "id": "t3dotgg-leaving-pr-comments",
+      "type": "external",
+      "source": "t3dotgg/tstack",
+      "path": "skills/leaving-pr-comments",
+      "ref": "main",
+      "skill": "leaving-pr-comments",
+      "title": "Leaving Pr Comments (tstack)",
+      "summary": "Use whenever leaving comments on GitHub",
+      "category": "writing",
+      "tags": [
+        "t3dotgg",
+        "tstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add t3dotgg/tstack --skill leaving-pr-comments",
+      "url": "https://github.com/t3dotgg/tstack/tree/main/skills/leaving-pr-comments"
+    },
+    {
+      "id": "t3dotgg-modernize",
+      "type": "external",
+      "source": "t3dotgg/tstack",
+      "path": "skills/modernize",
+      "ref": "main",
+      "skill": "modernize",
+      "title": "Modernize (tstack)",
+      "summary": "For getting old prs up to date",
+      "category": "development",
+      "tags": [
+        "t3dotgg",
+        "tstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add t3dotgg/tstack --skill modernize",
+      "url": "https://github.com/t3dotgg/tstack/tree/main/skills/modernize"
+    },
+    {
+      "id": "t3dotgg-sol-loop",
+      "type": "external",
+      "source": "t3dotgg/tstack",
+      "path": "skills/sol-loop",
+      "ref": "main",
+      "skill": "sol-loop",
+      "title": "Sol Loop (tstack)",
+      "summary": "Use when the user says \"sol loop\"",
+      "category": "meta",
+      "tags": [
+        "t3dotgg",
+        "tstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add t3dotgg/tstack --skill sol-loop",
+      "url": "https://github.com/t3dotgg/tstack/tree/main/skills/sol-loop"
+    },
+    {
+      "id": "t3dotgg-takeover",
+      "type": "external",
+      "source": "t3dotgg/tstack",
+      "path": "skills/takeover",
+      "ref": "main",
+      "skill": "takeover",
+      "title": "Takeover (tstack)",
+      "summary": "Take over existing work",
+      "category": "meta",
+      "tags": [
+        "t3dotgg",
+        "tstack"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add t3dotgg/tstack --skill takeover",
+      "url": "https://github.com/t3dotgg/tstack/tree/main/skills/takeover"
     },
     {
       "id": "ux-declutter",

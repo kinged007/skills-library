@@ -1,0 +1,16 @@
+id: backnotprop-unslop
+type: external
+source: backnotprop/pstack
+path: skills/unslop
+ref: main
+skill: unslop
+title: Unslop (pstack)
+summary: Cut AI tells from any writing
+category: development
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

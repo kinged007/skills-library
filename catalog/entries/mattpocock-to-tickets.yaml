@@ -1,0 +1,16 @@
+id: mattpocock-to-tickets
+type: external
+source: mattpocock/skills
+path: skills/engineering/to-tickets
+ref: main
+skill: to-tickets
+title: To Tickets (Matt Pocock)
+summary: Break a plan, spec, or the current conversation into a set of tracer-bullet tickets, each declaring its blocking edges, published to the configured tracker (edges as text in...
+category: development
+tags:
+- mattpocock
+- skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

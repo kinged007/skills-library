@@ -1,0 +1,16 @@
+id: backnotprop-principle-minimize-reader-load
+type: external
+source: backnotprop/pstack
+path: skills/principle-minimize-reader-load
+ref: main
+skill: principle-minimize-reader-load
+title: Principle Minimize Reader Load (pstack)
+summary: Apply when reviewing or shaping code that's hard to trace
+category: devops
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

@@ -1,0 +1,16 @@
+id: kunchenguid-tasks-axi
+type: external
+source: kunchenguid/tasks-axi
+path: skills/tasks-axi
+ref: main
+skill: tasks-axi
+title: Tasks Axi (kunchenguid)
+summary: Manage a task backlog through the tasks-axi CLI - add, list, show, start, and complete tasks; track blocked-by dependencies, structured holds, and a ready queue; prune and...
+category: meta
+tags:
+- kunchenguid
+- tasks-axi
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

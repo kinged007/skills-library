@@ -1,0 +1,16 @@
+id: mattpocock-writing-fragments
+type: external
+source: mattpocock/skills
+path: skills/in-progress/writing-fragments
+ref: main
+skill: writing-fragments
+title: Writing Fragments (Matt Pocock)
+summary: 'Writing, explore: mine raw fragments, no structure yet'
+category: writing
+tags:
+- mattpocock
+- skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

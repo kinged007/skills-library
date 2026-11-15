@@ -1,0 +1,16 @@
+id: addyosmani-shipping-and-launch
+type: external
+source: addyosmani/agent-skills
+path: skills/shipping-and-launch
+ref: main
+skill: shipping-and-launch
+title: Shipping And Launch (Addy Osmani)
+summary: Prepares production launches
+category: devops
+tags:
+- addyosmani
+- agent-skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

@@ -1,0 +1,16 @@
+id: mattpocock-claude-handoff
+type: external
+source: mattpocock/skills
+path: skills/in-progress/claude-handoff
+ref: main
+skill: claude-handoff
+title: Claude Handoff (Matt Pocock)
+summary: Hand the current conversation off to a fresh background agent that picks up the work immediately
+category: meta
+tags:
+- mattpocock
+- skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

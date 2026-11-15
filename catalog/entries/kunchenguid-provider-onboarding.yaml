@@ -1,0 +1,16 @@
+id: kunchenguid-provider-onboarding
+type: external
+source: kunchenguid/quota-axi
+path: skills/provider-onboarding
+ref: main
+skill: provider-onboarding
+title: Provider Onboarding (kunchenguid)
+summary: Rules, checklist, credential selection machinery, multi-source handover, delegated refresh contract, and test discipline for onboarding new quota providers or modifying...
+category: devops
+tags:
+- kunchenguid
+- quota-axi
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

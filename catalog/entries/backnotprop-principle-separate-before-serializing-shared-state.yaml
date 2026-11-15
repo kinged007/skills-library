@@ -1,0 +1,16 @@
+id: backnotprop-principle-separate-before-serializing-shared-state
+type: external
+source: backnotprop/pstack
+path: skills/principle-separate-before-serializing-shared-state
+ref: main
+skill: principle-separate-before-serializing-shared-state
+title: Principle Separate Before Serializing Shared State (pstack)
+summary: Apply when concurrent actors might write to the same file, branch, key, or state object
+category: devops
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

@@ -1,0 +1,16 @@
+id: kunchenguid-compact-adviser
+type: external
+source: kunchenguid/compact-adviser
+path: packages/codex-plugin/skills/compact-adviser
+ref: main
+skill: compact-adviser
+title: Compact Adviser (kunchenguid)
+summary: Read or change compact-adviser settings for Codex - the mode (hint or off), the minimum context before a checkpoint is judged, the context budget, TypeSafe request logging, and...
+category: meta
+tags:
+- kunchenguid
+- compact-adviser
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

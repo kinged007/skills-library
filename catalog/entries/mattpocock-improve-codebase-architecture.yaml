@@ -1,0 +1,16 @@
+id: mattpocock-improve-codebase-architecture
+type: external
+source: mattpocock/skills
+path: skills/engineering/improve-codebase-architecture
+ref: main
+skill: improve-codebase-architecture
+title: Improve Codebase Architecture (Matt Pocock)
+summary: Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick
+category: meta
+tags:
+- mattpocock
+- skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

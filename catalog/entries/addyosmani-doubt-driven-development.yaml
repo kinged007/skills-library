@@ -1,0 +1,16 @@
+id: addyosmani-doubt-driven-development
+type: external
+source: addyosmani/agent-skills
+path: skills/doubt-driven-development
+ref: main
+skill: doubt-driven-development
+title: Doubt Driven Development (Addy Osmani)
+summary: Subjects every non-trivial decision to a fresh-context adversarial review before it stands
+category: meta
+tags:
+- addyosmani
+- agent-skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

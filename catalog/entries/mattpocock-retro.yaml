@@ -1,0 +1,16 @@
+id: mattpocock-retro
+type: external
+source: mattpocock/skills
+path: skills/engineering/retro
+ref: main
+skill: retro
+title: Retro (Matt Pocock)
+summary: Conduct a retrospective on a coding session
+category: meta
+tags:
+- mattpocock
+- skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

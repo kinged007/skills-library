@@ -1,0 +1,16 @@
+id: kunchenguid-whathappened
+type: external
+source: kunchenguid/whathappened
+path: skills/whathappened
+ref: main
+skill: whathappened
+title: Whathappened (kunchenguid)
+summary: Brief what just happened on a topic and map public opinion from X (Twitter) only
+category: meta
+tags:
+- kunchenguid
+- whathappened
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

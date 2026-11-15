@@ -1,0 +1,16 @@
+id: kunchenguid-vision-md-triage-verdict
+type: external
+source: kunchenguid/grok-ship
+path: skills/vision-md-triage-verdict
+ref: main
+skill: vision-md-triage-verdict
+title: Vision Md Triage Verdict (kunchenguid)
+summary: Use before any final triage decision when the repo has a VISION.md
+category: design
+tags:
+- kunchenguid
+- grok-ship
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

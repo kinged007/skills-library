@@ -1,0 +1,16 @@
+id: backnotprop-recall
+type: external
+source: backnotprop/pstack
+path: skills/recall
+ref: main
+skill: recall
+title: Recall (pstack)
+summary: Reconstruct your recent working context from your own chat history, live state, and the shared record (user reports, prior fixes, incidents), then hand back a tight...
+category: development
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

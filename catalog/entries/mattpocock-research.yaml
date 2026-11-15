@@ -1,0 +1,16 @@
+id: mattpocock-research
+type: external
+source: mattpocock/skills
+path: skills/engineering/research
+ref: main
+skill: research
+title: Research (Matt Pocock)
+summary: Investigate a question against high-trust primary sources and capture the findings as a Markdown file in the repo
+category: writing
+tags:
+- mattpocock
+- skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

@@ -1,0 +1,16 @@
+id: addyosmani-source-driven-development
+type: external
+source: addyosmani/agent-skills
+path: skills/source-driven-development
+ref: main
+skill: source-driven-development
+title: Source Driven Development (Addy Osmani)
+summary: Grounds every implementation decision in official documentation
+category: development
+tags:
+- addyosmani
+- agent-skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

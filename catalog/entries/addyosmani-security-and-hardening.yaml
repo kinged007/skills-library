@@ -1,0 +1,16 @@
+id: addyosmani-security-and-hardening
+type: external
+source: addyosmani/agent-skills
+path: skills/security-and-hardening
+ref: main
+skill: security-and-hardening
+title: Security And Hardening (Addy Osmani)
+summary: Hardens code against vulnerabilities
+category: development
+tags:
+- addyosmani
+- agent-skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

@@ -1,0 +1,16 @@
+id: mattpocock-domain-modeling
+type: external
+source: mattpocock/skills
+path: skills/engineering/domain-modeling
+ref: main
+skill: domain-modeling
+title: Domain Modeling (Matt Pocock)
+summary: Build and sharpen a project's domain model
+category: development
+tags:
+- mattpocock
+- skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

@@ -1,0 +1,16 @@
+id: backnotprop-how
+type: external
+source: backnotprop/pstack
+path: skills/how
+ref: main
+skill: how
+title: How (pstack)
+summary: Use for "how does X work", code walkthroughs before changing something, and placement / ownership / layering questions ("where should this live", "which package owns this", "is...
+category: development
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

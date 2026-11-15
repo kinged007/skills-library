@@ -1,0 +1,16 @@
+id: addyosmani-observability-and-instrumentation
+type: external
+source: addyosmani/agent-skills
+path: skills/observability-and-instrumentation
+ref: main
+skill: observability-and-instrumentation
+title: Observability And Instrumentation (Addy Osmani)
+summary: Instruments code so production behavior is visible and diagnosable
+category: devops
+tags:
+- addyosmani
+- agent-skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

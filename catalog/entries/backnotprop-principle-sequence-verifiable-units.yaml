@@ -1,0 +1,16 @@
+id: backnotprop-principle-sequence-verifiable-units
+type: external
+source: backnotprop/pstack
+path: skills/principle-sequence-verifiable-units
+ref: main
+skill: principle-sequence-verifiable-units
+title: Principle Sequence Verifiable Units (pstack)
+summary: Apply to multi-step work (sweeps, migrations, runs of similar edits) and to how you stack commits and PRs
+category: devops
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

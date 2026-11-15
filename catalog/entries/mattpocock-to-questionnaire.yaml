@@ -1,0 +1,16 @@
+id: mattpocock-to-questionnaire
+type: external
+source: mattpocock/skills
+path: skills/productivity/to-questionnaire
+ref: main
+skill: to-questionnaire
+title: To Questionnaire (Matt Pocock)
+summary: Turn a decision you can't fully answer into a questionnaire for someone else to fill in
+category: development
+tags:
+- mattpocock
+- skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

@@ -1,0 +1,16 @@
+id: t3dotgg-modernize
+type: external
+source: t3dotgg/tstack
+path: skills/modernize
+ref: main
+skill: modernize
+title: Modernize (tstack)
+summary: For getting old prs up to date
+category: development
+tags:
+- t3dotgg
+- tstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

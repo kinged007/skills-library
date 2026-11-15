@@ -1,0 +1,16 @@
+id: mattpocock-loop-me
+type: external
+source: mattpocock/skills
+path: skills/in-progress/loop-me
+ref: main
+skill: loop-me
+title: Loop Me (Matt Pocock)
+summary: Grill me about specs for the workflows I want to build, within this workspace
+category: meta
+tags:
+- mattpocock
+- skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

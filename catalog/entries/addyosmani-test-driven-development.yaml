@@ -1,0 +1,16 @@
+id: addyosmani-test-driven-development
+type: external
+source: addyosmani/agent-skills
+path: skills/test-driven-development
+ref: main
+skill: test-driven-development
+title: Test Driven Development (Addy Osmani)
+summary: Drives development with tests using the red-green-refactor loop
+category: development
+tags:
+- addyosmani
+- agent-skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

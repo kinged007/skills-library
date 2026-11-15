@@ -1,0 +1,16 @@
+id: backnotprop-sharpen
+type: external
+source: backnotprop/pstack
+path: skills/sharpen
+ref: main
+skill: sharpen
+title: Sharpen (pstack)
+summary: Make a task deeper, not bigger, then rewrite the prompt
+category: development
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

@@ -1,0 +1,16 @@
+id: backnotprop-principle-redesign-from-first-principles
+type: external
+source: backnotprop/pstack
+path: skills/principle-redesign-from-first-principles
+ref: main
+skill: principle-redesign-from-first-principles
+title: Principle Redesign From First Principles (pstack)
+summary: Apply when integrating a new requirement into an existing design
+category: devops
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

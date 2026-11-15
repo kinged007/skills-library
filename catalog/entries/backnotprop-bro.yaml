@@ -1,0 +1,16 @@
+id: backnotprop-bro
+type: external
+source: backnotprop/pstack
+path: skills/bro
+ref: main
+skill: bro
+title: Bro (pstack)
+summary: Restate the last message in plain human language, with no jargon
+category: meta
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

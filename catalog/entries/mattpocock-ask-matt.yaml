@@ -1,0 +1,16 @@
+id: mattpocock-ask-matt
+type: external
+source: mattpocock/skills
+path: skills/engineering/ask-matt
+ref: main
+skill: ask-matt
+title: Ask Matt (Matt Pocock)
+summary: Ask which skill or flow fits your situation
+category: meta
+tags:
+- mattpocock
+- skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

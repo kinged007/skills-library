@@ -1,0 +1,16 @@
+id: addyosmani-frontend-ui-engineering
+type: external
+source: addyosmani/agent-skills
+path: skills/frontend-ui-engineering
+ref: main
+skill: frontend-ui-engineering
+title: Frontend Ui Engineering (Addy Osmani)
+summary: Builds production-quality, accessible, responsive user-facing UIs
+category: design
+tags:
+- addyosmani
+- agent-skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

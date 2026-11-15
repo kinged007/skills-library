@@ -1,0 +1,16 @@
+id: mattpocock-implement-spec
+type: external
+source: mattpocock/skills
+path: skills/engineering/implement-spec
+ref: main
+skill: implement-spec
+title: Implement Spec (Matt Pocock)
+summary: Implement the result of /to-spec and /to-tickets in code
+category: development
+tags:
+- mattpocock
+- skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

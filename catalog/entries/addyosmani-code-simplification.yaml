@@ -1,0 +1,16 @@
+id: addyosmani-code-simplification
+type: external
+source: addyosmani/agent-skills
+path: skills/code-simplification
+ref: main
+skill: code-simplification
+title: Code Simplification (Addy Osmani)
+summary: Simplifies code for clarity
+category: development
+tags:
+- addyosmani
+- agent-skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

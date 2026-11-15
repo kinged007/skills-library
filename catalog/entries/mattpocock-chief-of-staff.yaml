@@ -1,0 +1,16 @@
+id: mattpocock-chief-of-staff
+type: external
+source: mattpocock/skills
+path: skills/in-progress/chief-of-staff
+ref: main
+skill: chief-of-staff
+title: Chief Of Staff (Matt Pocock)
+summary: Pursue a long-running goal in a single session by co-ordinating subagents
+category: development
+tags:
+- mattpocock
+- skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

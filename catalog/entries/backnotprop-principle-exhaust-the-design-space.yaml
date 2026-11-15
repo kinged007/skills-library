@@ -1,0 +1,16 @@
+id: backnotprop-principle-exhaust-the-design-space
+type: external
+source: backnotprop/pstack
+path: skills/principle-exhaust-the-design-space
+ref: main
+skill: principle-exhaust-the-design-space
+title: Principle Exhaust The Design Space (pstack)
+summary: Apply when facing a novel UI interaction or architectural decision with no precedent in the codebase
+category: devops
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

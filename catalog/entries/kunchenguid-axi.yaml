@@ -1,0 +1,16 @@
+id: kunchenguid-axi
+type: external
+source: kunchenguid/axi
+path: .agents/skills/axi
+ref: main
+skill: axi
+title: Axi (kunchenguid)
+summary: Agent eXperience Interface (AXI) — ergonomic standards for building CLI tools that agents use via shell execution
+category: meta
+tags:
+- kunchenguid
+- axi
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

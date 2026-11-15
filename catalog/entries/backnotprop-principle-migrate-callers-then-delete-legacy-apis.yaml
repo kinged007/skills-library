@@ -1,0 +1,16 @@
+id: backnotprop-principle-migrate-callers-then-delete-legacy-apis
+type: external
+source: backnotprop/pstack
+path: skills/principle-migrate-callers-then-delete-legacy-apis
+ref: main
+skill: principle-migrate-callers-then-delete-legacy-apis
+title: Principle Migrate Callers Then Delete Legacy Apis (pstack)
+summary: Apply when introducing a new internal API while old callers still exist
+category: devops
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

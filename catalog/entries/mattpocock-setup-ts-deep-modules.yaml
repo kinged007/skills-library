@@ -1,0 +1,16 @@
+id: mattpocock-setup-ts-deep-modules
+type: external
+source: mattpocock/skills
+path: skills/in-progress/setup-ts-deep-modules
+ref: main
+skill: setup-ts-deep-modules
+title: Setup Ts Deep Modules (Matt Pocock)
+summary: Wire dependency-cruiser into a TypeScript repo so each package is a deep module, with implementation hidden in subfolders and reachable only through its entry-point files
+category: development
+tags:
+- mattpocock
+- skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

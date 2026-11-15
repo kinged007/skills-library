@@ -1,0 +1,16 @@
+id: mattpocock-setup-pre-commit
+type: external
+source: mattpocock/skills
+path: skills/misc/setup-pre-commit
+ref: main
+skill: setup-pre-commit
+title: Setup Pre Commit (Matt Pocock)
+summary: Set up Husky pre-commit hooks with lint-staged (Prettier), type checking, and tests in the current repo
+category: development
+tags:
+- mattpocock
+- skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

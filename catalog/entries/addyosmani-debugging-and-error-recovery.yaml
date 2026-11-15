@@ -1,0 +1,16 @@
+id: addyosmani-debugging-and-error-recovery
+type: external
+source: addyosmani/agent-skills
+path: skills/debugging-and-error-recovery
+ref: main
+skill: debugging-and-error-recovery
+title: Debugging And Error Recovery (Addy Osmani)
+summary: Guides systematic root-cause debugging
+category: development
+tags:
+- addyosmani
+- agent-skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

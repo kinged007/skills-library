@@ -1,0 +1,16 @@
+id: backnotprop-principle-model-the-domain
+type: external
+source: backnotprop/pstack
+path: skills/principle-model-the-domain
+ref: main
+skill: principle-model-the-domain
+title: Principle Model The Domain (pstack)
+summary: Apply when writing stateful logic, or when code branches a lot or repeats a shape assumption across files
+category: devops
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

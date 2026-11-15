@@ -1,0 +1,16 @@
+id: backnotprop-ketchup-video
+type: external
+source: backnotprop/pstack
+path: skills/ketchup-video
+ref: main
+skill: ketchup-video
+title: Ketchup Video (pstack)
+summary: Catch the user up like /ketchup, with a short subtitled video of slides for what happened and the waiting calls as text under it
+category: development
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

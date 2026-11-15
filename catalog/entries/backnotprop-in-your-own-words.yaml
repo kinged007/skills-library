@@ -1,0 +1,16 @@
+id: backnotprop-in-your-own-words
+type: external
+source: backnotprop/pstack
+path: skills/in-your-own-words
+ref: main
+skill: in-your-own-words
+title: In Your Own Words (pstack)
+summary: Restate in your own words what you think the user's goals are and what problem they're trying to solve
+category: development
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

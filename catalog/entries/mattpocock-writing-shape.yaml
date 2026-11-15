@@ -1,0 +1,16 @@
+id: mattpocock-writing-shape
+type: external
+source: mattpocock/skills
+path: skills/in-progress/writing-shape
+ref: main
+skill: writing-shape
+title: Writing Shape (Matt Pocock)
+summary: 'Writing, exploit: shape raw material into an article, paragraph by paragraph'
+category: writing
+tags:
+- mattpocock
+- skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

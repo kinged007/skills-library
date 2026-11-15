@@ -1,0 +1,16 @@
+id: backnotprop-principle-experience-first
+type: external
+source: backnotprop/pstack
+path: skills/principle-experience-first
+ref: main
+skill: principle-experience-first
+title: Principle Experience First (pstack)
+summary: Apply when product, UX, or feature-scope tradeoffs come up
+category: devops
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

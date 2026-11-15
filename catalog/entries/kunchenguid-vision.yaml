@@ -1,0 +1,16 @@
+id: kunchenguid-vision
+type: external
+source: kunchenguid/vision
+path: skills/vision
+ref: main
+skill: vision
+title: Vision (kunchenguid)
+summary: Draft and stress-test a VISION.md for a repository, then iterate with the author on an interactive review board until approved
+category: design
+tags:
+- kunchenguid
+- vision
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

@@ -1,0 +1,16 @@
+id: mattpocock-setup-matt-pocock-skills
+type: external
+source: mattpocock/skills
+path: skills/engineering/setup-matt-pocock-skills
+ref: main
+skill: setup-matt-pocock-skills
+title: Setup Matt Pocock Skills (Matt Pocock)
+summary: 'Configure this repo for the engineering skills: set up its issue tracker, triage label vocabulary, and domain doc layout'
+category: meta
+tags:
+- mattpocock
+- skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

@@ -1,0 +1,16 @@
+id: backnotprop-principle-outcome-oriented-execution
+type: external
+source: backnotprop/pstack
+path: skills/principle-outcome-oriented-execution
+ref: main
+skill: principle-outcome-oriented-execution
+title: Principle Outcome Oriented Execution (pstack)
+summary: Apply during planned rewrites and migrations with explicit phase boundaries
+category: devops
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

@@ -1,0 +1,16 @@
+id: backnotprop-create-formal-verification-skill
+type: external
+source: backnotprop/pstack
+path: skills/create-formal-verification-skill
+ref: main
+skill: create-formal-verification-skill
+title: Create Formal Verification Skill (pstack)
+summary: Generate a project-local skill that formally verifies the code where a bug costs the most and tests reach the least, in any language, with whichever verification tool fits
+category: meta
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

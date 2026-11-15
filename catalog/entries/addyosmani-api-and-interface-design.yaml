@@ -1,0 +1,16 @@
+id: addyosmani-api-and-interface-design
+type: external
+source: addyosmani/agent-skills
+path: skills/api-and-interface-design
+ref: main
+skill: api-and-interface-design
+title: Api And Interface Design (Addy Osmani)
+summary: Guides stable API and interface design
+category: design
+tags:
+- addyosmani
+- agent-skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

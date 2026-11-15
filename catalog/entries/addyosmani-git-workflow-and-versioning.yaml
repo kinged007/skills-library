@@ -1,0 +1,16 @@
+id: addyosmani-git-workflow-and-versioning
+type: external
+source: addyosmani/agent-skills
+path: skills/git-workflow-and-versioning
+ref: main
+skill: git-workflow-and-versioning
+title: Git Workflow And Versioning (Addy Osmani)
+summary: Structures git workflow practices
+category: devops
+tags:
+- addyosmani
+- agent-skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

@@ -1,0 +1,16 @@
+id: addyosmani-ci-cd-and-automation
+type: external
+source: addyosmani/agent-skills
+path: skills/ci-cd-and-automation
+ref: main
+skill: ci-cd-and-automation
+title: Ci Cd And Automation (Addy Osmani)
+summary: Automates CI/CD pipeline setup
+category: devops
+tags:
+- addyosmani
+- agent-skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

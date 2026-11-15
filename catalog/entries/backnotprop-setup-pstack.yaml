@@ -1,0 +1,16 @@
+id: backnotprop-setup-pstack
+type: external
+source: backnotprop/pstack
+path: skills/setup-pstack
+ref: main
+skill: setup-pstack
+title: Setup Pstack (pstack)
+summary: Configure which models pstack uses per role and at what reasoning budget
+category: development
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

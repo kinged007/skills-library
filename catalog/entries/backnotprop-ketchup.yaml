@@ -1,0 +1,16 @@
+id: backnotprop-ketchup
+type: external
+source: backnotprop/pstack
+path: skills/ketchup
+ref: main
+skill: ketchup
+title: Ketchup (pstack)
+summary: Catch the user up on what changed in this chat since their last message, in plain words and small visuals
+category: development
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

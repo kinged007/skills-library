@@ -1,0 +1,16 @@
+id: backnotprop-typescript-best-practices
+type: external
+source: backnotprop/pstack
+path: skills/typescript-best-practices
+ref: main
+skill: typescript-best-practices
+title: Typescript Best Practices (pstack)
+summary: TypeScript best practices
+category: development
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

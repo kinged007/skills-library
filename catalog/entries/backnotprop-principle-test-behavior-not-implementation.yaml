@@ -1,0 +1,16 @@
+id: backnotprop-principle-test-behavior-not-implementation
+type: external
+source: backnotprop/pstack
+path: skills/principle-test-behavior-not-implementation
+ref: main
+skill: principle-test-behavior-not-implementation
+title: Principle Test Behavior Not Implementation (pstack)
+summary: Apply when you write, change, or keep a test
+category: devops
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

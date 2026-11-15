@@ -1,0 +1,16 @@
+id: backnotprop-principle-subtract-before-you-add
+type: external
+source: backnotprop/pstack
+path: skills/principle-subtract-before-you-add
+ref: main
+skill: principle-subtract-before-you-add
+title: Principle Subtract Before You Add (pstack)
+summary: Apply when sequencing an addition, refactor, or rewrite
+category: devops
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

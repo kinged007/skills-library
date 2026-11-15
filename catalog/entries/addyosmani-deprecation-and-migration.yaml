@@ -1,0 +1,16 @@
+id: addyosmani-deprecation-and-migration
+type: external
+source: addyosmani/agent-skills
+path: skills/deprecation-and-migration
+ref: main
+skill: deprecation-and-migration
+title: Deprecation And Migration (Addy Osmani)
+summary: Manages deprecation and migration
+category: development
+tags:
+- addyosmani
+- agent-skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

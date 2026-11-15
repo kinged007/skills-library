@@ -1,0 +1,16 @@
+id: mattpocock-handoff
+type: external
+source: mattpocock/skills
+path: skills/productivity/handoff
+ref: main
+skill: handoff
+title: Handoff (Matt Pocock)
+summary: Compact the current conversation into a handoff document for another agent to pick up
+category: meta
+tags:
+- mattpocock
+- skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

@@ -1,0 +1,16 @@
+id: backnotprop-arena
+type: external
+source: backnotprop/pstack
+path: skills/arena
+ref: main
+skill: arena
+title: Arena (pstack)
+summary: Spawn N parallel candidates at the same task, pick a base, graft the strongest parts of the losers into it
+category: meta
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

@@ -1,0 +1,16 @@
+id: kunchenguid-quota-interpretation
+type: external
+source: kunchenguid/quota-axi
+path: skills/quota-interpretation
+ref: main
+skill: quota-interpretation
+title: Quota Interpretation (kunchenguid)
+summary: Rules and algorithms for quota interpretation, pace calculation, runway derivation, selection signals, and output tier rendering (TOON, JSON, TUI) in quota-axi
+category: devops
+tags:
+- kunchenguid
+- quota-axi
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

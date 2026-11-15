@@ -1,0 +1,16 @@
+id: backnotprop-principle-attack-the-premise
+type: external
+source: backnotprop/pstack
+path: skills/principle-attack-the-premise
+ref: main
+skill: principle-attack-the-premise
+title: Principle Attack The Premise (pstack)
+summary: Apply when two or more fixes that share one premise have failed the same gate
+category: devops
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

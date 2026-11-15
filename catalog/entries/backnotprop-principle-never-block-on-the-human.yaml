@@ -1,0 +1,16 @@
+id: backnotprop-principle-never-block-on-the-human
+type: external
+source: backnotprop/pstack
+path: skills/principle-never-block-on-the-human
+ref: main
+skill: principle-never-block-on-the-human
+title: Principle Never Block On The Human (pstack)
+summary: Apply when tempted to ask 'should I do X?' on reversible work
+category: devops
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

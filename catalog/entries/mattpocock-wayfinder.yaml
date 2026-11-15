@@ -1,0 +1,16 @@
+id: mattpocock-wayfinder
+type: external
+source: mattpocock/skills
+path: skills/engineering/wayfinder
+ref: main
+skill: wayfinder
+title: Wayfinder (Matt Pocock)
+summary: Plan a huge chunk of work (more than one agent session can hold) as a shared map of decision tickets on your issue tracker, and resolve them one at a time until the way to the...
+category: meta
+tags:
+- mattpocock
+- skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

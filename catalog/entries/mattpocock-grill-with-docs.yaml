@@ -1,0 +1,16 @@
+id: mattpocock-grill-with-docs
+type: external
+source: mattpocock/skills
+path: skills/engineering/grill-with-docs
+ref: main
+skill: grill-with-docs
+title: Grill With Docs (Matt Pocock)
+summary: A relentless interview to sharpen a plan or design, which also creates docs (ADR's and glossary) as we go
+category: meta
+tags:
+- mattpocock
+- skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

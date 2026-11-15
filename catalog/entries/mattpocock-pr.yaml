@@ -1,0 +1,16 @@
+id: mattpocock-pr
+type: external
+source: mattpocock/skills
+path: skills/engineering/pr
+ref: main
+skill: pr
+title: Pr (Matt Pocock)
+summary: Use when writing a PR body
+category: writing
+tags:
+- mattpocock
+- skills
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

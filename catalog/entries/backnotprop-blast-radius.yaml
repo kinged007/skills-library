@@ -1,0 +1,16 @@
+id: backnotprop-blast-radius
+type: external
+source: backnotprop/pstack
+path: skills/blast-radius
+ref: main
+skill: blast-radius
+title: Blast Radius (pstack)
+summary: Find what a change could break somewhere else before it ships, beyond the diff, and prove the one fact it's safe because of by running real code instead of writing it up
+category: development
+tags:
+- backnotprop
+- pstack
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'
