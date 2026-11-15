@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: pip install pyyaml && python scripts/build_catalog.py
-      - name: catalog.json up to date
-        run: git diff --exit-code catalog.json
+      - run: pip install pyyaml && python scripts/build_site.py
+      - name: generated catalog data up to date
+        run: git diff --exit-code catalog.json docs/catalog.json

@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Skills Library — curated agent skills</title>
+<meta name="description" content="A curated, rated and categorized library of agent skills: our own skills plus references that install straight from their authors.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#/">Skills Library</a>
+    <p class="tagline">Curated agent skills — ours, plus references that install from their authors.</p>
+    <p class="stats" id="stats" hidden></p>
+  </div>
+</header>
+
+<nav class="filters wrap" id="filters" aria-label="Search and filter skills">
+  <div class="filter-row">
+    <label class="grow">Search
+      <input id="q" type="search" placeholder="Search title, summary, tags…" autocomplete="off">
+    </label>
+    <label>Category
+      <select id="category"><option value="">All categories</option></select>
+    </label>
+    <label>Type
+      <select id="type">
+        <option value="">All</option>
+        <option value="local">Own skills</option>
+        <option value="external">References</option>
+      </select>
+    </label>
+    <label>Source
+      <select id="source"><option value="">All sources</option></select>
+    </label>
+    <label>Rating
+      <select id="minScore">
+        <option value="0">Any</option>
+        <option value="3">3+ useful</option>
+        <option value="4">4+ very good</option>
+        <option value="5">5 essential</option>
+      </select>
+    </label>
+    <label>Sort
+      <select id="sort">
+        <option value="top">Top rated</option>
+        <option value="az">A–Z</option>
+        <option value="recent">Recently reviewed</option>
+      </select>
+    </label>
+  </div>
+  <div class="filter-row">
+    <label class="grow">Tag
+      <input id="tag" list="taglist" placeholder="Pick or type a tag…" autocomplete="off">
+      <datalist id="taglist"></datalist>
+    </label>
+    <button id="reset" type="button" class="btn">Reset</button>
+  </div>
+  <p class="count" id="count" role="status"></p>
+</nav>
+
+<main class="wrap" id="view">
+  <noscript>
+    <p> This site needs JavaScript for search and filters.
+      You can still browse the raw data: <a href="catalog.json">catalog.json</a>.</p>
+  </noscript>
+  <p id="loading">Loading catalog…</p>
+</main>
+
+<footer class="wrap site-footer">
+  <p id="generated"></p>
+  <p>Own skills install from <code>kinged007/skills-library</code>; references install
+  straight from their authors, always latest — nothing is vendored.
+  Data: <a href="catalog.json">catalog.json</a> ·
+  Repo: <a href="https://github.com/kinged007/skills-library">kinged007/skills-library</a></p>
+</footer>
+
+<script src="md.js" defer></script>
+<script src="app.js" defer></script>
+<script src="view.js" defer></script>
+</body>
+</html>
