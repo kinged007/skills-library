@@ -9,7 +9,12 @@ summary: Pursue a long-running goal in a single session by co-ordinating subagen
 category: development
 tags:
 - mattpocock
-- skills
+- multi-agent
+- agents
+- orchestration
+- planning
+- workflow
+- autonomy
 rating:
   score: 3
   reviewed: null

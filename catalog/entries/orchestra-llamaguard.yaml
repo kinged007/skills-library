@@ -4,11 +4,20 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 07-safety-alignment/llamaguard
 ref: main
 skill: llamaguard
-title: "Llamaguard (Orchestra Research)"
-summary: "Meta's 7-8B specialized moderation model for LLM input/output filtering"
+title: Llamaguard (Orchestra Research)
+summary: Meta's 7-8B specialized moderation model for LLM input/output filtering
 category: ai-ml
-tags: [orchestra-research, safety-alignment, llamaguard, content-moderation, meta, guardrails, safety-classification]
+tags:
+- orchestra-research
+- machine-learning
+- safety-alignment
+- llamaguard
+- content-moderation
+- meta
+- guardrails
+- safety-classification
+- security
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

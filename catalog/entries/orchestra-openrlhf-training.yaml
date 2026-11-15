@@ -4,11 +4,19 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 06-post-training/openrlhf
 ref: main
 skill: openrlhf-training
-title: "Openrlhf Training (Orchestra Research)"
-summary: "High-performance RLHF framework with Ray+vLLM acceleration"
+title: Openrlhf Training (Orchestra Research)
+summary: High-performance RLHF framework with Ray+vLLM acceleration
 category: ai-ml
-tags: [orchestra-research, post-training, openrlhf, rlhf, ppo, grpo, rloo]
+tags:
+- orchestra-research
+- machine-learning
+- post-training
+- openrlhf
+- rlhf
+- ppo
+- grpo
+- rloo
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

@@ -10,6 +10,10 @@ category: development
 tags:
 - backnotprop
 - pstack
+- context-management
+- memory
+- summary
+- workflow
 rating:
   score: 3
   reviewed: null

@@ -9,7 +9,13 @@ summary: Prepares production launches
 category: devops
 tags:
 - addyosmani
-- agent-skills
+- shipping
+- launch
+- release
+- production
+- deployment
+- rollback
+- engineering
 rating:
   score: 3
   reviewed: null

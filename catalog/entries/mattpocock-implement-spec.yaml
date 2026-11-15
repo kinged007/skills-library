@@ -9,7 +9,12 @@ summary: Implement the result of /to-spec and /to-tickets in code
 category: development
 tags:
 - mattpocock
-- skills
+- implementation
+- specs
+- issue-tracking
+- planning
+- engineering
+- workflow
 rating:
   score: 3
   reviewed: null

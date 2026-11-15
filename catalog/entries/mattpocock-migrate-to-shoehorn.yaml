@@ -9,7 +9,10 @@ summary: Migrate test files from `as` type assertions to @total-typescript/shoeh
 category: development
 tags:
 - mattpocock
-- skills
+- testing
+- refactoring
+- typescript
+- types
 rating:
   score: 3
   reviewed: null

@@ -9,7 +9,12 @@ summary: Guides stable API and interface design
 category: design
 tags:
 - addyosmani
-- agent-skills
+- api-design
+- architecture
+- backend
+- versioning
+- engineering
+- contracts
 rating:
   score: 3
   reviewed: null

@@ -9,7 +9,12 @@ summary: Implement a piece of work based on a spec or set of tickets
 category: development
 tags:
 - mattpocock
-- skills
+- implementation
+- specs
+- issue-tracking
+- planning
+- engineering
+- workflow
 rating:
   score: 3
   reviewed: null

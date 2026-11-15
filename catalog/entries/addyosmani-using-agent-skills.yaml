@@ -9,7 +9,10 @@ summary: Discovers and invokes agent skills
 category: meta
 tags:
 - addyosmani
-- agent-skills
+- meta
+- skills-discovery
+- agents
+- workflow
 rating:
   score: 3
   reviewed: null

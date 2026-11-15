@@ -10,6 +10,10 @@ category: meta
 tags:
 - backnotprop
 - pstack
+- multi-agent
+- parallel
+- architecture
+- decision-making
 rating:
   score: 3
   reviewed: null

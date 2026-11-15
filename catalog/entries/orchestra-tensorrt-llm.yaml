@@ -4,11 +4,20 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 12-inference-serving/tensorrt-llm
 ref: main
 skill: tensorrt-llm
-title: "Tensorrt Llm (Orchestra Research)"
-summary: "Optimizes LLM inference with NVIDIA TensorRT for maximum throughput and lowest latency"
+title: Tensorrt Llm (Orchestra Research)
+summary: Optimizes LLM inference with NVIDIA TensorRT for maximum throughput and lowest latency
 category: ai-ml
-tags: [orchestra-research, inference-serving, tensorrt-llm, nvidia, inference-optimization, high-throughput, low-latency]
+tags:
+- orchestra-research
+- machine-learning
+- inference-serving
+- tensorrt-llm
+- nvidia
+- inference-optimization
+- high-throughput
+- low-latency
+- gpu
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

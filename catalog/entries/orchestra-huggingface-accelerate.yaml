@@ -4,11 +4,20 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 08-distributed-training/accelerate
 ref: main
 skill: huggingface-accelerate
-title: "Huggingface Accelerate (Orchestra Research)"
-summary: "Simplest distributed training API. 4 lines to add distributed support to any PyTorch script"
+title: Huggingface Accelerate (Orchestra Research)
+summary: Simplest distributed training API. 4 lines to add distributed support to any PyTorch script
 category: ai-ml
-tags: [orchestra-research, distributed-training, huggingface, accelerate, deepspeed, fsdp, mixed-precision]
+tags:
+- orchestra-research
+- machine-learning
+- distributed-training
+- huggingface
+- accelerate
+- deepspeed
+- fsdp
+- mixed-precision
+- gpu
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

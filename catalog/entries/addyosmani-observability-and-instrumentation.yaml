@@ -9,7 +9,14 @@ summary: Instruments code so production behavior is visible and diagnosable
 category: devops
 tags:
 - addyosmani
-- agent-skills
+- observability
+- monitoring
+- logging
+- tracing
+- metrics
+- production
+- debugging
+- engineering
 rating:
   score: 3
   reviewed: null

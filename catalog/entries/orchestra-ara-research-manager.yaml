@@ -4,11 +4,19 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 22-agent-native-research-artifact/research-manager
 ref: main
 skill: ara-research-manager
-title: "Ara Research Manager (Orchestra Research)"
-summary: "Records research provenance as a post-task epilogue, scanning conversation history at the end of a coding or research session to extract decisions, experiments, dead ends,..."
+title: Ara Research Manager (Orchestra Research)
+summary: Records research provenance as a post-task epilogue, scanning conversation history at the end of a coding or research session to extract decisions, experiments, dead ends,...
 category: ai-ml
-tags: [orchestra-research, agent-native-research-artifact, ara, research-recording, provenance, session-logging, knowledge-management]
+tags:
+- orchestra-research
+- machine-learning
+- agent-native-research-artifact
+- ara
+- research-recording
+- provenance
+- session-logging
+- knowledge-management
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

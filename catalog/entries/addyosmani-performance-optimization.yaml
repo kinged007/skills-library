@@ -9,7 +9,13 @@ summary: Optimizes application performance across frontend, backend, queries, an
 category: development
 tags:
 - addyosmani
-- agent-skills
+- performance
+- optimization
+- frontend
+- backend
+- database
+- profiling
+- engineering
 rating:
   score: 3
   reviewed: null

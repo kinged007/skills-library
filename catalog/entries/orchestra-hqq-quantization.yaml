@@ -4,11 +4,20 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 10-optimization/hqq
 ref: main
 skill: hqq-quantization
-title: "Hqq Quantization (Orchestra Research)"
-summary: "Half-Quadratic Quantization for LLMs without calibration data"
+title: Hqq Quantization (Orchestra Research)
+summary: Half-Quadratic Quantization for LLMs without calibration data
 category: ai-ml
-tags: [orchestra-research, optimization, quantization, hqq, memory-efficiency, inference, model-compression]
+tags:
+- orchestra-research
+- machine-learning
+- optimization
+- quantization
+- hqq
+- memory-efficiency
+- inference
+- model-compression
+- gpu
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

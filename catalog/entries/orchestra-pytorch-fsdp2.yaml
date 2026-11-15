@@ -4,11 +4,20 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 08-distributed-training/pytorch-fsdp2
 ref: main
 skill: pytorch-fsdp2
-title: "Pytorch Fsdp2 (Orchestra Research)"
-summary: "Adds PyTorch FSDP2 (fully_shard) to training scripts with correct init, sharding, mixed precision/offload config, and distributed checkpointing"
+title: Pytorch Fsdp2 (Orchestra Research)
+summary: Adds PyTorch FSDP2 (fully_shard) to training scripts with correct init, sharding, mixed precision/offload config, and distributed checkpointing
 category: ai-ml
-tags: [orchestra-research, distributed-training, pytorch, fsdp2, fully-sharded-data-parallel, dtensor, device-mesh]
+tags:
+- orchestra-research
+- machine-learning
+- distributed-training
+- pytorch
+- fsdp2
+- fully-sharded-data-parallel
+- dtensor
+- device-mesh
+- gpu
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

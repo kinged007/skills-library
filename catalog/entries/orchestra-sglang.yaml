@@ -4,11 +4,20 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 12-inference-serving/sglang
 ref: main
 skill: sglang
-title: "Sglang (Orchestra Research)"
-summary: "Fast structured generation and serving for LLMs with RadixAttention prefix caching"
+title: Sglang (Orchestra Research)
+summary: Fast structured generation and serving for LLMs with RadixAttention prefix caching
 category: ai-ml
-tags: [orchestra-research, inference-serving, sglang, structured-generation, radixattention, prefix-caching, constrained-decoding]
+tags:
+- orchestra-research
+- machine-learning
+- inference-serving
+- sglang
+- structured-generation
+- radixattention
+- prefix-caching
+- constrained-decoding
+- gpu
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

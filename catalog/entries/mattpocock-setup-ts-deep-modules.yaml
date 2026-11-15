@@ -9,7 +9,10 @@ summary: Wire dependency-cruiser into a TypeScript repo so each package is a dee
 category: development
 tags:
 - mattpocock
-- skills
+- architecture
+- typescript
+- setup
+- types
 rating:
   score: 3
   reviewed: null

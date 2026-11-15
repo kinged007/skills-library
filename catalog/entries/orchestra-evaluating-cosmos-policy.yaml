@@ -4,11 +4,19 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 18-multimodal/cosmos-policy
 ref: main
 skill: evaluating-cosmos-policy
-title: "Evaluating Cosmos Policy (Orchestra Research)"
-summary: "Evaluates NVIDIA Cosmos Policy on LIBERO and RoboCasa simulation environments"
+title: Evaluating Cosmos Policy (Orchestra Research)
+summary: Evaluates NVIDIA Cosmos Policy on LIBERO and RoboCasa simulation environments
 category: ai-ml
-tags: [orchestra-research, multimodal, cosmos-policy, vla, robotics, libero, robocasa]
+tags:
+- orchestra-research
+- machine-learning
+- multimodal
+- cosmos-policy
+- vla
+- robotics
+- libero
+- robocasa
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

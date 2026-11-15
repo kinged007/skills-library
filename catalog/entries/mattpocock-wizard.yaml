@@ -9,7 +9,12 @@ summary: Generate an interactive bash wizard that walks a human through steps on
 category: meta
 tags:
 - mattpocock
-- skills
+- cli
+- bash
+- setup
+- automation
+- onboarding
+- human-in-the-loop
 rating:
   score: 3
   reviewed: null

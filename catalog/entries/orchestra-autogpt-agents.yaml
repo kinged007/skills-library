@@ -4,11 +4,19 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 14-agents/autogpt
 ref: main
 skill: autogpt-agents
-title: "Autogpt Agents (Orchestra Research)"
-summary: "Autonomous AI agent platform for building and deploying continuous agents"
+title: Autogpt Agents (Orchestra Research)
+summary: Autonomous AI agent platform for building and deploying continuous agents
 category: ai-ml
-tags: [orchestra-research, agents, autogpt, autonomous-agents, workflow-automation, visual-builder, ai-platform]
+tags:
+- orchestra-research
+- machine-learning
+- agents
+- autogpt
+- autonomous-agents
+- workflow-automation
+- visual-builder
+- ai-platform
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

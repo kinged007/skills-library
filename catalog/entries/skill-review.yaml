@@ -1,14 +1,19 @@
 id: skill-review
-type: local            # local = lives in this repo under skills/<id>
+type: local
 path: skills/skill-review
 title: Skill Review
 summary: Audit a SKILL.md for naming, description quality and overlap.
 category: meta
-tags: [skills, review, quality]
+tags:
+- meta
+- skills-authoring
+- review
+- quality
+- documentation
 rating:
-  score: 4            # 1-5, curator's overall verdict
+  score: 4
   quality: 4
   usefulness: 4
   maturity: 3
-  reviewed: "2026-11-13"
-notes: ""
+  reviewed: '2026-11-13'
+notes: ''

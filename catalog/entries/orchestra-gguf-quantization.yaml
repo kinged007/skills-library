@@ -4,11 +4,20 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 10-optimization/gguf
 ref: main
 skill: gguf-quantization
-title: "Gguf Quantization (Orchestra Research)"
-summary: "GGUF format and llama.cpp quantization for efficient CPU/GPU inference"
+title: Gguf Quantization (Orchestra Research)
+summary: GGUF format and llama.cpp quantization for efficient CPU/GPU inference
 category: ai-ml
-tags: [orchestra-research, optimization, gguf, quantization, llama-cpp, cpu-inference, apple-silicon]
+tags:
+- orchestra-research
+- machine-learning
+- optimization
+- gguf
+- quantization
+- llama-cpp
+- cpu-inference
+- apple-silicon
+- gpu
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

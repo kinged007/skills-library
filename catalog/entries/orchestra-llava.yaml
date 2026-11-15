@@ -4,11 +4,19 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 18-multimodal/llava
 ref: main
 skill: llava
-title: "Llava (Orchestra Research)"
-summary: "Large Language and Vision Assistant"
+title: Llava (Orchestra Research)
+summary: Large Language and Vision Assistant
 category: ai-ml
-tags: [orchestra-research, multimodal, llava, vision-language, visual-question-answering, image-chat, clip]
+tags:
+- orchestra-research
+- machine-learning
+- multimodal
+- llava
+- vision-language
+- visual-question-answering
+- image-chat
+- clip
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

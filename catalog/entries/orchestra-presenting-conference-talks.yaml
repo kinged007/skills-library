@@ -4,11 +4,19 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 20-ml-paper-writing/presenting-conference-talks
 ref: main
 skill: presenting-conference-talks
-title: "Presenting Conference Talks (Orchestra Research)"
-summary: "Generates conference presentation slides (Beamer LaTeX PDF and editable PPTX) from a compiled paper with speaker notes and talk script"
+title: Presenting Conference Talks (Orchestra Research)
+summary: Generates conference presentation slides (Beamer LaTeX PDF and editable PPTX) from a compiled paper with speaker notes and talk script
 category: writing
-tags: [orchestra-research, ml-paper-writing, presenting-conference-talks, beamer, pptx, slides, speaker-notes]
+tags:
+- orchestra-research
+- machine-learning
+- ml-paper-writing
+- presenting-conference-talks
+- beamer
+- pptx
+- slides
+- speaker-notes
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

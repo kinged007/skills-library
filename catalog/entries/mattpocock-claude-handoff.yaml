@@ -9,7 +9,11 @@ summary: Hand the current conversation off to a fresh background agent that pick
 category: meta
 tags:
 - mattpocock
-- skills
+- handoff
+- context-management
+- claude-code
+- agents
+- workflow
 rating:
   score: 3
   reviewed: null

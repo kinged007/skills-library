@@ -9,7 +9,10 @@ summary: Scan a codebase for deepening opportunities, present them as a visual H
 category: meta
 tags:
 - mattpocock
-- skills
+- interview
+- architecture
+- formal-verification
+- visual
 rating:
   score: 3
   reviewed: null

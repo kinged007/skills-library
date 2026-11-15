@@ -4,11 +4,19 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 06-post-training/miles
 ref: main
 skill: miles-rl-training
-title: "Miles Rl Training (Orchestra Research)"
-summary: "Provides guidance for enterprise-grade RL training using miles, a production-ready fork of slime"
+title: Miles Rl Training (Orchestra Research)
+summary: Provides guidance for enterprise-grade RL training using miles, a production-ready fork of slime
 category: ai-ml
-tags: [orchestra-research, post-training, reinforcement-learning, moe, fp8, int4, enterprise]
+tags:
+- orchestra-research
+- machine-learning
+- post-training
+- reinforcement-learning
+- moe
+- fp8
+- int4
+- enterprise
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

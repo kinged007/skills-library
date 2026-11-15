@@ -9,7 +9,11 @@ summary: Drives development with tests using the red-green-refactor loop
 category: development
 tags:
 - addyosmani
-- agent-skills
+- tdd
+- testing
+- red-green-refactor
+- engineering
+- quality
 rating:
   score: 3
   reviewed: null

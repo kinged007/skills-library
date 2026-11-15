@@ -9,7 +9,12 @@ summary: Builds production-quality, accessible, responsive user-facing UIs
 category: design
 tags:
 - addyosmani
-- agent-skills
+- frontend
+- ui
+- accessibility
+- responsive
+- engineering
+- react
 rating:
   score: 3
   reviewed: null

@@ -4,11 +4,20 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 10-optimization/gptq
 ref: main
 skill: gptq
-title: "Gptq (Orchestra Research)"
-summary: "Post-training 4-bit quantization for LLMs with minimal accuracy loss"
+title: Gptq (Orchestra Research)
+summary: Post-training 4-bit quantization for LLMs with minimal accuracy loss
 category: ai-ml
-tags: [orchestra-research, optimization, gptq, quantization, 4-bit, post-training, memory-optimization]
+tags:
+- orchestra-research
+- machine-learning
+- optimization
+- gptq
+- quantization
+- 4-bit
+- post-training
+- memory-optimization
+- gpu
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

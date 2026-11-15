@@ -4,11 +4,19 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 15-rag/sentence-transformers
 ref: main
 skill: sentence-transformers
-title: "Sentence Transformers (Orchestra Research)"
-summary: "Framework for state-of-the-art sentence, text, and image embeddings"
+title: Sentence Transformers (Orchestra Research)
+summary: Framework for state-of-the-art sentence, text, and image embeddings
 category: ai-ml
-tags: [orchestra-research, rag, sentence-transformers, embeddings, semantic-similarity, multilingual, multimodal]
+tags:
+- orchestra-research
+- machine-learning
+- rag
+- sentence-transformers
+- embeddings
+- semantic-similarity
+- multilingual
+- multimodal
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

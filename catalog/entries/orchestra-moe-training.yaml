@@ -4,11 +4,19 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 19-emerging-techniques/moe-training
 ref: main
 skill: moe-training
-title: "Moe Training (Orchestra Research)"
-summary: "Train Mixture of Experts (MoE) models using DeepSpeed or HuggingFace"
+title: Moe Training (Orchestra Research)
+summary: Train Mixture of Experts (MoE) models using DeepSpeed or HuggingFace
 category: ai-ml
-tags: [orchestra-research, emerging-techniques, moe, mixture-of-experts, sparse-models, deepspeed, expert-parallelism]
+tags:
+- orchestra-research
+- machine-learning
+- emerging-techniques
+- moe
+- mixture-of-experts
+- sparse-models
+- deepspeed
+- expert-parallelism
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

@@ -4,11 +4,19 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 15-rag/chroma
 ref: main
 skill: chroma
-title: "Chroma (Orchestra Research)"
-summary: "Open-source embedding database for AI applications"
+title: Chroma (Orchestra Research)
+summary: Open-source embedding database for AI applications
 category: ai-ml
-tags: [orchestra-research, rag, chroma, vector-database, embeddings, semantic-search, open-source]
+tags:
+- orchestra-research
+- machine-learning
+- rag
+- chroma
+- vector-database
+- embeddings
+- semantic-search
+- open-source
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

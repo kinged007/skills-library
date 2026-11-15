@@ -4,11 +4,18 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 18-multimodal/blip-2
 ref: main
 skill: blip-2-vision-language
-title: "Blip 2 Vision Language (Orchestra Research)"
-summary: "Vision-language pre-training framework bridging frozen image encoders and LLMs"
+title: Blip 2 Vision Language (Orchestra Research)
+summary: Vision-language pre-training framework bridging frozen image encoders and LLMs
 category: ai-ml
-tags: [orchestra-research, multimodal, vision-language, image-captioning, vqa, zero-shot]
+tags:
+- orchestra-research
+- machine-learning
+- multimodal
+- vision-language
+- image-captioning
+- vqa
+- zero-shot
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

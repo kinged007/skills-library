@@ -4,11 +4,19 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 02-tokenization/sentencepiece
 ref: main
 skill: sentencepiece
-title: "Sentencepiece (Orchestra Research)"
-summary: "Language-independent tokenizer treating text as raw Unicode"
+title: Sentencepiece (Orchestra Research)
+summary: Language-independent tokenizer treating text as raw Unicode
 category: ai-ml
-tags: [orchestra-research, tokenization, sentencepiece, language-independent, bpe, unigram, multilingual]
+tags:
+- orchestra-research
+- machine-learning
+- tokenization
+- sentencepiece
+- language-independent
+- bpe
+- unigram
+- multilingual
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

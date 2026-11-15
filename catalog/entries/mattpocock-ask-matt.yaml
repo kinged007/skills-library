@@ -9,7 +9,9 @@ summary: Ask which skill or flow fits your situation
 category: meta
 tags:
 - mattpocock
-- skills
+- meta
+- skills-discovery
+- workflow
 rating:
   score: 3
   reviewed: null

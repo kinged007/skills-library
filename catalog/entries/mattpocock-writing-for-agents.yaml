@@ -9,7 +9,11 @@ summary: Writing documents for agents
 category: meta
 tags:
 - mattpocock
-- skills
+- writing
+- documentation
+- agents
+- prompting
+- context-management
 rating:
   score: 3
   reviewed: null

@@ -9,7 +9,12 @@ summary: Hardens code against vulnerabilities
 category: development
 tags:
 - addyosmani
-- agent-skills
+- security
+- hardening
+- vulnerabilities
+- owasp
+- engineering
+- production
 rating:
   score: 3
   reviewed: null

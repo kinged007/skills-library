@@ -10,6 +10,12 @@ category: development
 tags:
 - backnotprop
 - pstack
+- architecture
+- decision-records
+- debugging
+- postmortem
+- engineering
+- explanation
 rating:
   score: 3
   reviewed: null

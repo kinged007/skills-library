@@ -9,7 +9,10 @@ summary: Compact the current conversation into a handoff document for another ag
 category: meta
 tags:
 - mattpocock
-- skills
+- context-management
+- handoff
+- agents
+- documents
 rating:
   score: 3
   reviewed: null

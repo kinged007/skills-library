@@ -9,7 +9,11 @@ summary: 'Turn the current conversation into a spec and publish it to the projec
 category: development
 tags:
 - mattpocock
-- skills
+- interview
+- github
+- planning
+- specs
+- issue-tracking
 rating:
   score: 3
   reviewed: null

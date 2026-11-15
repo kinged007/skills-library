@@ -9,7 +9,12 @@ summary: Diagnosis loop for hard bugs and performance regressions
 category: development
 tags:
 - mattpocock
-- skills
+- debugging
+- performance
+- regression
+- root-cause
+- engineering
+- workflow
 rating:
   score: 3
   reviewed: null

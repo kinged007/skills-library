@@ -4,11 +4,17 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 04-mechanistic-interpretability/transformer-lens
 ref: main
 skill: transformer-lens-interpretability
-title: "Transformer Lens Interpretability (Orchestra Research)"
-summary: "Provides guidance for mechanistic interpretability research using TransformerLens to inspect and manipulate transformer internals via HookPoints and activation caching"
+title: Transformer Lens Interpretability (Orchestra Research)
+summary: Provides guidance for mechanistic interpretability research using TransformerLens to inspect and manipulate transformer internals via HookPoints and activation caching
 category: ai-ml
-tags: [orchestra-research, mechanistic-interpretability, transformerlens, activation-patching, circuit-analysis]
+tags:
+- orchestra-research
+- machine-learning
+- mechanistic-interpretability
+- transformerlens
+- activation-patching
+- circuit-analysis
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

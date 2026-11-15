@@ -4,11 +4,19 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 19-emerging-techniques/long-context
 ref: main
 skill: long-context
-title: "Long Context (Orchestra Research)"
-summary: "Extend context windows of transformer models using RoPE, YaRN, ALiBi, and position interpolation techniques"
+title: Long Context (Orchestra Research)
+summary: Extend context windows of transformer models using RoPE, YaRN, ALiBi, and position interpolation techniques
 category: ai-ml
-tags: [orchestra-research, emerging-techniques, long-context, rope, yarn, alibi, position-interpolation]
+tags:
+- orchestra-research
+- machine-learning
+- emerging-techniques
+- long-context
+- rope
+- yarn
+- alibi
+- position-interpolation
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

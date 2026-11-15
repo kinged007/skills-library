@@ -4,11 +4,19 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 06-post-training/slime
 ref: main
 skill: slime-rl-training
-title: "Slime Rl Training (Orchestra Research)"
-summary: "Provides guidance for LLM post-training with RL using slime, a Megatron+SGLang framework"
+title: Slime Rl Training (Orchestra Research)
+summary: Provides guidance for LLM post-training with RL using slime, a Megatron+SGLang framework
 category: ai-ml
-tags: [orchestra-research, post-training, reinforcement-learning, megatron-lm, sglang, grpo, glm]
+tags:
+- orchestra-research
+- machine-learning
+- post-training
+- reinforcement-learning
+- megatron-lm
+- sglang
+- grpo
+- glm
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

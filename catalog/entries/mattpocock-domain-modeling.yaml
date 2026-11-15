@@ -9,7 +9,12 @@ summary: Build and sharpen a project's domain model
 category: development
 tags:
 - mattpocock
-- skills
+- domain-modeling
+- architecture
+- documentation
+- glossary
+- engineering
+- ddd
 rating:
   score: 3
   reviewed: null

@@ -4,11 +4,20 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 08-distributed-training/deepspeed
 ref: main
 skill: deepspeed
-title: "Deepspeed (Orchestra Research)"
-summary: "Expert guidance for distributed training with DeepSpeed - ZeRO optimization stages, pipeline parallelism, FP16/BF16/FP8, 1-bit Adam, sparse attention"
+title: Deepspeed (Orchestra Research)
+summary: Expert guidance for distributed training with DeepSpeed - ZeRO optimization stages, pipeline parallelism, FP16/BF16/FP8, 1-bit Adam, sparse attention
 category: ai-ml
-tags: [orchestra-research, distributed-training, deepspeed, zero, pipeline-parallelism, mixed-precision, optimization]
+tags:
+- orchestra-research
+- machine-learning
+- distributed-training
+- deepspeed
+- zero
+- pipeline-parallelism
+- mixed-precision
+- optimization
+- gpu
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

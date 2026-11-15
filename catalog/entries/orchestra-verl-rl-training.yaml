@@ -4,11 +4,20 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 06-post-training/verl
 ref: main
 skill: verl-rl-training
-title: "Verl Rl Training (Orchestra Research)"
-summary: "Provides guidance for training LLMs with reinforcement learning using verl (Volcano Engine RL)"
+title: Verl Rl Training (Orchestra Research)
+summary: Provides guidance for training LLMs with reinforcement learning using verl (Volcano Engine RL)
 category: ai-ml
-tags: [orchestra-research, post-training, reinforcement-learning, rlhf, grpo, ppo, distributed-training]
+tags:
+- orchestra-research
+- machine-learning
+- post-training
+- reinforcement-learning
+- rlhf
+- grpo
+- ppo
+- distributed-training
+- gpu
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

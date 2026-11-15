@@ -9,7 +9,11 @@ summary: Records decisions and documentation
 category: writing
 tags:
 - addyosmani
-- agent-skills
+- documentation
+- adr
+- decision-records
+- engineering
+- architecture
 rating:
   score: 3
   reviewed: null

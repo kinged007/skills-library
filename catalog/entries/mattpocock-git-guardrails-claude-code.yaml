@@ -9,7 +9,11 @@ summary: Set up Claude Code hooks to block dangerous git commands (push, reset -
 category: devops
 tags:
 - mattpocock
-- skills
+- security
+- git
+- hooks
+- setup
+- claude-code
 rating:
   score: 3
   reviewed: null

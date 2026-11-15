@@ -9,7 +9,11 @@ summary: 'Configure this repo for the engineering skills: set up its issue track
 category: meta
 tags:
 - mattpocock
-- skills
+- github
+- documentation
+- issue-tracking
+- triage
+- setup
 rating:
   score: 3
   reviewed: null

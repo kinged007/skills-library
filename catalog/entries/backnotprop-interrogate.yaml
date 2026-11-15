@@ -10,6 +10,10 @@ category: meta
 tags:
 - backnotprop
 - pstack
+- testing
+- code-review
+- adversarial-review
+- review
 rating:
   score: 3
   reviewed: null

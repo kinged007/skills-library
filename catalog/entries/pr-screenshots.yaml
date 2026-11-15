@@ -2,9 +2,16 @@ id: pr-screenshots
 type: local
 path: skills/pr-screenshots
 title: PR Screenshots
-summary: "Print the screenshots a CI-published gallery produced for a PR as Markdown images for the PR description."
+summary: Print the screenshots a CI-published gallery produced for a PR as Markdown images for the PR description.
 category: development
-tags: [github, pull-requests, screenshots, ci, bash]
+tags:
+- pull-requests
+- ci
+- screenshots
+- github
+- frontend
+- testing
+- documentation
 template: true
 derived_from:
   source: elie222/rakazo
@@ -15,5 +22,5 @@ rating:
   quality: 3
   usefulness: 3
   maturity: 2
-  reviewed: "2026-11-14"
-notes: "Optional companion to pr-watch. Needs CI that publishes a gallery with history.json and manifest.json; set PR_SCREENSHOTS_MARKER. Not tested."
+  reviewed: '2026-11-14'
+notes: Optional companion to pr-watch. Needs CI that publishes a gallery with history.json and manifest.json; set PR_SCREENSHOTS_MARKER. Not tested.

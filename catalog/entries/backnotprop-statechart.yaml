@@ -10,6 +10,11 @@ category: development
 tags:
 - backnotprop
 - pstack
+- formal-verification
+- architecture
+- modeling
+- diagrams
+- tla-plus
 rating:
   score: 3
   reviewed: null

@@ -9,7 +9,12 @@ summary: Subjects every non-trivial decision to a fresh-context adversarial revi
 category: meta
 tags:
 - addyosmani
-- agent-skills
+- adversarial-review
+- code-review
+- decision-making
+- engineering
+- quality
+- agents
 rating:
   score: 3
   reviewed: null

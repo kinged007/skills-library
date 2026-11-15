@@ -9,7 +9,11 @@ summary: Conducts multi-axis code review
 category: development
 tags:
 - addyosmani
-- agent-skills
+- code-review
+- quality
+- engineering
+- pull-requests
+- maintainability
 rating:
   score: 3
   reviewed: null

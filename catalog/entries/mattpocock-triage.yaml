@@ -9,7 +9,14 @@ summary: Move issues and external PRs through a state machine of triage roles, c
 category: development
 tags:
 - mattpocock
-- skills
+- interview
+- testing
+- git
+- github
+- pull-requests
+- issue-tracking
+- triage
+- agents
 rating:
   score: 3
   reviewed: null

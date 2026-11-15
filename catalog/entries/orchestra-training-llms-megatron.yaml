@@ -4,11 +4,20 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 08-distributed-training/megatron-core
 ref: main
 skill: training-llms-megatron
-title: "Training Llms Megatron (Orchestra Research)"
-summary: "Trains large language models (2B-462B parameters) using NVIDIA Megatron-Core with advanced parallelism strategies"
+title: Training Llms Megatron (Orchestra Research)
+summary: Trains large language models (2B-462B parameters) using NVIDIA Megatron-Core with advanced parallelism strategies
 category: ai-ml
-tags: [orchestra-research, distributed-training, megatron-core, large-scale-training, nvidia, tensor-parallelism, pipeline-parallelism]
+tags:
+- orchestra-research
+- machine-learning
+- distributed-training
+- megatron-core
+- large-scale-training
+- nvidia
+- tensor-parallelism
+- pipeline-parallelism
+- gpu
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

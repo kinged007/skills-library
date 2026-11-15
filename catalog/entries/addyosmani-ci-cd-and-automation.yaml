@@ -9,7 +9,13 @@ summary: Automates CI/CD pipeline setup
 category: devops
 tags:
 - addyosmani
-- agent-skills
+- ci
+- ci-cd
+- automation
+- pipelines
+- deployment
+- engineering
+- shipping
 rating:
   score: 3
   reviewed: null

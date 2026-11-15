@@ -4,11 +4,19 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 01-model-architecture/nanogpt
 ref: main
 skill: nanogpt
-title: "Nanogpt (Orchestra Research)"
-summary: "Educational GPT implementation in ~300 lines"
+title: Nanogpt (Orchestra Research)
+summary: Educational GPT implementation in ~300 lines
 category: ai-ml
-tags: [orchestra-research, model-architecture, nanogpt, gpt-2, educational, andrej-karpathy, transformer]
+tags:
+- orchestra-research
+- machine-learning
+- model-architecture
+- nanogpt
+- gpt-2
+- educational
+- andrej-karpathy
+- transformer
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

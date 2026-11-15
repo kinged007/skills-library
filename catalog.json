@@ -24,7 +24,12 @@
       "category": "design",
       "tags": [
         "addyosmani",
-        "agent-skills"
+        "api-design",
+        "architecture",
+        "backend",
+        "versioning",
+        "engineering",
+        "contracts"
       ],
       "rating": {
         "score": 3,
@@ -46,7 +51,13 @@
       "category": "meta",
       "tags": [
         "addyosmani",
-        "agent-skills"
+        "testing",
+        "browser",
+        "devtools",
+        "mcp",
+        "frontend",
+        "debugging",
+        "engineering"
       ],
       "rating": {
         "score": 3,
@@ -68,7 +79,13 @@
       "category": "devops",
       "tags": [
         "addyosmani",
-        "agent-skills"
+        "ci",
+        "ci-cd",
+        "automation",
+        "pipelines",
+        "deployment",
+        "engineering",
+        "shipping"
       ],
       "rating": {
         "score": 3,
@@ -90,7 +107,11 @@
       "category": "development",
       "tags": [
         "addyosmani",
-        "agent-skills"
+        "code-review",
+        "quality",
+        "engineering",
+        "pull-requests",
+        "maintainability"
       ],
       "rating": {
         "score": 3,
@@ -112,7 +133,11 @@
       "category": "development",
       "tags": [
         "addyosmani",
-        "agent-skills"
+        "refactoring",
+        "simplification",
+        "maintainability",
+        "engineering",
+        "quality"
       ],
       "rating": {
         "score": 3,
@@ -134,7 +159,12 @@
       "category": "development",
       "tags": [
         "addyosmani",
-        "agent-skills"
+        "quality",
+        "guardrails",
+        "agents",
+        "engineering",
+        "contracts",
+        "linting"
       ],
       "rating": {
         "score": 3,
@@ -156,7 +186,11 @@
       "category": "development",
       "tags": [
         "addyosmani",
-        "agent-skills"
+        "context-management",
+        "agents",
+        "prompting",
+        "engineering",
+        "llm"
       ],
       "rating": {
         "score": 3,
@@ -178,7 +212,12 @@
       "category": "development",
       "tags": [
         "addyosmani",
-        "agent-skills"
+        "debugging",
+        "root-cause",
+        "error-handling",
+        "engineering",
+        "testing",
+        "incident-response"
       ],
       "rating": {
         "score": 3,
@@ -200,7 +239,12 @@
       "category": "development",
       "tags": [
         "addyosmani",
-        "agent-skills"
+        "migration",
+        "deprecation",
+        "refactoring",
+        "engineering",
+        "legacy",
+        "maintenance"
       ],
       "rating": {
         "score": 3,
@@ -222,7 +266,11 @@
       "category": "writing",
       "tags": [
         "addyosmani",
-        "agent-skills"
+        "documentation",
+        "adr",
+        "decision-records",
+        "engineering",
+        "architecture"
       ],
       "rating": {
         "score": 3,
@@ -244,7 +292,12 @@
       "category": "meta",
       "tags": [
         "addyosmani",
-        "agent-skills"
+        "adversarial-review",
+        "code-review",
+        "decision-making",
+        "engineering",
+        "quality",
+        "agents"
       ],
       "rating": {
         "score": 3,
@@ -266,7 +319,12 @@
       "category": "design",
       "tags": [
         "addyosmani",
-        "agent-skills"
+        "frontend",
+        "ui",
+        "accessibility",
+        "responsive",
+        "engineering",
+        "react"
       ],
       "rating": {
         "score": 3,
@@ -288,7 +346,12 @@
       "category": "devops",
       "tags": [
         "addyosmani",
-        "agent-skills"
+        "git",
+        "versioning",
+        "commits",
+        "branching",
+        "engineering",
+        "workflow"
       ],
       "rating": {
         "score": 3,
@@ -310,7 +373,11 @@
       "category": "meta",
       "tags": [
         "addyosmani",
-        "agent-skills"
+        "ideation",
+        "brainstorming",
+        "product",
+        "planning",
+        "thinking"
       ],
       "rating": {
         "score": 3,
@@ -332,7 +399,12 @@
       "category": "development",
       "tags": [
         "addyosmani",
-        "agent-skills"
+        "engineering",
+        "workflow",
+        "small-changes",
+        "testing",
+        "delivery",
+        "quality"
       ],
       "rating": {
         "score": 3,
@@ -354,7 +426,11 @@
       "category": "meta",
       "tags": [
         "addyosmani",
-        "agent-skills"
+        "interview",
+        "requirements",
+        "clarification",
+        "product",
+        "planning"
       ],
       "rating": {
         "score": 3,
@@ -376,7 +452,14 @@
       "category": "devops",
       "tags": [
         "addyosmani",
-        "agent-skills"
+        "observability",
+        "monitoring",
+        "logging",
+        "tracing",
+        "metrics",
+        "production",
+        "debugging",
+        "engineering"
       ],
       "rating": {
         "score": 3,
@@ -398,7 +481,13 @@
       "category": "development",
       "tags": [
         "addyosmani",
-        "agent-skills"
+        "performance",
+        "optimization",
+        "frontend",
+        "backend",
+        "database",
+        "profiling",
+        "engineering"
       ],
       "rating": {
         "score": 3,
@@ -420,7 +509,11 @@
       "category": "development",
       "tags": [
         "addyosmani",
-        "agent-skills"
+        "planning",
+        "task-breakdown",
+        "project-management",
+        "engineering",
+        "workflow"
       ],
       "rating": {
         "score": 3,
@@ -442,7 +535,12 @@
       "category": "development",
       "tags": [
         "addyosmani",
-        "agent-skills"
+        "security",
+        "hardening",
+        "vulnerabilities",
+        "owasp",
+        "engineering",
+        "production"
       ],
       "rating": {
         "score": 3,
@@ -464,7 +562,13 @@
       "category": "devops",
       "tags": [
         "addyosmani",
-        "agent-skills"
+        "shipping",
+        "launch",
+        "release",
+        "production",
+        "deployment",
+        "rollback",
+        "engineering"
       ],
       "rating": {
         "score": 3,
@@ -486,7 +590,11 @@
       "category": "development",
       "tags": [
         "addyosmani",
-        "agent-skills"
+        "documentation",
+        "docs-grounding",
+        "engineering",
+        "accuracy",
+        "workflow"
       ],
       "rating": {
         "score": 3,
@@ -508,7 +616,11 @@
       "category": "development",
       "tags": [
         "addyosmani",
-        "agent-skills"
+        "specs",
+        "planning",
+        "requirements",
+        "engineering",
+        "workflow"
       ],
       "rating": {
         "score": 3,
@@ -530,7 +642,11 @@
       "category": "development",
       "tags": [
         "addyosmani",
-        "agent-skills"
+        "tdd",
+        "testing",
+        "red-green-refactor",
+        "engineering",
+        "quality"
       ],
       "rating": {
         "score": 3,
@@ -552,7 +668,10 @@
       "category": "meta",
       "tags": [
         "addyosmani",
-        "agent-skills"
+        "meta",
+        "skills-discovery",
+        "agents",
+        "workflow"
       ],
       "rating": {
         "score": 3,
@@ -573,8 +692,11 @@
       "summary": "Read, extract, merge, split and fill PDF files.",
       "category": "documents",
       "tags": [
+        "anthropics",
         "pdf",
         "documents",
+        "extraction",
+        "forms",
         "anthropic"
       ],
       "rating": {
@@ -600,7 +722,13 @@
       "category": "meta",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "architecture",
+        "types",
+        "design",
+        "engineering",
+        "planning",
+        "workflow"
       ],
       "rating": {
         "score": 3,
@@ -622,7 +750,11 @@
       "category": "meta",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "multi-agent",
+        "parallel",
+        "architecture",
+        "decision-making"
       ],
       "rating": {
         "score": 3,
@@ -644,7 +776,12 @@
       "category": "meta",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "automation",
+        "personalization",
+        "preferences",
+        "skills-authoring",
+        "agents"
       ],
       "rating": {
         "score": 3,
@@ -666,7 +803,12 @@
       "category": "development",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "performance",
+        "benchmarking",
+        "measurement",
+        "engineering",
+        "quality"
       ],
       "rating": {
         "score": 3,
@@ -688,7 +830,13 @@
       "category": "development",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "impact-analysis",
+        "risk",
+        "shipping",
+        "code-review",
+        "testing",
+        "engineering"
       ],
       "rating": {
         "score": 3,
@@ -710,7 +858,9 @@
       "category": "meta",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "communication",
+        "plain-language"
       ],
       "rating": {
         "score": 3,
@@ -732,7 +882,14 @@
       "category": "development",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "quality",
+        "agents",
+        "linting",
+        "testing",
+        "architecture",
+        "engineering",
+        "retrospective"
       ],
       "rating": {
         "score": 3,
@@ -754,7 +911,13 @@
       "category": "meta",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "formal-verification",
+        "testing",
+        "concurrency",
+        "skills-authoring",
+        "engineering",
+        "correctness"
       ],
       "rating": {
         "score": 3,
@@ -776,7 +939,13 @@
       "category": "meta",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "testing",
+        "verification",
+        "e2e",
+        "skills-authoring",
+        "engineering",
+        "automation"
       ],
       "rating": {
         "score": 3,
@@ -798,7 +967,13 @@
       "category": "development",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "planning",
+        "playbook",
+        "migration",
+        "workflow",
+        "audit-trail",
+        "engineering"
       ],
       "rating": {
         "score": 3,
@@ -820,7 +995,12 @@
       "category": "development",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "architecture",
+        "code-walkthrough",
+        "onboarding",
+        "engineering",
+        "explanation"
       ],
       "rating": {
         "score": 3,
@@ -842,7 +1022,11 @@
       "category": "development",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "communication",
+        "requirements",
+        "clarification",
+        "planning"
       ],
       "rating": {
         "score": 3,
@@ -864,7 +1048,11 @@
       "category": "meta",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "testing",
+        "code-review",
+        "adversarial-review",
+        "review"
       ],
       "rating": {
         "score": 3,
@@ -886,7 +1074,11 @@
       "category": "development",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "communication",
+        "context-management",
+        "summary",
+        "video"
       ],
       "rating": {
         "score": 3,
@@ -908,7 +1100,10 @@
       "category": "development",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "communication",
+        "context-management",
+        "summary"
       ],
       "rating": {
         "score": 3,
@@ -930,7 +1125,11 @@
       "category": "meta",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "testing",
+        "git",
+        "formal-verification",
+        "open-source"
       ],
       "rating": {
         "score": 3,
@@ -952,7 +1151,13 @@
       "category": "meta",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "testing",
+        "git",
+        "github",
+        "pull-requests",
+        "multi-agent",
+        "open-source"
       ],
       "rating": {
         "score": 3,
@@ -974,7 +1179,11 @@
       "category": "design",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "frontend",
+        "webhooks",
+        "agents",
+        "dashboards"
       ],
       "rating": {
         "score": 3,
@@ -996,7 +1205,13 @@
       "category": "writing",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "code-review",
+        "linting",
+        "code-style",
+        "refactoring",
+        "quality",
+        "engineering"
       ],
       "rating": {
         "score": 3,
@@ -1018,7 +1233,10 @@
       "category": "meta",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "setup",
+        "meta",
+        "skills-discovery"
       ],
       "rating": {
         "score": 3,
@@ -1040,7 +1258,12 @@
       "category": "meta",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "agents",
+        "style",
+        "workflow",
+        "writing",
+        "quality"
       ],
       "rating": {
         "score": 3,
@@ -1062,7 +1285,12 @@
       "category": "devops",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "debugging",
+        "principles",
+        "decision-making",
+        "root-cause",
+        "engineering"
       ],
       "rating": {
         "score": 3,
@@ -1084,7 +1312,13 @@
       "category": "devops",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "architecture",
+        "validation",
+        "error-handling",
+        "principles",
+        "security",
+        "engineering"
       ],
       "rating": {
         "score": 3,
@@ -1106,7 +1340,12 @@
       "category": "devops",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "automation",
+        "tooling",
+        "principles",
+        "engineering",
+        "workflow"
       ],
       "rating": {
         "score": 3,
@@ -1128,7 +1367,11 @@
       "category": "devops",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "writing",
+        "retrospective",
+        "quality",
+        "principles"
       ],
       "rating": {
         "score": 3,
@@ -1150,7 +1393,12 @@
       "category": "devops",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "architecture",
+        "frontend",
+        "quality",
+        "principles",
+        "decision-making"
       ],
       "rating": {
         "score": 3,
@@ -1172,7 +1420,11 @@
       "category": "devops",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "product",
+        "ux",
+        "principles",
+        "decision-making"
       ],
       "rating": {
         "score": 3,
@@ -1194,7 +1446,12 @@
       "category": "devops",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "debugging",
+        "performance",
+        "communication",
+        "quality",
+        "principles"
       ],
       "rating": {
         "score": 3,
@@ -1216,7 +1473,12 @@
       "category": "devops",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "debugging",
+        "root-cause",
+        "principles",
+        "quality",
+        "engineering"
       ],
       "rating": {
         "score": 3,
@@ -1238,7 +1500,14 @@
       "category": "devops",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "writing",
+        "quality",
+        "principles",
+        "workflow",
+        "setup",
+        "reliability",
+        "types"
       ],
       "rating": {
         "score": 3,
@@ -1260,7 +1529,12 @@
       "category": "devops",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "planning",
+        "context-management",
+        "quality",
+        "principles",
+        "decision-making"
       ],
       "rating": {
         "score": 3,
@@ -1282,7 +1556,12 @@
       "category": "devops",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "refactoring",
+        "simplification",
+        "principles",
+        "engineering",
+        "maintainability"
       ],
       "rating": {
         "score": 3,
@@ -1304,7 +1583,11 @@
       "category": "devops",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "quality",
+        "principles",
+        "workflow",
+        "reliability"
       ],
       "rating": {
         "score": 3,
@@ -1326,7 +1609,11 @@
       "category": "devops",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "refactoring",
+        "api-design",
+        "quality",
+        "principles"
       ],
       "rating": {
         "score": 3,
@@ -1348,7 +1635,12 @@
       "category": "devops",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "code-review",
+        "quality",
+        "principles",
+        "reliability",
+        "review"
       ],
       "rating": {
         "score": 3,
@@ -1370,7 +1662,11 @@
       "category": "devops",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "git",
+        "writing",
+        "quality",
+        "principles"
       ],
       "rating": {
         "score": 3,
@@ -1392,7 +1688,11 @@
       "category": "devops",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "autonomy",
+        "agents",
+        "workflow",
+        "principles"
       ],
       "rating": {
         "score": 3,
@@ -1414,7 +1714,12 @@
       "category": "devops",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "refactoring",
+        "planning",
+        "quality",
+        "principles",
+        "decision-making"
       ],
       "rating": {
         "score": 3,
@@ -1436,7 +1741,13 @@
       "category": "devops",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "testing",
+        "verification",
+        "principles",
+        "quality",
+        "engineering",
+        "shipping"
       ],
       "rating": {
         "score": 3,
@@ -1458,7 +1769,12 @@
       "category": "devops",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "architecture",
+        "design",
+        "refactoring",
+        "principles",
+        "engineering"
       ],
       "rating": {
         "score": 3,
@@ -1480,7 +1796,11 @@
       "category": "devops",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "git",
+        "quality",
+        "principles",
+        "reliability"
       ],
       "rating": {
         "score": 3,
@@ -1502,7 +1822,13 @@
       "category": "devops",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "refactoring",
+        "git",
+        "github",
+        "pull-requests",
+        "quality",
+        "principles"
       ],
       "rating": {
         "score": 3,
@@ -1524,7 +1850,12 @@
       "category": "devops",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "refactoring",
+        "simplification",
+        "principles",
+        "engineering",
+        "maintainability"
       ],
       "rating": {
         "score": 3,
@@ -1546,7 +1877,12 @@
       "category": "devops",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "testing",
+        "principles",
+        "quality",
+        "engineering",
+        "tdd"
       ],
       "rating": {
         "score": 3,
@@ -1568,7 +1904,13 @@
       "category": "devops",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "code-review",
+        "writing",
+        "quality",
+        "principles",
+        "types",
+        "review"
       ],
       "rating": {
         "score": 3,
@@ -1590,7 +1932,11 @@
       "category": "development",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "context-management",
+        "memory",
+        "summary",
+        "workflow"
       ],
       "rating": {
         "score": 3,
@@ -1612,7 +1958,11 @@
       "category": "meta",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "retrospective",
+        "learning",
+        "multi-agent",
+        "skills-maintenance"
       ],
       "rating": {
         "score": 3,
@@ -1634,7 +1984,11 @@
       "category": "development",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "setup",
+        "configuration",
+        "models",
+        "agents"
       ],
       "rating": {
         "score": 3,
@@ -1656,7 +2010,10 @@
       "category": "development",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "prompting",
+        "ideation",
+        "planning"
       ],
       "rating": {
         "score": 3,
@@ -1678,7 +2035,13 @@
       "category": "development",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "audit-trail",
+        "decision-making",
+        "autonomy",
+        "review",
+        "agents",
+        "documentation"
       ],
       "rating": {
         "score": 3,
@@ -1700,7 +2063,12 @@
       "category": "development",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "formal-verification",
+        "architecture",
+        "modeling",
+        "diagrams",
+        "tla-plus"
       ],
       "rating": {
         "score": 3,
@@ -1722,7 +2090,11 @@
       "category": "development",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "multi-agent",
+        "parallel",
+        "workflow",
+        "subagents"
       ],
       "rating": {
         "score": 3,
@@ -1744,7 +2116,12 @@
       "category": "development",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "tdd",
+        "testing",
+        "regression",
+        "debugging",
+        "engineering"
       ],
       "rating": {
         "score": 3,
@@ -1766,7 +2143,11 @@
       "category": "development",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "communication",
+        "explanation",
+        "learning",
+        "documentation"
       ],
       "rating": {
         "score": 3,
@@ -1788,7 +2169,13 @@
       "category": "writing",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "writing",
+        "documentation",
+        "technical-writing",
+        "style-guide",
+        "diataxis",
+        "communication"
       ],
       "rating": {
         "score": 3,
@@ -1810,7 +2197,12 @@
       "category": "development",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "typescript",
+        "types",
+        "engineering",
+        "best-practices",
+        "frontend"
       ],
       "rating": {
         "score": 3,
@@ -1832,7 +2224,10 @@
       "category": "development",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "writing",
+        "editing",
+        "ai-writing"
       ],
       "rating": {
         "score": 3,
@@ -1854,7 +2249,13 @@
       "category": "development",
       "tags": [
         "backnotprop",
-        "pstack"
+        "pstack",
+        "architecture",
+        "decision-records",
+        "debugging",
+        "postmortem",
+        "engineering",
+        "explanation"
       ],
       "rating": {
         "score": 3,
@@ -1876,7 +2277,12 @@
       "category": "development",
       "tags": [
         "kunchenguid",
-        "grok-ship"
+        "grok-ship",
+        "pull-requests",
+        "github",
+        "open-source",
+        "maintenance",
+        "triage"
       ],
       "rating": {
         "score": 3,
@@ -1898,7 +2304,10 @@
       "category": "meta",
       "tags": [
         "kunchenguid",
-        "grok-ship"
+        "grok-ship",
+        "communication",
+        "context-management",
+        "summary"
       ],
       "rating": {
         "score": 3,
@@ -1920,7 +2329,13 @@
       "category": "meta",
       "tags": [
         "kunchenguid",
-        "axi"
+        "axi",
+        "cli",
+        "agents",
+        "tooling",
+        "developer-experience",
+        "engineering",
+        "design"
       ],
       "rating": {
         "score": 3,
@@ -1942,7 +2357,12 @@
       "category": "meta",
       "tags": [
         "kunchenguid",
-        "quota-axi"
+        "quota-axi",
+        "caching",
+        "architecture",
+        "cli",
+        "quota",
+        "security"
       ],
       "rating": {
         "score": 3,
@@ -1964,7 +2384,14 @@
       "category": "meta",
       "tags": [
         "kunchenguid",
-        "chrome-devtools-axi"
+        "chrome-devtools-axi",
+        "browser",
+        "devtools",
+        "cli",
+        "frontend",
+        "testing",
+        "automation",
+        "agents"
       ],
       "rating": {
         "score": 3,
@@ -1986,7 +2413,11 @@
       "category": "meta",
       "tags": [
         "kunchenguid",
-        "compact-adviser"
+        "compact-adviser",
+        "context-management",
+        "claude-code",
+        "codex",
+        "settings"
       ],
       "rating": {
         "score": 3,
@@ -2008,7 +2439,14 @@
       "category": "meta",
       "tags": [
         "kunchenguid",
-        "gh-axi"
+        "gh-axi",
+        "github",
+        "cli",
+        "pull-requests",
+        "issue-tracking",
+        "ci",
+        "agents",
+        "releases"
       ],
       "rating": {
         "score": 3,
@@ -2030,7 +2468,11 @@
       "category": "development",
       "tags": [
         "kunchenguid",
-        "gnhf"
+        "gnhf",
+        "multi-agent",
+        "autonomy",
+        "workflow",
+        "coding-agents"
       ],
       "rating": {
         "score": 3,
@@ -2052,7 +2494,10 @@
       "category": "meta",
       "tags": [
         "kunchenguid",
-        "kun"
+        "kun",
+        "cli",
+        "agents",
+        "workflow"
       ],
       "rating": {
         "score": 3,
@@ -2074,7 +2519,11 @@
       "category": "design",
       "tags": [
         "kunchenguid",
-        "lavish-axi"
+        "lavish-axi",
+        "visual",
+        "html",
+        "review",
+        "communication"
       ],
       "rating": {
         "score": 3,
@@ -2096,7 +2545,15 @@
       "category": "development",
       "tags": [
         "kunchenguid",
-        "no-mistakes"
+        "no-mistakes",
+        "code-review",
+        "testing",
+        "linting",
+        "documentation",
+        "ci",
+        "pull-requests",
+        "shipping",
+        "automation"
       ],
       "rating": {
         "score": 3,
@@ -2118,7 +2575,12 @@
       "category": "devops",
       "tags": [
         "kunchenguid",
-        "quota-axi"
+        "quota-axi",
+        "integrations",
+        "authentication",
+        "quota",
+        "cli",
+        "api-design"
       ],
       "rating": {
         "score": 3,
@@ -2140,7 +2602,13 @@
       "category": "devops",
       "tags": [
         "kunchenguid",
-        "quota-axi"
+        "quota-axi",
+        "integrations",
+        "authentication",
+        "testing",
+        "quota",
+        "cli",
+        "checklist"
       ],
       "rating": {
         "score": 3,
@@ -2162,7 +2630,13 @@
       "category": "meta",
       "tags": [
         "kunchenguid",
-        "quota-axi"
+        "quota-axi",
+        "quota",
+        "usage-limits",
+        "cli",
+        "monitoring",
+        "agents",
+        "observability"
       ],
       "rating": {
         "score": 3,
@@ -2184,7 +2658,12 @@
       "category": "devops",
       "tags": [
         "kunchenguid",
-        "quota-axi"
+        "quota-axi",
+        "quota",
+        "cli",
+        "usage-limits",
+        "monitoring",
+        "algorithms"
       ],
       "rating": {
         "score": 3,
@@ -2206,7 +2685,13 @@
       "category": "devops",
       "tags": [
         "kunchenguid",
-        "quota-axi"
+        "quota-axi",
+        "ci",
+        "ci-cd",
+        "shipping",
+        "github-actions",
+        "release-automation",
+        "linting"
       ],
       "rating": {
         "score": 3,
@@ -2228,7 +2713,10 @@
       "category": "devops",
       "tags": [
         "kunchenguid",
-        "firstmate"
+        "firstmate",
+        "context-management",
+        "memory",
+        "knowledge-management"
       ],
       "rating": {
         "score": 3,
@@ -2250,7 +2738,12 @@
       "category": "meta",
       "tags": [
         "kunchenguid",
-        "tasks-axi"
+        "tasks-axi",
+        "issue-tracking",
+        "task-management",
+        "cli",
+        "planning",
+        "agents"
       ],
       "rating": {
         "score": 3,
@@ -2272,7 +2765,11 @@
       "category": "design",
       "tags": [
         "kunchenguid",
-        "grok-ship"
+        "grok-ship",
+        "triage",
+        "product",
+        "open-source",
+        "issue-tracking"
       ],
       "rating": {
         "score": 3,
@@ -2294,7 +2791,12 @@
       "category": "design",
       "tags": [
         "kunchenguid",
-        "vision"
+        "vision",
+        "product",
+        "documentation",
+        "planning",
+        "open-source",
+        "strategy"
       ],
       "rating": {
         "score": 3,
@@ -2316,7 +2818,10 @@
       "category": "meta",
       "tags": [
         "kunchenguid",
-        "whathappened"
+        "whathappened",
+        "research",
+        "social-media",
+        "news"
       ],
       "rating": {
         "score": 3,
@@ -2338,7 +2843,9 @@
       "category": "meta",
       "tags": [
         "mattpocock",
-        "skills"
+        "meta",
+        "skills-discovery",
+        "workflow"
       ],
       "rating": {
         "score": 3,
@@ -2360,7 +2867,12 @@
       "category": "development",
       "tags": [
         "mattpocock",
-        "skills"
+        "multi-agent",
+        "agents",
+        "orchestration",
+        "planning",
+        "workflow",
+        "autonomy"
       ],
       "rating": {
         "score": 3,
@@ -2382,7 +2894,11 @@
       "category": "meta",
       "tags": [
         "mattpocock",
-        "skills"
+        "handoff",
+        "context-management",
+        "claude-code",
+        "agents",
+        "workflow"
       ],
       "rating": {
         "score": 3,
@@ -2404,7 +2920,11 @@
       "category": "development",
       "tags": [
         "mattpocock",
-        "skills"
+        "code-review",
+        "quality",
+        "git",
+        "engineering",
+        "standards"
       ],
       "rating": {
         "score": 3,
@@ -2426,7 +2946,11 @@
       "category": "design",
       "tags": [
         "mattpocock",
-        "skills"
+        "architecture",
+        "deep-modules",
+        "design",
+        "engineering",
+        "maintainability"
       ],
       "rating": {
         "score": 3,
@@ -2448,7 +2972,12 @@
       "category": "development",
       "tags": [
         "mattpocock",
-        "skills"
+        "debugging",
+        "performance",
+        "regression",
+        "root-cause",
+        "engineering",
+        "workflow"
       ],
       "rating": {
         "score": 3,
@@ -2470,7 +2999,12 @@
       "category": "development",
       "tags": [
         "mattpocock",
-        "skills"
+        "domain-modeling",
+        "architecture",
+        "documentation",
+        "glossary",
+        "engineering",
+        "ddd"
       ],
       "rating": {
         "score": 3,
@@ -2492,7 +3026,11 @@
       "category": "devops",
       "tags": [
         "mattpocock",
-        "skills"
+        "security",
+        "git",
+        "hooks",
+        "setup",
+        "claude-code"
       ],
       "rating": {
         "score": 3,
@@ -2514,7 +3052,10 @@
       "category": "meta",
       "tags": [
         "mattpocock",
-        "skills"
+        "interview",
+        "planning",
+        "prompting",
+        "decision-making"
       ],
       "rating": {
         "score": 3,
@@ -2536,7 +3077,11 @@
       "category": "meta",
       "tags": [
         "mattpocock",
-        "skills"
+        "interview",
+        "documentation",
+        "planning",
+        "prompting",
+        "decision-making"
       ],
       "rating": {
         "score": 3,
@@ -2558,7 +3103,10 @@
       "category": "meta",
       "tags": [
         "mattpocock",
-        "skills"
+        "interview",
+        "planning",
+        "ideation",
+        "decision-making"
       ],
       "rating": {
         "score": 3,
@@ -2580,7 +3128,10 @@
       "category": "meta",
       "tags": [
         "mattpocock",
-        "skills"
+        "context-management",
+        "handoff",
+        "agents",
+        "documents"
       ],
       "rating": {
         "score": 3,
@@ -2602,7 +3153,12 @@
       "category": "development",
       "tags": [
         "mattpocock",
-        "skills"
+        "implementation",
+        "specs",
+        "issue-tracking",
+        "planning",
+        "engineering",
+        "workflow"
       ],
       "rating": {
         "score": 3,
@@ -2624,7 +3180,12 @@
       "category": "development",
       "tags": [
         "mattpocock",
-        "skills"
+        "implementation",
+        "specs",
+        "issue-tracking",
+        "planning",
+        "engineering",
+        "workflow"
       ],
       "rating": {
         "score": 3,
@@ -2646,7 +3207,10 @@
       "category": "meta",
       "tags": [
         "mattpocock",
-        "skills"
+        "interview",
+        "architecture",
+        "formal-verification",
+        "visual"
       ],
       "rating": {
         "score": 3,
@@ -2668,7 +3232,10 @@
       "category": "meta",
       "tags": [
         "mattpocock",
-        "skills"
+        "interview",
+        "planning",
+        "specs",
+        "workflow"
       ],
       "rating": {
         "score": 3,
@@ -2690,7 +3257,10 @@
       "category": "development",
       "tags": [
         "mattpocock",
-        "skills"
+        "testing",
+        "refactoring",
+        "typescript",
+        "types"
       ],
       "rating": {
         "score": 3,
@@ -2712,7 +3282,10 @@
       "category": "writing",
       "tags": [
         "mattpocock",
-        "skills"
+        "git",
+        "github",
+        "pull-requests",
+        "writing"
       ],
       "rating": {
         "score": 3,
@@ -2734,7 +3307,11 @@
       "category": "writing",
       "tags": [
         "mattpocock",
-        "skills"
+        "research",
+        "documentation",
+        "sources",
+        "investigation",
+        "knowledge-management"
       ],
       "rating": {
         "score": 3,
@@ -2756,7 +3333,10 @@
       "category": "meta",
       "tags": [
         "mattpocock",
-        "skills"
+        "retrospective",
+        "learning",
+        "workflow",
+        "agents"
       ],
       "rating": {
         "score": 3,
@@ -2778,7 +3358,10 @@
       "category": "devops",
       "tags": [
         "mattpocock",
-        "skills"
+        "hooks",
+        "linting",
+        "communication",
+        "setup"
       ],
       "rating": {
         "score": 3,
@@ -2800,7 +3383,11 @@
       "category": "meta",
       "tags": [
         "mattpocock",
-        "skills"
+        "github",
+        "documentation",
+        "issue-tracking",
+        "triage",
+        "setup"
       ],
       "rating": {
         "score": 3,
@@ -2822,7 +3409,11 @@
       "category": "development",
       "tags": [
         "mattpocock",
-        "skills"
+        "testing",
+        "git",
+        "hooks",
+        "linting",
+        "setup"
       ],
       "rating": {
         "score": 3,
@@ -2844,7 +3435,10 @@
       "category": "development",
       "tags": [
         "mattpocock",
-        "skills"
+        "architecture",
+        "typescript",
+        "setup",
+        "types"
       ],
       "rating": {
         "score": 3,
@@ -2866,7 +3460,10 @@
       "category": "development",
       "tags": [
         "mattpocock",
-        "skills"
+        "interview",
+        "decision-making",
+        "communication",
+        "requirements"
       ],
       "rating": {
         "score": 3,
@@ -2888,7 +3485,11 @@
       "category": "development",
       "tags": [
         "mattpocock",
-        "skills"
+        "interview",
+        "github",
+        "planning",
+        "specs",
+        "issue-tracking"
       ],
       "rating": {
         "score": 3,
@@ -2910,7 +3511,12 @@
       "category": "development",
       "tags": [
         "mattpocock",
-        "skills"
+        "planning",
+        "specs",
+        "issue-tracking",
+        "setup",
+        "reliability",
+        "decision-making"
       ],
       "rating": {
         "score": 3,
@@ -2932,7 +3538,14 @@
       "category": "development",
       "tags": [
         "mattpocock",
-        "skills"
+        "interview",
+        "testing",
+        "git",
+        "github",
+        "pull-requests",
+        "issue-tracking",
+        "triage",
+        "agents"
       ],
       "rating": {
         "score": 3,
@@ -2954,7 +3567,10 @@
       "category": "meta",
       "tags": [
         "mattpocock",
-        "skills"
+        "communication",
+        "agents",
+        "clarification",
+        "workflow"
       ],
       "rating": {
         "score": 3,
@@ -2976,7 +3592,11 @@
       "category": "meta",
       "tags": [
         "mattpocock",
-        "skills"
+        "github",
+        "planning",
+        "issue-tracking",
+        "agents",
+        "decision-making"
       ],
       "rating": {
         "score": 3,
@@ -2998,7 +3618,12 @@
       "category": "meta",
       "tags": [
         "mattpocock",
-        "skills"
+        "cli",
+        "bash",
+        "setup",
+        "automation",
+        "onboarding",
+        "human-in-the-loop"
       ],
       "rating": {
         "score": 3,
@@ -3020,7 +3645,10 @@
       "category": "writing",
       "tags": [
         "mattpocock",
-        "skills"
+        "writing",
+        "editing",
+        "articles",
+        "content"
       ],
       "rating": {
         "score": 3,
@@ -3042,7 +3670,11 @@
       "category": "meta",
       "tags": [
         "mattpocock",
-        "skills"
+        "writing",
+        "documentation",
+        "agents",
+        "prompting",
+        "context-management"
       ],
       "rating": {
         "score": 3,
@@ -3064,7 +3696,11 @@
       "category": "writing",
       "tags": [
         "mattpocock",
-        "skills"
+        "writing",
+        "brainstorming",
+        "ideation",
+        "articles",
+        "content"
       ],
       "rating": {
         "score": 3,
@@ -3086,7 +3722,10 @@
       "category": "writing",
       "tags": [
         "mattpocock",
-        "skills"
+        "writing",
+        "editing",
+        "articles",
+        "content"
       ],
       "rating": {
         "score": 3,
@@ -3108,6 +3747,7 @@
       "category": "writing",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "ml-paper-writing",
         "academic-writing",
         "visualization",
@@ -3135,6 +3775,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "agent-native-research-artifact",
         "ara",
         "research-artifacts",
@@ -3162,6 +3803,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "agent-native-research-artifact",
         "ara",
         "research-recording",
@@ -3189,6 +3831,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "agent-native-research-artifact",
         "ara",
         "epistemic-review",
@@ -3216,6 +3859,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "multimodal",
         "audio-generation",
         "text-to-music",
@@ -3242,6 +3886,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "agents",
         "autogpt",
         "autonomous-agents",
@@ -3269,6 +3914,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "autoresearch-skill",
         "autonomous-research",
         "two-loop-architecture",
@@ -3296,12 +3942,14 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "optimization",
         "awq",
         "quantization",
         "4-bit",
         "activation-aware",
-        "memory-optimization"
+        "memory-optimization",
+        "gpu"
       ],
       "rating": {
         "score": 3,
@@ -3323,6 +3971,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "fine-tuning",
         "axolotl",
         "llm",
@@ -3350,6 +3999,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "multimodal",
         "vision-language",
         "image-captioning",
@@ -3376,6 +4026,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "research-ideation",
         "brainstorming",
         "problem-discovery",
@@ -3402,6 +4053,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "rag",
         "chroma",
         "vector-database",
@@ -3429,6 +4081,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "multimodal",
         "clip",
         "vision-language",
@@ -3456,6 +4109,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "safety-alignment",
         "constitutional-ai",
         "rlaif",
@@ -3483,6 +4137,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "research-ideation",
         "creative-thinking",
         "analogical-reasoning",
@@ -3509,6 +4164,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "agents",
         "crewai",
         "multi-agent",
@@ -3536,12 +4192,14 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "distributed-training",
         "deepspeed",
         "zero",
         "pipeline-parallelism",
         "mixed-precision",
-        "optimization"
+        "optimization",
+        "gpu"
       ],
       "rating": {
         "score": 3,
@@ -3563,12 +4221,14 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "model-architecture",
         "distributed-training",
         "torchtitan",
         "fsdp2",
         "tensor-parallel",
-        "pipeline-parallel"
+        "pipeline-parallel",
+        "gpu"
       ],
       "rating": {
         "score": 3,
@@ -3590,6 +4250,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "prompt-engineering",
         "dspy",
         "declarative-programming",
@@ -3617,12 +4278,14 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "evaluation",
         "code-generation",
         "humaneval",
         "mbpp",
         "multipl-e",
-        "pass-k"
+        "pass-k",
+        "evals"
       ],
       "rating": {
         "score": 3,
@@ -3644,6 +4307,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "multimodal",
         "cosmos-policy",
         "vla",
@@ -3671,12 +4335,14 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "evaluation",
         "lm-evaluation-harness",
         "benchmarking",
         "mmlu",
         "humaneval",
-        "gsm8k"
+        "gsm8k",
+        "evals"
       ],
       "rating": {
         "score": 3,
@@ -3698,12 +4364,14 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "agents",
         "agent-evolution",
         "self-improving-agents",
         "prompt-optimization",
         "llm",
-        "benchmark-evaluation"
+        "benchmark-evaluation",
+        "evals"
       ],
       "rating": {
         "score": 3,
@@ -3725,6 +4393,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "mlops",
         "swanlab",
         "experiment-tracking",
@@ -3752,12 +4421,14 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "rag",
         "faiss",
         "similarity-search",
         "vector-search",
         "facebook-ai",
-        "gpu-acceleration"
+        "gpu-acceleration",
+        "gpu"
       ],
       "rating": {
         "score": 3,
@@ -3779,6 +4450,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "multimodal",
         "openvla",
         "openvla-oft",
@@ -3806,6 +4478,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "multimodal",
         "openpi",
         "physical-intelligence",
@@ -3833,6 +4506,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "post-training",
         "trl",
         "reinforcement-learning",
@@ -3860,12 +4534,14 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "optimization",
         "gguf",
         "quantization",
         "llama-cpp",
         "cpu-inference",
-        "apple-silicon"
+        "apple-silicon",
+        "gpu"
       ],
       "rating": {
         "score": 3,
@@ -3887,12 +4563,14 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "optimization",
         "gptq",
         "quantization",
         "4-bit",
         "post-training",
-        "memory-optimization"
+        "memory-optimization",
+        "gpu"
       ],
       "rating": {
         "score": 3,
@@ -3914,6 +4592,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "post-training",
         "reinforcement-learning",
         "grpo",
@@ -3941,6 +4620,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "prompt-engineering",
         "guidance",
         "constrained-generation",
@@ -3968,12 +4648,14 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "optimization",
         "quantization",
         "hqq",
         "memory-efficiency",
         "inference",
-        "model-compression"
+        "model-compression",
+        "gpu"
       ],
       "rating": {
         "score": 3,
@@ -3995,12 +4677,14 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "distributed-training",
         "huggingface",
         "accelerate",
         "deepspeed",
         "fsdp",
-        "mixed-precision"
+        "mixed-precision",
+        "gpu"
       ],
       "rating": {
         "score": 3,
@@ -4022,6 +4706,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "tokenization",
         "huggingface",
         "bpe",
@@ -4049,6 +4734,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "model-architecture",
         "litgpt",
         "lightning-ai",
@@ -4076,6 +4762,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "prompt-engineering",
         "instructor",
         "structured-output",
@@ -4103,6 +4790,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "emerging-techniques",
         "knowledge-distillation",
         "model-compression",
@@ -4130,11 +4818,13 @@
       "category": "devops",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "infrastructure",
         "gpu-cloud",
         "training",
         "inference",
-        "lambda-labs"
+        "lambda-labs",
+        "gpu"
       ],
       "rating": {
         "score": 3,
@@ -4156,6 +4846,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "agents",
         "langchain",
         "rag",
@@ -4183,12 +4874,14 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "observability",
         "langsmith",
         "tracing",
         "evaluation",
         "monitoring",
-        "debugging"
+        "debugging",
+        "evals"
       ],
       "rating": {
         "score": 3,
@@ -4210,12 +4903,14 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "inference-serving",
         "llama-cpp",
         "cpu-inference",
         "apple-silicon",
         "edge-deployment",
-        "gguf"
+        "gguf",
+        "gpu"
       ],
       "rating": {
         "score": 3,
@@ -4237,6 +4932,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "fine-tuning",
         "llama-factory",
         "llm",
@@ -4264,12 +4960,14 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "safety-alignment",
         "llamaguard",
         "content-moderation",
         "meta",
         "guardrails",
-        "safety-classification"
+        "safety-classification",
+        "security"
       ],
       "rating": {
         "score": 3,
@@ -4291,6 +4989,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "agents",
         "llamaindex",
         "rag",
@@ -4318,6 +5017,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "multimodal",
         "llava",
         "vision-language",
@@ -4345,6 +5045,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "emerging-techniques",
         "long-context",
         "rope",
@@ -4372,6 +5073,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "model-architecture",
         "mamba",
         "state-space-models",
@@ -4399,6 +5101,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "post-training",
         "reinforcement-learning",
         "moe",
@@ -4426,6 +5129,7 @@
       "category": "writing",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "ml-paper-writing",
         "academic-writing",
         "neurips",
@@ -4453,6 +5157,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "optimization",
         "pytorch",
         "training",
@@ -4480,6 +5185,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "mlops",
         "mlflow",
         "experiment-tracking",
@@ -4507,6 +5213,7 @@
       "category": "devops",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "infrastructure",
         "serverless",
         "gpu",
@@ -4534,6 +5241,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "emerging-techniques",
         "model-merging",
         "mergekit",
@@ -4561,6 +5269,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "emerging-techniques",
         "model-pruning",
         "wanda",
@@ -4588,6 +5297,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "emerging-techniques",
         "moe",
         "mixture-of-experts",
@@ -4615,6 +5325,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "model-architecture",
         "nanogpt",
         "gpt-2",
@@ -4642,12 +5353,14 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "data-processing",
         "nemo-curator",
         "data-curation",
         "gpu-acceleration",
         "deduplication",
-        "quality-filtering"
+        "quality-filtering",
+        "gpu"
       ],
       "rating": {
         "score": 3,
@@ -4669,12 +5382,14 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "evaluation",
         "nemo",
         "nvidia",
         "benchmarking",
         "mmlu",
-        "humaneval"
+        "humaneval",
+        "evals"
       ],
       "rating": {
         "score": 3,
@@ -4696,12 +5411,14 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "safety-alignment",
         "nemo-guardrails",
         "nvidia",
         "jailbreak-detection",
         "guardrails",
-        "colang"
+        "colang",
+        "security"
       ],
       "rating": {
         "score": 3,
@@ -4723,6 +5440,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "mechanistic-interpretability",
         "nnsight",
         "ndif",
@@ -4749,6 +5467,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "post-training",
         "openrlhf",
         "rlhf",
@@ -4776,6 +5495,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "optimization",
         "flash-attention",
         "attention-optimization",
@@ -4803,6 +5523,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "prompt-engineering",
         "outlines",
         "structured-generation",
@@ -4830,6 +5551,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "fine-tuning",
         "peft",
         "lora",
@@ -4857,12 +5579,14 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "observability",
         "phoenix",
         "arize",
         "tracing",
         "evaluation",
-        "monitoring"
+        "monitoring",
+        "evals"
       ],
       "rating": {
         "score": 3,
@@ -4884,6 +5608,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "rag",
         "pinecone",
         "vector-database",
@@ -4911,6 +5636,7 @@
       "category": "writing",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "ml-paper-writing",
         "presenting-conference-talks",
         "beamer",
@@ -4938,6 +5664,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "safety-alignment",
         "prompt-injection",
         "jailbreak-detection",
@@ -4965,12 +5692,14 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "distributed-training",
         "pytorch",
         "fsdp2",
         "fully-sharded-data-parallel",
         "dtensor",
-        "device-mesh"
+        "device-mesh",
+        "gpu"
       ],
       "rating": {
         "score": 3,
@@ -4992,12 +5721,14 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "distributed-training",
         "pytorch-lightning",
         "training-framework",
         "ddp",
         "fsdp",
-        "deepspeed"
+        "deepspeed",
+        "gpu"
       ],
       "rating": {
         "score": 3,
@@ -5019,12 +5750,14 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "mechanistic-interpretability",
         "causal-intervention",
         "pyvene",
         "activation-patching",
         "causal-tracing",
-        "interpretability"
+        "interpretability",
+        "observability"
       ],
       "rating": {
         "score": 3,
@@ -5046,6 +5779,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "rag",
         "vector-search",
         "qdrant",
@@ -5073,12 +5807,14 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "optimization",
         "bitsandbytes",
         "quantization",
         "8-bit",
         "4-bit",
-        "memory-optimization"
+        "memory-optimization",
+        "gpu"
       ],
       "rating": {
         "score": 3,
@@ -5100,12 +5836,14 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "data-processing",
         "ray-data",
         "distributed-computing",
         "ml-pipelines",
         "batch-inference",
-        "etl"
+        "etl",
+        "gpu"
       ],
       "rating": {
         "score": 3,
@@ -5127,12 +5865,14 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "distributed-training",
         "ray-train",
         "orchestration",
         "ray",
         "hyperparameter-tuning",
-        "fault-tolerance"
+        "fault-tolerance",
+        "gpu"
       ],
       "rating": {
         "score": 3,
@@ -5154,6 +5894,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "model-architecture",
         "rwkv",
         "rnn",
@@ -5181,6 +5922,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "multimodal",
         "image-segmentation",
         "computer-vision",
@@ -5207,6 +5949,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "rag",
         "sentence-transformers",
         "embeddings",
@@ -5234,6 +5977,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "tokenization",
         "sentencepiece",
         "language-independent",
@@ -5261,12 +6005,14 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "inference-serving",
         "vllm",
         "pagedattention",
         "continuous-batching",
         "high-throughput",
-        "production"
+        "production",
+        "gpu"
       ],
       "rating": {
         "score": 3,
@@ -5288,12 +6034,14 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "inference-serving",
         "sglang",
         "structured-generation",
         "radixattention",
         "prefix-caching",
-        "constrained-decoding"
+        "constrained-decoding",
+        "gpu"
       ],
       "rating": {
         "score": 3,
@@ -5315,6 +6063,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "post-training",
         "simpo",
         "preference-optimization",
@@ -5342,6 +6091,7 @@
       "category": "devops",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "infrastructure",
         "multi-cloud",
         "orchestration",
@@ -5369,6 +6119,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "post-training",
         "reinforcement-learning",
         "megatron-lm",
@@ -5396,6 +6147,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "mechanistic-interpretability",
         "sparse-autoencoders",
         "sae",
@@ -5422,12 +6174,14 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "emerging-techniques",
         "speculative-decoding",
         "medusa",
         "lookahead-decoding",
         "fast-inference",
-        "draft-models"
+        "draft-models",
+        "gpu"
       ],
       "rating": {
         "score": 3,
@@ -5449,6 +6203,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "multimodal",
         "image-generation",
         "stable-diffusion",
@@ -5476,6 +6231,7 @@
       "category": "writing",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "ml-paper-writing",
         "systems-paper-writing",
         "osdi",
@@ -5503,6 +6259,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "mlops",
         "tensorboard",
         "visualization",
@@ -5530,12 +6287,14 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "inference-serving",
         "tensorrt-llm",
         "nvidia",
         "inference-optimization",
         "high-throughput",
-        "low-latency"
+        "low-latency",
+        "gpu"
       ],
       "rating": {
         "score": 3,
@@ -5557,6 +6316,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "post-training",
         "reinforcement-learning",
         "pytorch",
@@ -5584,12 +6344,14 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "distributed-training",
         "megatron-core",
         "large-scale-training",
         "nvidia",
         "tensor-parallelism",
-        "pipeline-parallelism"
+        "pipeline-parallelism",
+        "gpu"
       ],
       "rating": {
         "score": 3,
@@ -5611,6 +6373,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "mechanistic-interpretability",
         "transformerlens",
         "activation-patching",
@@ -5636,6 +6399,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "fine-tuning",
         "unsloth",
         "fast-training",
@@ -5663,12 +6427,14 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "post-training",
         "reinforcement-learning",
         "rlhf",
         "grpo",
         "ppo",
-        "distributed-training"
+        "distributed-training",
+        "gpu"
       ],
       "rating": {
         "score": 3,
@@ -5690,6 +6456,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "mlops",
         "weights-and-biases",
         "wandb",
@@ -5717,6 +6484,7 @@
       "category": "ai-ml",
       "tags": [
         "orchestra-research",
+        "machine-learning",
         "multimodal",
         "whisper",
         "speech-recognition",
@@ -5740,11 +6508,13 @@
       "summary": "Print the screenshots a CI-published gallery produced for a PR as Markdown images for the PR description.",
       "category": "development",
       "tags": [
-        "github",
         "pull-requests",
-        "screenshots",
         "ci",
-        "bash"
+        "screenshots",
+        "github",
+        "frontend",
+        "testing",
+        "documentation"
       ],
       "template": true,
       "derived_from": {
@@ -5771,11 +6541,14 @@
       "summary": "Take an open pull request to green: wait for CI, triage failures and answer review-bot comments, with a registry for CodeRabbit, Qodo, Greptile, Copilot, Kodus and Vercel.",
       "category": "development",
       "tags": [
-        "github",
         "pull-requests",
         "ci",
         "code-review",
-        "bash"
+        "github",
+        "automation",
+        "shipping",
+        "triage",
+        "review-bots"
       ],
       "derived_from": {
         "source": "elie222/rakazo",
@@ -5802,10 +6575,13 @@
       "category": "development",
       "tags": [
         "release",
+        "shipping",
         "changelog",
+        "versioning",
         "git",
         "github",
-        "semver"
+        "semver",
+        "template"
       ],
       "template": true,
       "derived_from": {
@@ -5832,9 +6608,11 @@
       "summary": "Audit a SKILL.md for naming, description quality and overlap.",
       "category": "meta",
       "tags": [
-        "skills",
+        "meta",
+        "skills-authoring",
         "review",
-        "quality"
+        "quality",
+        "documentation"
       ],
       "rating": {
         "score": 4,
@@ -5859,7 +6637,13 @@
       "category": "writing",
       "tags": [
         "t3dotgg",
-        "tstack"
+        "tstack",
+        "pull-requests",
+        "ci",
+        "code-review",
+        "github",
+        "monitoring",
+        "shipping"
       ],
       "rating": {
         "score": 3,
@@ -5881,7 +6665,11 @@
       "category": "meta",
       "tags": [
         "t3dotgg",
-        "tstack"
+        "tstack",
+        "multi-agent",
+        "review",
+        "decision-making",
+        "orchestration"
       ],
       "rating": {
         "score": 3,
@@ -5903,7 +6691,12 @@
       "category": "writing",
       "tags": [
         "t3dotgg",
-        "tstack"
+        "tstack",
+        "pull-requests",
+        "git",
+        "github",
+        "writing",
+        "shipping"
       ],
       "rating": {
         "score": 3,
@@ -5925,7 +6718,10 @@
       "category": "meta",
       "tags": [
         "t3dotgg",
-        "tstack"
+        "tstack",
+        "workflow",
+        "shipping",
+        "autonomy"
       ],
       "rating": {
         "score": 3,
@@ -5947,7 +6743,10 @@
       "category": "meta",
       "tags": [
         "t3dotgg",
-        "tstack"
+        "tstack",
+        "communication",
+        "workflow",
+        "style"
       ],
       "rating": {
         "score": 3,
@@ -5969,7 +6768,12 @@
       "category": "writing",
       "tags": [
         "t3dotgg",
-        "tstack"
+        "tstack",
+        "pull-requests",
+        "github",
+        "code-review",
+        "communication",
+        "style"
       ],
       "rating": {
         "score": 3,
@@ -5991,7 +6795,12 @@
       "category": "development",
       "tags": [
         "t3dotgg",
-        "tstack"
+        "tstack",
+        "pull-requests",
+        "git",
+        "refactoring",
+        "maintenance",
+        "migration"
       ],
       "rating": {
         "score": 3,
@@ -6013,7 +6822,10 @@
       "category": "meta",
       "tags": [
         "t3dotgg",
-        "tstack"
+        "tstack",
+        "workflow",
+        "autonomy",
+        "loop"
       ],
       "rating": {
         "score": 3,
@@ -6035,7 +6847,10 @@
       "category": "meta",
       "tags": [
         "t3dotgg",
-        "tstack"
+        "tstack",
+        "workflow",
+        "handoff",
+        "context-management"
       ],
       "rating": {
         "score": 3,
@@ -6055,8 +6870,10 @@
       "tags": [
         "ux",
         "ui",
+        "design",
+        "frontend",
+        "accessibility",
         "review",
-        "web",
         "mobile"
       ],
       "derived_from": {

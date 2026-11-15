@@ -4,11 +4,20 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 05-data-processing/ray-data
 ref: main
 skill: ray-data
-title: "Ray Data (Orchestra Research)"
-summary: "Scalable data processing for ML workloads"
+title: Ray Data (Orchestra Research)
+summary: Scalable data processing for ML workloads
 category: ai-ml
-tags: [orchestra-research, data-processing, ray-data, distributed-computing, ml-pipelines, batch-inference, etl]
+tags:
+- orchestra-research
+- machine-learning
+- data-processing
+- ray-data
+- distributed-computing
+- ml-pipelines
+- batch-inference
+- etl
+- gpu
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

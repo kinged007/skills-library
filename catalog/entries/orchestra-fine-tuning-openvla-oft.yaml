@@ -4,11 +4,19 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 18-multimodal/openvla-oft
 ref: main
 skill: fine-tuning-openvla-oft
-title: "Fine Tuning Openvla Oft (Orchestra Research)"
-summary: "Fine-tunes and evaluates OpenVLA-OFT and OpenVLA-OFT+ policies for robot action generation with continuous action heads, LoRA adaptation, and FiLM conditioning on LIBERO..."
+title: Fine Tuning Openvla Oft (Orchestra Research)
+summary: Fine-tunes and evaluates OpenVLA-OFT and OpenVLA-OFT+ policies for robot action generation with continuous action heads, LoRA adaptation, and FiLM conditioning on LIBERO...
 category: ai-ml
-tags: [orchestra-research, multimodal, openvla, openvla-oft, vla, robotics, fine-tuning]
+tags:
+- orchestra-research
+- machine-learning
+- multimodal
+- openvla
+- openvla-oft
+- vla
+- robotics
+- fine-tuning
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

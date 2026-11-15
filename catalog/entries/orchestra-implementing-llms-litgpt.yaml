@@ -4,11 +4,19 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 01-model-architecture/litgpt
 ref: main
 skill: implementing-llms-litgpt
-title: "Implementing Llms Litgpt (Orchestra Research)"
-summary: "Implements and trains LLMs using Lightning AI's LitGPT with 20+ pretrained architectures (Llama, Gemma, Phi, Qwen, Mistral)"
+title: Implementing Llms Litgpt (Orchestra Research)
+summary: Implements and trains LLMs using Lightning AI's LitGPT with 20+ pretrained architectures (Llama, Gemma, Phi, Qwen, Mistral)
 category: ai-ml
-tags: [orchestra-research, model-architecture, litgpt, lightning-ai, llm-implementation, lora, qlora]
+tags:
+- orchestra-research
+- machine-learning
+- model-architecture
+- litgpt
+- lightning-ai
+- llm-implementation
+- lora
+- qlora
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

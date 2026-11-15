@@ -4,11 +4,19 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 19-emerging-techniques/model-pruning
 ref: main
 skill: model-pruning
-title: "Model Pruning (Orchestra Research)"
-summary: "Reduce LLM size and accelerate inference using pruning techniques like Wanda and SparseGPT. Use when compressing models without retraining, achieving 50% sparsity with minimal..."
+title: Model Pruning (Orchestra Research)
+summary: Reduce LLM size and accelerate inference using pruning techniques like Wanda and SparseGPT. Use when compressing models without retraining, achieving 50% sparsity with minimal...
 category: ai-ml
-tags: [orchestra-research, emerging-techniques, model-pruning, wanda, sparsegpt, sparsity, model-compression]
+tags:
+- orchestra-research
+- machine-learning
+- emerging-techniques
+- model-pruning
+- wanda
+- sparsegpt
+- sparsity
+- model-compression
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

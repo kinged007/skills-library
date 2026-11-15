@@ -10,6 +10,10 @@ category: devops
 tags:
 - backnotprop
 - pstack
+- refactoring
+- api-design
+- quality
+- principles
 rating:
   score: 3
   reviewed: null

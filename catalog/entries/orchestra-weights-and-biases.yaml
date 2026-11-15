@@ -4,11 +4,19 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 13-mlops/weights-and-biases
 ref: main
 skill: weights-and-biases
-title: "Weights And Biases (Orchestra Research)"
-summary: "Track ML experiments with automatic logging, visualize training in real-time, optimize hyperparameters with sweeps, and manage model registry with W&B - collaborative MLOps..."
+title: Weights And Biases (Orchestra Research)
+summary: Track ML experiments with automatic logging, visualize training in real-time, optimize hyperparameters with sweeps, and manage model registry with W&B - collaborative MLOps...
 category: ai-ml
-tags: [orchestra-research, mlops, weights-and-biases, wandb, experiment-tracking, hyperparameter-tuning, model-registry]
+tags:
+- orchestra-research
+- machine-learning
+- mlops
+- weights-and-biases
+- wandb
+- experiment-tracking
+- hyperparameter-tuning
+- model-registry
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

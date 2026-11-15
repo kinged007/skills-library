@@ -4,11 +4,19 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 01-model-architecture/mamba
 ref: main
 skill: mamba-architecture
-title: "Mamba Architecture (Orchestra Research)"
-summary: "State-space model with O(n) complexity vs Transformers' O(n\u00b2)"
+title: Mamba Architecture (Orchestra Research)
+summary: State-space model with O(n) complexity vs Transformers' O(n²)
 category: ai-ml
-tags: [orchestra-research, model-architecture, mamba, state-space-models, ssm, linear-complexity, long-context]
+tags:
+- orchestra-research
+- machine-learning
+- model-architecture
+- mamba
+- state-space-models
+- ssm
+- linear-complexity
+- long-context
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

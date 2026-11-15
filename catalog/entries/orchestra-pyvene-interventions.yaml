@@ -4,11 +4,20 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 04-mechanistic-interpretability/pyvene
 ref: main
 skill: pyvene-interventions
-title: "Pyvene Interventions (Orchestra Research)"
-summary: "Provides guidance for performing causal interventions on PyTorch models using pyvene's declarative intervention framework"
+title: Pyvene Interventions (Orchestra Research)
+summary: Provides guidance for performing causal interventions on PyTorch models using pyvene's declarative intervention framework
 category: ai-ml
-tags: [orchestra-research, mechanistic-interpretability, causal-intervention, pyvene, activation-patching, causal-tracing, interpretability]
+tags:
+- orchestra-research
+- machine-learning
+- mechanistic-interpretability
+- causal-intervention
+- pyvene
+- activation-patching
+- causal-tracing
+- interpretability
+- observability
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

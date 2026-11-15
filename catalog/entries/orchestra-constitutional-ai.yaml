@@ -4,11 +4,19 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 07-safety-alignment/constitutional-ai
 ref: main
 skill: constitutional-ai
-title: "Constitutional Ai (Orchestra Research)"
-summary: "Anthropic's method for training harmless AI through self-improvement"
+title: Constitutional Ai (Orchestra Research)
+summary: Anthropic's method for training harmless AI through self-improvement
 category: ai-ml
-tags: [orchestra-research, safety-alignment, constitutional-ai, rlaif, self-critique, harmlessness, anthropic]
+tags:
+- orchestra-research
+- machine-learning
+- safety-alignment
+- constitutional-ai
+- rlaif
+- self-critique
+- harmlessness
+- anthropic
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

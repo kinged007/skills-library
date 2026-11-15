@@ -9,7 +9,11 @@ summary: 'Review the changes since a fixed point (commit, branch, tag, or merge-
 category: development
 tags:
 - mattpocock
-- skills
+- code-review
+- quality
+- git
+- engineering
+- standards
 rating:
   score: 3
   reviewed: null

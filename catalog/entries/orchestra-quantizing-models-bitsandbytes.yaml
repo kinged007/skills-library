@@ -4,11 +4,20 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 10-optimization/bitsandbytes
 ref: main
 skill: quantizing-models-bitsandbytes
-title: "Quantizing Models Bitsandbytes (Orchestra Research)"
-summary: "Quantizes LLMs to 8-bit or 4-bit for 50-75% memory reduction with minimal accuracy loss"
+title: Quantizing Models Bitsandbytes (Orchestra Research)
+summary: Quantizes LLMs to 8-bit or 4-bit for 50-75% memory reduction with minimal accuracy loss
 category: ai-ml
-tags: [orchestra-research, optimization, bitsandbytes, quantization, 8-bit, 4-bit, memory-optimization]
+tags:
+- orchestra-research
+- machine-learning
+- optimization
+- bitsandbytes
+- quantization
+- 8-bit
+- 4-bit
+- memory-optimization
+- gpu
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

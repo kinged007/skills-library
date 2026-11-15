@@ -4,11 +4,19 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 09-infrastructure/modal
 ref: main
 skill: modal-serverless-gpu
-title: "Modal Serverless Gpu (Orchestra Research)"
-summary: "Serverless GPU cloud platform for running ML workloads"
+title: Modal Serverless Gpu (Orchestra Research)
+summary: Serverless GPU cloud platform for running ML workloads
 category: devops
-tags: [orchestra-research, infrastructure, serverless, gpu, cloud, deployment, modal]
+tags:
+- orchestra-research
+- machine-learning
+- infrastructure
+- serverless
+- gpu
+- cloud
+- deployment
+- modal
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

@@ -9,7 +9,12 @@ summary: Structures git workflow practices
 category: devops
 tags:
 - addyosmani
-- agent-skills
+- git
+- versioning
+- commits
+- branching
+- engineering
+- workflow
 rating:
   score: 3
   reviewed: null

@@ -9,7 +9,11 @@ summary: Grounds every implementation decision in official documentation
 category: development
 tags:
 - addyosmani
-- agent-skills
+- documentation
+- docs-grounding
+- engineering
+- accuracy
+- workflow
 rating:
   score: 3
   reviewed: null

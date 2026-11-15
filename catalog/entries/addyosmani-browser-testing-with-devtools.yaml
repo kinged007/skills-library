@@ -9,7 +9,13 @@ summary: Tests in real browsers via Chrome DevTools MCP. Use when building or de
 category: meta
 tags:
 - addyosmani
-- agent-skills
+- testing
+- browser
+- devtools
+- mcp
+- frontend
+- debugging
+- engineering
 rating:
   score: 3
   reviewed: null

@@ -9,7 +9,11 @@ summary: Extracts what the user actually wants instead of what they think they s
 category: meta
 tags:
 - addyosmani
-- agent-skills
+- interview
+- requirements
+- clarification
+- product
+- planning
 rating:
   score: 3
   reviewed: null

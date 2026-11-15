@@ -9,7 +9,12 @@ summary: Delivers changes incrementally in thin, verifiable slices
 category: development
 tags:
 - addyosmani
-- agent-skills
+- engineering
+- workflow
+- small-changes
+- testing
+- delivery
+- quality
 rating:
   score: 3
   reviewed: null

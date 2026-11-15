@@ -4,11 +4,19 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 10-optimization/flash-attention
 ref: main
 skill: optimizing-attention-flash
-title: "Optimizing Attention Flash (Orchestra Research)"
-summary: "Optimizes transformer attention with Flash Attention for 2-4x speedup and 10-20x memory reduction"
+title: Optimizing Attention Flash (Orchestra Research)
+summary: Optimizes transformer attention with Flash Attention for 2-4x speedup and 10-20x memory reduction
 category: ai-ml
-tags: [orchestra-research, optimization, flash-attention, attention-optimization, memory-efficiency, speed-optimization, long-context]
+tags:
+- orchestra-research
+- machine-learning
+- optimization
+- flash-attention
+- attention-optimization
+- memory-efficiency
+- speed-optimization
+- long-context
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

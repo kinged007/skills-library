@@ -4,11 +4,19 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 0-autoresearch-skill
 ref: main
 skill: autoresearch
-title: "Autoresearch (Orchestra Research)"
-summary: "Orchestrates end-to-end autonomous AI research projects using a two-loop architecture"
+title: Autoresearch (Orchestra Research)
+summary: Orchestrates end-to-end autonomous AI research projects using a two-loop architecture
 category: ai-ml
-tags: [orchestra-research, autoresearch-skill, autonomous-research, two-loop-architecture, experiment-orchestration, research-synthesis, project-management]
+tags:
+- orchestra-research
+- machine-learning
+- autoresearch-skill
+- autonomous-research
+- two-loop-architecture
+- experiment-orchestration
+- research-synthesis
+- project-management
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

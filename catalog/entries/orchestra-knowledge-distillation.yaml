@@ -4,11 +4,19 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 19-emerging-techniques/knowledge-distillation
 ref: main
 skill: knowledge-distillation
-title: "Knowledge Distillation (Orchestra Research)"
-summary: "Compress large language models using knowledge distillation from teacher to student models"
+title: Knowledge Distillation (Orchestra Research)
+summary: Compress large language models using knowledge distillation from teacher to student models
 category: ai-ml
-tags: [orchestra-research, emerging-techniques, knowledge-distillation, model-compression, teacher-student, minillm, reverse-kld]
+tags:
+- orchestra-research
+- machine-learning
+- emerging-techniques
+- knowledge-distillation
+- model-compression
+- teacher-student
+- minillm
+- reverse-kld
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

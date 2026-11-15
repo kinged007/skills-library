@@ -4,11 +4,20 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 08-distributed-training/pytorch-lightning
 ref: main
 skill: pytorch-lightning
-title: "Pytorch Lightning (Orchestra Research)"
-summary: "High-level PyTorch framework with Trainer class, automatic distributed training (DDP/FSDP/DeepSpeed), callbacks system, and minimal boilerplate"
+title: Pytorch Lightning (Orchestra Research)
+summary: High-level PyTorch framework with Trainer class, automatic distributed training (DDP/FSDP/DeepSpeed), callbacks system, and minimal boilerplate
 category: ai-ml
-tags: [orchestra-research, distributed-training, pytorch-lightning, training-framework, ddp, fsdp, deepspeed]
+tags:
+- orchestra-research
+- machine-learning
+- distributed-training
+- pytorch-lightning
+- training-framework
+- ddp
+- fsdp
+- deepspeed
+- gpu
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

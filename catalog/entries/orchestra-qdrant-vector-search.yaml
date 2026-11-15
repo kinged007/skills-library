@@ -4,11 +4,19 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 15-rag/qdrant
 ref: main
 skill: qdrant-vector-search
-title: "Qdrant Vector Search (Orchestra Research)"
-summary: "High-performance vector similarity search engine for RAG and semantic search"
+title: Qdrant Vector Search (Orchestra Research)
+summary: High-performance vector similarity search engine for RAG and semantic search
 category: ai-ml
-tags: [orchestra-research, rag, vector-search, qdrant, semantic-search, embeddings, similarity-search]
+tags:
+- orchestra-research
+- machine-learning
+- rag
+- vector-search
+- qdrant
+- semantic-search
+- embeddings
+- similarity-search
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

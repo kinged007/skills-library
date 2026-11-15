@@ -4,11 +4,20 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 17-observability/phoenix
 ref: main
 skill: phoenix-observability
-title: "Phoenix Observability (Orchestra Research)"
-summary: "Open-source AI observability platform for LLM tracing, evaluation, and monitoring"
+title: Phoenix Observability (Orchestra Research)
+summary: Open-source AI observability platform for LLM tracing, evaluation, and monitoring
 category: ai-ml
-tags: [orchestra-research, observability, phoenix, arize, tracing, evaluation, monitoring]
+tags:
+- orchestra-research
+- machine-learning
+- observability
+- phoenix
+- arize
+- tracing
+- evaluation
+- monitoring
+- evals
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

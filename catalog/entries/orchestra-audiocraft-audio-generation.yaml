@@ -4,11 +4,18 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 18-multimodal/audiocraft
 ref: main
 skill: audiocraft-audio-generation
-title: "Audiocraft Audio Generation (Orchestra Research)"
-summary: "PyTorch library for audio generation including text-to-music (MusicGen) and text-to-sound (AudioGen)"
+title: Audiocraft Audio Generation (Orchestra Research)
+summary: PyTorch library for audio generation including text-to-music (MusicGen) and text-to-sound (AudioGen)
 category: ai-ml
-tags: [orchestra-research, multimodal, audio-generation, text-to-music, text-to-audio, musicgen]
+tags:
+- orchestra-research
+- machine-learning
+- multimodal
+- audio-generation
+- text-to-music
+- text-to-audio
+- musicgen
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

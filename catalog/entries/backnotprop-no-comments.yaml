@@ -10,6 +10,12 @@ category: writing
 tags:
 - backnotprop
 - pstack
+- code-review
+- linting
+- code-style
+- refactoring
+- quality
+- engineering
 rating:
   score: 3
   reviewed: null

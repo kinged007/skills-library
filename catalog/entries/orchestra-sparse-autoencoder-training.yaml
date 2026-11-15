@@ -4,11 +4,18 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 04-mechanistic-interpretability/saelens
 ref: main
 skill: sparse-autoencoder-training
-title: "Sparse Autoencoder Training (Orchestra Research)"
-summary: "Provides guidance for training and analyzing Sparse Autoencoders (SAEs) using SAELens to decompose neural network activations into interpretable features"
+title: Sparse Autoencoder Training (Orchestra Research)
+summary: Provides guidance for training and analyzing Sparse Autoencoders (SAEs) using SAELens to decompose neural network activations into interpretable features
 category: ai-ml
-tags: [orchestra-research, mechanistic-interpretability, sparse-autoencoders, sae, feature-discovery, superposition]
+tags:
+- orchestra-research
+- machine-learning
+- mechanistic-interpretability
+- sparse-autoencoders
+- sae
+- feature-discovery
+- superposition
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

@@ -9,7 +9,11 @@ summary: Set up Husky pre-commit hooks with lint-staged (Prettier), type checkin
 category: development
 tags:
 - mattpocock
-- skills
+- testing
+- git
+- hooks
+- linting
+- setup
 rating:
   score: 3
   reviewed: null

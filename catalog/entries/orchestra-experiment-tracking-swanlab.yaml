@@ -4,11 +4,19 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 13-mlops/swanlab
 ref: main
 skill: experiment-tracking-swanlab
-title: "Experiment Tracking Swanlab (Orchestra Research)"
-summary: "Provides guidance for experiment tracking with SwanLab"
+title: Experiment Tracking Swanlab (Orchestra Research)
+summary: Provides guidance for experiment tracking with SwanLab
 category: ai-ml
-tags: [orchestra-research, mlops, swanlab, experiment-tracking, open-source, visualization, pytorch]
+tags:
+- orchestra-research
+- machine-learning
+- mlops
+- swanlab
+- experiment-tracking
+- open-source
+- visualization
+- pytorch
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

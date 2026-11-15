@@ -9,7 +9,11 @@ summary: Simplifies code for clarity
 category: development
 tags:
 - addyosmani
-- agent-skills
+- refactoring
+- simplification
+- maintainability
+- engineering
+- quality
 rating:
   score: 3
   reviewed: null

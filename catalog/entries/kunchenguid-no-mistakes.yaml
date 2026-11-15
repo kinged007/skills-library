@@ -10,6 +10,14 @@ category: development
 tags:
 - kunchenguid
 - no-mistakes
+- code-review
+- testing
+- linting
+- documentation
+- ci
+- pull-requests
+- shipping
+- automation
 rating:
   score: 3
   reviewed: null

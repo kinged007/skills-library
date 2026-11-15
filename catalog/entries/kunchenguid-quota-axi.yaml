@@ -10,6 +10,12 @@ category: meta
 tags:
 - kunchenguid
 - quota-axi
+- quota
+- usage-limits
+- cli
+- monitoring
+- agents
+- observability
 rating:
   score: 3
   reviewed: null

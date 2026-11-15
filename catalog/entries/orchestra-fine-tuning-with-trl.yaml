@@ -4,11 +4,19 @@ source: Orchestra-Research/AI-Research-SKILLs
 path: 06-post-training/trl-fine-tuning
 ref: main
 skill: fine-tuning-with-trl
-title: "Fine Tuning With Trl (Orchestra Research)"
-summary: "Fine-tune LLMs using reinforcement learning with TRL - SFT for instruction tuning, DPO for preference alignment, PPO/GRPO for reward optimization, and reward model training"
+title: Fine Tuning With Trl (Orchestra Research)
+summary: Fine-tune LLMs using reinforcement learning with TRL - SFT for instruction tuning, DPO for preference alignment, PPO/GRPO for reward optimization, and reward model training
 category: ai-ml
-tags: [orchestra-research, post-training, trl, reinforcement-learning, fine-tuning, sft, dpo]
+tags:
+- orchestra-research
+- machine-learning
+- post-training
+- trl
+- reinforcement-learning
+- fine-tuning
+- sft
+- dpo
 rating:
   score: 3
   reviewed: null
-notes: "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict."
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

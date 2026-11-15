@@ -9,7 +9,10 @@ summary: Create exercise directory structures with sections, problems, solutions
 category: devops
 tags:
 - mattpocock
-- skills
+- hooks
+- linting
+- communication
+- setup
 rating:
   score: 3
   reviewed: null

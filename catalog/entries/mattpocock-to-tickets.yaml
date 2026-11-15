@@ -9,7 +9,12 @@ summary: Break a plan, spec, or the current conversation into a set of tracer-bu
 category: development
 tags:
 - mattpocock
-- skills
+- planning
+- specs
+- issue-tracking
+- setup
+- reliability
+- decision-making
 rating:
   score: 3
   reviewed: null
