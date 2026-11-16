@@ -67,6 +67,10 @@ def check_keys(value, node, where, n):
 # upstream skill text (90n forbids public redistribution). Multi-line block
 # scalars are how a pasted body looks, so they are rejected outright.
 MAX_FIELD = {"title": 160, "summary": 400, "notes": 600}
+# Longest real tag today is 30 chars and the widest entry has 10, so these caps
+# cannot fail on honest data - they only stop a tag being used as a text slot.
+MAX_TAG_LEN = 40
+MAX_TAGS = 12
 
 out = []
 for f in sorted((root / "catalog/entries").glob("*.yaml")):
@@ -101,6 +105,17 @@ for f in sorted((root / "catalog/entries").glob("*.yaml")):
     tags = e.get("tags")
     if isinstance(tags, list) and any(not isinstance(t, str) for t in tags):
         errs.append(f"{n}: tags must be plain strings; structured tags would publish their fields")
+    # A tag is a label, not a field. Unbounded, one tag can carry a whole
+    # upstream body and publish it through a key nobody thinks to watch.
+    if isinstance(tags, list):
+        if len(tags) > MAX_TAGS:
+            errs.append(f"{n}: {len(tags)} tags (limit {MAX_TAGS}); tags are labels, not prose")
+        for tg in tags:
+            if isinstance(tg, str) and len(tg) > MAX_TAG_LEN:
+                errs.append(
+                    f"{n}: tag of {len(tg)} chars (limit {MAX_TAG_LEN}); a tag is a label, "
+                    "and unbounded text here publishes just like a body field"
+                )
 
     if t == "local":
         if not (root / e.get("path", "x") / "SKILL.md").exists():
