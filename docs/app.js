@@ -30,13 +30,14 @@ function cardHtml(e) {
     '<div class="install"><code>' + escH(e.install) + '</code><button class="copy-btn" type="button" data-copy="' + escH(e.install) + '">Copy</button></div></li>';
 }
 function applyFilters() {
-  var f = S.filters, q = f.q.trim().toLowerCase();
+  var f = S.filters, q = (f.q || "").trim().toLowerCase();
+  var tag = (f.tag || "").trim().toLowerCase();
   var out = S.data.skills.filter(function (e) {
     if (f.cat && e.category !== f.cat) return false;
     if (f.type && e.type !== f.type) return false;
     if (f.src && e.source !== f.src) return false;
     if (score(e) < f.min) return false;
-    if (f.tag && (e.tags || []).indexOf(f.tag) < 0) return false;
+    if (tag && !(e.tags || []).some(function (t) { return (t || "").toLowerCase() === tag; })) return false;
     if (q) {
       var hay = (e.title + " " + e.summary + " " + e.id + " " + (e.source || "") + " " + (e.tags || []).join(" ")).toLowerCase();
       if (hay.indexOf(q) < 0) return false;

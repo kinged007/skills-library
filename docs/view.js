@@ -6,12 +6,26 @@ function syncInputs() {
   $("minScore").value = String(S.filters.min); $("tag").value = S.filters.tag;
   $("sort").value = S.filters.sort;
 }
+function activeFilterNames() {
+  var f = S.filters, a = [];
+  if ((f.q || "").trim()) a.push("search");
+  if (f.cat) a.push("category");
+  if (f.type) a.push("type");
+  if (f.src) a.push("source");
+  if (f.min > 0) a.push("rating");
+  if ((f.tag || "").trim()) a.push("tag");
+  return a;
+}
 function renderList() {
   var list = applyFilters();
   var total = S.data.skills.length;
   $("count").textContent = "Showing " + list.length + " of " + total + " skills";
   var v = $("view");
-  if (!list.length) { v.innerHTML = '<p class="empty">No skills match these filters. Try clearing search or tag.</p>'; return; }
+  if (!list.length) {
+    var active = activeFilterNames();
+    var msg = active.length ? "Active filters: " + active.join(", ") + ". Try clearing " + active.join(" / ") + "." : "No active filters — try Reset.";
+    v.innerHTML = '<p class="empty">No skills match these filters. ' + escH(msg) + '</p>'; return;
+  }
   v.innerHTML = '<ul class="cards">' + list.map(cardHtml).join("") + "</ul>";
 }
 function sideHtml(e) {
@@ -60,7 +74,7 @@ function route() {
   else renderList();
 }
 function fillFilters() {
-  var cats = Object.keys(S.data.categories).sort();
+  var cats = Array.from(new Set(S.data.skills.map(function (e) { return e.category; }).filter(Boolean))).sort();
   $("category").innerHTML = '<option value="">All categories</option>' +
     cats.map(function (c) { return '<option value="' + escH(c) + '">' + escH(c) + "</option>"; }).join("");
   var srcs = Array.from(new Set(S.data.skills.filter(function (e) { return e.source; }).map(function (e) { return e.source; }))).sort();
