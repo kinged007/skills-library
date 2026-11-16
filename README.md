@@ -28,7 +28,9 @@ Each entry's exact command is in `catalog.json` (`install` field).
 
 `catalog/entries/<id>.yaml`: one file per skill (local or external) with title, summary,
 `category` (see `catalog/taxonomy.yaml`), free-form `tags`, and `rating` (score 1-5 plus
-quality / usefulness / maturity). Schema: `schema/entry.schema.json`.
+quality / usefulness / maturity). Schema: `schema/entry.schema.json`, which is enforced:
+an undeclared field is a build error, because every field is copied into the published
+site payload. External entries hold our review notes only, never the upstream skill text.
 
 `python scripts/build_catalog.py` validates entries and generates `catalog.json`, the single
 data source for the future website (filter by category, tag, rating, type).

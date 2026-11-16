@@ -2,20 +2,22 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Catalog entry",
   "type": "object",
+  "additionalProperties": false,
   "required": ["id", "type", "title", "summary", "category", "tags", "rating"],
   "properties": {
     "id": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"},
     "type": {"enum": ["local", "external"]},
     "path": {"type": "string"},
-    "source": {"type": "string", "description": "GitHub owner/repo (external)"},
-    "ref": {"type": "string"},
-    "skill": {"type": "string"},
+    "source": {"type": "string", "description": "GitHub owner/repo (external only)"},
+    "ref": {"type": "string", "description": "external only"},
+    "skill": {"type": "string", "description": "external only"},
     "title": {"type": "string"},
     "summary": {"type": "string"},
     "category": {"type": "string"},
     "tags": {"type": "array", "items": {"type": "string"}},
     "rating": {
       "type": "object",
+      "additionalProperties": false,
       "required": ["score"],
       "properties": {
         "score": {"type": "integer", "minimum": 1, "maximum": 5},
@@ -25,13 +27,14 @@
         "reviewed": {"type": ["string", "null"]}
       }
     },
-    "template": {"type": "boolean", "description": "true = must be filled in / adapted per project before use"},
+    "template": {"type": "boolean", "description": "local only. true = must be filled in / adapted per project before use"},
     "derived_from": {
       "type": "object",
-      "description": "local skills adapted from someone else's work: credit and licence",
+      "description": "local only. local skills adapted from someone else's work: credit and licence",
+      "additionalProperties": false,
       "required": ["source", "path", "license"],
       "properties": {"source": {"type": "string"}, "path": {"type": "string"}, "license": {"type": "string"}}
     },
-    "notes": {"type": "string"}
+    "notes": {"type": "string", "description": "our own review commentary; never the upstream skill text"}
   }
 }

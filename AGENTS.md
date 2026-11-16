@@ -25,7 +25,7 @@ The no-copy rule for external skills is the core design decision. A reference ke
 skills/<name>/SKILL.md        local skill (plus any bundled files it needs)
 catalog/entries/<id>.yaml     one entry per skill, local AND external
 catalog/taxonomy.yaml         allowed categories (source of truth)
-schema/entry.schema.json      entry schema
+schema/entry.schema.json      entry schema (ENFORCED: undeclared fields fail the build)
 scripts/build_catalog.py      validates entries, generates catalog.json
 scripts/install-external.sh   installs every external skill from its author
 catalog.json                  GENERATED. Never edit by hand.
