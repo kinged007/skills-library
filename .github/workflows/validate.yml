@@ -7,4 +7,8 @@ jobs:
       - uses: actions/checkout@v4
       - run: pip install pyyaml && python scripts/build_site.py
       - name: generated catalog data up to date
-        run: git diff --exit-code catalog.json docs/catalog.json
+        # generated_at changes on every build, so compare everything except that line
+        run: |
+          git diff --exit-code catalog.json
+          diff <(grep -v '"generated_at"' docs/catalog.json) \
+               <(git show HEAD:docs/catalog.json | grep -v '"generated_at"')
