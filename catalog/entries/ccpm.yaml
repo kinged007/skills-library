@@ -1,0 +1,26 @@
+id: ccpm
+type: external
+source: automazeio/ccpm
+path: skill/ccpm
+ref: main
+skill: ccpm
+title: CCPM (spec-driven delivery)
+summary: Runs the delivery loop from PRD to epic to GitHub issues to parallel agents, with dependency-aware task files, standups and merge tracking.
+category: project
+tags:
+- automazeio
+- project-management
+- delivery
+- github
+- issue-tracking
+- specs
+- requirements
+- orchestration
+- standup
+rating:
+  score: 5
+  quality: 5
+  usefulness: 5
+  maturity: 4
+  reviewed: '2026-11-16'
+notes: 'Reference to upstream (MIT). Rated after reading SKILL.md and its conventions, execute and track references. Five phases (plan, structure, sync, execute, track) with 16 bash scripts so status, standup, next and blocked are computed rather than improvised. Requires an authenticated gh CLI and a project-local .claude/ tree; the scripts run from the project root. Distinct from the roadmap and prd-writing skills here: those produce the artifact, this one tracks it to shipped code.'

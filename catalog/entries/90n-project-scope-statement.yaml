@@ -1,0 +1,23 @@
+id: 90n-project-scope-statement
+type: external
+source: polar-bear-org/claude-skills
+path: packs/ai-for-project-management-pack/skills/proj-project-scope-statement
+ref: main
+skill: proj-project-scope-statement
+title: Project Scope Statement (90n)
+summary: Writes a scope statement with in-scope deliverables, named exclusions, testable acceptance criteria per deliverable, owned assumptions and a sign-off block.
+category: project
+tags:
+- 90n
+- project-management
+- requirements
+- governance
+- planning
+- stakeholder
+rating:
+  score: 4
+  quality: 5
+  usefulness: 4
+  maturity: 4
+  reviewed: '2026-11-16'
+notes: 'Reference to upstream; always installs the latest upstream version. Licence: internal use only, not for resale (90n). Source: PMI Learning Library on scope statements. The exclusions section is the valuable part: each exclusion must name something a reader could plausibly assume is included. Pairs with prd-writing, which covers the product case rather than the contractual one.'

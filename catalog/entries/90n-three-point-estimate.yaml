@@ -1,0 +1,23 @@
+id: 90n-three-point-estimate
+type: external
+source: polar-bear-org/claude-skills
+path: packs/ai-for-project-management-pack/skills/proj-three-point-estimate
+ref: main
+skill: proj-three-point-estimate
+title: Three-Point Estimate (90n)
+summary: Builds PERT estimates with a range and confidence line, lists the forgotten work and refuses to give a single date without its spread.
+category: project
+tags:
+- 90n
+- project-management
+- estimation
+- scheduling
+- planning
+- risk
+rating:
+  score: 5
+  quality: 5
+  usefulness: 5
+  maturity: 4
+  reviewed: '2026-11-16'
+notes: 'Reference to upstream; always installs the latest upstream version. Licence: internal use only, not for resale (90n). Sources: Green and Zigli (PMI) for the path maths, plus Flyvbjerg (2008) reference class forecasting as an outside check - the latter is what separates this from the usual PERT worksheet. Output is always a range, never a single date.'

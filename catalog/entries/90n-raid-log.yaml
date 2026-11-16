@@ -1,0 +1,24 @@
+id: 90n-raid-log
+type: external
+source: polar-bear-org/claude-skills
+path: packs/ai-for-project-management-pack/skills/proj-raid-log
+ref: main
+skill: proj-raid-log
+title: RAID Log (90n)
+summary: Keeps a weekly RAID log of risks, assumptions, issues and dependencies, with stale-entry flags and the review agenda attached.
+category: project
+tags:
+- 90n
+- project-management
+- risk
+- delivery
+- status
+- governance
+- meetings
+rating:
+  score: 5
+  quality: 5
+  usefulness: 5
+  maturity: 4
+  reviewed: '2026-11-16'
+notes: 'Reference to upstream; always installs the latest upstream version. Licence: internal use only, not for resale (90n). Sources: Institute of Risk Management guide, and GOV.UK Teal Book ch. 21 for escalation on tolerance. Kept deliberately lean, and it ships the weekly review agenda with the log, which is what makes the log survive past week two.'

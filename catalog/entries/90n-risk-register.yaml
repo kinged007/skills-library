@@ -1,0 +1,23 @@
+id: 90n-risk-register
+type: external
+source: polar-bear-org/claude-skills
+path: packs/ai-for-project-management-pack/skills/proj-risk-register
+ref: main
+skill: proj-risk-register
+title: Risk Register (90n)
+summary: Builds a risk register with each risk worded as cause, event and effect, scored on written scales, with owner, trigger, response and review date.
+category: project
+tags:
+- 90n
+- project-management
+- risk
+- delivery
+- governance
+- planning
+rating:
+  score: 5
+  quality: 5
+  usefulness: 5
+  maturity: 4
+  reviewed: '2026-11-16'
+notes: 'Reference to upstream; always installs the latest upstream version. Licence: internal use only, not for resale (90n). Sources: GOV.UK Teal Book ch. 20 and HM Treasury Orange Book. Insists on written anchors for the likelihood and impact scales, and keeps opportunities in the register rather than treating risk as purely negative. Feeds raid-log.'

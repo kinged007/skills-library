@@ -1,0 +1,23 @@
+id: 90n-critical-path
+type: external
+source: polar-bear-org/claude-skills
+path: packs/ai-for-project-management-pack/skills/proj-critical-path
+ref: main
+skill: proj-critical-path
+title: Critical Path (90n)
+summary: Computes the critical path with a forward and backward pass, total float per activity and the delays that actually move the end date.
+category: project
+tags:
+- 90n
+- project-management
+- scheduling
+- delivery
+- planning
+- dependencies
+rating:
+  score: 5
+  quality: 5
+  usefulness: 5
+  maturity: 4
+  reviewed: '2026-11-16'
+notes: 'Reference to upstream; always installs the latest upstream version. Licence: free for internal use, not for resale (LICENSE.md, Copyright 2025 90n) - reference only, never vendor or republish. Method is sourced rather than generic: Kelley and Walker (1959) and the US GAO Schedule Assessment Guide GAO-16-89G, including the logic health checks. Best of the set on method. Reads dependency-map and three-point-estimate as inputs.'

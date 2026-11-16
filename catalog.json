@@ -10,9 +10,244 @@
     "productivity": "Automation, planning, personal workflows",
     "ai-ml": "ML and AI research and engineering (training, inference, evals, agents, RAG)",
     "product": "Product management: discovery, strategy, roadmap, PRDs, launch, PLG and metrics",
+    "project": "Project and delivery management: schedules, dependencies, estimation, risk, status and closure",
     "other": "Anything that does not fit"
   },
   "skills": [
+    {
+      "id": "90n-critical-path",
+      "type": "external",
+      "source": "polar-bear-org/claude-skills",
+      "path": "packs/ai-for-project-management-pack/skills/proj-critical-path",
+      "ref": "main",
+      "skill": "proj-critical-path",
+      "title": "Critical Path (90n)",
+      "summary": "Computes the critical path with a forward and backward pass, total float per activity and the delays that actually move the end date.",
+      "category": "project",
+      "tags": [
+        "90n",
+        "project-management",
+        "scheduling",
+        "delivery",
+        "planning",
+        "dependencies"
+      ],
+      "rating": {
+        "score": 5,
+        "quality": 5,
+        "usefulness": 5,
+        "maturity": 4,
+        "reviewed": "2026-11-16"
+      },
+      "notes": "Reference to upstream; always installs the latest upstream version. Licence: free for internal use, not for resale (LICENSE.md, Copyright 2025 90n) - reference only, never vendor or republish. Method is sourced rather than generic: Kelley and Walker (1959) and the US GAO Schedule Assessment Guide GAO-16-89G, including the logic health checks. Best of the set on method. Reads dependency-map and three-point-estimate as inputs.",
+      "install": "npx skills add polar-bear-org/claude-skills --skill proj-critical-path",
+      "url": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/ai-for-project-management-pack/skills/proj-critical-path"
+    },
+    {
+      "id": "90n-dependency-map",
+      "type": "external",
+      "source": "polar-bear-org/claude-skills",
+      "path": "packs/ai-for-project-management-pack/skills/proj-dependency-map",
+      "ref": "main",
+      "skill": "proj-dependency-map",
+      "title": "Dependency Map (90n)",
+      "summary": "Maps cross-team and external dependencies, with a text diagram of what blocks what, a last-confirmed date per link and the at-risk list.",
+      "category": "project",
+      "tags": [
+        "90n",
+        "project-management",
+        "dependencies",
+        "scheduling",
+        "delivery",
+        "planning",
+        "risk"
+      ],
+      "rating": {
+        "score": 5,
+        "quality": 5,
+        "usefulness": 5,
+        "maturity": 4,
+        "reviewed": "2026-11-16"
+      },
+      "notes": "Reference to upstream; always installs the latest upstream version. Licence: internal use only, not for resale (90n). Sources: GOV.UK Teal Book ch. 16 and GAO-16-89G. Adds a last-confirmed date per link, so a stale agreement is visible instead of assumed - the detail most dependency maps miss. Feeds critical-path.",
+      "install": "npx skills add polar-bear-org/claude-skills --skill proj-dependency-map",
+      "url": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/ai-for-project-management-pack/skills/proj-dependency-map"
+    },
+    {
+      "id": "90n-lessons-learned",
+      "type": "external",
+      "source": "polar-bear-org/claude-skills",
+      "path": "packs/ai-for-project-management-pack/skills/proj-lessons-learned",
+      "ref": "main",
+      "skill": "proj-lessons-learned",
+      "title": "Lessons Learned (90n)",
+      "summary": "Runs a blameless lessons-learned review comparing plan against outcome, turning each lesson into an owned action or a template change.",
+      "category": "project",
+      "tags": [
+        "90n",
+        "project-management",
+        "retrospective",
+        "delivery",
+        "governance",
+        "planning"
+      ],
+      "rating": {
+        "score": 4,
+        "quality": 5,
+        "usefulness": 4,
+        "maturity": 4,
+        "reviewed": "2026-11-16"
+      },
+      "notes": "Reference to upstream; always installs the latest upstream version. Licence: internal use only, not for resale (90n). Sources: GOV.UK Teal Book ch. 38 and the NASA Pause and Learn after-action questions. Treats the climate as part of the method (no rank in the room, no performance review), and demands one lesson, one sentence, one change. Fills the closure gap here; mattpocock-retro covers the sprint-scale version.",
+      "install": "npx skills add polar-bear-org/claude-skills --skill proj-lessons-learned",
+      "url": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/ai-for-project-management-pack/skills/proj-lessons-learned"
+    },
+    {
+      "id": "90n-project-charter",
+      "type": "external",
+      "source": "polar-bear-org/claude-skills",
+      "path": "packs/ai-for-project-management-pack/skills/proj-project-charter",
+      "ref": "main",
+      "skill": "proj-project-charter",
+      "title": "Project Charter (90n)",
+      "summary": "Drafts a one-page charter with outcome-based objectives and success measures, sponsor and PM authority by role, named exclusions and a sign-off block.",
+      "category": "project",
+      "tags": [
+        "90n",
+        "project-management",
+        "governance",
+        "planning",
+        "delivery",
+        "stakeholder"
+      ],
+      "rating": {
+        "score": 4,
+        "quality": 5,
+        "usefulness": 4,
+        "maturity": 4,
+        "reviewed": "2026-11-16"
+      },
+      "notes": "Reference to upstream; always installs the latest upstream version. Licence: internal use only, not for resale (90n). Sources: PMI Learning Library on charters, plus PMI Pulse of the Profession 2026 on sponsor alignment. Enforces one page and leaves [placeholders] rather than inventing budgets or dates. Rated 4 not 5 only because charter work is periodic; when you need one, this is the version to use.",
+      "install": "npx skills add polar-bear-org/claude-skills --skill proj-project-charter",
+      "url": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/ai-for-project-management-pack/skills/proj-project-charter"
+    },
+    {
+      "id": "90n-project-scope-statement",
+      "type": "external",
+      "source": "polar-bear-org/claude-skills",
+      "path": "packs/ai-for-project-management-pack/skills/proj-project-scope-statement",
+      "ref": "main",
+      "skill": "proj-project-scope-statement",
+      "title": "Project Scope Statement (90n)",
+      "summary": "Writes a scope statement with in-scope deliverables, named exclusions, testable acceptance criteria per deliverable, owned assumptions and a sign-off block.",
+      "category": "project",
+      "tags": [
+        "90n",
+        "project-management",
+        "requirements",
+        "governance",
+        "planning",
+        "stakeholder"
+      ],
+      "rating": {
+        "score": 4,
+        "quality": 5,
+        "usefulness": 4,
+        "maturity": 4,
+        "reviewed": "2026-11-16"
+      },
+      "notes": "Reference to upstream; always installs the latest upstream version. Licence: internal use only, not for resale (90n). Source: PMI Learning Library on scope statements. The exclusions section is the valuable part: each exclusion must name something a reader could plausibly assume is included. Pairs with prd-writing, which covers the product case rather than the contractual one.",
+      "install": "npx skills add polar-bear-org/claude-skills --skill proj-project-scope-statement",
+      "url": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/ai-for-project-management-pack/skills/proj-project-scope-statement"
+    },
+    {
+      "id": "90n-raid-log",
+      "type": "external",
+      "source": "polar-bear-org/claude-skills",
+      "path": "packs/ai-for-project-management-pack/skills/proj-raid-log",
+      "ref": "main",
+      "skill": "proj-raid-log",
+      "title": "RAID Log (90n)",
+      "summary": "Keeps a weekly RAID log of risks, assumptions, issues and dependencies, with stale-entry flags and the review agenda attached.",
+      "category": "project",
+      "tags": [
+        "90n",
+        "project-management",
+        "risk",
+        "delivery",
+        "status",
+        "governance",
+        "meetings"
+      ],
+      "rating": {
+        "score": 5,
+        "quality": 5,
+        "usefulness": 5,
+        "maturity": 4,
+        "reviewed": "2026-11-16"
+      },
+      "notes": "Reference to upstream; always installs the latest upstream version. Licence: internal use only, not for resale (90n). Sources: Institute of Risk Management guide, and GOV.UK Teal Book ch. 21 for escalation on tolerance. Kept deliberately lean, and it ships the weekly review agenda with the log, which is what makes the log survive past week two.",
+      "install": "npx skills add polar-bear-org/claude-skills --skill proj-raid-log",
+      "url": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/ai-for-project-management-pack/skills/proj-raid-log"
+    },
+    {
+      "id": "90n-risk-register",
+      "type": "external",
+      "source": "polar-bear-org/claude-skills",
+      "path": "packs/ai-for-project-management-pack/skills/proj-risk-register",
+      "ref": "main",
+      "skill": "proj-risk-register",
+      "title": "Risk Register (90n)",
+      "summary": "Builds a risk register with each risk worded as cause, event and effect, scored on written scales, with owner, trigger, response and review date.",
+      "category": "project",
+      "tags": [
+        "90n",
+        "project-management",
+        "risk",
+        "delivery",
+        "governance",
+        "planning"
+      ],
+      "rating": {
+        "score": 5,
+        "quality": 5,
+        "usefulness": 5,
+        "maturity": 4,
+        "reviewed": "2026-11-16"
+      },
+      "notes": "Reference to upstream; always installs the latest upstream version. Licence: internal use only, not for resale (90n). Sources: GOV.UK Teal Book ch. 20 and HM Treasury Orange Book. Insists on written anchors for the likelihood and impact scales, and keeps opportunities in the register rather than treating risk as purely negative. Feeds raid-log.",
+      "install": "npx skills add polar-bear-org/claude-skills --skill proj-risk-register",
+      "url": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/ai-for-project-management-pack/skills/proj-risk-register"
+    },
+    {
+      "id": "90n-three-point-estimate",
+      "type": "external",
+      "source": "polar-bear-org/claude-skills",
+      "path": "packs/ai-for-project-management-pack/skills/proj-three-point-estimate",
+      "ref": "main",
+      "skill": "proj-three-point-estimate",
+      "title": "Three-Point Estimate (90n)",
+      "summary": "Builds PERT estimates with a range and confidence line, lists the forgotten work and refuses to give a single date without its spread.",
+      "category": "project",
+      "tags": [
+        "90n",
+        "project-management",
+        "estimation",
+        "scheduling",
+        "planning",
+        "risk"
+      ],
+      "rating": {
+        "score": 5,
+        "quality": 5,
+        "usefulness": 5,
+        "maturity": 4,
+        "reviewed": "2026-11-16"
+      },
+      "notes": "Reference to upstream; always installs the latest upstream version. Licence: internal use only, not for resale (90n). Sources: Green and Zigli (PMI) for the path maths, plus Flyvbjerg (2008) reference class forecasting as an outside check - the latter is what separates this from the usual PERT worksheet. Output is always a range, never a single date.",
+      "install": "npx skills add polar-bear-org/claude-skills --skill proj-three-point-estimate",
+      "url": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/ai-for-project-management-pack/skills/proj-three-point-estimate"
+    },
     {
       "id": "addyosmani-api-and-interface-design",
       "type": "external",
@@ -2265,6 +2500,38 @@
       "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
       "install": "npx skills add backnotprop/pstack --skill why",
       "url": "https://github.com/backnotprop/pstack/tree/main/skills/why"
+    },
+    {
+      "id": "ccpm",
+      "type": "external",
+      "source": "automazeio/ccpm",
+      "path": "skill/ccpm",
+      "ref": "main",
+      "skill": "ccpm",
+      "title": "CCPM (spec-driven delivery)",
+      "summary": "Runs the delivery loop from PRD to epic to GitHub issues to parallel agents, with dependency-aware task files, standups and merge tracking.",
+      "category": "project",
+      "tags": [
+        "automazeio",
+        "project-management",
+        "delivery",
+        "github",
+        "issue-tracking",
+        "specs",
+        "requirements",
+        "orchestration",
+        "standup"
+      ],
+      "rating": {
+        "score": 5,
+        "quality": 5,
+        "usefulness": 5,
+        "maturity": 4,
+        "reviewed": "2026-11-16"
+      },
+      "notes": "Reference to upstream (MIT). Rated after reading SKILL.md and its conventions, execute and track references. Five phases (plan, structure, sync, execute, track) with 16 bash scripts so status, standup, next and blocked are computed rather than improvised. Requires an authenticated gh CLI and a project-local .claude/ tree; the scripts run from the project root. Distinct from the roadmap and prd-writing skills here: those produce the artifact, this one tracks it to shipped code.",
+      "install": "npx skills add automazeio/ccpm --skill ccpm",
+      "url": "https://github.com/automazeio/ccpm/tree/main/skill/ccpm"
     },
     {
       "id": "charlie947-analytics-dashboard",

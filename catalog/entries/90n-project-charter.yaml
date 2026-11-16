@@ -1,0 +1,23 @@
+id: 90n-project-charter
+type: external
+source: polar-bear-org/claude-skills
+path: packs/ai-for-project-management-pack/skills/proj-project-charter
+ref: main
+skill: proj-project-charter
+title: Project Charter (90n)
+summary: Drafts a one-page charter with outcome-based objectives and success measures, sponsor and PM authority by role, named exclusions and a sign-off block.
+category: project
+tags:
+- 90n
+- project-management
+- governance
+- planning
+- delivery
+- stakeholder
+rating:
+  score: 4
+  quality: 5
+  usefulness: 4
+  maturity: 4
+  reviewed: '2026-11-16'
+notes: 'Reference to upstream; always installs the latest upstream version. Licence: internal use only, not for resale (90n). Sources: PMI Learning Library on charters, plus PMI Pulse of the Profession 2026 on sponsor alignment. Enforces one page and leaves [placeholders] rather than inventing budgets or dates. Rated 4 not 5 only because charter work is periodic; when you need one, this is the version to use.'

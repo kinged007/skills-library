@@ -25,3 +25,19 @@ frontmatter, which no runtime discovers. Each was repackaged into a
 were pointed at the local sibling skills, and workspace-specific paths
 (context-library/, decision-log/, users.md) and runtime/vendor names were
 generalized. Content and frameworks are otherwise unchanged.
+
+The following entries are references, not copies: 90n-critical-path,
+90n-dependency-map, 90n-lessons-learned, 90n-project-charter,
+90n-project-scope-statement, 90n-raid-log, 90n-risk-register and
+90n-three-point-estimate point at
+https://github.com/polar-bear-org/claude-skills (packs/ai-for-project-management-pack).
+
+No upstream files are stored in this repository; installing them fetches the
+latest version from the original author. Their licence (Copyright (c) 2025 90n,
+https://90n.ai) allows internal use, including modification, but forbids selling,
+sublicensing or publicly redistributing them or derivatives. A copy is in
+licenses/90n-internal-use-only.txt. Because of that restriction these must stay
+references: do not copy them into skills/ or republish them here.
+
+ccpm is a reference to https://github.com/automazeio/ccpm (MIT); no files are
+stored here either.

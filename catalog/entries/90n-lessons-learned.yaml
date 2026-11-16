@@ -1,0 +1,23 @@
+id: 90n-lessons-learned
+type: external
+source: polar-bear-org/claude-skills
+path: packs/ai-for-project-management-pack/skills/proj-lessons-learned
+ref: main
+skill: proj-lessons-learned
+title: Lessons Learned (90n)
+summary: Runs a blameless lessons-learned review comparing plan against outcome, turning each lesson into an owned action or a template change.
+category: project
+tags:
+- 90n
+- project-management
+- retrospective
+- delivery
+- governance
+- planning
+rating:
+  score: 4
+  quality: 5
+  usefulness: 4
+  maturity: 4
+  reviewed: '2026-11-16'
+notes: 'Reference to upstream; always installs the latest upstream version. Licence: internal use only, not for resale (90n). Sources: GOV.UK Teal Book ch. 38 and the NASA Pause and Learn after-action questions. Treats the climate as part of the method (no rank in the room, no performance review), and demands one lesson, one sentence, one change. Fills the closure gap here; mattpocock-retro covers the sprint-scale version.'

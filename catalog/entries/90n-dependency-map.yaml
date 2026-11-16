@@ -1,0 +1,24 @@
+id: 90n-dependency-map
+type: external
+source: polar-bear-org/claude-skills
+path: packs/ai-for-project-management-pack/skills/proj-dependency-map
+ref: main
+skill: proj-dependency-map
+title: Dependency Map (90n)
+summary: Maps cross-team and external dependencies, with a text diagram of what blocks what, a last-confirmed date per link and the at-risk list.
+category: project
+tags:
+- 90n
+- project-management
+- dependencies
+- scheduling
+- delivery
+- planning
+- risk
+rating:
+  score: 5
+  quality: 5
+  usefulness: 5
+  maturity: 4
+  reviewed: '2026-11-16'
+notes: 'Reference to upstream; always installs the latest upstream version. Licence: internal use only, not for resale (90n). Sources: GOV.UK Teal Book ch. 16 and GAO-16-89G. Adds a last-confirmed date per link, so a stale agreement is visible instead of assumed - the detail most dependency maps miss. Feeds critical-path.'
