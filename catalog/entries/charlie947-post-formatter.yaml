@@ -1,0 +1,22 @@
+id: charlie947-post-formatter
+type: external
+source: charlie947/social-media-skills
+path: skills/post-formatter
+ref: main
+skill: post-formatter
+title: Post Formatter (charlie947)
+summary: Turn a topic into a ready-to-publish LinkedIn post using PAS, AIDA, BAB, STAR or SLAY frameworks.
+category: writing
+tags:
+- charlie947
+- linkedin
+- writing
+- copywriting
+- frameworks
+- content-strategy
+- social-media
+- templates
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

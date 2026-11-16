@@ -1,0 +1,22 @@
+id: charlie947-content-matrix
+type: external
+source: charlie947/social-media-skills
+path: skills/content-matrix
+ref: main
+skill: content-matrix
+title: Content Matrix (charlie947)
+summary: Generate 24–40 LinkedIn post ideas by pairing 3–5 content pillars with 8 proven formats in a single table.
+category: writing
+tags:
+- charlie947
+- linkedin
+- writing
+- ideation
+- content-strategy
+- planning
+- social-media
+- copywriting
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

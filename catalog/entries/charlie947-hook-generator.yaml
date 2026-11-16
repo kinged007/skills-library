@@ -1,0 +1,22 @@
+id: charlie947-hook-generator
+type: external
+source: charlie947/social-media-skills
+path: skills/hook-generator
+ref: main
+skill: hook-generator
+title: Hook Generator (charlie947)
+summary: Generate 6 hook variations for a LinkedIn post using supplied facts and the author's genuine experience.
+category: writing
+tags:
+- charlie947
+- linkedin
+- writing
+- hooks
+- copywriting
+- ideation
+- content-strategy
+- social-media
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

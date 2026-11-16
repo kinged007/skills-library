@@ -1,0 +1,22 @@
+id: charlie947-post-scorer
+type: external
+source: charlie947/social-media-skills
+path: skills/post-scorer
+ref: main
+skill: post-scorer
+title: Post Scorer (charlie947)
+summary: Score a draft against the author's LinkedIn history (or Apify fetch) with an editorial-only fallback.
+category: writing
+tags:
+- charlie947
+- linkedin
+- writing
+- analytics
+- review
+- copywriting
+- scoring
+- social-media
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

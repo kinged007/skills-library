@@ -2266,6 +2266,490 @@
       "url": "https://github.com/backnotprop/pstack/tree/main/skills/why"
     },
     {
+      "id": "charlie947-analytics-dashboard",
+      "type": "external",
+      "source": "charlie947/social-media-skills",
+      "path": "skills/analytics-dashboard",
+      "ref": "main",
+      "skill": "analytics-dashboard",
+      "title": "Analytics Dashboard (charlie947)",
+      "summary": "Turn a LinkedIn Analytics export into an interactive React dashboard plus 5 data-backed recommendations and a strategic write-up.",
+      "category": "data",
+      "tags": [
+        "charlie947",
+        "linkedin",
+        "analytics",
+        "dashboard",
+        "react",
+        "recharts",
+        "data-visualization",
+        "social-media",
+        "reporting"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add charlie947/social-media-skills --skill analytics-dashboard",
+      "url": "https://github.com/charlie947/social-media-skills/tree/main/skills/analytics-dashboard"
+    },
+    {
+      "id": "charlie947-content-matrix",
+      "type": "external",
+      "source": "charlie947/social-media-skills",
+      "path": "skills/content-matrix",
+      "ref": "main",
+      "skill": "content-matrix",
+      "title": "Content Matrix (charlie947)",
+      "summary": "Generate 24\u201340 LinkedIn post ideas by pairing 3\u20135 content pillars with 8 proven formats in a single table.",
+      "category": "writing",
+      "tags": [
+        "charlie947",
+        "linkedin",
+        "writing",
+        "ideation",
+        "content-strategy",
+        "planning",
+        "social-media",
+        "copywriting"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add charlie947/social-media-skills --skill content-matrix",
+      "url": "https://github.com/charlie947/social-media-skills/tree/main/skills/content-matrix"
+    },
+    {
+      "id": "charlie947-gemini-carousel",
+      "type": "external",
+      "source": "charlie947/social-media-skills",
+      "path": "skills/gemini-carousel",
+      "ref": "main",
+      "skill": "gemini-carousel",
+      "title": "Gemini Carousel (charlie947)",
+      "summary": "Turn source content into a branded slide-by-slide LinkedIn carousel via Gemini prompts with an approval gate per slide.",
+      "category": "design",
+      "tags": [
+        "charlie947",
+        "carousel",
+        "design",
+        "linkedin",
+        "gemini",
+        "image-generation",
+        "slides",
+        "social-media",
+        "branding"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add charlie947/social-media-skills --skill gemini-carousel",
+      "url": "https://github.com/charlie947/social-media-skills/tree/main/skills/gemini-carousel"
+    },
+    {
+      "id": "charlie947-gemini-infographic",
+      "type": "external",
+      "source": "charlie947/social-media-skills",
+      "path": "skills/gemini-infographic",
+      "ref": "main",
+      "skill": "gemini-infographic",
+      "title": "Gemini Infographic (charlie947)",
+      "summary": "Turn source content into a hand-drawn whiteboard infographic brief and Gemini prompt.",
+      "category": "design",
+      "tags": [
+        "charlie947",
+        "infographic",
+        "design",
+        "gemini",
+        "image-generation",
+        "whiteboard",
+        "social-media",
+        "linkedin"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add charlie947/social-media-skills --skill gemini-infographic",
+      "url": "https://github.com/charlie947/social-media-skills/tree/main/skills/gemini-infographic"
+    },
+    {
+      "id": "charlie947-graphic-designer",
+      "type": "external",
+      "source": "charlie947/social-media-skills",
+      "path": "skills/graphic-designer",
+      "ref": "main",
+      "skill": "graphic-designer",
+      "title": "Graphic Designer (charlie947)",
+      "summary": "Create LinkedIn post graphics via HTML/CSS or a Gemini infographic prompt \u2014 inspected PNG when a renderer is available.",
+      "category": "design",
+      "tags": [
+        "charlie947",
+        "linkedin",
+        "design",
+        "graphics",
+        "html-css",
+        "image-generation",
+        "gemini",
+        "social-media",
+        "branding"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add charlie947/social-media-skills --skill graphic-designer",
+      "url": "https://github.com/charlie947/social-media-skills/tree/main/skills/graphic-designer"
+    },
+    {
+      "id": "charlie947-hook-generator",
+      "type": "external",
+      "source": "charlie947/social-media-skills",
+      "path": "skills/hook-generator",
+      "ref": "main",
+      "skill": "hook-generator",
+      "title": "Hook Generator (charlie947)",
+      "summary": "Generate 6 hook variations for a LinkedIn post using supplied facts and the author's genuine experience.",
+      "category": "writing",
+      "tags": [
+        "charlie947",
+        "linkedin",
+        "writing",
+        "hooks",
+        "copywriting",
+        "ideation",
+        "content-strategy",
+        "social-media"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add charlie947/social-media-skills --skill hook-generator",
+      "url": "https://github.com/charlie947/social-media-skills/tree/main/skills/hook-generator"
+    },
+    {
+      "id": "charlie947-newsletter-voice",
+      "type": "external",
+      "source": "charlie947/social-media-skills",
+      "path": "skills/newsletter-voice",
+      "ref": "main",
+      "skill": "newsletter-voice",
+      "title": "Newsletter Voice (charlie947)",
+      "summary": "Add newsletter-specific voice rules on top of voice-builder; produces newsletter-voice.md.",
+      "category": "writing",
+      "tags": [
+        "charlie947",
+        "voice",
+        "newsletter",
+        "writing",
+        "branding",
+        "personalization",
+        "copywriting",
+        "content-strategy"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add charlie947/social-media-skills --skill newsletter-voice",
+      "url": "https://github.com/charlie947/social-media-skills/tree/main/skills/newsletter-voice"
+    },
+    {
+      "id": "charlie947-niche-research",
+      "type": "external",
+      "source": "charlie947/social-media-skills",
+      "path": "skills/niche-research",
+      "ref": "main",
+      "skill": "niche-research",
+      "title": "Niche Research (charlie947)",
+      "summary": "Find up to 20 dated stories from the last 7 days in a niche with explicit source coverage.",
+      "category": "writing",
+      "tags": [
+        "charlie947",
+        "research",
+        "linkedin",
+        "content-strategy",
+        "curation",
+        "analytics",
+        "social-media",
+        "writing"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add charlie947/social-media-skills --skill niche-research",
+      "url": "https://github.com/charlie947/social-media-skills/tree/main/skills/niche-research"
+    },
+    {
+      "id": "charlie947-pinned-comment",
+      "type": "external",
+      "source": "charlie947/social-media-skills",
+      "path": "skills/pinned-comment",
+      "ref": "main",
+      "skill": "pinned-comment",
+      "title": "Pinned Comment (charlie947)",
+      "summary": "Write meme-style pinned comments with a matching image generation prompt.",
+      "category": "writing",
+      "tags": [
+        "charlie947",
+        "linkedin",
+        "community",
+        "memes",
+        "copywriting",
+        "engagement",
+        "social-media",
+        "writing"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add charlie947/social-media-skills --skill pinned-comment",
+      "url": "https://github.com/charlie947/social-media-skills/tree/main/skills/pinned-comment"
+    },
+    {
+      "id": "charlie947-post-formatter",
+      "type": "external",
+      "source": "charlie947/social-media-skills",
+      "path": "skills/post-formatter",
+      "ref": "main",
+      "skill": "post-formatter",
+      "title": "Post Formatter (charlie947)",
+      "summary": "Turn a topic into a ready-to-publish LinkedIn post using PAS, AIDA, BAB, STAR or SLAY frameworks.",
+      "category": "writing",
+      "tags": [
+        "charlie947",
+        "linkedin",
+        "writing",
+        "copywriting",
+        "frameworks",
+        "content-strategy",
+        "social-media",
+        "templates"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add charlie947/social-media-skills --skill post-formatter",
+      "url": "https://github.com/charlie947/social-media-skills/tree/main/skills/post-formatter"
+    },
+    {
+      "id": "charlie947-post-scorer",
+      "type": "external",
+      "source": "charlie947/social-media-skills",
+      "path": "skills/post-scorer",
+      "ref": "main",
+      "skill": "post-scorer",
+      "title": "Post Scorer (charlie947)",
+      "summary": "Score a draft against the author's LinkedIn history (or Apify fetch) with an editorial-only fallback.",
+      "category": "writing",
+      "tags": [
+        "charlie947",
+        "linkedin",
+        "writing",
+        "analytics",
+        "review",
+        "copywriting",
+        "scoring",
+        "social-media"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add charlie947/social-media-skills --skill post-scorer",
+      "url": "https://github.com/charlie947/social-media-skills/tree/main/skills/post-scorer"
+    },
+    {
+      "id": "charlie947-post-writer",
+      "type": "external",
+      "source": "charlie947/social-media-skills",
+      "path": "skills/post-writer",
+      "ref": "main",
+      "skill": "post-writer",
+      "title": "Post Writer (charlie947)",
+      "summary": "Draft LinkedIn posts in the author's voice using about-me.md and voice.md.",
+      "category": "writing",
+      "tags": [
+        "charlie947",
+        "linkedin",
+        "writing",
+        "copywriting",
+        "content-strategy",
+        "automation",
+        "voice",
+        "social-media"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add charlie947/social-media-skills --skill post-writer",
+      "url": "https://github.com/charlie947/social-media-skills/tree/main/skills/post-writer"
+    },
+    {
+      "id": "charlie947-profile-optimizer",
+      "type": "external",
+      "source": "charlie947/social-media-skills",
+      "path": "skills/profile-optimizer",
+      "ref": "main",
+      "skill": "profile-optimizer",
+      "title": "Profile Optimizer (charlie947)",
+      "summary": "Rebuild a LinkedIn profile for conversions \u2014 headline, about, experience, featured section plus image prompts.",
+      "category": "writing",
+      "tags": [
+        "charlie947",
+        "linkedin",
+        "profile",
+        "branding",
+        "conversion",
+        "copywriting",
+        "career",
+        "content-strategy",
+        "writing"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add charlie947/social-media-skills --skill profile-optimizer",
+      "url": "https://github.com/charlie947/social-media-skills/tree/main/skills/profile-optimizer"
+    },
+    {
+      "id": "charlie947-quote-post",
+      "type": "external",
+      "source": "charlie947/social-media-skills",
+      "path": "skills/quote-post",
+      "ref": "main",
+      "skill": "quote-post",
+      "title": "Quote Post (charlie947)",
+      "summary": "Draft original quotes and a Gemini prompt for the selected reference style.",
+      "category": "design",
+      "tags": [
+        "charlie947",
+        "quotes",
+        "design",
+        "linkedin",
+        "gemini",
+        "image-generation",
+        "social-media",
+        "branding",
+        "copywriting"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add charlie947/social-media-skills --skill quote-post",
+      "url": "https://github.com/charlie947/social-media-skills/tree/main/skills/quote-post"
+    },
+    {
+      "id": "charlie947-reels-scripting",
+      "type": "external",
+      "source": "charlie947/social-media-skills",
+      "path": "skills/reels-scripting",
+      "ref": "main",
+      "skill": "reels-scripting",
+      "title": "Reels Scripting (charlie947)",
+      "summary": "Analyse a reference Reel via Apify + Gemini 2.5 Flash and draft a voice-matched script.",
+      "category": "writing",
+      "tags": [
+        "charlie947",
+        "instagram",
+        "reels",
+        "video",
+        "scripting",
+        "content-strategy",
+        "social-media",
+        "writing"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add charlie947/social-media-skills --skill reels-scripting",
+      "url": "https://github.com/charlie947/social-media-skills/tree/main/skills/reels-scripting"
+    },
+    {
+      "id": "charlie947-voice-builder",
+      "type": "external",
+      "source": "charlie947/social-media-skills",
+      "path": "skills/voice-builder",
+      "ref": "main",
+      "skill": "voice-builder",
+      "title": "Voice Builder (charlie947)",
+      "summary": "Build about-me.md and voice.md from an interview plus 3\u20135 writing samples \u2014 foundation every other skill reads.",
+      "category": "writing",
+      "tags": [
+        "charlie947",
+        "voice",
+        "onboarding",
+        "interview",
+        "writing",
+        "personalization",
+        "content-strategy",
+        "linkedin",
+        "branding",
+        "copywriting"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add charlie947/social-media-skills --skill voice-builder",
+      "url": "https://github.com/charlie947/social-media-skills/tree/main/skills/voice-builder"
+    },
+    {
+      "id": "charlie947-youtube-thumbnail",
+      "type": "external",
+      "source": "charlie947/social-media-skills",
+      "path": "skills/youtube-thumbnail",
+      "ref": "main",
+      "skill": "youtube-thumbnail",
+      "title": "YouTube Thumbnail (charlie947)",
+      "summary": "Turn a video title into a branded YouTube thumbnail prompt for Gemini.",
+      "category": "design",
+      "tags": [
+        "charlie947",
+        "youtube",
+        "thumbnail",
+        "design",
+        "gemini",
+        "image-generation",
+        "branding",
+        "social-media",
+        "marketing"
+      ],
+      "rating": {
+        "score": 3,
+        "reviewed": null
+      },
+      "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
+      "install": "npx skills add charlie947/social-media-skills --skill youtube-thumbnail",
+      "url": "https://github.com/charlie947/social-media-skills/tree/main/skills/youtube-thumbnail"
+    },
+    {
       "id": "kunchenguid-14-day-stale-pr-close",
       "type": "external",
       "source": "kunchenguid/grok-ship",

@@ -1,0 +1,22 @@
+id: charlie947-gemini-infographic
+type: external
+source: charlie947/social-media-skills
+path: skills/gemini-infographic
+ref: main
+skill: gemini-infographic
+title: Gemini Infographic (charlie947)
+summary: Turn source content into a hand-drawn whiteboard infographic brief and Gemini prompt.
+category: design
+tags:
+- charlie947
+- infographic
+- design
+- gemini
+- image-generation
+- whiteboard
+- social-media
+- linkedin
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

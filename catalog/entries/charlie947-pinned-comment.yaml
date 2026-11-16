@@ -1,0 +1,22 @@
+id: charlie947-pinned-comment
+type: external
+source: charlie947/social-media-skills
+path: skills/pinned-comment
+ref: main
+skill: pinned-comment
+title: Pinned Comment (charlie947)
+summary: Write meme-style pinned comments with a matching image generation prompt.
+category: writing
+tags:
+- charlie947
+- linkedin
+- community
+- memes
+- copywriting
+- engagement
+- social-media
+- writing
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

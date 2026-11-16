@@ -1,0 +1,24 @@
+id: charlie947-voice-builder
+type: external
+source: charlie947/social-media-skills
+path: skills/voice-builder
+ref: main
+skill: voice-builder
+title: Voice Builder (charlie947)
+summary: Build about-me.md and voice.md from an interview plus 3–5 writing samples — foundation every other skill reads.
+category: writing
+tags:
+- charlie947
+- voice
+- onboarding
+- interview
+- writing
+- personalization
+- content-strategy
+- linkedin
+- branding
+- copywriting
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

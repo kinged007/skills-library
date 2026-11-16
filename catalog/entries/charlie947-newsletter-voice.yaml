@@ -1,0 +1,22 @@
+id: charlie947-newsletter-voice
+type: external
+source: charlie947/social-media-skills
+path: skills/newsletter-voice
+ref: main
+skill: newsletter-voice
+title: Newsletter Voice (charlie947)
+summary: Add newsletter-specific voice rules on top of voice-builder; produces newsletter-voice.md.
+category: writing
+tags:
+- charlie947
+- voice
+- newsletter
+- writing
+- branding
+- personalization
+- copywriting
+- content-strategy
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

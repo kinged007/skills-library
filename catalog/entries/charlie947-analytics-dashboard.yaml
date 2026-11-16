@@ -1,0 +1,23 @@
+id: charlie947-analytics-dashboard
+type: external
+source: charlie947/social-media-skills
+path: skills/analytics-dashboard
+ref: main
+skill: analytics-dashboard
+title: Analytics Dashboard (charlie947)
+summary: Turn a LinkedIn Analytics export into an interactive React dashboard plus 5 data-backed recommendations and a strategic write-up.
+category: data
+tags:
+- charlie947
+- linkedin
+- analytics
+- dashboard
+- react
+- recharts
+- data-visualization
+- social-media
+- reporting
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

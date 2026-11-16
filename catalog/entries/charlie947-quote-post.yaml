@@ -1,0 +1,23 @@
+id: charlie947-quote-post
+type: external
+source: charlie947/social-media-skills
+path: skills/quote-post
+ref: main
+skill: quote-post
+title: Quote Post (charlie947)
+summary: Draft original quotes and a Gemini prompt for the selected reference style.
+category: design
+tags:
+- charlie947
+- quotes
+- design
+- linkedin
+- gemini
+- image-generation
+- social-media
+- branding
+- copywriting
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

@@ -1,0 +1,22 @@
+id: charlie947-reels-scripting
+type: external
+source: charlie947/social-media-skills
+path: skills/reels-scripting
+ref: main
+skill: reels-scripting
+title: Reels Scripting (charlie947)
+summary: Analyse a reference Reel via Apify + Gemini 2.5 Flash and draft a voice-matched script.
+category: writing
+tags:
+- charlie947
+- instagram
+- reels
+- video
+- scripting
+- content-strategy
+- social-media
+- writing
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

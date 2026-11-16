@@ -1,0 +1,22 @@
+id: charlie947-niche-research
+type: external
+source: charlie947/social-media-skills
+path: skills/niche-research
+ref: main
+skill: niche-research
+title: Niche Research (charlie947)
+summary: Find up to 20 dated stories from the last 7 days in a niche with explicit source coverage.
+category: writing
+tags:
+- charlie947
+- research
+- linkedin
+- content-strategy
+- curation
+- analytics
+- social-media
+- writing
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

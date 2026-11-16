@@ -1,0 +1,23 @@
+id: charlie947-youtube-thumbnail
+type: external
+source: charlie947/social-media-skills
+path: skills/youtube-thumbnail
+ref: main
+skill: youtube-thumbnail
+title: YouTube Thumbnail (charlie947)
+summary: Turn a video title into a branded YouTube thumbnail prompt for Gemini.
+category: design
+tags:
+- charlie947
+- youtube
+- thumbnail
+- design
+- gemini
+- image-generation
+- branding
+- social-media
+- marketing
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

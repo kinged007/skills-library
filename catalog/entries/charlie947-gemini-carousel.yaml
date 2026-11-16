@@ -1,0 +1,23 @@
+id: charlie947-gemini-carousel
+type: external
+source: charlie947/social-media-skills
+path: skills/gemini-carousel
+ref: main
+skill: gemini-carousel
+title: Gemini Carousel (charlie947)
+summary: Turn source content into a branded slide-by-slide LinkedIn carousel via Gemini prompts with an approval gate per slide.
+category: design
+tags:
+- charlie947
+- carousel
+- design
+- linkedin
+- gemini
+- image-generation
+- slides
+- social-media
+- branding
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

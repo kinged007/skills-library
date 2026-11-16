@@ -1,0 +1,23 @@
+id: charlie947-graphic-designer
+type: external
+source: charlie947/social-media-skills
+path: skills/graphic-designer
+ref: main
+skill: graphic-designer
+title: Graphic Designer (charlie947)
+summary: Create LinkedIn post graphics via HTML/CSS or a Gemini infographic prompt — inspected PNG when a renderer is available.
+category: design
+tags:
+- charlie947
+- linkedin
+- design
+- graphics
+- html-css
+- image-generation
+- gemini
+- social-media
+- branding
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

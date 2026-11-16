@@ -1,0 +1,22 @@
+id: charlie947-post-writer
+type: external
+source: charlie947/social-media-skills
+path: skills/post-writer
+ref: main
+skill: post-writer
+title: Post Writer (charlie947)
+summary: Draft LinkedIn posts in the author's voice using about-me.md and voice.md.
+category: writing
+tags:
+- charlie947
+- linkedin
+- writing
+- copywriting
+- content-strategy
+- automation
+- voice
+- social-media
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'

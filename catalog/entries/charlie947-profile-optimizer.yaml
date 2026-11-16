@@ -1,0 +1,23 @@
+id: charlie947-profile-optimizer
+type: external
+source: charlie947/social-media-skills
+path: skills/profile-optimizer
+ref: main
+skill: profile-optimizer
+title: Profile Optimizer (charlie947)
+summary: Rebuild a LinkedIn profile for conversions — headline, about, experience, featured section plus image prompts.
+category: writing
+tags:
+- charlie947
+- linkedin
+- profile
+- branding
+- conversion
+- copywriting
+- career
+- content-strategy
+- writing
+rating:
+  score: 3
+  reviewed: null
+notes: 'Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.'
