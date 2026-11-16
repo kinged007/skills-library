@@ -34,6 +34,15 @@ for f in sorted((root / "catalog/entries").glob("*.yaml")):
         for k in ("source", "path", "skill"):
             if k not in e:
                 errs.append(f"{n}: external needs {k}")
+        # References install from the original author and are never vendored.
+        # Some upstream licences (90n) forbid public redistribution, so storing
+        # upstream skill text here would be a licence breach, not a style issue.
+        for k in ("body", "content", "skill_md", "text"):
+            if str(e.get(k) or "").strip():
+                errs.append(
+                    f"{n}: external entries must not store skill text ({k}); "
+                    "references point at the author, never copy"
+                )
         e["install"] = f"npx skills add {e.get('source')} --skill {e.get('skill')}"
         e["url"] = f"https://github.com/{e.get('source')}/tree/{e.get('ref', 'main')}/{e.get('path')}"
     else:
