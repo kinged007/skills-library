@@ -1,0 +1,25 @@
+id: user-interview
+type: local
+path: skills/user-interview
+title: User Interviews
+summary: 'Plans and runs user interviews: interview types by stage, question guides, technique and synthesis into insights.'
+category: product
+tags:
+- product
+- user-research
+- interview
+- discovery
+- research
+- synthesis
+- frameworks
+derived_from:
+  source: agentmart/pm-os
+  path: skills/discovery/SKILL-user-interview.md
+  license: MIT
+rating:
+  score: 4
+  quality: 4
+  usefulness: 4
+  maturity: 4
+  reviewed: '2026-11-16'
+notes: Question wording is copy-ready and the not-for-validation framing is a useful guardrail. Pairs directly with opportunity-solution-tree.

@@ -2751,6 +2751,39 @@
       "url": "https://github.com/charlie947/social-media-skills/tree/main/skills/youtube-thumbnail"
     },
     {
+      "id": "competitive-research",
+      "type": "local",
+      "path": "skills/competitive-research",
+      "title": "Competitive Research & Battlecards",
+      "summary": "Runs a 5-layer competitive research stack and turns it into positioning and sales-ready battlecards.",
+      "category": "product",
+      "tags": [
+        "product",
+        "competitive-research",
+        "market-research",
+        "positioning",
+        "battlecards",
+        "strategy",
+        "research",
+        "sales-enablement"
+      ],
+      "derived_from": {
+        "source": "agentmart/pm-os",
+        "path": "skills/research/SKILL-competitive-research.md",
+        "license": "MIT"
+      },
+      "rating": {
+        "score": 4,
+        "quality": 5,
+        "usefulness": 4,
+        "maturity": 4,
+        "reviewed": "2026-11-16"
+      },
+      "notes": "Win/loss interview questions and the battlecard template, including the where-they-are-genuinely-better section, are the strongest parts. The research cadence table is practical.",
+      "install": "npx skills add kinged007/skills-library --skill competitive-research",
+      "url": "https://github.com/kinged007/skills-library/tree/main/skills/competitive-research"
+    },
+    {
       "id": "kunchenguid-14-day-stale-pr-close",
       "type": "external",
       "source": "kunchenguid/grok-ship",
@@ -3315,6 +3348,40 @@
       "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
       "install": "npx skills add kunchenguid/whathappened --skill whathappened",
       "url": "https://github.com/kunchenguid/whathappened/tree/main/skills/whathappened"
+    },
+    {
+      "id": "launch-plan",
+      "type": "local",
+      "path": "skills/launch-plan",
+      "title": "Launch Planning & GTM",
+      "summary": "Builds a launch plan: readiness checklist, GTM strategy, rollout stages and post-launch review schedule.",
+      "category": "product",
+      "tags": [
+        "product",
+        "launch",
+        "go-to-market",
+        "release",
+        "checklist",
+        "planning",
+        "rollout",
+        "communication",
+        "shipping"
+      ],
+      "derived_from": {
+        "source": "agentmart/pm-os",
+        "path": "skills/growth/SKILL-launch-plan.md",
+        "license": "MIT"
+      },
+      "rating": {
+        "score": 4,
+        "quality": 4,
+        "usefulness": 5,
+        "maturity": 4,
+        "reviewed": "2026-11-16"
+      },
+      "notes": "The launch maturity spectrum (feature flag to GA) and the readiness checklist are directly usable. Pair it with the release skill for the tagging mechanics.",
+      "install": "npx skills add kinged007/skills-library --skill launch-plan",
+      "url": "https://github.com/kinged007/skills-library/tree/main/skills/launch-plan"
     },
     {
       "id": "mattpocock-ask-matt",
@@ -4219,6 +4286,70 @@
       "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
       "install": "npx skills add mattpocock/skills --skill writing-shape",
       "url": "https://github.com/mattpocock/skills/tree/main/skills/in-progress/writing-shape"
+    },
+    {
+      "id": "north-star",
+      "type": "local",
+      "path": "skills/north-star",
+      "title": "North Star Metric",
+      "summary": "Defines a North Star metric, the input-metric cascade to OKRs, and guardrail anti-metrics.",
+      "category": "product",
+      "tags": [
+        "product",
+        "metrics",
+        "okr",
+        "analytics",
+        "measurement",
+        "strategy",
+        "frameworks"
+      ],
+      "derived_from": {
+        "source": "agentmart/pm-os",
+        "path": "skills/growth/SKILL-north-star.md",
+        "license": "MIT"
+      },
+      "rating": {
+        "score": 4,
+        "quality": 5,
+        "usefulness": 4,
+        "maturity": 4,
+        "reviewed": "2026-11-16"
+      },
+      "notes": "The 5-question NSM test and the retrospective correlation check are the useful bits. The NSM patterns by business model remove the blank-page problem.",
+      "install": "npx skills add kinged007/skills-library --skill north-star",
+      "url": "https://github.com/kinged007/skills-library/tree/main/skills/north-star"
+    },
+    {
+      "id": "opportunity-solution-tree",
+      "type": "local",
+      "path": "skills/opportunity-solution-tree",
+      "title": "Opportunity Solution Tree",
+      "summary": "Guides the Opportunity Solution Tree method to keep feature decisions connected to user outcomes.",
+      "category": "product",
+      "tags": [
+        "product",
+        "discovery",
+        "user-research",
+        "prioritization",
+        "frameworks",
+        "decision-making",
+        "planning"
+      ],
+      "derived_from": {
+        "source": "agentmart/pm-os",
+        "path": "skills/discovery/SKILL-opportunity-solution-tree.md",
+        "license": "MIT"
+      },
+      "rating": {
+        "score": 4,
+        "quality": 4,
+        "usefulness": 4,
+        "maturity": 4,
+        "reviewed": "2026-11-16"
+      },
+      "notes": "Compact and faithful to the OST method, including the Ulwick opportunity score. Assumes you already have interview data.",
+      "install": "npx skills add kinged007/skills-library --skill opportunity-solution-tree",
+      "url": "https://github.com/kinged007/skills-library/tree/main/skills/opportunity-solution-tree"
     },
     {
       "id": "orchestra-academic-plotting",
@@ -6986,6 +7117,40 @@
       "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/18-multimodal/whisper"
     },
     {
+      "id": "plg-strategy",
+      "type": "local",
+      "path": "skills/plg-strategy",
+      "title": "Product-Led Growth Strategy",
+      "summary": "Audits the full PLG lifecycle (acquisition, activation, retention, referral, expansion) into a prioritized growth backlog.",
+      "category": "product",
+      "tags": [
+        "product",
+        "growth",
+        "plg",
+        "activation",
+        "onboarding",
+        "retention",
+        "metrics",
+        "experimentation",
+        "analytics"
+      ],
+      "derived_from": {
+        "source": "agentmart/pm-os",
+        "path": "skills/growth/SKILL-plg-strategy.md",
+        "license": "MIT"
+      },
+      "rating": {
+        "score": 5,
+        "quality": 5,
+        "usefulness": 4,
+        "maturity": 5,
+        "reviewed": "2026-11-16"
+      },
+      "notes": "The most substantial skill in the set: per-layer audit tables, K-factor math, cohort guidance, empty-state and time-to-value patterns. It is long, so it costs context.",
+      "install": "npx skills add kinged007/skills-library --skill plg-strategy",
+      "url": "https://github.com/kinged007/skills-library/tree/main/skills/plg-strategy"
+    },
+    {
       "id": "pr-screenshots",
       "type": "local",
       "path": "skills/pr-screenshots",
@@ -7052,6 +7217,103 @@
       "url": "https://github.com/kinged007/skills-library/tree/main/skills/pr-watch"
     },
     {
+      "id": "prd-writing",
+      "type": "local",
+      "path": "skills/prd-writing",
+      "title": "PRD Writing",
+      "summary": "Produces a short, decision-forcing PRD with explicit tradeoffs, non-goals and measurable success criteria.",
+      "category": "product",
+      "tags": [
+        "product",
+        "prd",
+        "writing",
+        "requirements",
+        "documentation",
+        "decision-making",
+        "specification"
+      ],
+      "derived_from": {
+        "source": "agentmart/pm-os",
+        "path": "skills/execution/SKILL-prd-writing.md",
+        "license": "MIT"
+      },
+      "rating": {
+        "score": 5,
+        "quality": 5,
+        "usefulness": 4,
+        "maturity": 4,
+        "reviewed": "2026-11-16"
+      },
+      "notes": "Opinionated in a good way: the problem section must be longer than the solution section, and there is a what-we-are-not-building table. Great for spec work, less useful for tiny changes.",
+      "install": "npx skills add kinged007/skills-library --skill prd-writing",
+      "url": "https://github.com/kinged007/skills-library/tree/main/skills/prd-writing"
+    },
+    {
+      "id": "product-design-review",
+      "type": "local",
+      "path": "skills/product-design-review",
+      "title": "Product Design Review",
+      "summary": "Structured design critique for PMs: Nielsen heuristics, PLG design principles and a friction inventory.",
+      "category": "product",
+      "tags": [
+        "product",
+        "design",
+        "ux",
+        "usability",
+        "critique",
+        "accessibility",
+        "onboarding",
+        "frontend"
+      ],
+      "derived_from": {
+        "source": "agentmart/pm-os",
+        "path": "skills/design/SKILL-product-design-review.md",
+        "license": "MIT"
+      },
+      "rating": {
+        "score": 4,
+        "quality": 4,
+        "usefulness": 4,
+        "maturity": 4,
+        "reviewed": "2026-11-16"
+      },
+      "notes": "Scoped to the product manager role rather than doing the designer job, which keeps critiques useful. Overlaps the local ux-declutter skill: this one is broader, ux-declutter is more opinionated.",
+      "install": "npx skills add kinged007/skills-library --skill product-design-review",
+      "url": "https://github.com/kinged007/skills-library/tree/main/skills/product-design-review"
+    },
+    {
+      "id": "product-strategy",
+      "type": "local",
+      "path": "skills/product-strategy",
+      "title": "Product Strategy Canvas",
+      "summary": "Builds a 9-section product strategy canvas: vision, customer, value prop, moats, growth, revenue and bets.",
+      "category": "product",
+      "tags": [
+        "product",
+        "strategy",
+        "vision",
+        "positioning",
+        "decision-making",
+        "frameworks",
+        "planning"
+      ],
+      "derived_from": {
+        "source": "agentmart/pm-os",
+        "path": "skills/strategy/SKILL-product-strategy.md",
+        "license": "MIT"
+      },
+      "rating": {
+        "score": 5,
+        "quality": 5,
+        "usefulness": 4,
+        "maturity": 4,
+        "reviewed": "2026-11-16"
+      },
+      "notes": "Grounded in Rumelt and Roger Martin rather than generic advice; the moat-scoring table forces honesty. Best used once a quarter, not per feature.",
+      "install": "npx skills add kinged007/skills-library --skill product-strategy",
+      "url": "https://github.com/kinged007/skills-library/tree/main/skills/product-strategy"
+    },
+    {
       "id": "release",
       "type": "local",
       "path": "skills/release",
@@ -7086,6 +7348,71 @@
       "url": "https://github.com/kinged007/skills-library/tree/main/skills/release"
     },
     {
+      "id": "roadmap",
+      "type": "local",
+      "path": "skills/roadmap",
+      "title": "Roadmap & Prioritization",
+      "summary": "Turns a backlog into an outcome-based roadmap using RICE, MoSCoW and Now/Next/Later, with failure modes named.",
+      "category": "product",
+      "tags": [
+        "product",
+        "roadmap",
+        "prioritization",
+        "planning",
+        "rice",
+        "moscow",
+        "stakeholder",
+        "decision-making"
+      ],
+      "derived_from": {
+        "source": "agentmart/pm-os",
+        "path": "skills/execution/SKILL-roadmap.md",
+        "license": "MIT"
+      },
+      "rating": {
+        "score": 4,
+        "quality": 4,
+        "usefulness": 5,
+        "maturity": 4,
+        "reviewed": "2026-11-16"
+      },
+      "notes": "Naming what you are not doing, and the common failure modes, are the most valuable parts. Framework comparisons are concise.",
+      "install": "npx skills add kinged007/skills-library --skill roadmap",
+      "url": "https://github.com/kinged007/skills-library/tree/main/skills/roadmap"
+    },
+    {
+      "id": "routine-setup",
+      "type": "local",
+      "path": "skills/routine-setup",
+      "title": "Routine Setup",
+      "summary": "Designs a recurring routine: task, trigger, context sources, self-contained prompt, enforcement and output template.",
+      "category": "productivity",
+      "tags": [
+        "automation",
+        "routine",
+        "scheduling",
+        "workflow",
+        "agents",
+        "planning",
+        "prompting"
+      ],
+      "derived_from": {
+        "source": "agentmart/pm-os",
+        "path": "skills/automation/SKILL-routine-setup.md",
+        "license": "MIT"
+      },
+      "rating": {
+        "score": 3,
+        "quality": 3,
+        "usefulness": 3,
+        "maturity": 3,
+        "reviewed": "2026-11-16"
+      },
+      "notes": "Genericized: removed hardcoded context-library and decision-log paths and a vendor-specific runtime endpoint, so it targets any scheduler such as a GitHub Actions cron. Weakest of the set for reuse, because the real value is in your own routine prompt.",
+      "install": "npx skills add kinged007/skills-library --skill routine-setup",
+      "url": "https://github.com/kinged007/skills-library/tree/main/skills/routine-setup"
+    },
+    {
       "id": "skill-review",
       "type": "local",
       "path": "skills/skill-review",
@@ -7109,6 +7436,37 @@
       "notes": "",
       "install": "npx skills add kinged007/skills-library --skill skill-review",
       "url": "https://github.com/kinged007/skills-library/tree/main/skills/skill-review"
+    },
+    {
+      "id": "stakeholder-communication",
+      "type": "local",
+      "path": "skills/stakeholder-communication",
+      "title": "Stakeholder Communication",
+      "summary": "Drafts updates at the right audience level, from Slack status to board memo, with the ask stated explicitly.",
+      "category": "writing",
+      "tags": [
+        "communication",
+        "writing",
+        "stakeholder",
+        "executive-update",
+        "status-report",
+        "reporting"
+      ],
+      "derived_from": {
+        "source": "agentmart/pm-os",
+        "path": "skills/execution/SKILL-stakeholder-communication.md",
+        "license": "MIT"
+      },
+      "rating": {
+        "score": 4,
+        "quality": 4,
+        "usefulness": 4,
+        "maturity": 4,
+        "reviewed": "2026-11-16"
+      },
+      "notes": "The audience-abstraction rule (each level up, cut half the detail and double the business context) plus ready templates are the value. Pairs with any status-report routine.",
+      "install": "npx skills add kinged007/skills-library --skill stakeholder-communication",
+      "url": "https://github.com/kinged007/skills-library/tree/main/skills/stakeholder-communication"
     },
     {
       "id": "t3dotgg-babysit-pr",
@@ -7344,6 +7702,38 @@
       "notes": "Reference to upstream (MIT); always installs the latest upstream version. NOT REVIEWED: score 3 is a neutral placeholder, not a verdict.",
       "install": "npx skills add t3dotgg/tstack --skill takeover",
       "url": "https://github.com/t3dotgg/tstack/tree/main/skills/takeover"
+    },
+    {
+      "id": "user-interview",
+      "type": "local",
+      "path": "skills/user-interview",
+      "title": "User Interviews",
+      "summary": "Plans and runs user interviews: interview types by stage, question guides, technique and synthesis into insights.",
+      "category": "product",
+      "tags": [
+        "product",
+        "user-research",
+        "interview",
+        "discovery",
+        "research",
+        "synthesis",
+        "frameworks"
+      ],
+      "derived_from": {
+        "source": "agentmart/pm-os",
+        "path": "skills/discovery/SKILL-user-interview.md",
+        "license": "MIT"
+      },
+      "rating": {
+        "score": 4,
+        "quality": 4,
+        "usefulness": 4,
+        "maturity": 4,
+        "reviewed": "2026-11-16"
+      },
+      "notes": "Question wording is copy-ready and the not-for-validation framing is a useful guardrail. Pairs directly with opportunity-solution-tree.",
+      "install": "npx skills add kinged007/skills-library --skill user-interview",
+      "url": "https://github.com/kinged007/skills-library/tree/main/skills/user-interview"
     },
     {
       "id": "ux-declutter",

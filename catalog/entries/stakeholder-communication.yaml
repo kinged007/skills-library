@@ -1,0 +1,24 @@
+id: stakeholder-communication
+type: local
+path: skills/stakeholder-communication
+title: Stakeholder Communication
+summary: Drafts updates at the right audience level, from Slack status to board memo, with the ask stated explicitly.
+category: writing
+tags:
+- communication
+- writing
+- stakeholder
+- executive-update
+- status-report
+- reporting
+derived_from:
+  source: agentmart/pm-os
+  path: skills/execution/SKILL-stakeholder-communication.md
+  license: MIT
+rating:
+  score: 4
+  quality: 4
+  usefulness: 4
+  maturity: 4
+  reviewed: '2026-11-16'
+notes: The audience-abstraction rule (each level up, cut half the detail and double the business context) plus ready templates are the value. Pairs with any status-report routine.

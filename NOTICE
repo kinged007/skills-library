@@ -9,3 +9,19 @@ Changes made: repo-specific paths, markers, commands and vendor-specific review-
 handling were generalized into configuration (bots.json, Project config tables,
 environment variables); wording was edited accordingly. Each adapted skill's footer
 repeats this credit.
+
+The following skills are adapted from https://github.com/agentmart/pm-os,
+licensed under the MIT License (Copyright (c) 2026 AgentMart):
+
+competitive-research, launch-plan, north-star, opportunity-solution-tree,
+plg-strategy, prd-writing, product-design-review, product-strategy, roadmap,
+routine-setup, stakeholder-communication, user-interview
+
+A copy of the MIT license is in licenses/MIT-pm-os.txt.
+
+Changes made: upstream ships these as flat SKILL-*.md files with no YAML
+frontmatter, which no runtime discovers. Each was repackaged into a
+<name>/SKILL.md bundle with name and description frontmatter, cross-references
+were pointed at the local sibling skills, and workspace-specific paths
+(context-library/, decision-log/, users.md) and runtime/vendor names were
+generalized. Content and frameworks are otherwise unchanged.

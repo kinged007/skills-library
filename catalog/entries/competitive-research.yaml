@@ -1,0 +1,26 @@
+id: competitive-research
+type: local
+path: skills/competitive-research
+title: Competitive Research & Battlecards
+summary: Runs a 5-layer competitive research stack and turns it into positioning and sales-ready battlecards.
+category: product
+tags:
+- product
+- competitive-research
+- market-research
+- positioning
+- battlecards
+- strategy
+- research
+- sales-enablement
+derived_from:
+  source: agentmart/pm-os
+  path: skills/research/SKILL-competitive-research.md
+  license: MIT
+rating:
+  score: 4
+  quality: 5
+  usefulness: 4
+  maturity: 4
+  reviewed: '2026-11-16'
+notes: Win/loss interview questions and the battlecard template, including the where-they-are-genuinely-better section, are the strongest parts. The research cadence table is practical.

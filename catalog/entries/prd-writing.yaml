@@ -1,0 +1,25 @@
+id: prd-writing
+type: local
+path: skills/prd-writing
+title: PRD Writing
+summary: Produces a short, decision-forcing PRD with explicit tradeoffs, non-goals and measurable success criteria.
+category: product
+tags:
+- product
+- prd
+- writing
+- requirements
+- documentation
+- decision-making
+- specification
+derived_from:
+  source: agentmart/pm-os
+  path: skills/execution/SKILL-prd-writing.md
+  license: MIT
+rating:
+  score: 5
+  quality: 5
+  usefulness: 4
+  maturity: 4
+  reviewed: '2026-11-16'
+notes: 'Opinionated in a good way: the problem section must be longer than the solution section, and there is a what-we-are-not-building table. Great for spec work, less useful for tiny changes.'

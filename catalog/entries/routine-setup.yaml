@@ -1,0 +1,25 @@
+id: routine-setup
+type: local
+path: skills/routine-setup
+title: Routine Setup
+summary: 'Designs a recurring routine: task, trigger, context sources, self-contained prompt, enforcement and output template.'
+category: productivity
+tags:
+- automation
+- routine
+- scheduling
+- workflow
+- agents
+- planning
+- prompting
+derived_from:
+  source: agentmart/pm-os
+  path: skills/automation/SKILL-routine-setup.md
+  license: MIT
+rating:
+  score: 3
+  quality: 3
+  usefulness: 3
+  maturity: 3
+  reviewed: '2026-11-16'
+notes: 'Genericized: removed hardcoded context-library and decision-log paths and a vendor-specific runtime endpoint, so it targets any scheduler such as a GitHub Actions cron. Weakest of the set for reuse, because the real value is in your own routine prompt.'

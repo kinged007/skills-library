@@ -1,0 +1,25 @@
+id: opportunity-solution-tree
+type: local
+path: skills/opportunity-solution-tree
+title: Opportunity Solution Tree
+summary: Guides the Opportunity Solution Tree method to keep feature decisions connected to user outcomes.
+category: product
+tags:
+- product
+- discovery
+- user-research
+- prioritization
+- frameworks
+- decision-making
+- planning
+derived_from:
+  source: agentmart/pm-os
+  path: skills/discovery/SKILL-opportunity-solution-tree.md
+  license: MIT
+rating:
+  score: 4
+  quality: 4
+  usefulness: 4
+  maturity: 4
+  reviewed: '2026-11-16'
+notes: Compact and faithful to the OST method, including the Ulwick opportunity score. Assumes you already have interview data.

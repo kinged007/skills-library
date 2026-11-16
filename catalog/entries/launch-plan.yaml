@@ -1,0 +1,27 @@
+id: launch-plan
+type: local
+path: skills/launch-plan
+title: Launch Planning & GTM
+summary: 'Builds a launch plan: readiness checklist, GTM strategy, rollout stages and post-launch review schedule.'
+category: product
+tags:
+- product
+- launch
+- go-to-market
+- release
+- checklist
+- planning
+- rollout
+- communication
+- shipping
+derived_from:
+  source: agentmart/pm-os
+  path: skills/growth/SKILL-launch-plan.md
+  license: MIT
+rating:
+  score: 4
+  quality: 4
+  usefulness: 5
+  maturity: 4
+  reviewed: '2026-11-16'
+notes: The launch maturity spectrum (feature flag to GA) and the readiness checklist are directly usable. Pair it with the release skill for the tagging mechanics.

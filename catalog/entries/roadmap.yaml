@@ -1,0 +1,26 @@
+id: roadmap
+type: local
+path: skills/roadmap
+title: Roadmap & Prioritization
+summary: Turns a backlog into an outcome-based roadmap using RICE, MoSCoW and Now/Next/Later, with failure modes named.
+category: product
+tags:
+- product
+- roadmap
+- prioritization
+- planning
+- rice
+- moscow
+- stakeholder
+- decision-making
+derived_from:
+  source: agentmart/pm-os
+  path: skills/execution/SKILL-roadmap.md
+  license: MIT
+rating:
+  score: 4
+  quality: 4
+  usefulness: 5
+  maturity: 4
+  reviewed: '2026-11-16'
+notes: Naming what you are not doing, and the common failure modes, are the most valuable parts. Framework comparisons are concise.

@@ -1,0 +1,27 @@
+id: plg-strategy
+type: local
+path: skills/plg-strategy
+title: Product-Led Growth Strategy
+summary: Audits the full PLG lifecycle (acquisition, activation, retention, referral, expansion) into a prioritized growth backlog.
+category: product
+tags:
+- product
+- growth
+- plg
+- activation
+- onboarding
+- retention
+- metrics
+- experimentation
+- analytics
+derived_from:
+  source: agentmart/pm-os
+  path: skills/growth/SKILL-plg-strategy.md
+  license: MIT
+rating:
+  score: 5
+  quality: 5
+  usefulness: 4
+  maturity: 5
+  reviewed: '2026-11-16'
+notes: 'The most substantial skill in the set: per-layer audit tables, K-factor math, cohort guidance, empty-state and time-to-value patterns. It is long, so it costs context.'

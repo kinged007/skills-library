@@ -1,0 +1,26 @@
+id: product-design-review
+type: local
+path: skills/product-design-review
+title: Product Design Review
+summary: 'Structured design critique for PMs: Nielsen heuristics, PLG design principles and a friction inventory.'
+category: product
+tags:
+- product
+- design
+- ux
+- usability
+- critique
+- accessibility
+- onboarding
+- frontend
+derived_from:
+  source: agentmart/pm-os
+  path: skills/design/SKILL-product-design-review.md
+  license: MIT
+rating:
+  score: 4
+  quality: 4
+  usefulness: 4
+  maturity: 4
+  reviewed: '2026-11-16'
+notes: 'Scoped to the product manager role rather than doing the designer job, which keeps critiques useful. Overlaps the local ux-declutter skill: this one is broader, ux-declutter is more opinionated.'

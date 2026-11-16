@@ -1,0 +1,25 @@
+id: north-star
+type: local
+path: skills/north-star
+title: North Star Metric
+summary: Defines a North Star metric, the input-metric cascade to OKRs, and guardrail anti-metrics.
+category: product
+tags:
+- product
+- metrics
+- okr
+- analytics
+- measurement
+- strategy
+- frameworks
+derived_from:
+  source: agentmart/pm-os
+  path: skills/growth/SKILL-north-star.md
+  license: MIT
+rating:
+  score: 4
+  quality: 5
+  usefulness: 4
+  maturity: 4
+  reviewed: '2026-11-16'
+notes: The 5-question NSM test and the retrospective correlation check are the useful bits. The NSM patterns by business model remove the blank-page problem.

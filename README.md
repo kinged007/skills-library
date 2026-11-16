@@ -48,5 +48,9 @@ CI fails if `catalog.json` is stale.
 
 Entries with `template: true` (for example `release`, `pr-screenshots`) contain a **Project config**
 table at the top. Copy the skill into your project and fill it in before use.
-Entries with `derived_from` were adapted from another author's skill under its licence;
-see `NOTICE`.
+
+Skills adapted from other projects keep their credit in the skill footer, in the
+catalog entry (`derived_from`) and in [NOTICE](NOTICE). This repo currently
+includes skills adapted from
+[Rakazo](https://github.com/elie222/rakazo) (Apache-2.0) and
+[pm-os](https://github.com/agentmart/pm-os) (MIT).

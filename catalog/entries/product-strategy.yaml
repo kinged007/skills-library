@@ -1,0 +1,25 @@
+id: product-strategy
+type: local
+path: skills/product-strategy
+title: Product Strategy Canvas
+summary: 'Builds a 9-section product strategy canvas: vision, customer, value prop, moats, growth, revenue and bets.'
+category: product
+tags:
+- product
+- strategy
+- vision
+- positioning
+- decision-making
+- frameworks
+- planning
+derived_from:
+  source: agentmart/pm-os
+  path: skills/strategy/SKILL-product-strategy.md
+  license: MIT
+rating:
+  score: 5
+  quality: 5
+  usefulness: 4
+  maturity: 4
+  reviewed: '2026-11-16'
+notes: Grounded in Rumelt and Roger Martin rather than generic advice; the moat-scoring table forces honesty. Best used once a quarter, not per feature.
