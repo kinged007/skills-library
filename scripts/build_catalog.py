@@ -67,6 +67,20 @@ def check_keys(value, node, where, n):
 # upstream skill text (90n forbids public redistribution). Multi-line block
 # scalars are how a pasted body looks, so they are rejected outright.
 MAX_FIELD = {"title": 160, "summary": 400, "notes": 600}
+# Reference locators are short by nature (real maxima at HEAD: path 72,
+# source 37, ref 4, skill 50), so these caps cannot fail on honest data -
+# they only stop an uncapped field carrying upstream text into the published
+# payload (and its derived install/url/rawUrl copies). Mirrors maxLength in
+# schema/entry.schema.json, which the build enforces: walking the schema only
+# checks keys, so length needs this explicit gate.
+MAX_REF_FIELD = {"path": 200, "source": 100, "ref": 40, "skill": 100}
+for _k, _limit in MAX_REF_FIELD.items():
+    _declared = ((schema.get("properties") or {}).get(_k) or {}).get("maxLength")
+    if _declared != _limit:
+        errs.append(
+            f"schema/entry.schema.json: properties.{_k}.maxLength must be {_limit} "
+            f"(got {_declared}); schema and build_catalog.MAX_REF_FIELD must agree"
+        )
 # Longest real tag today is 30 chars and the widest entry has 10, so these caps
 # cannot fail on honest data - they only stop a tag being used as a text slot.
 MAX_TAG_LEN = 40
@@ -120,6 +134,12 @@ for f in sorted((root / "catalog/entries").glob("*.yaml")):
     if t == "local":
         if not (root / e.get("path", "x") / "SKILL.md").exists():
             errs.append(f"{n}: SKILL.md not found at path")
+        _pv = e.get("path")
+        if isinstance(_pv, str) and len(_pv) > MAX_REF_FIELD["path"]:
+            errs.append(
+                f"{n}: path is {len(_pv)} chars (limit {MAX_REF_FIELD['path']}); "
+                "paths are locators, not text slots"
+            )
         e["install"] = f"npx skills add {REPO} --skill {pathlib.Path(e['path']).name}"
         e["url"] = f"https://github.com/{REPO}/tree/main/{e['path']}"
     elif t == "external":
@@ -134,6 +154,16 @@ for f in sorted((root / "catalog/entries").glob("*.yaml")):
                 errs.append(
                     f"{n}: external entries must not store skill text ({k}); "
                     "references point at the author, never copy"
+                )
+        for k, limit in MAX_REF_FIELD.items():
+            v = e.get(k)
+            if not isinstance(v, str):
+                continue
+            if len(v) > limit:
+                errs.append(
+                    f"{n}: external {k} is {len(v)} chars (limit {limit}); "
+                    "reference locators are short, and the excess publishes "
+                    "verbatim plus three derived copies (install/url/rawUrl)"
                 )
         for k, limit in MAX_FIELD.items():
             v = e.get(k)

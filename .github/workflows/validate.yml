@@ -6,6 +6,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: pip install pyyaml && python scripts/build_site.py
+      - name: entry validation tests
+        run: python -m unittest discover -s scripts/tests
       - name: generated catalog data up to date
         # generated_at changes on every build, so compare everything except that line
         run: |
