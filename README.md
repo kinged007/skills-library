@@ -27,7 +27,7 @@ Each entry's exact command is in `catalog.json` (`install` field).
 ## Website
 
 Live at **https://kinged007.github.io/skills-library/** — search, filter by category, tag,
-rating, source and type, with a copyable install command and the full skill text per entry.
+rating, author and type, with a copyable install command and the full skill text per entry.
 
 - `docs/` is the deployed GitHub Pages artifact. `.github/workflows/pages.yml` rebuilds and
   redeploys it on every push to `main`.

@@ -9,7 +9,7 @@ It does three jobs:
 
 1. **Installable source.** `npx skills add kinged007/skills-library` discovers skills under `skills/<name>/SKILL.md`.
 2. **Catalog data.** `catalog.json` is the single data source for the site: skills with title, summary, category, tags and rating.
-3. **A live website.** https://kinged007.github.io/skills-library/ is built from that data, deployed by `.github/workflows/pages.yml` on every push to `main`. Search + filter by category, tag, rating, source and type, with a copyable install command and full skill text per entry.
+3. **A live website.** https://kinged007.github.io/skills-library/ is built from that data, deployed by `.github/workflows/pages.yml` on every push to `main`. Search + filter by category, tag, rating, author and type, with a copyable install command and full skill text per entry.
 
 ## Two kinds of entry
 

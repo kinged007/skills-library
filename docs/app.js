@@ -1,6 +1,6 @@
 /* Skills Library site: list + filters + detail. No deps. */
 "use strict";
-var S = { data: null, byId: {}, filters: { q: "", cat: "", type: "", src: "", min: 0, tag: "", sort: "top" } };
+var S = { data: null, byId: {}, filters: { q: "", cat: "", type: "", author: "", min: 0, tag: "", sort: "top" } };
 function $(id) { return document.getElementById(id); }
 function escH(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
 function score(e) { return (e.rating && e.rating.score) || 0; }
@@ -35,7 +35,10 @@ function applyFilters() {
   var out = S.data.skills.filter(function (e) {
     if (f.cat && e.category !== f.cat) return false;
     if (f.type && e.type !== f.type) return false;
-    if (f.src && e.source !== f.src) return false;
+    if (f.author) {
+    var by = (e.source || "").split("/")[0];
+    if (by.toLowerCase() !== f.author.toLowerCase()) return false;
+  }
     if (score(e) < f.min) return false;
     if (tag && !(e.tags || []).some(function (t) { return (t || "").toLowerCase() === tag; })) return false;
     if (q) {

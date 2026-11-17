@@ -2,7 +2,7 @@
 "use strict";
 function syncInputs() {
   $("q").value = S.filters.q; $("category").value = S.filters.cat;
-  $("type").value = S.filters.type; $("source").value = S.filters.src;
+  $("type").value = S.filters.type; $("author").value = S.filters.author;
   $("minScore").value = String(S.filters.min); $("tag").value = S.filters.tag;
   $("sort").value = S.filters.sort;
 }
@@ -11,7 +11,7 @@ function activeFilterNames() {
   if ((f.q || "").trim()) a.push("search");
   if (f.cat) a.push("category");
   if (f.type) a.push("type");
-  if (f.src) a.push("source");
+  if ((f.author || "").trim()) a.push("author");
   if (f.min > 0) a.push("rating");
   if ((f.tag || "").trim()) a.push("tag");
   return a;
@@ -77,16 +77,27 @@ function fillFilters() {
   var cats = Array.from(new Set(S.data.skills.map(function (e) { return e.category; }).filter(Boolean))).sort();
   $("category").innerHTML = '<option value="">All categories</option>' +
     cats.map(function (c) { return '<option value="' + escH(c) + '">' + escH(c) + "</option>"; }).join("");
-  var srcs = Array.from(new Set(S.data.skills.filter(function (e) { return e.source; }).map(function (e) { return e.source; }))).sort();
-  $("source").innerHTML = '<option value="">All sources</option>' +
-    srcs.map(function (s) { return '<option value="' + escH(s) + '">' + escH(s) + "</option>"; }).join("");
+  var authors = { };
+  S.data.skills.forEach(function (e) {
+    if (!e.source) return;
+    var a = e.source.split("/")[0];
+    var k = a.toLowerCase();
+    if (!authors[k]) authors[k] = { name: a, n: 0 };
+    authors[k].n += 1;
+  });
+  var opts = Object.keys(authors).map(function (k) { return authors[k]; });
+  opts.sort(function (a, b) { return a.name.toLowerCase() < b.name.toLowerCase() ? -1 : 1; });
+  $("author").innerHTML = '<option value="">All authors</option>' +
+    opts.map(function (o) {
+      return '<option value="' + escH(o.name) + '">' + escH(o.name) + " (" + o.n + ")</option>";
+    }).join("");
   var tags = Array.from(new Set(S.data.skills.flatMap(function (e) { return e.tags || []; }))).sort();
   $("taglist").innerHTML = tags.map(function (t) { return '<option value="' + escH(t) + '">'; }).join("");
 }
 function readInputs() {
   S.filters = {
     q: $("q").value, cat: $("category").value, type: $("type").value,
-    src: $("source").value, min: parseInt($("minScore").value || "0", 10) || 0,
+    author: $("author").value, min: parseInt($("minScore").value || "0", 10) || 0,
     tag: $("tag").value.trim(), sort: $("sort").value
   };
 }
@@ -108,7 +119,7 @@ function boot() {
       document.getElementById("filters").scrollIntoView();
     }
   });
-  ["q", "category", "type", "source", "minScore", "tag", "sort"].forEach(function (id) {
+  ["q", "category", "type", "author", "minScore", "tag", "sort"].forEach(function (id) {
     $(id).addEventListener("input", function () {
       if ((location.hash || "#/") !== "#/") { location.hash = "#/"; }
       readInputs(); renderList();
@@ -119,7 +130,7 @@ function boot() {
     });
   });
   $("reset").addEventListener("click", function () {
-    S.filters = { q: "", cat: "", type: "", src: "", min: 0, tag: "", sort: "top" };
+    S.filters = { q: "", cat: "", type: "", author: "", min: 0, tag: "", sort: "top" };
     syncInputs(); location.hash = "#/"; renderList();
   });
   window.addEventListener("hashchange", route);
@@ -130,10 +141,11 @@ function boot() {
     S.data = d;
     d.skills.forEach(function (e) { S.byId[e.id] = e; });
     var own = d.skills.filter(function (e) { return e.type === "local"; }).length;
-    var srcs = new Set(d.skills.filter(function (e) { return e.source; }).map(function (e) { return e.source; })).size;
+    var authors = new Set(d.skills.filter(function (e) { return e.source; })
+      .map(function (e) { return e.source.split("/")[0].toLowerCase(); })).size;
     var st = $("stats");
     st.hidden = false;
-    st.textContent = d.skills.length + " skills · " + own + " own · " + (d.skills.length - own) + " references · " + srcs + " sources";
+    st.textContent = d.skills.length + " skills · " + own + " own · " + (d.skills.length - own) + " references · " + authors + " authors";
     $("generated").textContent = "Catalog data generated " + (d.generated_at || "") + " (UTC).";
     $("loading") && $("loading").remove();
     fillFilters(); syncInputs(); route();
