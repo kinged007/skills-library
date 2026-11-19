@@ -1,0 +1,25 @@
+id: designer-motion-system
+type: external
+source: Owl-Listener/designer-skills
+path: design-systems/skills/motion-system
+ref: main
+skill: motion-system
+title: Motion System (designer-skills)
+summary: 'Defines motion as a token layer: duration scale, easing vocabulary, choreography rules and reduced-motion handling, so animation decisions are consistent and implementable across teams.'
+category: design
+tags:
+- owl-listener
+- design
+- motion
+- animation
+- tokens
+- easing
+- accessibility
+- design-system
+rating:
+  score: 4
+  quality: 4
+  usefulness: 3
+  maturity: 4
+  reviewed: '2026-11-19'
+notes: 'Reference to upstream (MIT). Rated after reading SKILL.md. Treats motion as part of the design system rather than per-component animation, and includes a reduced-motion strategy, which is the part usually omitted. Narrow relevance: only worth loading when actually standardising animation.'

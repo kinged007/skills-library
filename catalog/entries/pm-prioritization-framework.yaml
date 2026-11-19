@@ -1,0 +1,25 @@
+id: pm-prioritization-framework
+type: external
+source: product-on-purpose/pm-skills
+path: skills/define-prioritization-framework
+ref: main
+skill: define-prioritization-framework
+title: Prioritization Framework (pm-skills)
+summary: 'Runs RICE, ICE, MoSCoW, weighted scoring and Kano against one candidate list, then shows where the frameworks agree and diverge. Refuses to invent scores and returns an estimation scaffold instead.'
+category: product
+tags:
+- product-on-purpose
+- prioritisation
+- rice
+- moscow
+- kano
+- ice
+- roadmap
+- product
+rating:
+  score: 5
+  quality: 5
+  usefulness: 5
+  maturity: 4
+  reviewed: '2026-11-19'
+notes: 'Reference to upstream (Apache-2.0). Rated after reading SKILL.md and its frontmatter. The strongest new product entry: it filters frameworks by what data actually exists (Kano needs research) and explicitly refuses to fabricate scores, returning an estimation scaffold where input is missing. Multi-framework comparison is the point, since single-framework ranking hides disagreement. APACHE NOTICE: upstream ships no NOTICE file requirement beyond attribution line.'

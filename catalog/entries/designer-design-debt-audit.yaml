@@ -1,0 +1,24 @@
+id: designer-design-debt-audit
+type: external
+source: Owl-Listener/designer-skills
+path: design-ops/skills/design-debt-audit
+ref: main
+skill: design-debt-audit
+title: Design Debt Audit (designer-skills)
+summary: 'Inventories and prioritises accumulated design inconsistencies across a product, for when drift has built up over time rather than appearing in one place.'
+category: design
+tags:
+- owl-listener
+- design
+- debt
+- audit
+- consistency
+- design-system
+- refactor
+rating:
+  score: 3
+  quality: 4
+  usefulness: 3
+  maturity: 4
+  reviewed: '2026-11-19'
+notes: 'Reference to upstream (MIT). Rated after reading SKILL.md. Sound method, but narrow: it audits drift in a design system that already exists, and assumes the system as the reference. Score 3 reflects applicability rather than quality. For token coverage specifically, upstream points at design-token-audit instead.'

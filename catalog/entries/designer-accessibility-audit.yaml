@@ -1,0 +1,24 @@
+id: designer-accessibility-audit
+type: external
+source: Owl-Listener/designer-skills
+path: design-systems/skills/accessibility-audit
+ref: main
+skill: accessibility-audit
+title: Accessibility Audit WCAG 2.2 (designer-skills)
+summary: 'Audits an existing interface against WCAG 2.2 POUR principles and returns findings with severity, the criterion breached, user impact and remediation steps with code.'
+category: design
+tags:
+- owl-listener
+- design
+- accessibility
+- wcag
+- a11y
+- audit
+- compliance
+rating:
+  score: 4
+  quality: 4
+  usefulness: 4
+  maturity: 4
+  reviewed: '2026-11-19'
+notes: 'Reference to upstream (MIT). Rated after reading SKILL.md. Short, but the output shape is the useful part: every finding must name the WCAG criterion and a severity, which stops a vague ''improve contrast'' report. Pairs with browser-testing-with-devtools (Addy) for actually running the checks.'

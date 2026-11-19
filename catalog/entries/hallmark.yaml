@@ -1,0 +1,27 @@
+id: hallmark
+type: external
+source: Nutlope/hallmark
+path: skills/hallmark
+ref: main
+skill: hallmark
+title: Hallmark (design quality floor)
+summary: 'Design skill for new websites and pages: a hard 40+ rule floor against generated-looking UI, a dealt visual direction per build so consecutive builds do not converge, and one idea per screen.'
+category: design
+tags:
+- nutlope
+- hallmark
+- design
+- frontend
+- anti-slop
+- taste
+- css
+- ui
+- landing-page
+- tokens
+rating:
+  score: 5
+  quality: 5
+  usefulness: 5
+  maturity: 4
+  reviewed: '2026-11-19'
+notes: 'Reference to upstream (MIT). Rated after reading SKILL.md. The floor is enforceable rather than advisory: every colour and font through a :root token, never transition:all, overflow-x clip not hidden, minmax(0,1fr) on image tracks, focus-visible, prefers-reduced-motion fallbacks, no invented metrics or testimonials. Each rule cites a numbered design principle, so a violation can be argued from the source. Claims Together AI support. Closest neighbour here is frontend-ui-engineering (Addy), which covers structure rather than visual taste.'

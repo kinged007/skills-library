@@ -1,0 +1,23 @@
+id: pm-jtbd-canvas
+type: external
+source: product-on-purpose/pm-skills
+path: skills/define-jtbd-canvas
+ref: main
+skill: define-jtbd-canvas
+title: Jobs To Be Done Canvas (pm-skills)
+summary: 'Builds a Jobs to be Done canvas across functional, emotional and social dimensions of a customer job, for reframing decisions around motivation rather than features.'
+category: product
+tags:
+- product-on-purpose
+- jtbd
+- jobs-to-be-done
+- discovery
+- research
+- product
+rating:
+  score: 4
+  quality: 4
+  usefulness: 4
+  maturity: 4
+  reviewed: '2026-11-19'
+notes: 'Reference to upstream (Apache-2.0). Rated after reading SKILL.md. The three-dimension split is what makes it worth loading: most JTBD write-ups collapse to functional jobs and lose the emotional and social ones. Fills a real hole here, since nothing in the product category covered job framing.'

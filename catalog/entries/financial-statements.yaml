@@ -1,0 +1,25 @@
+id: financial-statements
+type: external
+source: anthropics/knowledge-work-plugins
+path: finance/skills/financial-statements
+ref: main
+skill: financial-statements
+title: Financial Statements (P&L, balance sheet, cash flow)
+summary: 'Prepares income statement, balance sheet and cash flow with period-over-period comparison, flags material variances and states the GAAP presentation conventions each statement requires.'
+category: finance
+tags:
+- anthropics
+- finance
+- gaap
+- p&l
+- balance-sheet
+- cash-flow
+- reporting
+- accounting
+rating:
+  score: 4
+  quality: 4
+  usefulness: 4
+  maturity: 4
+  reviewed: '2026-11-19'
+notes: 'Reference to upstream (Apache-2.0). Rated after reading SKILL.md. Carries GAAP presentation requirements rather than only arithmetic, so output is shaped like a statement a controller would accept. States plainly that it is not financial advice. First entry in the finance category, which was empty.'

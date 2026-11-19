@@ -1,0 +1,25 @@
+id: gdpr-compliance
+type: external
+source: BagelHole/DevOps-Security-Agent-Skills
+path: compliance/frameworks/gdpr-compliance
+ref: main
+skill: gdpr-compliance
+title: GDPR Compliance
+summary: 'Implements GDPR requirements for systems processing EU personal data: lawful bases, DSAR workflows, DPIA, consent management and processor agreements, with technical safeguards attached to each principle.'
+category: devops
+tags:
+- bagelhole
+- compliance
+- gdpr
+- privacy
+- data-protection
+- eu
+- consent
+- dsar
+rating:
+  score: 4
+  quality: 4
+  usefulness: 4
+  maturity: 4
+  reviewed: '2026-11-19'
+notes: 'Reference to upstream (MIT). Rated after reading SKILL.md. Article 5 principles are given as a machine-readable block with an implementation list per principle, which is more actionable than the usual prose summary. The compliance gap in this library was total before this batch; nothing here covered privacy or regulation. Not legal advice, and it does not replace counsel.'

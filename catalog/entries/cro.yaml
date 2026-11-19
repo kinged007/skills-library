@@ -1,0 +1,25 @@
+id: cro
+type: external
+source: coreyhaines31/marketingskills
+path: skills/cro
+ref: main
+skill: cro
+title: Conversion Rate Optimization
+summary: 'Diagnoses why a landing page, pricing page or form is not converting, and prioritises what to change first, loading a reference per intent: forms, experiments, page type.'
+category: marketing
+tags:
+- coreyhaines
+- cro
+- conversion
+- landing-page
+- forms
+- experiments
+- marketing
+- growth
+rating:
+  score: 4
+  quality: 4
+  usefulness: 4
+  maturity: 4
+  reviewed: '2026-11-19'
+notes: 'Reference to upstream (MIT). Rated after reading SKILL.md. Uses a routing table from user intent to a reference file, so the skill body stays small and the detail loads on demand. Distinguishes a design problem from a tracking artefact, which prevents optimising a page whose numbers were never measured correctly.'

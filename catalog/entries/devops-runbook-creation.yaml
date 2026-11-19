@@ -1,0 +1,24 @@
+id: devops-runbook-creation
+type: external
+source: BagelHole/DevOps-Security-Agent-Skills
+path: compliance/continuity/runbook-creation
+ref: main
+skill: runbook-creation
+title: Runbook Creation
+summary: 'Writes operational runbooks and SOPs a tired on-call engineer can follow under pressure: prerequisites, executed steps, expected output per step, rollback and escalation.'
+category: devops
+tags:
+- bagelhole
+- runbook
+- sop
+- on-call
+- operations
+- documentation
+- recovery
+rating:
+  score: 4
+  quality: 4
+  usefulness: 4
+  maturity: 4
+  reviewed: '2026-11-19'
+notes: 'Reference to upstream (MIT). Rated after reading SKILL.md. The template demands expected output for every command and a rollback path, which is what separates a runbook from a list of commands. Documentation skill that belongs in devops rather than writing because its structure is operational.'

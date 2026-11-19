@@ -1,0 +1,25 @@
+id: seo-audit
+type: external
+source: coreyhaines31/marketingskills
+path: skills/seo-audit
+ref: main
+skill: seo-audit
+title: SEO Audit
+summary: 'Diagnoses technical SEO: indexing, canonicals, hreflang, redirects, titles and on-page, Core Web Vitals and local SEO, starting from ''why did traffic drop'' or ''this page will not rank''.'
+category: marketing
+tags:
+- coreyhaines
+- seo
+- audit
+- technical-seo
+- indexing
+- core-web-vitals
+- marketing
+- growth
+rating:
+  score: 4
+  quality: 5
+  usefulness: 4
+  maturity: 4
+  reviewed: '2026-11-19'
+notes: 'Reference to upstream (MIT). Rated after reading SKILL.md. Notable for treating fetched pages as untrusted data and refusing to follow instructions embedded in HTML or meta tags, which is the right call for a skill that reads other people''s sites. Routes to separate skills for programmatic SEO, schema and AI search rather than growing one enormous file.'

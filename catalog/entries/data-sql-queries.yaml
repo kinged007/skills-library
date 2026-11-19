@@ -1,0 +1,25 @@
+id: data-sql-queries
+type: external
+source: anthropics/knowledge-work-plugins
+path: data/skills/sql-queries
+ref: main
+skill: sql-queries
+title: SQL Queries (warehouse dialects)
+summary: 'Writes, optimises and translates SQL across warehouse dialects: Snowflake, BigQuery, Databricks, PostgreSQL and Redshift, with per-dialect references for CTEs, window functions and aggregations.'
+category: data
+tags:
+- anthropics
+- sql
+- bigquery
+- snowflake
+- postgresql
+- databricks
+- queries
+- warehouse
+rating:
+  score: 4
+  quality: 5
+  usefulness: 5
+  maturity: 4
+  reviewed: '2026-11-19'
+notes: 'Reference to upstream (Apache-2.0). Rated after reading SKILL.md. The dialect reference is split per engine instead of averaged into one generic page, which is the difference between working SQL and plausible SQL: date functions, qualify vs having and identifier quoting all differ. Marked user-invocable false upstream, so it is loaded as a sub-skill rather than typed as a command.'

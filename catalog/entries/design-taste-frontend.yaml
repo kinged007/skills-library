@@ -1,0 +1,26 @@
+id: design-taste-frontend
+type: external
+source: Leonxlnx/taste-skill
+path: skills/taste-skill
+ref: main
+skill: design-taste-frontend
+title: Taste Skill (anti-slop frontend)
+summary: 'Builds company landing pages at the quality bar of figma.com and x.ai: plain copy in a voice of its own, one system, one section per screen, equal edges, and a checker plus finish gate that enforce it in a real browser.'
+category: design
+tags:
+- leonxlnx
+- taste
+- design
+- frontend
+- anti-slop
+- landing-page
+- shader
+- browser
+- polish
+rating:
+  score: 4
+  quality: 4
+  usefulness: 5
+  maturity: 3
+  reviewed: '2026-11-19'
+notes: 'Reference to upstream (MIT). Rated after reading SKILL.md and its hooks block. Ships a real enforcement step rather than prose: a stop hook runs scripts/gate.mjs against the build in a browser and records it under .taste-skill/, so ''is it good'' becomes a pass or fail. The hook assumes a Claude Code style hook surface and the gate path must exist, so it degrades to a warning if the runtime lacks hooks. Overlaps hallmark on intent; differs by targeting whole company sites and photograph rules rather than a rule floor.'

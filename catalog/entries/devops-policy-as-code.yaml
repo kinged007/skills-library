@@ -1,0 +1,25 @@
+id: devops-policy-as-code
+type: external
+source: BagelHole/DevOps-Security-Agent-Skills
+path: compliance/governance/policy-as-code
+ref: main
+skill: policy-as-code
+title: Policy as Code
+summary: 'Turns compliance rules into enforced checks: OPA and Rego policies, admission control and CI gates, so a control is tested by a pipeline instead of asserted in a document.'
+category: devops
+tags:
+- bagelhole
+- policy
+- opa
+- rego
+- compliance
+- guardrails
+- ci
+- kubernetes
+rating:
+  score: 4
+  quality: 4
+  usefulness: 4
+  maturity: 4
+  reviewed: '2026-11-19'
+notes: 'Reference to upstream (MIT). Rated after reading SKILL.md. The one skill in the compliance set that produces enforcement rather than paperwork, which is why it scores highest on usefulness. Same instinct as the catalog''s own build-time guard: encode the rule so a violation fails a check.'

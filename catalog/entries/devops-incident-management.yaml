@@ -1,0 +1,25 @@
+id: devops-incident-management
+type: external
+source: BagelHole/DevOps-Security-Agent-Skills
+path: compliance/continuity/incident-management
+ref: main
+skill: incident-management
+title: Incident Management
+summary: 'Defines incident response: severity levels with paging rules and update cadence, escalation matrices, war room procedure and blameless post-mortem templates.'
+category: devops
+tags:
+- bagelhole
+- incident
+- on-call
+- escalation
+- postmortem
+- sev
+- sre
+- devops
+rating:
+  score: 4
+  quality: 4
+  usefulness: 4
+  maturity: 4
+  reviewed: '2026-11-19'
+notes: 'Reference to upstream (MIT). Rated after reading SKILL.md. Severity definitions are concrete to the point of being usable as-is: impact, examples, response time, update frequency and who is paged per level. Distinct from observability-and-instrumentation (Addy), which covers instrumentation rather than the human process once an alert fires.'

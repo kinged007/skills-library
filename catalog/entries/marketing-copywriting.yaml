@@ -1,0 +1,24 @@
+id: marketing-copywriting
+type: external
+source: coreyhaines31/marketingskills
+path: skills/copywriting
+ref: main
+skill: copywriting
+title: Marketing Copywriting
+summary: 'Writes and revises marketing copy: headlines, landing pages, value propositions and calls to action, grounded in the product''s positioning rather than generic persuasion patterns.'
+category: marketing
+tags:
+- coreyhaines
+- copywriting
+- marketing
+- headlines
+- landing-page
+- positioning
+- messaging
+rating:
+  score: 4
+  quality: 4
+  usefulness: 4
+  maturity: 4
+  reviewed: '2026-11-19'
+notes: 'Reference to upstream (MIT). Rated after reading SKILL.md. Reads a product-marketing context file first if one exists, which keeps output specific to the product instead of plausible filler. Distinct from technical-writing (pstack) and the social-content skills from charlie947, which target different channels and voices.'

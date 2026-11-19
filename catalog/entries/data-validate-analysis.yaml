@@ -1,0 +1,25 @@
+id: data-validate-analysis
+type: external
+source: anthropics/knowledge-work-plugins
+path: data/skills/validate-data
+ref: main
+skill: validate-data
+title: Validate Data Analysis
+summary: 'Quality-checks an analysis before it reaches stakeholders: methodology, aggregation logic, spot checks and whether the conclusions are supported, returning a verdict rather than a rewrite.'
+category: data
+tags:
+- anthropics
+- data
+- validation
+- qa
+- methodology
+- bias
+- accuracy
+- analysis
+rating:
+  score: 5
+  quality: 5
+  usefulness: 5
+  maturity: 4
+  reviewed: '2026-11-19'
+notes: 'Reference to upstream (Apache-2.0). Rated after reading SKILL.md. The highest-value data skill in this batch: it is a gate, not a generator, so it catches the failure that matters most here, a confident analysis built on a wrong denominator or a join that silently multiplied rows. Pairs with analyze, which produces the analysis this one audits.'

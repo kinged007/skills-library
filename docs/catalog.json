@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T14:34:27Z",
+  "generated_at": "2026-11-19T08:14:42Z",
   "categories": {
     "meta": "Skills about skills, agents and workflows",
     "documents": "PDF, Word, Excel, slides and other documents",
@@ -12,6 +12,8 @@
     "ai-ml": "ML and AI research and engineering (training, inference, evals, agents, RAG)",
     "product": "Product management: discovery, strategy, roadmap, PRDs, launch, PLG and metrics",
     "project": "Project and delivery management: schedules, dependencies, estimation, risk, status and closure",
+    "marketing": "Marketing: SEO, copy, conversion, pricing, campaigns, audience and growth",
+    "finance": "Finance: statements, variance, close, reconciliation, controls and reporting",
     "other": "Anything that does not fit"
   },
   "skills": [
@@ -3163,6 +3165,672 @@
       "body": "---\nname: competitive-research\ndescription: \"When the user mentions competitor, competitive analysis, battlecard, market research, positioning or differentiation and needs deep competitive research and battlecards. Force with /competitive.\"\nmetadata:\n  source: pm-os\n  source_repo: https://github.com/agentmart/pm-os\n  source_path: skills/competitive-research/SKILL.md\n  license: MIT\n  original_author: AgentMart\n  adapted_for: product-manager\n---\n\n# Competitive Research and Battlecards\n\n## What This Skill Does\nRuns deep competitive research, synthesizes intelligence into actionable positioning decisions, and generates sales-ready battlecards. Goes beyond feature matrices to understand WHY customers choose competitors.\n\n---\n\n## Competitive Research Philosophy\n\n**Most competitive analysis is theater.** PMs look at pricing pages and feature matrices and call it intelligence.\n\n**Real competitive intelligence answers:**\n- Why do users choose them over us?\n- Why do users choose us over them?\n- What are they investing in that we haven't noticed?\n- What customers have they decided NOT to serve?\n\n**The counterintuitive insight:** The most valuable competitive intelligence often tells you where NOT to compete, not where to fight harder.\n\n---\n\n## The 5-Layer Competitive Research Stack\n\n### Layer 1: Public Intelligence (What's Visible)\n**Sources:**\n- Their website: value prop, pricing, feature list, customer stories\n- Product tours / demos: user experience, UX quality, onboarding flow\n- G2 / Capterra / Trustpilot reviews: real user pain points and praise\n- Job postings: investment areas they're not announcing (15 iOS engineers = mobile push)\n- LinkedIn: company growth rate, leadership moves, content themes\n- Press releases / blog: roadmap signals, partnership moves\n- AppSumo / Product Hunt: early traction data, user feedback patterns\n\n**Collection template:**\n\n| Category | What You Found | Signal |\n|----------|---------------|--------|\n| Core value prop | | |\n| Primary ICP | | |\n| Pricing model | | |\n| Key differentiators claimed | | |\n| Featured customers | | |\n| Hiring signals | | |\n| Content themes | | |\n| Recent product launches | | |\n\n### Layer 2: Customer Intelligence (What's Real)\n**Sources:**\n- Win/loss interviews: ask every churned user where they went and why\n- G2 review text analysis: cluster common praise and complaints\n- Sales call recordings: what objections come up? What comparisons?\n- Customer success calls: when do customers mention alternatives?\n- Support tickets: are users asking for features that competitors have?\n\n**Win/Loss Interview Questions:**\n1. \"When you were evaluating solutions, who were the other finalists?\"\n2. \"What was the #1 reason you chose [US / THEM]?\"\n3. \"What almost made you choose the other option?\"\n4. \"What would [COMPETITOR] have to change for you to switch?\"\n5. \"What does [COMPETITOR] do better than us? Be honest \u2014 it helps us improve.\"\n\n### Layer 3: Product Intelligence (How They Build)\n**Sources:**\n- Changelog / release notes: velocity, focus areas\n- API documentation: technical capabilities and ecosystem\n- Integration ecosystem: what tools they connect to (signals their ICP)\n- Mobile app reviews: real usage patterns, bugs, feature requests\n- Browser extension downloads / ratings: adoption signal\n\n### Layer 4: Market Intelligence (The Broader Landscape)\n**Sources:**\n- Analyst reports (Gartner, Forrester, IDC) \u2014 where available\n- Industry conference talk titles: what problems is the market discussing?\n- LinkedIn thought leader content: what narratives are gaining traction?\n- Funding news: who is the market backing? With how much?\n- M&A activity: consolidation signals, capability gaps being acquired\n\n### Layer 5: Forward Intelligence (What They'll Do Next)\n**Signals of future moves:**\n- Recent funding + \"investing in X\" language in press release\n- Leadership hires (new VP of Partnerships = ecosystem push)\n- Conference keynote themes = strategic priorities\n- Patent filings (for larger companies)\n- Beta program announcements\n\n---\n\n## Competitive Positioning Matrix\n\nAfter research, map competitors on the axes most relevant to your market:\n\n| Competitor | [Axis 1] | [Axis 2] | Primary ICP | Biggest Strength | Biggest Gap |\n|-----------|---------|---------|------------|-----------------|------------|\n| [US] | | | | | |\n| [COMP A] | | | | | |\n| [COMP B] | | | | | |\n\n**Common axes:** Price vs. Power / Breadth vs. Depth / Enterprise vs. SMB / Complex vs. Simple / Generalist vs. Specialist\n\n**The white space:** Where is no one positioned that a meaningful customer segment would value?\n\n---\n\n## Battlecard Template (Sales-Ready)\n\n# [COMPETITOR NAME] vs [YOUR PRODUCT] Battlecard\n*For use by sales, CS, and AM teams. Updated: [DATE]*\n\n## When You're Up Against Them\n**Why reps see this competitor:** [Context]\n**Their typical deal:** [Company size, role, use case]\n\n## Our Win Themes (Why We Beat Them)\n1. **[WIN THEME 1]:** [1-2 sentences with proof point \u2014 specific, not generic]\n2. **[WIN THEME 2]:** [1-2 sentences with proof point]\n3. **[WIN THEME 3]:** [1-2 sentences with proof point]\n\n## Their Best Attacks (And How to Respond)\n\n**They'll say:** \"[LIKELY OBJECTION 1]\"\n**You say:** \"[RESPONSE \u2014 acknowledge the partial truth, then reframe]\"\n**Proof:** [Customer quote, stat, or demo move that backs this up]\n\n**They'll say:** \"[LIKELY OBJECTION 2]\"\n**You say:** \"[RESPONSE]\"\n**Proof:** [PROOF]\n\n## Where They're Genuinely Better\n*Being honest here builds trust with prospects.*\n- [HONEST GAP 1] \u2014 Our response: [HOW TO ADDRESS or WHEN THIS DOESN'T MATTER]\n- [HONEST GAP 2]\n\n## The Qualifying Questions\nAsk these to understand if this is a winnable deal:\n1. \"[QUESTION that reveals if their needs align with your strengths]\"\n2. \"[QUESTION that surfaces their evaluation criteria]\"\n\n## The Close Story\nWhen prospects are comparing directly, use this narrative:\n\"[2-3 sentence story about the type of customer who chooses us and why it worked out for them]\"\n\n## Reference Customer\nA [COMPANY TYPE] customer who switched from [COMPETITOR]: [BRIEF STORY + OUTCOME]\n\n---\n\n## Competitive Intelligence Cadence\n\n| Frequency | Activity | Output |\n|-----------|---------|--------|\n| Weekly | Scan competitor websites, blog, LinkedIn | Quick update in Slack/email |\n| Monthly | Review G2 reviews, job postings, release notes | Updated competitor profiles |\n| Quarterly | Full competitive audit, customer win/loss review | Updated battlecards, strategy input |\n| Event-driven | Competitor funding, acquisition, major launch | Immediate response brief |\n\n---\n\n*Adapted from pm-os (skills/research/SKILL-competitive-research.md) under the MIT licence. Original by AgentMart. Repackaged from a flat SKILL-*.md file into a discoverable skill folder with YAML frontmatter; cross-references and workspace-specific paths were adjusted.*\n"
     },
     {
+      "id": "cro",
+      "type": "external",
+      "source": "coreyhaines31/marketingskills",
+      "path": "skills/cro",
+      "ref": "main",
+      "skill": "cro",
+      "title": "Conversion Rate Optimization",
+      "summary": "Diagnoses why a landing page, pricing page or form is not converting, and prioritises what to change first, loading a reference per intent: forms, experiments, page type.",
+      "category": "marketing",
+      "tags": [
+        "coreyhaines",
+        "cro",
+        "conversion",
+        "landing-page",
+        "forms",
+        "experiments",
+        "marketing",
+        "growth"
+      ],
+      "rating": {
+        "score": 4,
+        "quality": 4,
+        "usefulness": 4,
+        "maturity": 4,
+        "reviewed": "2026-11-19"
+      },
+      "notes": "Reference to upstream (MIT). Rated after reading SKILL.md. Uses a routing table from user intent to a reference file, so the skill body stays small and the detail loads on demand. Distinguishes a design problem from a tracking artefact, which prevents optimising a page whose numbers were never measured correctly.",
+      "install": "npx skills add coreyhaines31/marketingskills --skill cro",
+      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/cro",
+      "rawUrl": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/cro/SKILL.md"
+    },
+    {
+      "id": "data-analyze",
+      "type": "external",
+      "source": "anthropics/knowledge-work-plugins",
+      "path": "data/skills/analyze",
+      "ref": "main",
+      "skill": "analyze",
+      "title": "Analyze (answer a data question)",
+      "summary": "Answers a data question end to end, sizing the response to the ask: a quick metric lookup, a multi-dimensional investigation of a trend, or a formal report with method and caveats.",
+      "category": "data",
+      "tags": [
+        "anthropics",
+        "data",
+        "analysis",
+        "metrics",
+        "sql",
+        "reporting",
+        "stakeholders"
+      ],
+      "rating": {
+        "score": 4,
+        "quality": 4,
+        "usefulness": 4,
+        "maturity": 4,
+        "reviewed": "2026-11-19"
+      },
+      "notes": "Reference to upstream (Apache-2.0). Rated after reading SKILL.md. Its first step is classifying the question into quick answer, full analysis or formal report, which stops a one-line lookup becoming a deck. It expects connected data tools and a CONNECTORS.md mapping; without them the workflow is reusable but the tool calls are not. Data category had one entry before this.",
+      "install": "npx skills add anthropics/knowledge-work-plugins --skill analyze",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/data/skills/analyze",
+      "rawUrl": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/data/skills/analyze/SKILL.md"
+    },
+    {
+      "id": "data-build-dashboard",
+      "type": "external",
+      "source": "anthropics/knowledge-work-plugins",
+      "path": "data/skills/build-dashboard",
+      "ref": "main",
+      "skill": "build-dashboard",
+      "title": "Build HTML Dashboard",
+      "summary": "Builds a self-contained interactive HTML dashboard from query results: KPI cards, filters and multiple charts in one browser-openable file with no server.",
+      "category": "data",
+      "tags": [
+        "anthropics",
+        "dashboard",
+        "html",
+        "charts",
+        "kpi",
+        "reporting",
+        "data",
+        "single-file"
+      ],
+      "rating": {
+        "score": 4,
+        "quality": 4,
+        "usefulness": 4,
+        "maturity": 4,
+        "reviewed": "2026-11-19"
+      },
+      "notes": "Reference to upstream (Apache-2.0). Rated after reading SKILL.md. The single-file constraint is the useful part: it opens from an email or a folder with no hosting, which is what actually gets dashboards used. For a one-off chart rather than a dashboard, the render_plot tool is the shorter path; this earns its size when there are several charts plus filtering.",
+      "install": "npx skills add anthropics/knowledge-work-plugins --skill build-dashboard",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/data/skills/build-dashboard",
+      "rawUrl": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/data/skills/build-dashboard/SKILL.md"
+    },
+    {
+      "id": "data-sql-queries",
+      "type": "external",
+      "source": "anthropics/knowledge-work-plugins",
+      "path": "data/skills/sql-queries",
+      "ref": "main",
+      "skill": "sql-queries",
+      "title": "SQL Queries (warehouse dialects)",
+      "summary": "Writes, optimises and translates SQL across warehouse dialects: Snowflake, BigQuery, Databricks, PostgreSQL and Redshift, with per-dialect references for CTEs, window functions and aggregations.",
+      "category": "data",
+      "tags": [
+        "anthropics",
+        "sql",
+        "bigquery",
+        "snowflake",
+        "postgresql",
+        "databricks",
+        "queries",
+        "warehouse"
+      ],
+      "rating": {
+        "score": 4,
+        "quality": 5,
+        "usefulness": 5,
+        "maturity": 4,
+        "reviewed": "2026-11-19"
+      },
+      "notes": "Reference to upstream (Apache-2.0). Rated after reading SKILL.md. The dialect reference is split per engine instead of averaged into one generic page, which is the difference between working SQL and plausible SQL: date functions, qualify vs having and identifier quoting all differ. Marked user-invocable false upstream, so it is loaded as a sub-skill rather than typed as a command.",
+      "install": "npx skills add anthropics/knowledge-work-plugins --skill sql-queries",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/data/skills/sql-queries",
+      "rawUrl": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/data/skills/sql-queries/SKILL.md"
+    },
+    {
+      "id": "data-validate-analysis",
+      "type": "external",
+      "source": "anthropics/knowledge-work-plugins",
+      "path": "data/skills/validate-data",
+      "ref": "main",
+      "skill": "validate-data",
+      "title": "Validate Data Analysis",
+      "summary": "Quality-checks an analysis before it reaches stakeholders: methodology, aggregation logic, spot checks and whether the conclusions are supported, returning a verdict rather than a rewrite.",
+      "category": "data",
+      "tags": [
+        "anthropics",
+        "data",
+        "validation",
+        "qa",
+        "methodology",
+        "bias",
+        "accuracy",
+        "analysis"
+      ],
+      "rating": {
+        "score": 5,
+        "quality": 5,
+        "usefulness": 5,
+        "maturity": 4,
+        "reviewed": "2026-11-19"
+      },
+      "notes": "Reference to upstream (Apache-2.0). Rated after reading SKILL.md. The highest-value data skill in this batch: it is a gate, not a generator, so it catches the failure that matters most here, a confident analysis built on a wrong denominator or a join that silently multiplied rows. Pairs with analyze, which produces the analysis this one audits.",
+      "install": "npx skills add anthropics/knowledge-work-plugins --skill validate-data",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/data/skills/validate-data",
+      "rawUrl": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/data/skills/validate-data/SKILL.md"
+    },
+    {
+      "id": "design-taste-frontend",
+      "type": "external",
+      "source": "Leonxlnx/taste-skill",
+      "path": "skills/taste-skill",
+      "ref": "main",
+      "skill": "design-taste-frontend",
+      "title": "Taste Skill (anti-slop frontend)",
+      "summary": "Builds company landing pages at the quality bar of figma.com and x.ai: plain copy in a voice of its own, one system, one section per screen, equal edges, and a checker plus finish gate that enforce it in a real browser.",
+      "category": "design",
+      "tags": [
+        "leonxlnx",
+        "taste",
+        "design",
+        "frontend",
+        "anti-slop",
+        "landing-page",
+        "shader",
+        "browser",
+        "polish"
+      ],
+      "rating": {
+        "score": 4,
+        "quality": 4,
+        "usefulness": 5,
+        "maturity": 3,
+        "reviewed": "2026-11-19"
+      },
+      "notes": "Reference to upstream (MIT). Rated after reading SKILL.md and its hooks block. Ships a real enforcement step rather than prose: a stop hook runs scripts/gate.mjs against the build in a browser and records it under .taste-skill/, so 'is it good' becomes a pass or fail. The hook assumes a Claude Code style hook surface and the gate path must exist, so it degrades to a warning if the runtime lacks hooks. Overlaps hallmark on intent; differs by targeting whole company sites and photograph rules rather than a rule floor.",
+      "install": "npx skills add Leonxlnx/taste-skill --skill design-taste-frontend",
+      "url": "https://github.com/Leonxlnx/taste-skill/tree/main/skills/taste-skill",
+      "rawUrl": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/skills/taste-skill/SKILL.md"
+    },
+    {
+      "id": "designer-accessibility-audit",
+      "type": "external",
+      "source": "Owl-Listener/designer-skills",
+      "path": "design-systems/skills/accessibility-audit",
+      "ref": "main",
+      "skill": "accessibility-audit",
+      "title": "Accessibility Audit WCAG 2.2 (designer-skills)",
+      "summary": "Audits an existing interface against WCAG 2.2 POUR principles and returns findings with severity, the criterion breached, user impact and remediation steps with code.",
+      "category": "design",
+      "tags": [
+        "owl-listener",
+        "design",
+        "accessibility",
+        "wcag",
+        "a11y",
+        "audit",
+        "compliance"
+      ],
+      "rating": {
+        "score": 4,
+        "quality": 4,
+        "usefulness": 4,
+        "maturity": 4,
+        "reviewed": "2026-11-19"
+      },
+      "notes": "Reference to upstream (MIT). Rated after reading SKILL.md. Short, but the output shape is the useful part: every finding must name the WCAG criterion and a severity, which stops a vague 'improve contrast' report. Pairs with browser-testing-with-devtools (Addy) for actually running the checks.",
+      "install": "npx skills add Owl-Listener/designer-skills --skill accessibility-audit",
+      "url": "https://github.com/Owl-Listener/designer-skills/tree/main/design-systems/skills/accessibility-audit",
+      "rawUrl": "https://raw.githubusercontent.com/Owl-Listener/designer-skills/main/design-systems/skills/accessibility-audit/SKILL.md"
+    },
+    {
+      "id": "designer-design-critique",
+      "type": "external",
+      "source": "Owl-Listener/designer-skills",
+      "path": "design-ops/skills/design-critique",
+      "ref": "main",
+      "skill": "design-critique",
+      "title": "Design Critique (designer-skills)",
+      "summary": "Facilitates a structured team critique: framing, feedback rules and actionable outcomes, for a session with people in the room rather than a solo review.",
+      "category": "design",
+      "tags": [
+        "owl-listener",
+        "design",
+        "critique",
+        "review",
+        "facilitation",
+        "feedback",
+        "design-ops"
+      ],
+      "rating": {
+        "score": 4,
+        "quality": 4,
+        "usefulness": 3,
+        "maturity": 4,
+        "reviewed": "2026-11-19"
+      },
+      "notes": "Reference to upstream (MIT). Rated after reading SKILL.md. The value is the process discipline: separating observation from opinion and forcing an outcome per item. Human-facilitation skill, so it assumes a live session; for an agent reviewing a UI alone use frontend-ui-engineering or hallmark instead.",
+      "install": "npx skills add Owl-Listener/designer-skills --skill design-critique",
+      "url": "https://github.com/Owl-Listener/designer-skills/tree/main/design-ops/skills/design-critique",
+      "rawUrl": "https://raw.githubusercontent.com/Owl-Listener/designer-skills/main/design-ops/skills/design-critique/SKILL.md"
+    },
+    {
+      "id": "designer-design-debt-audit",
+      "type": "external",
+      "source": "Owl-Listener/designer-skills",
+      "path": "design-ops/skills/design-debt-audit",
+      "ref": "main",
+      "skill": "design-debt-audit",
+      "title": "Design Debt Audit (designer-skills)",
+      "summary": "Inventories and prioritises accumulated design inconsistencies across a product, for when drift has built up over time rather than appearing in one place.",
+      "category": "design",
+      "tags": [
+        "owl-listener",
+        "design",
+        "debt",
+        "audit",
+        "consistency",
+        "design-system",
+        "refactor"
+      ],
+      "rating": {
+        "score": 3,
+        "quality": 4,
+        "usefulness": 3,
+        "maturity": 4,
+        "reviewed": "2026-11-19"
+      },
+      "notes": "Reference to upstream (MIT). Rated after reading SKILL.md. Sound method, but narrow: it audits drift in a design system that already exists, and assumes the system as the reference. Score 3 reflects applicability rather than quality. For token coverage specifically, upstream points at design-token-audit instead.",
+      "install": "npx skills add Owl-Listener/designer-skills --skill design-debt-audit",
+      "url": "https://github.com/Owl-Listener/designer-skills/tree/main/design-ops/skills/design-debt-audit",
+      "rawUrl": "https://raw.githubusercontent.com/Owl-Listener/designer-skills/main/design-ops/skills/design-debt-audit/SKILL.md"
+    },
+    {
+      "id": "designer-design-system-governance",
+      "type": "external",
+      "source": "Owl-Listener/designer-skills",
+      "path": "design-systems/skills/design-system-governance",
+      "ref": "main",
+      "skill": "design-system-governance",
+      "title": "Design System Governance (designer-skills)",
+      "summary": "Defines how a design system evolves: contribution model, versioning, deprecation policy and change management, for systems with multiple teams contributing.",
+      "category": "design",
+      "tags": [
+        "owl-listener",
+        "design",
+        "design-system",
+        "governance",
+        "versioning",
+        "deprecation",
+        "contribution"
+      ],
+      "rating": {
+        "score": 4,
+        "quality": 4,
+        "usefulness": 3,
+        "maturity": 4,
+        "reviewed": "2026-11-19"
+      },
+      "notes": "Reference to upstream (MIT). Rated after reading SKILL.md. One of the few skills here addressing the social problem of a design system rather than the artefact: who may add a component, how it is versioned, how it is retired. Only relevant when more than one team contributes.",
+      "install": "npx skills add Owl-Listener/designer-skills --skill design-system-governance",
+      "url": "https://github.com/Owl-Listener/designer-skills/tree/main/design-systems/skills/design-system-governance",
+      "rawUrl": "https://raw.githubusercontent.com/Owl-Listener/designer-skills/main/design-systems/skills/design-system-governance/SKILL.md"
+    },
+    {
+      "id": "designer-handoff-spec",
+      "type": "external",
+      "source": "Owl-Listener/designer-skills",
+      "path": "design-ops/skills/handoff-spec",
+      "ref": "main",
+      "skill": "handoff-spec",
+      "title": "Handoff Spec (designer-skills)",
+      "summary": "Writes the implementation handoff for a design: measurements, behaviours, assets, states and edge cases, so engineering builds from a specification instead of a picture.",
+      "category": "design",
+      "tags": [
+        "owl-listener",
+        "design",
+        "handoff",
+        "specification",
+        "states",
+        "engineering",
+        "design-ops"
+      ],
+      "rating": {
+        "score": 4,
+        "quality": 4,
+        "usefulness": 4,
+        "maturity": 4,
+        "reviewed": "2026-11-19"
+      },
+      "notes": "Reference to upstream (MIT). Rated after reading SKILL.md. Short but specific: it enumerates the states and edge cases that usually get lost between design and build, and pairs with design-qa-checklist upstream for verifying the result. Complements component-spec, which specifies one library component rather than a whole handoff.",
+      "install": "npx skills add Owl-Listener/designer-skills --skill handoff-spec",
+      "url": "https://github.com/Owl-Listener/designer-skills/tree/main/design-ops/skills/handoff-spec",
+      "rawUrl": "https://raw.githubusercontent.com/Owl-Listener/designer-skills/main/design-ops/skills/handoff-spec/SKILL.md"
+    },
+    {
+      "id": "designer-localization-design",
+      "type": "external",
+      "source": "Owl-Listener/designer-skills",
+      "path": "design-systems/skills/localization-design",
+      "ref": "main",
+      "skill": "localization-design",
+      "title": "Localization Design (designer-skills)",
+      "summary": "Designs for multiple languages and directions: text expansion budgets, RTL mirroring, locale-specific formats and cultural context, rather than translating a layout after the fact.",
+      "category": "design",
+      "tags": [
+        "owl-listener",
+        "design",
+        "localization",
+        "i18n",
+        "rtl",
+        "accessibility",
+        "internationalisation"
+      ],
+      "rating": {
+        "score": 4,
+        "quality": 4,
+        "usefulness": 4,
+        "maturity": 4,
+        "reviewed": "2026-11-19"
+      },
+      "notes": "Reference to upstream (MIT). Rated after reading SKILL.md. Raised to 4 because the gap it covers is genuinely common: text expansion and RTL are usually discovered during implementation. Gives concrete budgets rather than advising to 'leave room'.",
+      "install": "npx skills add Owl-Listener/designer-skills --skill localization-design",
+      "url": "https://github.com/Owl-Listener/designer-skills/tree/main/design-systems/skills/localization-design",
+      "rawUrl": "https://raw.githubusercontent.com/Owl-Listener/designer-skills/main/design-systems/skills/localization-design/SKILL.md"
+    },
+    {
+      "id": "designer-motion-system",
+      "type": "external",
+      "source": "Owl-Listener/designer-skills",
+      "path": "design-systems/skills/motion-system",
+      "ref": "main",
+      "skill": "motion-system",
+      "title": "Motion System (designer-skills)",
+      "summary": "Defines motion as a token layer: duration scale, easing vocabulary, choreography rules and reduced-motion handling, so animation decisions are consistent and implementable across teams.",
+      "category": "design",
+      "tags": [
+        "owl-listener",
+        "design",
+        "motion",
+        "animation",
+        "tokens",
+        "easing",
+        "accessibility",
+        "design-system"
+      ],
+      "rating": {
+        "score": 4,
+        "quality": 4,
+        "usefulness": 3,
+        "maturity": 4,
+        "reviewed": "2026-11-19"
+      },
+      "notes": "Reference to upstream (MIT). Rated after reading SKILL.md. Treats motion as part of the design system rather than per-component animation, and includes a reduced-motion strategy, which is the part usually omitted. Narrow relevance: only worth loading when actually standardising animation.",
+      "install": "npx skills add Owl-Listener/designer-skills --skill motion-system",
+      "url": "https://github.com/Owl-Listener/designer-skills/tree/main/design-systems/skills/motion-system",
+      "rawUrl": "https://raw.githubusercontent.com/Owl-Listener/designer-skills/main/design-systems/skills/motion-system/SKILL.md"
+    },
+    {
+      "id": "devops-access-review",
+      "type": "external",
+      "source": "BagelHole/DevOps-Security-Agent-Skills",
+      "path": "compliance/governance/access-review",
+      "ref": "main",
+      "skill": "access-review",
+      "title": "Access Review",
+      "summary": "Runs periodic access reviews: inventory of entitlements, least-privilege findings, reviewer workflow and evidence trail suitable for SOC 2 and ISO 27001 audits.",
+      "category": "devops",
+      "tags": [
+        "bagelhole",
+        "access",
+        "iam",
+        "least-privilege",
+        "review",
+        "compliance",
+        "audit"
+      ],
+      "rating": {
+        "score": 3,
+        "quality": 4,
+        "usefulness": 3,
+        "maturity": 4,
+        "reviewed": "2026-11-19"
+      },
+      "notes": "Reference to upstream (MIT). Rated after reading SKILL.md. Competent and audit-shaped, but most of the work is organisational data gathering rather than something an agent completes alone. Score 3 is applicability, not quality. Useful as the evidence format for an audit.",
+      "install": "npx skills add BagelHole/DevOps-Security-Agent-Skills --skill access-review",
+      "url": "https://github.com/BagelHole/DevOps-Security-Agent-Skills/tree/main/compliance/governance/access-review",
+      "rawUrl": "https://raw.githubusercontent.com/BagelHole/DevOps-Security-Agent-Skills/main/compliance/governance/access-review/SKILL.md"
+    },
+    {
+      "id": "devops-disaster-recovery",
+      "type": "external",
+      "source": "BagelHole/DevOps-Security-Agent-Skills",
+      "path": "compliance/continuity/disaster-recovery",
+      "ref": "main",
+      "skill": "disaster-recovery",
+      "title": "Disaster Recovery",
+      "summary": "Designs recovery from loss of a system or region: RTO and RPO targets per tier, backup and restore procedures, failover runbooks and restore testing that proves the plan.",
+      "category": "devops",
+      "tags": [
+        "bagelhole",
+        "disaster-recovery",
+        "rto",
+        "rpo",
+        "backup",
+        "failover",
+        "continuity",
+        "devops"
+      ],
+      "rating": {
+        "score": 4,
+        "quality": 4,
+        "usefulness": 3,
+        "maturity": 4,
+        "reviewed": "2026-11-19"
+      },
+      "notes": "Reference to upstream (MIT). Rated after reading SKILL.md. Insists on restore testing, which is the failure mode of most DR plans: the backup exists, nobody has restored it. RTO and RPO are set per service tier rather than as one number for the whole system.",
+      "install": "npx skills add BagelHole/DevOps-Security-Agent-Skills --skill disaster-recovery",
+      "url": "https://github.com/BagelHole/DevOps-Security-Agent-Skills/tree/main/compliance/continuity/disaster-recovery",
+      "rawUrl": "https://raw.githubusercontent.com/BagelHole/DevOps-Security-Agent-Skills/main/compliance/continuity/disaster-recovery/SKILL.md"
+    },
+    {
+      "id": "devops-incident-management",
+      "type": "external",
+      "source": "BagelHole/DevOps-Security-Agent-Skills",
+      "path": "compliance/continuity/incident-management",
+      "ref": "main",
+      "skill": "incident-management",
+      "title": "Incident Management",
+      "summary": "Defines incident response: severity levels with paging rules and update cadence, escalation matrices, war room procedure and blameless post-mortem templates.",
+      "category": "devops",
+      "tags": [
+        "bagelhole",
+        "incident",
+        "on-call",
+        "escalation",
+        "postmortem",
+        "sev",
+        "sre",
+        "devops"
+      ],
+      "rating": {
+        "score": 4,
+        "quality": 4,
+        "usefulness": 4,
+        "maturity": 4,
+        "reviewed": "2026-11-19"
+      },
+      "notes": "Reference to upstream (MIT). Rated after reading SKILL.md. Severity definitions are concrete to the point of being usable as-is: impact, examples, response time, update frequency and who is paged per level. Distinct from observability-and-instrumentation (Addy), which covers instrumentation rather than the human process once an alert fires.",
+      "install": "npx skills add BagelHole/DevOps-Security-Agent-Skills --skill incident-management",
+      "url": "https://github.com/BagelHole/DevOps-Security-Agent-Skills/tree/main/compliance/continuity/incident-management",
+      "rawUrl": "https://raw.githubusercontent.com/BagelHole/DevOps-Security-Agent-Skills/main/compliance/continuity/incident-management/SKILL.md"
+    },
+    {
+      "id": "devops-policy-as-code",
+      "type": "external",
+      "source": "BagelHole/DevOps-Security-Agent-Skills",
+      "path": "compliance/governance/policy-as-code",
+      "ref": "main",
+      "skill": "policy-as-code",
+      "title": "Policy as Code",
+      "summary": "Turns compliance rules into enforced checks: OPA and Rego policies, admission control and CI gates, so a control is tested by a pipeline instead of asserted in a document.",
+      "category": "devops",
+      "tags": [
+        "bagelhole",
+        "policy",
+        "opa",
+        "rego",
+        "compliance",
+        "guardrails",
+        "ci",
+        "kubernetes"
+      ],
+      "rating": {
+        "score": 4,
+        "quality": 4,
+        "usefulness": 4,
+        "maturity": 4,
+        "reviewed": "2026-11-19"
+      },
+      "notes": "Reference to upstream (MIT). Rated after reading SKILL.md. The one skill in the compliance set that produces enforcement rather than paperwork, which is why it scores highest on usefulness. Same instinct as the catalog's own build-time guard: encode the rule so a violation fails a check.",
+      "install": "npx skills add BagelHole/DevOps-Security-Agent-Skills --skill policy-as-code",
+      "url": "https://github.com/BagelHole/DevOps-Security-Agent-Skills/tree/main/compliance/governance/policy-as-code",
+      "rawUrl": "https://raw.githubusercontent.com/BagelHole/DevOps-Security-Agent-Skills/main/compliance/governance/policy-as-code/SKILL.md"
+    },
+    {
+      "id": "devops-runbook-creation",
+      "type": "external",
+      "source": "BagelHole/DevOps-Security-Agent-Skills",
+      "path": "compliance/continuity/runbook-creation",
+      "ref": "main",
+      "skill": "runbook-creation",
+      "title": "Runbook Creation",
+      "summary": "Writes operational runbooks and SOPs a tired on-call engineer can follow under pressure: prerequisites, executed steps, expected output per step, rollback and escalation.",
+      "category": "devops",
+      "tags": [
+        "bagelhole",
+        "runbook",
+        "sop",
+        "on-call",
+        "operations",
+        "documentation",
+        "recovery"
+      ],
+      "rating": {
+        "score": 4,
+        "quality": 4,
+        "usefulness": 4,
+        "maturity": 4,
+        "reviewed": "2026-11-19"
+      },
+      "notes": "Reference to upstream (MIT). Rated after reading SKILL.md. The template demands expected output for every command and a rollback path, which is what separates a runbook from a list of commands. Documentation skill that belongs in devops rather than writing because its structure is operational.",
+      "install": "npx skills add BagelHole/DevOps-Security-Agent-Skills --skill runbook-creation",
+      "url": "https://github.com/BagelHole/DevOps-Security-Agent-Skills/tree/main/compliance/continuity/runbook-creation",
+      "rawUrl": "https://raw.githubusercontent.com/BagelHole/DevOps-Security-Agent-Skills/main/compliance/continuity/runbook-creation/SKILL.md"
+    },
+    {
+      "id": "financial-statements",
+      "type": "external",
+      "source": "anthropics/knowledge-work-plugins",
+      "path": "finance/skills/financial-statements",
+      "ref": "main",
+      "skill": "financial-statements",
+      "title": "Financial Statements (P&L, balance sheet, cash flow)",
+      "summary": "Prepares income statement, balance sheet and cash flow with period-over-period comparison, flags material variances and states the GAAP presentation conventions each statement requires.",
+      "category": "finance",
+      "tags": [
+        "anthropics",
+        "finance",
+        "gaap",
+        "p&l",
+        "balance-sheet",
+        "cash-flow",
+        "reporting",
+        "accounting"
+      ],
+      "rating": {
+        "score": 4,
+        "quality": 4,
+        "usefulness": 4,
+        "maturity": 4,
+        "reviewed": "2026-11-19"
+      },
+      "notes": "Reference to upstream (Apache-2.0). Rated after reading SKILL.md. Carries GAAP presentation requirements rather than only arithmetic, so output is shaped like a statement a controller would accept. States plainly that it is not financial advice. First entry in the finance category, which was empty.",
+      "install": "npx skills add anthropics/knowledge-work-plugins --skill financial-statements",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/finance/skills/financial-statements",
+      "rawUrl": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/finance/skills/financial-statements/SKILL.md"
+    },
+    {
+      "id": "gdpr-compliance",
+      "type": "external",
+      "source": "BagelHole/DevOps-Security-Agent-Skills",
+      "path": "compliance/frameworks/gdpr-compliance",
+      "ref": "main",
+      "skill": "gdpr-compliance",
+      "title": "GDPR Compliance",
+      "summary": "Implements GDPR requirements for systems processing EU personal data: lawful bases, DSAR workflows, DPIA, consent management and processor agreements, with technical safeguards attached to each principle.",
+      "category": "devops",
+      "tags": [
+        "bagelhole",
+        "compliance",
+        "gdpr",
+        "privacy",
+        "data-protection",
+        "eu",
+        "consent",
+        "dsar"
+      ],
+      "rating": {
+        "score": 4,
+        "quality": 4,
+        "usefulness": 4,
+        "maturity": 4,
+        "reviewed": "2026-11-19"
+      },
+      "notes": "Reference to upstream (MIT). Rated after reading SKILL.md. Article 5 principles are given as a machine-readable block with an implementation list per principle, which is more actionable than the usual prose summary. The compliance gap in this library was total before this batch; nothing here covered privacy or regulation. Not legal advice, and it does not replace counsel.",
+      "install": "npx skills add BagelHole/DevOps-Security-Agent-Skills --skill gdpr-compliance",
+      "url": "https://github.com/BagelHole/DevOps-Security-Agent-Skills/tree/main/compliance/frameworks/gdpr-compliance",
+      "rawUrl": "https://raw.githubusercontent.com/BagelHole/DevOps-Security-Agent-Skills/main/compliance/frameworks/gdpr-compliance/SKILL.md"
+    },
+    {
+      "id": "hallmark",
+      "type": "external",
+      "source": "Nutlope/hallmark",
+      "path": "skills/hallmark",
+      "ref": "main",
+      "skill": "hallmark",
+      "title": "Hallmark (design quality floor)",
+      "summary": "Design skill for new websites and pages: a hard 40+ rule floor against generated-looking UI, a dealt visual direction per build so consecutive builds do not converge, and one idea per screen.",
+      "category": "design",
+      "tags": [
+        "nutlope",
+        "hallmark",
+        "design",
+        "frontend",
+        "anti-slop",
+        "taste",
+        "css",
+        "ui",
+        "landing-page",
+        "tokens"
+      ],
+      "rating": {
+        "score": 5,
+        "quality": 5,
+        "usefulness": 5,
+        "maturity": 4,
+        "reviewed": "2026-11-19"
+      },
+      "notes": "Reference to upstream (MIT). Rated after reading SKILL.md. The floor is enforceable rather than advisory: every colour and font through a :root token, never transition:all, overflow-x clip not hidden, minmax(0,1fr) on image tracks, focus-visible, prefers-reduced-motion fallbacks, no invented metrics or testimonials. Each rule cites a numbered design principle, so a violation can be argued from the source. Claims Together AI support. Closest neighbour here is frontend-ui-engineering (Addy), which covers structure rather than visual taste.",
+      "install": "npx skills add Nutlope/hallmark --skill hallmark",
+      "url": "https://github.com/Nutlope/hallmark/tree/main/skills/hallmark",
+      "rawUrl": "https://raw.githubusercontent.com/Nutlope/hallmark/main/skills/hallmark/SKILL.md"
+    },
+    {
       "id": "kunchenguid-14-day-stale-pr-close",
       "type": "external",
       "source": "kunchenguid/grok-ship",
@@ -3783,6 +4451,99 @@
       "install": "npx skills add kinged007/skills-library --skill launch-plan",
       "url": "https://github.com/kinged007/skills-library/tree/main/skills/launch-plan",
       "body": "---\nname: launch-plan\ndescription: \"When the user mentions launch, GTM, go-to-market, release plan, ship or announce and needs launch checklist and GTM coordination. Force with /launch-plan.\"\nmetadata:\n  source: pm-os\n  source_repo: https://github.com/agentmart/pm-os\n  source_path: skills/launch-plan/SKILL.md\n  license: MIT\n  original_author: AgentMart\n  adapted_for: product-manager\n---\n\n# Launch Planning and GTM\n\n## What This Skill Does\nBuilds a complete launch plan: readiness checklist, GTM strategy, communication plan, rollout strategy, and post-launch review schedule.\n\n---\n\n## Launch Philosophy\n\n**A launch is not the end of a project. It's the beginning of a learning cycle.**\n\nThe goal of a launch is not to ship \u2014 it's to learn whether your bets were right, at the smallest possible risk, with the fastest possible feedback loop.\n\n**The launch maturity spectrum:**\n1. Feature flag \u2192 team only\n2. Internal dogfood \u2192 all employees\n3. Closed beta \u2192 invited customers\n4. Open beta \u2192 self-select customers\n5. Gradual rollout \u2192 X% of traffic\n6. GA \u2192 100% of users\n7. Marketing launch \u2192 external announcement\n\nYou don't need to go from 0 \u2192 7. Match launch type to risk level and confidence.\n\n---\n\n## Launch Readiness Checklist\n\n### Product Readiness\n- [ ] Core user flow works end-to-end on all supported platforms\n- [ ] Edge cases and error states handled gracefully\n- [ ] Performance tested under expected load\n- [ ] Instrumentation live and validated (events firing correctly)\n- [ ] Feature flag in place for controlled rollout\n- [ ] Rollback plan documented and tested\n\n### Metrics Readiness\n- [ ] Baselines captured for all success metrics\n- [ ] Analytics dashboards created and shared with team\n- [ ] Alerting configured for guardrail metric breaches\n- [ ] First analysis date scheduled (suggest: 2 weeks post-launch)\n\n### Support Readiness\n- [ ] Help documentation written and published\n- [ ] Support team briefed and trained\n- [ ] Known issues / limitations documented\n- [ ] FAQs prepared for expected questions\n\n### Communication Readiness\n- [ ] Internal announcement ready (what it does, why it matters, how to use it)\n- [ ] Customer communication written (if externally visible)\n- [ ] Sales/CS enablement: battlecard updated, demo updated\n- [ ] Marketing assets ready (if marketing launch)\n\n### Legal / Compliance\n- [ ] Privacy review completed (if new data handling)\n- [ ] Terms of service update required? (if yes, done)\n- [ ] Enterprise customers' DPAs reviewed (if applicable)\n- [ ] Accessibility baseline met\n\n---\n\n## GTM Strategy by Launch Type\n\n### Internal Feature / Workflow Improvement\n- Announce in team channel with: what changed, why, how to use it\n- Update internal documentation\n- No customer communication needed\n\n### Beta Launch (Customer-facing)\n- Identify beta cohort: power users, design partners, customers who requested the feature\n- Personal outreach from PM or CSM \u2014 not blast email\n- Set explicit expectations: \"This is early, we want your feedback\"\n- Create feedback channel (Slack, email, dedicated survey)\n- Commit to weekly synthesis of feedback \u2192 product changes\n\n### GA Launch (Low-complexity feature)\n- In-app announcement for relevant users\n- Help article published\n- Optional: email for high-visibility features\n- Sales/CS heads-up 48 hours before\n\n### GA Launch (High-impact feature)\n- Full communication plan: email, in-app, blog, social\n- Press outreach if newsworthy\n- Demo video or walkthrough GIF\n- Customer success webinar or office hours\n- Sales enablement: new talk track, updated demo, battlecard\n- Analyst briefings if relevant\n\n### Pricing / Packaging Change\n- Extra care: pricing changes are high-trust-risk moments\n- Clear, early communication with plenty of lead time\n- Grandfather existing customers where possible\n- CEO-level communication for significant changes\n- FAQ document addressing all anticipated concerns\n- CSM outreach to top accounts before announcement\n\n---\n\n## Communication Templates\n\n### Internal Launch Announcement\n\n**Subject:** \ud83d\ude80 [Feature Name] is live\n\n**What we shipped:**\n[2-3 sentences \u2014 plain English, no jargon]\n\n**Why it matters:**\n[Connect to the user problem and the metric we're trying to move]\n\n**How to use it:**\n[1-3 sentences or link to help article]\n\n**What success looks like:**\n[The metric we're watching and what we expect]\n\n**Feedback:**\n[Where to share observations]\n\n---\n\n### Customer Beta Invite\n\n**Subject:** You're invited: Early access to [feature]\n\nHi [NAME],\n\nWe're getting ready to launch [FEATURE], and based on how you use [PRODUCT], I think you'd be the perfect person to try it early and give us feedback.\n\n[FEATURE] lets you [DO WHAT], which means [OUTCOME THEY CARE ABOUT].\n\nTo join the beta: [CTA]\n\nI'll personally read every piece of feedback you share. This is early, so expect rough edges \u2014 that's exactly why your input matters.\n\nThanks,\n[PM NAME]\n\n---\n\n## Post-Launch Review Schedule\n\n| Timeline | Action |\n|----------|--------|\n| Day 1 | Monitor dashboards. Check for errors, anomalies. Rapid response if critical issues. |\n| Day 3 | First user feedback synthesis (support tickets, beta feedback, session recordings). |\n| Day 7 | First metric review: activation rate, core engagement, error rate. Share update with team. |\n| Day 14 | Full success metrics review against targets. Decision: iterate, stay the course, or rollback. |\n| Day 30 | Cohort retention analysis. Did users who activated continue to use it? |\n| Day 90 | Impact assessment: did this move the North Star Metric? What did we learn? |\n\n---\n\n## Launch Retrospective Template\n\n**Feature:** [NAME]\n**Launch date:** [DATE]\n**PM:** [NAME]\n\n**Did we achieve our success metrics?**\n| Metric | Target | Actual | Delta |\n|--------|--------|--------|-------|\n| [METRIC] | [TARGET] | [ACTUAL] | [+/-] |\n\n**What went well?**\n[What should we do more of on future launches?]\n\n**What went poorly?**\n[What would we do differently?]\n\n**What surprised us?**\n[Things users did that we didn't expect]\n\n**What we're doing next based on what we learned:**\n[Concrete follow-up actions]\n\n---\n\n*Adapted from pm-os (skills/growth/SKILL-launch-plan.md) under the MIT licence. Original by AgentMart. Repackaged from a flat SKILL-*.md file into a discoverable skill folder with YAML frontmatter; cross-references and workspace-specific paths were adjusted.*\n"
+    },
+    {
+      "id": "marketing-copywriting",
+      "type": "external",
+      "source": "coreyhaines31/marketingskills",
+      "path": "skills/copywriting",
+      "ref": "main",
+      "skill": "copywriting",
+      "title": "Marketing Copywriting",
+      "summary": "Writes and revises marketing copy: headlines, landing pages, value propositions and calls to action, grounded in the product's positioning rather than generic persuasion patterns.",
+      "category": "marketing",
+      "tags": [
+        "coreyhaines",
+        "copywriting",
+        "marketing",
+        "headlines",
+        "landing-page",
+        "positioning",
+        "messaging"
+      ],
+      "rating": {
+        "score": 4,
+        "quality": 4,
+        "usefulness": 4,
+        "maturity": 4,
+        "reviewed": "2026-11-19"
+      },
+      "notes": "Reference to upstream (MIT). Rated after reading SKILL.md. Reads a product-marketing context file first if one exists, which keeps output specific to the product instead of plausible filler. Distinct from technical-writing (pstack) and the social-content skills from charlie947, which target different channels and voices.",
+      "install": "npx skills add coreyhaines31/marketingskills --skill copywriting",
+      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/copywriting",
+      "rawUrl": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/copywriting/SKILL.md"
+    },
+    {
+      "id": "marketing-pricing",
+      "type": "external",
+      "source": "coreyhaines31/marketingskills",
+      "path": "skills/pricing",
+      "ref": "main",
+      "skill": "pricing",
+      "title": "Pricing Page and Packaging",
+      "summary": "Works on pricing and packaging: tier structure, what sits behind each tier, price presentation, anchoring and the pricing-page layout that supports the decision.",
+      "category": "marketing",
+      "tags": [
+        "coreyhaines",
+        "pricing",
+        "packaging",
+        "monetisation",
+        "tiers",
+        "marketing",
+        "saas"
+      ],
+      "rating": {
+        "score": 4,
+        "quality": 4,
+        "usefulness": 4,
+        "maturity": 4,
+        "reviewed": "2026-11-19"
+      },
+      "notes": "Reference to upstream (MIT). Rated after reading SKILL.md. Goes past the page design into packaging decisions, which are the ones that actually constrain revenue: what is metered, what is gated, which tier carries the anchor. Relevant to the pricing work the Finance bot touches, from the marketing side rather than the invoicing side.",
+      "install": "npx skills add coreyhaines31/marketingskills --skill pricing",
+      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/pricing",
+      "rawUrl": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/pricing/SKILL.md"
+    },
+    {
+      "id": "marketing-schema",
+      "type": "external",
+      "source": "coreyhaines31/marketingskills",
+      "path": "skills/schema",
+      "ref": "main",
+      "skill": "schema",
+      "title": "Schema Markup (JSON-LD)",
+      "summary": "Writes, fixes and validates Schema.org structured data as JSON-LD: which type fits a page, required and optional properties, and whether a given markup is allowed.",
+      "category": "marketing",
+      "tags": [
+        "coreyhaines",
+        "schema",
+        "json-ld",
+        "structured-data",
+        "seo",
+        "marketing",
+        "validation"
+      ],
+      "rating": {
+        "score": 4,
+        "quality": 4,
+        "usefulness": 4,
+        "maturity": 4,
+        "reviewed": "2026-11-19"
+      },
+      "notes": "Reference to upstream (MIT). Rated after reading SKILL.md. Narrow but checkable: output is JSON-LD that validates or does not, so the work has a pass condition. Complements seo-audit, which flags missing markup but does not write it.",
+      "install": "npx skills add coreyhaines31/marketingskills --skill schema",
+      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/schema",
+      "rawUrl": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/schema/SKILL.md"
     },
     {
       "id": "mattpocock-ask-matt",
@@ -7688,6 +8449,99 @@
       "body": "---\nname: plg-strategy\ndescription: \"When the user mentions PLG, product-led, activation, onboarding, free trial, freemium, growth loop, virality or retention and needs a PLG audit. Force with /plg-audit.\"\nmetadata:\n  source: pm-os\n  source_repo: https://github.com/agentmart/pm-os\n  source_path: skills/plg-strategy/SKILL.md\n  license: MIT\n  original_author: AgentMart\n  adapted_for: product-manager\n---\n\n# Product-Led Growth Strategy\n\n## What This Skill Does\nRuns a comprehensive PLG audit across the full user lifecycle \u2014 from acquisition through expansion \u2014 and generates a prioritized growth backlog with experiment designs.\n\n---\n\n## PLG Foundations\n\n**The core insight:** In PLG, the product IS the marketing, sales, and retention channel. Every product decision has a growth implication.\n\n**The PLG equation:**\nGood PLG = (Fast time-to-value) \u00d7 (Viral mechanics) \u00d7 (Expansion revenue) \u00d7 (Low churn)\n\n**2026 PLG context:**\n- Time-to-value is now measured in seconds, not onboarding steps\n- AI-powered onboarding is table stakes (ask the user what they want, configure instantly)\n- Pricing is shifting from per-seat to per-task to per-outcome\n- The \"user\" is increasingly an AI agent, not a human \u2014 design for both\n\n---\n\n## PLG Audit Framework\n\n### Layer 1: Acquisition\n**Key question:** How do new users find and choose you?\n\n| Audit Area | Current State | PLG Score (1-5) | Top Opportunity |\n|-----------|--------------|----------------|----------------|\n| Organic / SEO | | | |\n| Viral / word of mouth | | | |\n| Product-led referral program | | | |\n| Freemium / free trial conversion | | | |\n| Self-serve signup (no sales required) | | | |\n| Network effects (each user makes product better) | | | |\n\n**Key metrics:**\n- CAC (Customer Acquisition Cost)\n- Organic vs. paid acquisition ratio\n- Viral coefficient (K-factor): `invitations sent \u00d7 conversion rate`\n- Time from awareness to signup\n\n### Layer 2: Activation \u2014 THE MOST IMPORTANT LAYER\n**Key question:** How fast do users reach their first \"aha moment\"?\n\n**The activation law:** Every hour between signup and the aha moment is a churn accelerant.\n\n**Aha moment definition for this product:** [Fill from your user research or persona doc]\n\n**Activation audit steps:**\n1. Map every step between signup \u2192 aha moment\n2. Identify the drop-off point with the highest fallout\n3. Calculate time-to-activation percentiles: p25, p50, p75\n4. Segment activation rate by acquisition channel, user type, pricing tier\n\n| Step in Activation Flow | Completion Rate | Drop-off Delta | Priority |\n|------------------------|----------------|----------------|---------|\n| [STEP 1] | [%] | | |\n| [STEP 2] | [%] | | |\n| [AHA MOMENT] | [%] | | |\n\n**Activation improvement patterns:**\n- Remove friction: every required field, confirmation email, and tutorial step bleeds activation\n- Personalize the path: ask \"what are you trying to do?\" \u2192 route to value instantly\n- Empty state magic: the worst moment is the blank screen after signup \u2014 fill it meaningfully\n- Progressive onboarding: don't front-load all setup \u2014 defer until needed\n- Early win design: find the smallest possible action that delivers real value in < 5 minutes\n\n### Layer 3: Retention\n**Key question:** Why do users come back?\n\n**The retention hierarchy:**\n1. **Habit retention:** Daily/weekly product use baked into their workflow\n2. **Feature retention:** Specific features they rely on enough to not want to leave\n3. **Switching cost retention:** Data, integrations, team networks built in your product\n4. **Community retention:** The social fabric of your product keeps them\n\n**Retention metrics:**\n- Day 1, Day 7, Day 30, Day 90 retention curves\n- Net Revenue Retention (NRR) \u2014 target: >120% for healthy PLG companies\n- Feature adoption depth: % of users using 3+ key features\n- Reactivation rate: % of churned users who return\n\n**Cohort analysis template:**\nGroup users by: signup week, acquisition channel, activation event, persona\nLook for: which cohorts retain best? What's different about them?\n\n### Layer 4: Referral / Virality\n**Key question:** Does using the product naturally create more users?\n\n**Viral loop types:**\n1. **Collaboration viral:** Invite teammates to view/edit (Figma, Notion, Slack)\n2. **Output viral:** Sharing something created with the product carries the brand (Canva, Loom)\n3. **Achievement viral:** Users share milestones/results (Spotify Wrapped, Strava)\n4. **Integration viral:** Your product appears in other people's workflows (Calendly, DocuSign)\n5. **Referral incentive viral:** Explicit reward for bringing friends (Dropbox, Cash App)\n\nViral coefficient (K-factor) = (Avg invitations per user) \u00d7 (Invitation conversion rate)\n- K > 1: exponential growth\n- K = 0.5-1: strong assist to growth\n- K < 0.3: viral is not a primary lever\n\n### Layer 5: Revenue / Expansion\n**Key question:** How does revenue grow per customer over time?\n\n**Expansion motions:**\n- Seat expansion: value grows with team size (Slack, Linear)\n- Usage expansion: value grows with usage (OpenAI API, AWS)\n- Feature upsell: power users upgrade for advanced capabilities\n- Cross-sell: adjacent product line (HubSpot CRM \u2192 Marketing \u2192 Service)\n- Network expansion: customer's customers become your customers (Stripe, Twilio)\n\n**Product-Qualified Lead (PQL) definition:**\nA PQL is a free/trial user who has taken [ACTIVATION EVENT] + [USAGE SIGNAL] and is ready for a sales conversation or upgrade prompt.\n\nDefine your PQL: [USER HAS DONE X AND Y WITHIN Z DAYS]\n\n**PQL conversion tactics:**\n- In-app upgrade prompt at the moment of hitting the PQL signal\n- Automated email sequence triggered by PQL signal\n- Sales notification + outreach for high-value PQLs\n- Feature gate that surfaces value before blocking (see the locked feature, understand why it matters, then hit the paywall)\n\n---\n\n## User Behavior Analytics Playbook\n\n### The 5 Analytics Questions Every PM Should Answer Weekly\n1. **Where are users dropping off in the activation flow?** \u2192 Funnel analysis\n2. **Which features correlate with long-term retention?** \u2192 Correlation analysis (Mixpanel / Amplitude)\n3. **Which user segments have the best expansion revenue?** \u2192 Cohort + revenue analysis\n4. **What are power users doing that average users aren't?** \u2192 Behavioral segmentation\n5. **Where is friction in the user journey?** \u2192 Session recordings + heatmaps\n\n### Instrumentation Must-Haves\nEvery product needs these events tracked at minimum:\n- `user_signed_up` (with: acquisition channel, referral source)\n- `activation_event_completed` (the aha moment)\n- `core_feature_used` (per key feature)\n- `collaboration_started` (if collaborative product)\n- `upgrade_prompted` (with: trigger, location)\n- `upgrade_completed` / `upgrade_rejected` (with: plan, amount)\n- `churned` (with: last activity date, usage depth)\n\n### A/B Test Design for Growth\nEvery growth experiment needs:\n1. **Hypothesis:** \"We believe [CHANGE] will cause [USERS] to [BEHAVIOR] because [REASON]\"\n2. **Primary metric:** [THE ONE METRIC THIS TEST WILL MOVE]\n3. **Guardrail metrics:** [METRICS THAT MUST NOT DEGRADE]\n4. **Sample size:** [CALCULATE \u2014 use stats calculator for 80% power, 95% confidence]\n5. **Runtime:** [MIN 2 WEEKS to account for day-of-week effects]\n6. **Decision criteria:** Ship if [PRIMARY METRIC improves by X% and guardrails hold]\n\n---\n\n## PLG Backlog Generator\nWhen you run `/plg-audit`, this skill will:\n1. Audit each layer of the PLG model\n2. Identify the biggest gap (lowest-performing layer)\n3. Generate 5 experiment ideas for that layer\n4. Score each experiment on: Impact \u00d7 Confidence \u00d7 Effort (ICE)\n5. Output a prioritized growth backlog\n\n**Focus rule:** Work the weakest layer first. Filling a leaky bucket is futile.\n\n---\n\n*Adapted from pm-os (skills/growth/SKILL-plg-strategy.md) under the MIT licence. Original by AgentMart. Repackaged from a flat SKILL-*.md file into a discoverable skill folder with YAML frontmatter; cross-references and workspace-specific paths were adjusted.*\n"
     },
     {
+      "id": "pm-jtbd-canvas",
+      "type": "external",
+      "source": "product-on-purpose/pm-skills",
+      "path": "skills/define-jtbd-canvas",
+      "ref": "main",
+      "skill": "define-jtbd-canvas",
+      "title": "Jobs To Be Done Canvas (pm-skills)",
+      "summary": "Builds a Jobs to be Done canvas across functional, emotional and social dimensions of a customer job, for reframing decisions around motivation rather than features.",
+      "category": "product",
+      "tags": [
+        "product-on-purpose",
+        "jtbd",
+        "jobs-to-be-done",
+        "discovery",
+        "research",
+        "product"
+      ],
+      "rating": {
+        "score": 4,
+        "quality": 4,
+        "usefulness": 4,
+        "maturity": 4,
+        "reviewed": "2026-11-19"
+      },
+      "notes": "Reference to upstream (Apache-2.0). Rated after reading SKILL.md. The three-dimension split is what makes it worth loading: most JTBD write-ups collapse to functional jobs and lose the emotional and social ones. Fills a real hole here, since nothing in the product category covered job framing.",
+      "install": "npx skills add product-on-purpose/pm-skills --skill define-jtbd-canvas",
+      "url": "https://github.com/product-on-purpose/pm-skills/tree/main/skills/define-jtbd-canvas",
+      "rawUrl": "https://raw.githubusercontent.com/product-on-purpose/pm-skills/main/skills/define-jtbd-canvas/SKILL.md"
+    },
+    {
+      "id": "pm-prioritization-framework",
+      "type": "external",
+      "source": "product-on-purpose/pm-skills",
+      "path": "skills/define-prioritization-framework",
+      "ref": "main",
+      "skill": "define-prioritization-framework",
+      "title": "Prioritization Framework (pm-skills)",
+      "summary": "Runs RICE, ICE, MoSCoW, weighted scoring and Kano against one candidate list, then shows where the frameworks agree and diverge. Refuses to invent scores and returns an estimation scaffold instead.",
+      "category": "product",
+      "tags": [
+        "product-on-purpose",
+        "prioritisation",
+        "rice",
+        "moscow",
+        "kano",
+        "ice",
+        "roadmap",
+        "product"
+      ],
+      "rating": {
+        "score": 5,
+        "quality": 5,
+        "usefulness": 5,
+        "maturity": 4,
+        "reviewed": "2026-11-19"
+      },
+      "notes": "Reference to upstream (Apache-2.0). Rated after reading SKILL.md and its frontmatter. The strongest new product entry: it filters frameworks by what data actually exists (Kano needs research) and explicitly refuses to fabricate scores, returning an estimation scaffold where input is missing. Multi-framework comparison is the point, since single-framework ranking hides disagreement. APACHE NOTICE: upstream ships no NOTICE file requirement beyond attribution line.",
+      "install": "npx skills add product-on-purpose/pm-skills --skill define-prioritization-framework",
+      "url": "https://github.com/product-on-purpose/pm-skills/tree/main/skills/define-prioritization-framework",
+      "rawUrl": "https://raw.githubusercontent.com/product-on-purpose/pm-skills/main/skills/define-prioritization-framework/SKILL.md"
+    },
+    {
+      "id": "pm-user-stories",
+      "type": "external",
+      "source": "product-on-purpose/pm-skills",
+      "path": "skills/deliver-user-stories",
+      "ref": "main",
+      "skill": "deliver-user-stories",
+      "title": "User Stories (pm-skills)",
+      "summary": "Breaks a feature into persona-action-benefit user stories sized for sprint planning, and hands off to separate skills for Given/When/Then acceptance criteria and edge cases.",
+      "category": "product",
+      "tags": [
+        "product-on-purpose",
+        "user-stories",
+        "backlog",
+        "sprint",
+        "tickets",
+        "delivery",
+        "product"
+      ],
+      "rating": {
+        "score": 4,
+        "quality": 4,
+        "usefulness": 4,
+        "maturity": 4,
+        "reviewed": "2026-11-19"
+      },
+      "notes": "Reference to upstream (Apache-2.0). Rated after reading SKILL.md. Keeps scope honest by refusing to fold acceptance criteria and edge cases into the story itself, pointing at sibling skills instead. Complements to-tickets (Matt Pocock), which converts a spec into tickets rather than a feature into stories.",
+      "install": "npx skills add product-on-purpose/pm-skills --skill deliver-user-stories",
+      "url": "https://github.com/product-on-purpose/pm-skills/tree/main/skills/deliver-user-stories",
+      "rawUrl": "https://raw.githubusercontent.com/product-on-purpose/pm-skills/main/skills/deliver-user-stories/SKILL.md"
+    },
+    {
       "id": "pr-screenshots",
       "type": "local",
       "path": "skills/pr-screenshots",
@@ -7958,6 +8812,69 @@
       "body": "---\nname: routine-setup\ndescription: \"When the user wants to automate a recurring PM task, set up a scheduled workflow, or configure routine triggers (weekly reports, triage) - keywords: routine, automate, schedule, recurring task. Force with /setup-routine.\"\nmetadata:\n  source: pm-os\n  source_repo: https://github.com/agentmart/pm-os\n  source_path: skills/routine-setup/SKILL.md\n  license: MIT\n  original_author: AgentMart\n  adapted_for: product-manager\n---\n\n# Routine Setup\n\n## What This Skill Does\n\nGuides you through creating a custom PM routine \u2014 a recurring autonomous task that your AI partner can run on a schedule, in response to events, or via API. Use `/schedule` in Claude Code, or any scheduler that can run a prompt (for example a GitHub Actions workflow). Either way this skill produces a ready-to-deploy routine.\n\n---\n\n## When to Use This\n\nUse this skill when:\n- You want to automate a recurring PM task (weekly reports, daily triage, etc.)\n- You need to set up a scheduled workflow for your AI partner\n- You want a custom routine beyond the built-in ones\n- You're configuring routine triggers (schedule, API, GitHub events)\n\nDo NOT use this skill when:\n- You want to run a routine one-time (just reference the routine file directly)\n- You're looking for a one-off analysis (use the appropriate skill instead)\n- The task requires real-time human judgment at every step\n\n---\n\n## The Framework\n\n### Step 1: Define the Task\nIdentify the recurring PM work you want to automate.\n\n**Questions to ask:**\n1. What specific output should this routine produce?\n2. Who is the audience for the output?\n3. How often does this need to run?\n4. What context does the routine need to read?\n5. Where should the output go (Slack, document, PR, issue)?\n\n### Step 2: Choose Triggers\nSelect how the routine starts:\n\n| Trigger Type | Best For | Setup |\n|-------------|---------|-------|\n| **Schedule** | Regular cadence (daily, weekly, monthly) | Cron expression or natural language |\n| **API** | Event-driven from external systems (alerts, deploys) | HTTP POST endpoint |\n| **GitHub Event** | Repository events (PR opened, issue created, release) | Event type + filters |\n\nYou can combine multiple triggers on the same routine.\n\n### Step 3: Define Context Sources\nList which reference files and other data the routine needs:\n- Include the most relevant files the project already keeps (specs, a context library, a decision log)\n- Add older decisions if the routine has to stay consistent with them\n- Add MCP connectors for external data (Jira, Slack, analytics)\n\n### Step 4: Write the Prompt\nThe routine's prompt must be self-contained and explicit:\n- State the task clearly (the routine runs autonomously \u2014 no clarifying questions)\n- Define the steps in order\n- Specify the exact output format with a template\n- Include quality checks the routine should self-verify against\n\n### Step 5: Configure Enforcement\nChoose enforcement mode:\n- `advisory` (default) \u2014 Output is a draft for PM review\n- `blocking` \u2014 Output must pass quality checks before delivery\n\n### Step 6: Set Up Execution\nDeploy the routine in your preferred tool:\n\n**Claude Code:**\n```\n/schedule [description] [cadence]\n```\nOr create at [claude.ai/code/routines](https://claude.ai/code/routines).\n\n**Scheduled workflow (GitHub Actions example):**\nCreate a GitHub Actions workflow in `.github/workflows/` with the appropriate trigger and reference the routine's prompt.\n\n---\n\n## Output Template\n\n```markdown\n# Routine: [Name]\n> [One-line description of what this routine does]\n\n---\n\n## Configuration\n\n\\```yaml\ntrigger: [schedule | api | github-event]\nschedule: \"[cron expression]\"  # If schedule trigger\nevent: \"[event type]\"          # If github-event trigger\ncontext_sources:\n  - [path/to/file1.md]\n  - [path/to/file2.md]\noutput: [where results go]\nenforcement: advisory  # or blocking\n\\```\n\n---\n\n## Claude Code Setup\n\\```\n/schedule [natural language description and cadence]\n\\```\n\n## Scheduled Workflow Setup\n\\```yaml\nname: [Routine Name]\non:\n  schedule:\n    - cron: '[cron expression]'\n  workflow_dispatch:\n\\```\n\n---\n\n## Prompt\n\n[Self-contained prompt with steps, output format, and quality checks]\n\n---\n\n## Quality Checks\n- [ ] [Check 1]\n- [ ] [Check 2]\n- [ ] [Check 3]\n```\n\n---\n\n## Quality Signals\n\nA good routine:\n- [ ] Has a self-contained prompt that works without human clarification\n- [ ] Specifies exact output format (not \"generate a summary\")\n- [ ] Includes quality checks the routine validates against\n- [ ] References specific source files by path, not \"read the context\"\n- [ ] Gives setup instructions for the runtime it targets\n\nA bad routine:\n- Vague prompt that could produce wildly different outputs each run\n- No quality checks \u2014 how do you know the output is good?\n- Requires human input mid-execution (defeats the purpose of automation)\n\n---\n\n## Related Skills\n- `skills/stakeholder-communication/SKILL.md` \u2014 For stakeholder update routines\n- `skills/north-star/SKILL.md` \u2014 For metrics digest routines\n- `skills/competitive-research/SKILL.md` \u2014 For competitive pulse routines\n\n---\n\n*Adapted from pm-os (skills/automation/SKILL-routine-setup.md) under the MIT licence. Original by AgentMart. Repackaged from a flat SKILL-*.md file into a discoverable skill folder with YAML frontmatter; cross-references and workspace-specific paths were adjusted.*\n"
     },
     {
+      "id": "seo-audit",
+      "type": "external",
+      "source": "coreyhaines31/marketingskills",
+      "path": "skills/seo-audit",
+      "ref": "main",
+      "skill": "seo-audit",
+      "title": "SEO Audit",
+      "summary": "Diagnoses technical SEO: indexing, canonicals, hreflang, redirects, titles and on-page, Core Web Vitals and local SEO, starting from 'why did traffic drop' or 'this page will not rank'.",
+      "category": "marketing",
+      "tags": [
+        "coreyhaines",
+        "seo",
+        "audit",
+        "technical-seo",
+        "indexing",
+        "core-web-vitals",
+        "marketing",
+        "growth"
+      ],
+      "rating": {
+        "score": 4,
+        "quality": 5,
+        "usefulness": 4,
+        "maturity": 4,
+        "reviewed": "2026-11-19"
+      },
+      "notes": "Reference to upstream (MIT). Rated after reading SKILL.md. Notable for treating fetched pages as untrusted data and refusing to follow instructions embedded in HTML or meta tags, which is the right call for a skill that reads other people's sites. Routes to separate skills for programmatic SEO, schema and AI search rather than growing one enormous file.",
+      "install": "npx skills add coreyhaines31/marketingskills --skill seo-audit",
+      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/seo-audit",
+      "rawUrl": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/seo-audit/SKILL.md"
+    },
+    {
+      "id": "site-architecture",
+      "type": "external",
+      "source": "coreyhaines31/marketingskills",
+      "path": "skills/site-architecture",
+      "ref": "main",
+      "skill": "site-architecture",
+      "title": "Site Architecture",
+      "summary": "Plans or restructures a website's page hierarchy, navigation, URL structure and internal linking, answering which pages are needed and where a page belongs.",
+      "category": "marketing",
+      "tags": [
+        "coreyhaines",
+        "site-architecture",
+        "information-architecture",
+        "navigation",
+        "urls",
+        "seo",
+        "marketing"
+      ],
+      "rating": {
+        "score": 4,
+        "quality": 4,
+        "usefulness": 3,
+        "maturity": 4,
+        "reviewed": "2026-11-19"
+      },
+      "notes": "Reference to upstream (MIT). Rated after reading SKILL.md. Sits between SEO and information architecture: page inventory, hierarchy, URL patterns and internal links. Useful at the point a site is being planned or reorganised, less so for incremental work.",
+      "install": "npx skills add coreyhaines31/marketingskills --skill site-architecture",
+      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/site-architecture",
+      "rawUrl": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/site-architecture/SKILL.md"
+    },
+    {
       "id": "skill-review",
       "type": "local",
       "path": "skills/skill-review",
@@ -7982,6 +8899,37 @@
       "install": "npx skills add kinged007/skills-library --skill skill-review",
       "url": "https://github.com/kinged007/skills-library/tree/main/skills/skill-review",
       "body": "---\nname: skill-review\ndescription: Review a SKILL.md for clear name, trigger-focused description, minimal overlap and correct structure. Use when creating or auditing an agent skill.\n---\n\n# Skill Review\n\n1. Read the SKILL.md in full.\n2. Check: name is kebab-case and matches the folder; description says what it does AND when to use it; body is actionable steps, not prose.\n3. Flag overlap with other skills in the library (`catalog/entries/`).\n4. Report findings as a short list: issue, why, suggested fix. Do not rewrite unless asked.\n"
+    },
+    {
+      "id": "soc2-compliance",
+      "type": "external",
+      "source": "BagelHole/DevOps-Security-Agent-Skills",
+      "path": "compliance/frameworks/soc2-compliance",
+      "ref": "main",
+      "skill": "soc2-compliance",
+      "title": "SOC 2 Compliance",
+      "summary": "Maps SOC 2 trust service criteria to engineering controls and evidence, covering control design, evidence collection and audit readiness for a Type I or Type II report.",
+      "category": "devops",
+      "tags": [
+        "bagelhole",
+        "compliance",
+        "soc2",
+        "audit",
+        "controls",
+        "evidence",
+        "security"
+      ],
+      "rating": {
+        "score": 4,
+        "quality": 4,
+        "usefulness": 3,
+        "maturity": 4,
+        "reviewed": "2026-11-19"
+      },
+      "notes": "Reference to upstream (MIT). Rated after reading SKILL.md. Rates 3 on usefulness because it only matters if an audit is actually being pursued, but the control-to-evidence mapping is the part teams get stuck on. Institutional rather than technical: it tells you what to prove, not how to build it.",
+      "install": "npx skills add BagelHole/DevOps-Security-Agent-Skills --skill soc2-compliance",
+      "url": "https://github.com/BagelHole/DevOps-Security-Agent-Skills/tree/main/compliance/frameworks/soc2-compliance",
+      "rawUrl": "https://raw.githubusercontent.com/BagelHole/DevOps-Security-Agent-Skills/main/compliance/frameworks/soc2-compliance/SKILL.md"
     },
     {
       "id": "stakeholder-communication",
@@ -8324,6 +9272,38 @@
       "install": "npx skills add kinged007/skills-library --skill ux-declutter",
       "url": "https://github.com/kinged007/skills-library/tree/main/skills/ux-declutter",
       "body": "---\nname: ux-declutter\ndescription: Review a screen for visual noise and redesign it to be calm \u2014 fewer elements, one accent, progressive disclosure, the main action first. Use whenever you build or change UI on web, desktop or mobile, before calling it done, and whenever you look at a screenshot of your own UI.\n---\n\n# Declutter a screen\n\nA screen that works can still be poor. The usual failure is noise: every capability\nvisible at once, the same fact said twice, several colors fighting for attention,\nand edit controls where someone only wanted to read. Do this pass on every UI change,\nfrom a real screenshot, not from the code.\n\n## 1. Look at it\n\nCapture the screen in its common state (browser screenshot, simulator, emulator, or any other capture).\nCode review does not show noise; a screenshot does. Look at it as someone who opened\nit to do one thing.\n\n## 2. Inventory every element\n\nList every visible word, control, color and container, top to bottom. For each\nask, in this order:\n\n1. **Remove?** Does it earn its place on this screen, for most visits? Explainer copy\n   that restates a label, a heading that repeats the values under it, a field that\n   repeats the title, a status that is obvious \u2014 delete.\n2. **Merge?** Is the same fact shown twice (title and a name field, a group label and\n   its rows, a summary and the controls that set it)? Keep one.\n3. **Disclose later?** Is it needed only sometimes? Move it behind a tap:\n   - Read first, edit second. Open a record as a calm summary; put the form behind\n     **Edit**. Inputs everywhere tell people they must fill something in.\n   - A long list (history, runs, logs) becomes one row with a chevron to its own screen.\n   - Rare or destructive actions (delete, export, test, remove one item) go in a menu,\n     the edit screen, a swipe, or the bottom of the edit form \u2014 not repeated per item.\n4. **Shrink?** Could an icon replace a word (add, share, play, more) where the meaning\n   is universal? Give it an accessible label. Could a value sit at the end of its row\n   instead of taking its own row?\n\n## 3. Order by use\n\nThe control people touch most goes first (an on/off switch, the main content).\nThen the content they came to read. Then secondary facts (schedule, next run).\nNavigation rows (history, settings) and the way into editing go last.\n\n## 4. Color\n\nOne accent at a time. Text is ink and secondary gray. Use the accent for the single\nprimary action or link. Destructive red appears once, where deleting happens, not on\nevery row. A switch's own color is enough; do not add colored buttons around it.\nCount the distinct colors in the screenshot: more than ink, gray, one accent and\n(rarely) one red is noise.\n\n## 5. Consistency of controls\n\nOne kind of button per job. Do not mix floating pills, full-width filled buttons,\ntinted text rows and header buttons on one screen. On mobile, prefer the platform's\nplaces: header buttons for Save/Cancel/Edit and icons, list rows for navigation,\nnative menus for choices, swipe or a menu for per-item actions.\n\n## 6. Redo the screenshot and compare\n\nCapture again and put old and new side by side. Count elements and colors before and\nafter. If a reference design or a sibling screen exists, match its density and\nstructure. Keep going until nothing more can be removed without losing what the\nscreen is for.\n\n## Signs you are not done\n\n- Every field on a view screen is editable.\n- The header title also appears in the body.\n- A group label says what its rows already say.\n- Each item in a list carries its own Remove/Delete text button.\n- More than one filled or colored button is visible.\n- A history or log list is expanded inline on a detail screen.\n- Copy explains what a control does when its label already says it.\n\n---\n\nAdapted from the `ux-declutter` skill in <https://github.com/elie222/rakazo> (Apache-2.0).\n"
+    },
+    {
+      "id": "variance-analysis",
+      "type": "external",
+      "source": "anthropics/knowledge-work-plugins",
+      "path": "finance/skills/variance-analysis",
+      "ref": "main",
+      "skill": "variance-analysis",
+      "title": "Variance Analysis (budget vs actual)",
+      "summary": "Decomposes a variance into its drivers with narrative commentary and waterfall analysis, for budget vs actual, period-over-period and revenue or expense changes.",
+      "category": "finance",
+      "tags": [
+        "anthropics",
+        "finance",
+        "variance",
+        "budget",
+        "waterfall",
+        "commentary",
+        "fp&a",
+        "reporting"
+      ],
+      "rating": {
+        "score": 4,
+        "quality": 4,
+        "usefulness": 4,
+        "maturity": 4,
+        "reviewed": "2026-11-19"
+      },
+      "notes": "Reference to upstream (Apache-2.0). Rated after reading SKILL.md. Forces the decomposition step, so a report says why a line moved and how much of it each driver caused, instead of reporting that it moved. Needs the underlying actuals and budget to be real; it will not invent them. Explicitly flags that its output needs review by a qualified financial professional.",
+      "install": "npx skills add anthropics/knowledge-work-plugins --skill variance-analysis",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/finance/skills/variance-analysis",
+      "rawUrl": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/finance/skills/variance-analysis/SKILL.md"
     }
   ]
 }

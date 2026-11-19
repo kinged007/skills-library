@@ -1,0 +1,24 @@
+id: designer-design-system-governance
+type: external
+source: Owl-Listener/designer-skills
+path: design-systems/skills/design-system-governance
+ref: main
+skill: design-system-governance
+title: Design System Governance (designer-skills)
+summary: 'Defines how a design system evolves: contribution model, versioning, deprecation policy and change management, for systems with multiple teams contributing.'
+category: design
+tags:
+- owl-listener
+- design
+- design-system
+- governance
+- versioning
+- deprecation
+- contribution
+rating:
+  score: 4
+  quality: 4
+  usefulness: 3
+  maturity: 4
+  reviewed: '2026-11-19'
+notes: 'Reference to upstream (MIT). Rated after reading SKILL.md. One of the few skills here addressing the social problem of a design system rather than the artefact: who may add a component, how it is versioned, how it is retired. Only relevant when more than one team contributes.'

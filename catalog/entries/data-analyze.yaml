@@ -1,0 +1,24 @@
+id: data-analyze
+type: external
+source: anthropics/knowledge-work-plugins
+path: data/skills/analyze
+ref: main
+skill: analyze
+title: Analyze (answer a data question)
+summary: 'Answers a data question end to end, sizing the response to the ask: a quick metric lookup, a multi-dimensional investigation of a trend, or a formal report with method and caveats.'
+category: data
+tags:
+- anthropics
+- data
+- analysis
+- metrics
+- sql
+- reporting
+- stakeholders
+rating:
+  score: 4
+  quality: 4
+  usefulness: 4
+  maturity: 4
+  reviewed: '2026-11-19'
+notes: 'Reference to upstream (Apache-2.0). Rated after reading SKILL.md. Its first step is classifying the question into quick answer, full analysis or formal report, which stops a one-line lookup becoming a deck. It expects connected data tools and a CONNECTORS.md mapping; without them the workflow is reusable but the tool calls are not. Data category had one entry before this.'

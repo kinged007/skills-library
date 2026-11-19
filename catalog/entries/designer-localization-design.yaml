@@ -1,0 +1,24 @@
+id: designer-localization-design
+type: external
+source: Owl-Listener/designer-skills
+path: design-systems/skills/localization-design
+ref: main
+skill: localization-design
+title: Localization Design (designer-skills)
+summary: 'Designs for multiple languages and directions: text expansion budgets, RTL mirroring, locale-specific formats and cultural context, rather than translating a layout after the fact.'
+category: design
+tags:
+- owl-listener
+- design
+- localization
+- i18n
+- rtl
+- accessibility
+- internationalisation
+rating:
+  score: 4
+  quality: 4
+  usefulness: 4
+  maturity: 4
+  reviewed: '2026-11-19'
+notes: 'Reference to upstream (MIT). Rated after reading SKILL.md. Raised to 4 because the gap it covers is genuinely common: text expansion and RTL are usually discovered during implementation. Gives concrete budgets rather than advising to ''leave room''.'

@@ -1,0 +1,25 @@
+id: data-build-dashboard
+type: external
+source: anthropics/knowledge-work-plugins
+path: data/skills/build-dashboard
+ref: main
+skill: build-dashboard
+title: Build HTML Dashboard
+summary: 'Builds a self-contained interactive HTML dashboard from query results: KPI cards, filters and multiple charts in one browser-openable file with no server.'
+category: data
+tags:
+- anthropics
+- dashboard
+- html
+- charts
+- kpi
+- reporting
+- data
+- single-file
+rating:
+  score: 4
+  quality: 4
+  usefulness: 4
+  maturity: 4
+  reviewed: '2026-11-19'
+notes: 'Reference to upstream (Apache-2.0). Rated after reading SKILL.md. The single-file constraint is the useful part: it opens from an email or a folder with no hosting, which is what actually gets dashboards used. For a one-off chart rather than a dashboard, the render_plot tool is the shorter path; this earns its size when there are several charts plus filtering.'

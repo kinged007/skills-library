@@ -1,0 +1,24 @@
+id: soc2-compliance
+type: external
+source: BagelHole/DevOps-Security-Agent-Skills
+path: compliance/frameworks/soc2-compliance
+ref: main
+skill: soc2-compliance
+title: SOC 2 Compliance
+summary: 'Maps SOC 2 trust service criteria to engineering controls and evidence, covering control design, evidence collection and audit readiness for a Type I or Type II report.'
+category: devops
+tags:
+- bagelhole
+- compliance
+- soc2
+- audit
+- controls
+- evidence
+- security
+rating:
+  score: 4
+  quality: 4
+  usefulness: 3
+  maturity: 4
+  reviewed: '2026-11-19'
+notes: 'Reference to upstream (MIT). Rated after reading SKILL.md. Rates 3 on usefulness because it only matters if an audit is actually being pursued, but the control-to-evidence mapping is the part teams get stuck on. Institutional rather than technical: it tells you what to prove, not how to build it.'

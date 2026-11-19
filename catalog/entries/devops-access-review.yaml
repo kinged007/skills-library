@@ -1,0 +1,24 @@
+id: devops-access-review
+type: external
+source: BagelHole/DevOps-Security-Agent-Skills
+path: compliance/governance/access-review
+ref: main
+skill: access-review
+title: Access Review
+summary: 'Runs periodic access reviews: inventory of entitlements, least-privilege findings, reviewer workflow and evidence trail suitable for SOC 2 and ISO 27001 audits.'
+category: devops
+tags:
+- bagelhole
+- access
+- iam
+- least-privilege
+- review
+- compliance
+- audit
+rating:
+  score: 3
+  quality: 4
+  usefulness: 3
+  maturity: 4
+  reviewed: '2026-11-19'
+notes: 'Reference to upstream (MIT). Rated after reading SKILL.md. Competent and audit-shaped, but most of the work is organisational data gathering rather than something an agent completes alone. Score 3 is applicability, not quality. Useful as the evidence format for an audit.'

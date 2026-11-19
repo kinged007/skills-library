@@ -1,0 +1,24 @@
+id: site-architecture
+type: external
+source: coreyhaines31/marketingskills
+path: skills/site-architecture
+ref: main
+skill: site-architecture
+title: Site Architecture
+summary: 'Plans or restructures a website''s page hierarchy, navigation, URL structure and internal linking, answering which pages are needed and where a page belongs.'
+category: marketing
+tags:
+- coreyhaines
+- site-architecture
+- information-architecture
+- navigation
+- urls
+- seo
+- marketing
+rating:
+  score: 4
+  quality: 4
+  usefulness: 3
+  maturity: 4
+  reviewed: '2026-11-19'
+notes: 'Reference to upstream (MIT). Rated after reading SKILL.md. Sits between SEO and information architecture: page inventory, hierarchy, URL patterns and internal links. Useful at the point a site is being planned or reorganised, less so for incremental work.'

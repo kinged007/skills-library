@@ -1,0 +1,25 @@
+id: devops-disaster-recovery
+type: external
+source: BagelHole/DevOps-Security-Agent-Skills
+path: compliance/continuity/disaster-recovery
+ref: main
+skill: disaster-recovery
+title: Disaster Recovery
+summary: 'Designs recovery from loss of a system or region: RTO and RPO targets per tier, backup and restore procedures, failover runbooks and restore testing that proves the plan.'
+category: devops
+tags:
+- bagelhole
+- disaster-recovery
+- rto
+- rpo
+- backup
+- failover
+- continuity
+- devops
+rating:
+  score: 4
+  quality: 4
+  usefulness: 3
+  maturity: 4
+  reviewed: '2026-11-19'
+notes: 'Reference to upstream (MIT). Rated after reading SKILL.md. Insists on restore testing, which is the failure mode of most DR plans: the backup exists, nobody has restored it. RTO and RPO are set per service tier rather than as one number for the whole system.'

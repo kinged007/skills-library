@@ -1,0 +1,24 @@
+id: designer-handoff-spec
+type: external
+source: Owl-Listener/designer-skills
+path: design-ops/skills/handoff-spec
+ref: main
+skill: handoff-spec
+title: Handoff Spec (designer-skills)
+summary: 'Writes the implementation handoff for a design: measurements, behaviours, assets, states and edge cases, so engineering builds from a specification instead of a picture.'
+category: design
+tags:
+- owl-listener
+- design
+- handoff
+- specification
+- states
+- engineering
+- design-ops
+rating:
+  score: 4
+  quality: 4
+  usefulness: 4
+  maturity: 4
+  reviewed: '2026-11-19'
+notes: 'Reference to upstream (MIT). Rated after reading SKILL.md. Short but specific: it enumerates the states and edge cases that usually get lost between design and build, and pairs with design-qa-checklist upstream for verifying the result. Complements component-spec, which specifies one library component rather than a whole handoff.'

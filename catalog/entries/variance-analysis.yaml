@@ -1,0 +1,25 @@
+id: variance-analysis
+type: external
+source: anthropics/knowledge-work-plugins
+path: finance/skills/variance-analysis
+ref: main
+skill: variance-analysis
+title: Variance Analysis (budget vs actual)
+summary: 'Decomposes a variance into its drivers with narrative commentary and waterfall analysis, for budget vs actual, period-over-period and revenue or expense changes.'
+category: finance
+tags:
+- anthropics
+- finance
+- variance
+- budget
+- waterfall
+- commentary
+- fp&a
+- reporting
+rating:
+  score: 4
+  quality: 4
+  usefulness: 4
+  maturity: 4
+  reviewed: '2026-11-19'
+notes: 'Reference to upstream (Apache-2.0). Rated after reading SKILL.md. Forces the decomposition step, so a report says why a line moved and how much of it each driver caused, instead of reporting that it moved. Needs the underlying actuals and budget to be real; it will not invent them. Explicitly flags that its output needs review by a qualified financial professional.'

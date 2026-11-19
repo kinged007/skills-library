@@ -1,0 +1,24 @@
+id: designer-design-critique
+type: external
+source: Owl-Listener/designer-skills
+path: design-ops/skills/design-critique
+ref: main
+skill: design-critique
+title: Design Critique (designer-skills)
+summary: 'Facilitates a structured team critique: framing, feedback rules and actionable outcomes, for a session with people in the room rather than a solo review.'
+category: design
+tags:
+- owl-listener
+- design
+- critique
+- review
+- facilitation
+- feedback
+- design-ops
+rating:
+  score: 4
+  quality: 4
+  usefulness: 3
+  maturity: 4
+  reviewed: '2026-11-19'
+notes: 'Reference to upstream (MIT). Rated after reading SKILL.md. The value is the process discipline: separating observation from opinion and forcing an outcome per item. Human-facilitation skill, so it assumes a live session; for an agent reviewing a UI alone use frontend-ui-engineering or hallmark instead.'

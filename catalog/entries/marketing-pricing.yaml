@@ -1,0 +1,24 @@
+id: marketing-pricing
+type: external
+source: coreyhaines31/marketingskills
+path: skills/pricing
+ref: main
+skill: pricing
+title: Pricing Page and Packaging
+summary: 'Works on pricing and packaging: tier structure, what sits behind each tier, price presentation, anchoring and the pricing-page layout that supports the decision.'
+category: marketing
+tags:
+- coreyhaines
+- pricing
+- packaging
+- monetisation
+- tiers
+- marketing
+- saas
+rating:
+  score: 4
+  quality: 4
+  usefulness: 4
+  maturity: 4
+  reviewed: '2026-11-19'
+notes: 'Reference to upstream (MIT). Rated after reading SKILL.md. Goes past the page design into packaging decisions, which are the ones that actually constrain revenue: what is metered, what is gated, which tier carries the anchor. Relevant to the pricing work the Finance bot touches, from the marketing side rather than the invoicing side.'

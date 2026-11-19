@@ -1,0 +1,24 @@
+id: pm-user-stories
+type: external
+source: product-on-purpose/pm-skills
+path: skills/deliver-user-stories
+ref: main
+skill: deliver-user-stories
+title: User Stories (pm-skills)
+summary: 'Breaks a feature into persona-action-benefit user stories sized for sprint planning, and hands off to separate skills for Given/When/Then acceptance criteria and edge cases.'
+category: product
+tags:
+- product-on-purpose
+- user-stories
+- backlog
+- sprint
+- tickets
+- delivery
+- product
+rating:
+  score: 4
+  quality: 4
+  usefulness: 4
+  maturity: 4
+  reviewed: '2026-11-19'
+notes: 'Reference to upstream (Apache-2.0). Rated after reading SKILL.md. Keeps scope honest by refusing to fold acceptance criteria and edge cases into the story itself, pointing at sibling skills instead. Complements to-tickets (Matt Pocock), which converts a spec into tickets rather than a feature into stories.'

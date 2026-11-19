@@ -1,0 +1,24 @@
+id: marketing-schema
+type: external
+source: coreyhaines31/marketingskills
+path: skills/schema
+ref: main
+skill: schema
+title: Schema Markup (JSON-LD)
+summary: 'Writes, fixes and validates Schema.org structured data as JSON-LD: which type fits a page, required and optional properties, and whether a given markup is allowed.'
+category: marketing
+tags:
+- coreyhaines
+- schema
+- json-ld
+- structured-data
+- seo
+- marketing
+- validation
+rating:
+  score: 4
+  quality: 4
+  usefulness: 4
+  maturity: 4
+  reviewed: '2026-11-19'
+notes: 'Reference to upstream (MIT). Rated after reading SKILL.md. Narrow but checkable: output is JSON-LD that validates or does not, so the work has a pass condition. Complements seo-audit, which flags missing markup but does not write it.'
