@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T08:14:42Z",
+  "generated_at": "2026-11-24T22:16:28Z",
   "categories": {
     "meta": "Skills about skills, agents and workflows",
     "documents": "PDF, Word, Excel, slides and other documents",
@@ -2595,6 +2595,40 @@
       "install": "npx skills add backnotprop/pstack --skill why",
       "url": "https://github.com/backnotprop/pstack/tree/main/skills/why",
       "rawUrl": "https://raw.githubusercontent.com/backnotprop/pstack/main/skills/why/SKILL.md"
+    },
+    {
+      "id": "cathrynlavery-diagram-design",
+      "type": "external",
+      "source": "cathrynlavery/diagram-design",
+      "path": "skills/diagram-design",
+      "ref": "main",
+      "skill": "diagram-design",
+      "title": "Diagram Design (52 editorial diagram types)",
+      "summary": "Builds architecture, flow, timeline, chart and org diagrams as self-contained HTML with inline SVG, from a skinnable editorial design system: picks a semantic pattern before a layout type, and refuses excess density, shadows and Mermaid-default routing.",
+      "category": "design",
+      "tags": [
+        "cathrynlavery",
+        "design",
+        "diagrams",
+        "svg",
+        "html",
+        "charts",
+        "visualization",
+        "architecture",
+        "flowchart",
+        "dataviz"
+      ],
+      "rating": {
+        "score": 5,
+        "quality": 5,
+        "usefulness": 5,
+        "maturity": 5,
+        "reviewed": "2026-11-24"
+      },
+      "notes": "Reference to upstream (MIT, Cathryn Lavery). Rated after reading SKILL.md and its references. Strongest diagram skill reviewed: 52 visual types, 72 reference files, anti-slop rules that are testable rather than taste-talk. Earns the 5 for three things: a gate that stops and asks you to brand the style guide before emitting if tokens are still defaults; a rule that resolves the semantic pattern before the layout type; and a pre-output taste gate naming the failure. Imports draw.io, Mermaid, Excalidraw and PlantUML. Heavy: use when the diagram is the deliverable.",
+      "install": "npx skills add cathrynlavery/diagram-design --skill diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design/tree/main/skills/diagram-design",
+      "rawUrl": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/main/skills/diagram-design/SKILL.md"
     },
     {
       "id": "ccpm",
